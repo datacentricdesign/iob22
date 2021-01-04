@@ -1,10 +1,11 @@
 ---
 layout: default
-title: 02# Vending Machine
-parent: Code Practice
+title: Step 6 Recap
+parent: "#03 Function"
+grand_parent: Code Practice
 ---
 
-# User Interaction
+# Step 6 Recap
 {: .no_toc }
 
 ## Table of contents
