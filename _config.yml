@@ -4,7 +4,7 @@ remote_theme: pmarsceill/just-the-docs
 title: Code @ IDE
 description: Some coding foundation for Industrial Design Engineers
 baseurl: "/code"
-url: "https://datacentric.github.io"
+url: "https://datacentricdesign.github.io"
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE", "lib/", "bin/", "README.md", "Rakefile"
