@@ -22,15 +22,13 @@ On the way, you used algorithms to right in plain English what you want to teach
 
 Once you formulated your algorithm, you can always ask Google if there are elements you do not know how to write in Python (or in another language). For instance, similar to the search of `type`, you could have looked up on Google _'Python how to convert text to integer'_. This is why it is important to always think in terms of an algorithm before coding. It helps us figure out what we want the computer to do.
 
-## Going Further
-
 You did not have enough from this code practice? Feeling comfortable going further? There are a few steps you can take to improve this code.
 
-### Extra Task 6.1 Accept decimal numbers
+## Extra Task 6.1 Accept decimal numbers
 
 So far, the program converts `string` to `integer`. What about a sum of decimal numbers? Write the algorithm for converting a decimal number, search on Google the Python syntax for such conversion and upgrade your code.
 
-### Extra Task 6.2 Show the result on one line
+## Extra Task 6.2 Show the result on one line
 
 So far, the program shows the result on 2 lines as follows:
 
