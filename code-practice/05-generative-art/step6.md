@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 6 Recap
+title: Step 6 Recap and More
 parent: "#05 Generative Art"
 grand_parent: Code Practice
 ---
 
-# Step 6 Recap
+# Step 6 Recap and More
 {: .no_toc }
 
 ## Table of contents
