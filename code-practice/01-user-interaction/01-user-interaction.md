@@ -29,8 +29,8 @@ Output
 Algorithm
 {: .label .label-green }
 
-Error
-{: .label .label-yellow }
+Type
+{: .label .label-green }
 
 Debug
 {: .label .label-yellow }

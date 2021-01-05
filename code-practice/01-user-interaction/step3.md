@@ -20,12 +20,12 @@ With variables, we provide memory for our programme. We can now start thinking a
 
 Thus, we need to introduce the concept of input. An input is an information received by the computer. In our case, it will receive numbers from the user. It has two elements:
 
-* _variable_: where the answer from the user will be stored
-* _message_: the question being asked to the user
+* `variable` where the answer from the user will be stored
+* `message` the question being asked to the user
 
 Our input algorithm looks like this: 
 
-_Ask the user message and store the answer in variable_
+_Ask the user `message` and store the answer in `variable`_
 {: .fs-5 .ls-10 .code-example }
 
 In Python, this would look like this:
@@ -41,11 +41,11 @@ Write two comments and two Python lines to let the user enter the numbers to sum
 You should obtain something like this:
 
 ```python
-# Create a variable called x of type number that starters with the value 0
+# Create a variable called x of type number that starts with the value 0
 x = 0
-# Create a variable called y of type number that starters with the value 0
+# Create a variable called y of type number that starts with the value 0
 y = 0
-# Create a variable called sum of type number that starters with the value 0
+# Create a variable called sum of type number that starts with the value 0
 sum = 0
 # Ask the user ‘Type in x: ’ and store the answer in x
 x = input("Type in x: ")

@@ -19,13 +19,13 @@ grand_parent: Code Practice
 For the computer to learn, it needs the ability to memorise information. This is the role of the variables. In programming, a variable is a storage location in the computer memory, paired with a name. This name will enable us to retrieve the information to use in our programme.
 
 To create a new variable, we need three elements:
-* _name_: what do we call this thing that we want the computer to remember?
-* _type_: what type of data does it contain?
-* _initVal_: What is it's starting value?
+* `name` what do we call this thing that we want the computer to remember?
+* `type` what type of data does it contain?
+* `initVal` What is it's starting value?
 
 So here is our first algorithm that teaches the computer how to remember information:
 
-_Create a variable called name of type type that starts with the value initVal_
+_Create a variable called `name` of type `type` that starts with the value `initVal`_
 {: .fs-5 .ls-10 .code-example }
 
 Now that we know what we want to do, it is a matter of finding the Python syntax. It looks like this:
@@ -41,9 +41,9 @@ name = initVal
 In the text editor, we can thus type in the following two lines for our algorithm:
 
 ```python
-# Create a variable called x of type number that starters with the value 0
-# Create a variable called y of type number that starters with the value 0
-# Create a variable called sum of type number that starters with the value 0
+# Create a variable called x of type number that starts with the value 0
+# Create a variable called y of type number that starts with the value 0
+# Create a variable called sum of type number that starts with the value 0
 ```
 
 The hashtag ‘#’ at the start of the line means that it is a comment: plain English explanation of what you want to do.
@@ -55,11 +55,11 @@ In the text editor, for each comment, type in the Python code which explains the
 You should obtain something like this:
 
 ```python
-# Create a variable called x of type number that starters with the value 0
+# Create a variable called x of type number that starts with the value 0
 x = 0
-# Create a variable called y of type number that starters with the value 0
+# Create a variable called y of type number that starts with the value 0
 y = 0
-# Create a variable called sum of type number that starters with the value 0
+# Create a variable called sum of type number that starts with the value 0
 sum = 0
 ```
 
