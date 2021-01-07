@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "#04 Box Factory"
-grand_parent: Code Practice
+parent: "04 Box Factory"
 ---
 
 # Step 6 Recap and More

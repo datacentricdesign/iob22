@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Step 2 Branching
-parent: "#02 Vending Machine"
-grand_parent: Code Practice
+parent: "02 Vending Machine"
 ---
 
 # Step 2 Branching

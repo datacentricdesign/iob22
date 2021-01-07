@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Step 3 Input
-parent: "#01 User Interaction"
-grand_parent: Code Practice
+parent: "01 Calculator"
 ---
 
 # Step 3 Input

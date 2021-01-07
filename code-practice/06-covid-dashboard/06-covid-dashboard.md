@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "#06 COVID Dashboard"
-parent: Code Practice
+title: "06 COVID Dashboard"
 has_children: true
 ---
 
-# #06 COVID Dashboard
+# 06 COVID Dashboard
 
 
 [TODO INTRO VIDEO]

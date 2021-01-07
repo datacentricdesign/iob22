@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Step 5 Debug
-parent: "#01 User Interaction"
-grand_parent: Code Practice
+parent: "01 Calculator"
 ---
 
 # Step 5 Debug

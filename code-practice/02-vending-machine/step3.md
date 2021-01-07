@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Step 3 Operators
-parent: "#02 Vending Machine"
-grand_parent: Code Practice
+parent: "02 Vending Machine"
 ---
 
 # Step 3 Operators

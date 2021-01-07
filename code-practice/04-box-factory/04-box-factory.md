@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "#04 Box Factory"
-parent: Code Practice
+title: "04 Box Factory"
 has_children: true
 ---
 
-# #04 Box Factory
+# 04 Box Factory
 
 
 In this third code practice we will teach the computer how to .
@@ -16,7 +15,7 @@ The challenge we want to address in this code practice is repetition. Computers 
 
 ---
 
-Through this code practice we will explore the following concepts:
+Through this code, practice we will explore the following concepts:
 
 Loop
 {: .label .label-green }

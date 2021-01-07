@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 3 String
-parent: "#03 Function"
-grand_parent: Code Practice
+parent: "03 Function"
+
 ---
 
 # Step 3 String

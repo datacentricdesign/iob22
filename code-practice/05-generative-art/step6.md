@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "#05 Generative Art"
-grand_parent: Code Practice
+parent: "05 Generative Art"
+
 ---
 
 # Step 6 Recap and More

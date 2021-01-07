@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "#03 Function"
-grand_parent: Code Practice
+parent: "03 Function"
+
 ---
 
 # Step 6 Recap and More

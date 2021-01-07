@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "#08 Connected Home"
-parent: Code Practice
+title: "08 Connected Home"
 has_children: true
 ---
 
-# #08 Connected Home
+# 08 Connected Home
 
 [TODO INTRO VIDEO]
 

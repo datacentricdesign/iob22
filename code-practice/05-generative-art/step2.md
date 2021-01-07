@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 2 Import
-parent: "#05 Generative Art"
-grand_parent: Code Practice
+parent: "05 Generative Art"
+
 ---
 
 # Step 1 Import

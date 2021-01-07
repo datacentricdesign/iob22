@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "#08 Connected Home"
-grand_parent: Code Practice
+parent: "08 Connected Home"
+
 ---
 
 # Step 6 Recap and More

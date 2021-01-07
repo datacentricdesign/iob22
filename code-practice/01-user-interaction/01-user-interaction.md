@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "#01 User Interaction"
-parent: Code Practice
+title: "01 Calculator"
 has_children: true
 ---
 
-# #01 User Interaction
+# 01 Calculator
 
 In this first code practice, we will teach the computer how to interact with us to sum two numbers. That is what programming is about: telling the computer what to do.
 

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "#07 Landing Page"
-grand_parent: Code Practice
+parent: "07 Landing Page"
+
 ---
 
 # Step 6 Recap and More

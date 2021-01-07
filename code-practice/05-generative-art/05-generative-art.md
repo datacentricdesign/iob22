@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "#05 Generative Art"
-parent: Code Practice
+title: "05 Generative Art"
 has_children: true
 ---
 
-# #05 Generative Art
+# 05 Generative Art
 
 At this stage we only
 

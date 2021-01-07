@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Step 4
-parent: "#04 Box Factory"
-grand_parent: Code Practice
+parent: "04 Box Factory"
 ---
 
 # Step 4

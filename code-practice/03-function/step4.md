@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 4
-parent: "#03 Function"
-grand_parent: Code Practice
+parent: "03 Function"
+
 ---
 
 # Step 4

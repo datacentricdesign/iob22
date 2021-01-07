@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 1 Review
-parent: "#07 Landing Page"
-grand_parent: Code Practice
+parent: "07 Landing Page"
+
 ---
 
 # Step 1 Review

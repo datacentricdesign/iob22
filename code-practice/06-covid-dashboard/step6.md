@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "#06 COVID Dashboard"
-grand_parent: Code Practice
+parent: "06 COVID Dashboard"
+
 ---
 
 # Step 6 Recap and More

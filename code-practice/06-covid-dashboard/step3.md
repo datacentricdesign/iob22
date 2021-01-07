@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 3 Data
-parent: "#06 COVID Dashboard"
-grand_parent: Code Practice
+parent: "06 COVID Dashboard"
+
 ---
 
 # Step 3 Data

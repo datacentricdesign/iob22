@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "#07 Landing Page"
-parent: Code Practice
+title: "07 Landing Page"
 has_children: true
 ---
 
-# #07 Landing Page
+# 07 Landing Page
 
 [TODO INTRO VIDEO]
 

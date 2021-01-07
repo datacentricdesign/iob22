@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 5 Maze
-parent: "#05 Generative Art"
-grand_parent: Code Practice
+parent: "05 Generative Art"
+
 ---
 
 # Step 5 Maze

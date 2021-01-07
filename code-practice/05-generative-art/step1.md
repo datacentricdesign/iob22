@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Step 1 Review
-parent: "#05 Generative Art"
-grand_parent: Code Practice
+parent: "05 Generative Art"
 ---
 
 # Step 1 Review

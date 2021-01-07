@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 1 Review
-parent: "#08 Connected Home"
-grand_parent: Code Practice
+parent: "08 Connected Home"
+
 ---
 
 # Step 1 Review

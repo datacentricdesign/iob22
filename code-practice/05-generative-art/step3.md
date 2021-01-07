@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Step 3 Web page
-parent: "#05 Generative Art"
-grand_parent: Code Practice
+parent: "05 Generative Art"
 ---
 
 # Step 3 Web page
