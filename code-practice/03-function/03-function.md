@@ -24,6 +24,3 @@ String
 
 List
 {: .label .label-green }
-
-File
-{: .label .label-green }

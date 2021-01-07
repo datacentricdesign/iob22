@@ -17,9 +17,11 @@ grand_parent: Code Practice
 ---
 
 
-We can start developing our hot beverage algorithm with the elements we used in the first code practice. For example:
+Let's start the development of our vending machine algorithm with the elements we used in the first code practice. For instance, we need to tell the users what is available, ask them for their choice and tell them their choice.
 
-Hot beverage algorithm 1
+#### Hot beverage algorithm 1
+
+```
 Tell the user ‘Welcome to IO1075 Hot Beverage service!’
 Tell the user ‘Here is what we offer:’
 Tell the user ‘1) Coffee’
@@ -29,12 +31,19 @@ Create a variable called choice of type number with the initial value 0
 Ask the user ‘Type in your choice: ’ and store the answer in choice
 Tell the user "Here is your " choice
 Tell the user "Have a great day!"
+```
 
-## Task 1.1: Create a new Replit project and write the Hot beverage algorithm 1 as comments.
+## Task 1.1: Create a project
 
-## Task 1.2: For each comment, write the Python code.
+Create a new _Replit_ project and write the _Hot beverage algorithm 1_ as comments (adding the hashtag `#` in front of each line).
 
-## Task 1.3: Execute the code.
+## Task 1.2: Write the Python code
+
+The next step is to write the Python code for each comment. Do not hesitate to revisit the first code practice if you forgot about the Python syntax.
+
+## Task 1.3: Execute the code
+
+The first version of your vending machine algorithm is ready, execute the code to check that it behaves the way you expect.
 
 [TODO GIF OF HOW IT SHOULD LOOK LIKE]
 

@@ -15,7 +15,7 @@ For this, we need to know what it should do. This is the algorithm, a sequence o
 
 ---
 
-Through this code practice we will explore the following concepts:
+Through this assignment, we will explore the following computational concepts:
 
 Variable
 {: .label .label-green }
@@ -32,5 +32,17 @@ Algorithm
 Type
 {: .label .label-green }
 
+Assignment
+{: .label .label-green }
+
+Number
+{: .label .label-blue }
+
+String
+{: .label .label-blue }
+
 Debug
 {: .label .label-yellow }
+
+Terminal
+{: .label .label-red }

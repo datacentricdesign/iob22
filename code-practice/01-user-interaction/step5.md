@@ -16,7 +16,7 @@ grand_parent: Code Practice
 
 ---
 
-The code we wrote in the previous step leads to an unexpected behaviour. We want the computer to sum up 2 numbers and we do not get the right answer. This is an opportunity to _debug_ our program, i.e. to investigate what is happening and why it is not working as expected.
+The code we wrote in the previous step leads to unexpected behaviour. We want the computer to sum up 2 numbers and we do not get the right answer. This is an opportunity to _debug_ our program, i.e. to investigate what is happening and why it is not working as expected.
 
 You will soon realise that this is a big part of programming and being good at programming as a lot to do with the ability to investigate and fix code. This is why we start debugging now.
 
@@ -30,7 +30,7 @@ sum = x + y
 
 ## Task 5.1 Is the `+` sign broken?
 
-Let's create a test program. In Repl.it, on the top-right corner, click on the `+` sign to create a new project. Select the language 'Python' and a name, for example, 'test-sum'.
+Let's create a test program. In _Replit_, on the top-right corner, click on the `+` sign to create a new project. Select the language 'Python' and a name, for example, 'test-sum'.
 
 In this empty project, we can try to sum two numbers and output the result.
 
@@ -70,9 +70,9 @@ print("python" + "text")
 
 Hmmm. We can add text? Yes, it is called `concatenation`. Could it be that the computer thinks our variable x and y are text instead of a number?
 
-If you Google _'python find out the type of a variable'_, you will find `type`. Note how to search: first the language (python) and then what you are looking for.
+If you _Google_ _'python find out the type of a variable'_, you will find `type`. Note how to search: first the language (python) and then what you are looking for.
 
-Then, erase our previous test and ask the user for an input so that you can check its type.
+Then, erase our previous test and ask the user for input so that you can check its type.
 
 ```python
 # Create a variable called x of type number that starts with the value 0
@@ -99,6 +99,7 @@ How do we fix our issue? We need an algorithm to convert the input from `string`
 
 With these, the integer conversion algorithm would look as follows:
 
+#### Integer convertion algorithm
 _Convert oldVariable to integer and store in intVariable_
 {: .fs-5 .ls-10 .code-example }
 
@@ -108,7 +109,7 @@ To realise this in Python we can write:
 intVariable = int(oldVariable)
 ```
 
-OK, let's start fresh. Create a new Repl.it project and bring back only the comments without code. Note the two new lines `Convert ...`.
+OK, let's start fresh. Create a new Replit project and bring back only the comments without code. Note the two new lines `Convert ...`.
 
 ```python
 # Create a variable called x of type number that starts with the value 0

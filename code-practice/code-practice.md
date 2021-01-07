@@ -19,15 +19,19 @@ permalink: /code-practice
 
 You did not sign for a Computer science degree!
 
-# Approach and aim
+# Goal
 
-The language and the environment might scare you out. In these code practices we will aim at breaking this to give you the confidence to go further.
+
+
+# Approach
+
+The language and the environment might scare you out. In these assignments, we will aim at breaking this to give you the confidence to go further.
 
 Everything is self-paced. A day of coding will fit for some of you. However, I recommend you to start making your own choice. A couple of hours per day works better? Go for it, try and see what works for you.
 
 Everyone is going to learn at a different pace. For this, instead of an 8-hour assignment weekly assignment, we packaged this introduction to programming into small blocks of self-paced code practice to fit the different learning pace.
 
-Short videos, written tutorials and automated testing to fit the different learning styles. For some of you the videos will sound too slow, for some of you even some exercises might not go as fast as you would like.
+Short videos, written tutorials and automated testing to fit the different learning styles. For some of you, the videos will sound too slow, for some of you, even some assignment might not go as fast as you would like.
 
 We have marked each coding exercise to give you an indication, from fundamental (what we expect everyone to achieve) to intermediate (what we expect everyone to try) and advanced (for those who can't wait to learn more).
 
