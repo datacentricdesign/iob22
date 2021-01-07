@@ -53,6 +53,6 @@ finally:
     # cleanUpAction
 ```
 
-# Task 4.2 Prevent ValueError
+# Task 4.2 Deal with ValueError
 
 [implement exception to catch ValueError]

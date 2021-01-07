@@ -15,7 +15,7 @@ parent: "02 Vending Machine"
 
 ---
 
-In the first code practice, we used the `+`, an arithmetic operator that can be used the same way as the mathematic symbol. However, we debugged our programme, realising that we can also 'add' two String (i.e. text, a sequence of characters) together, the so-called concatenation. Thus, operators can behave differently depending on the type of variables.
+In the first assignment, we used the `+`, an arithmetic operator that can be used the same way as the mathematic symbol. However, we debugged our programme, realising that we can also 'add' two String (i.e. text, a sequence of characters) together, the so-called concatenation. Thus, operators can behave differently depending on the type of variables.
 
 In this step, we will explore other types of operators such as comparison, logical and assignment to extend the capabilities of the vending machine algorithm. 
 
@@ -38,7 +38,7 @@ There are several other operators `>=` `<=`, `!=`
 
 Exploration of **assignment operators** to decrease the number of remaining cups and increased the number of served / money cashed.
 
-We encountered the assignment operator `=` in the first code practice with the variable. We use `=` to 'assign' a value to a variable.
+We encountered the assignment operator `=` in the first assignment with the variable. We use `=` to 'assign' a value to a variable.
 
 In an algorithm, a common operation is the update of a variable based on its current state. For example, the vending machine as a variable number_remaining_cups which tracks the number of paper cups still available in the machine. Every time we serve a beverage, we want to decrease this number by one. Thus, we want to do the following:
 

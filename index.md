@@ -28,7 +28,7 @@ The language and the environment might scare you out. In these assignments, we w
 
 Everything is self-paced. A day of coding will fit for some of you. However, I recommend you to start making your own choice. A couple of hours per day works better? Go for it, try and see what works for you.
 
-Everyone is going to learn at a different pace. For this, instead of an 8-hour assignment weekly assignment, we packaged this introduction to programming into small blocks of self-paced code practice to fit the different learning pace.
+Everyone is going to learn at a different pace. For this, instead of an 8-hour assignment weekly assignment, we packaged this introduction to programming into small blocks of self-paced assignment to fit the different learning pace.
 
 Short videos, written tutorials and automated testing to fit the different learning styles. For some of you, the videos will sound too slow, for some of you, even some assignment might not go as fast as you would like.
 
@@ -43,7 +43,8 @@ We will always start with algorithms, to think first about what we want to do. O
 An important disclaimer, you will not be a programmer by the end of this course. This might come as a disillusion for some of you, maybe a release for others. We are not going to cover in 64 hours what a computer science student achieves in several fulltime years.
 
 We want you to be comfortable reading a piece of code and using small pieces to tinker with the digital world, as you do for the physical one through materials, manufacturing and so on.
-You have a question about the code practice.
+
+[TODO] You have a question about the assignment.
 
 # Support
 
@@ -51,7 +52,7 @@ Beyond the videos and tutorials, automated testing of your code or expected resu
 
 Googling your question, you will soon recognise one particular platform: Stack Overflow. Similar to Quora, this is a popular platform for programmers to ask questions and upvote the best answer. You might find your solution over there. However, you might feel intimidated or simply not understanding the jargon of the answer. We are here to help! This is why we have set up a similar environment.
 
-When something is not working as expected, that you do not understand how to move forward, please look at the course Q/A platform for questions related to the code practice you are working on.
+When something is not working as expected, that you do not understand how to move forward, please look at the course Q/A platform for questions related to the assignment you are working on.
 
 We encourage you not only to ask questions, but answer the one you feel like, from other students. Please upvote a question that you have as well, and the answer that helped you.
 

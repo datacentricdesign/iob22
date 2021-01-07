@@ -7,9 +7,9 @@ has_children: true
 # 04 Box Factory
 
 
-In this third code practice we will teach the computer how to .
+In this third assignment, we will teach the computer how to .
 
-The challenge we want to address in this code practice is repetition. Computers are particularly good at learning something once and repeating it many times.
+The challenge we want to address in this assignment is repetition. Computers are particularly good at learning something once and repeating it many times.
 
 [TODO INTRO VIDEO]
 
@@ -25,7 +25,7 @@ Loop
 
 Step 1: Make one box
 
-We can start developing our hot beverage algorithm with the elements we used in the first code practice. For example:
+We can start developing our hot beverage algorithm with the elements we used in the first assignment. For example:
 
 
 Step 3: Make many boxes

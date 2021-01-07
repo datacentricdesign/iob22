@@ -16,7 +16,7 @@ parent: "02 Vending Machine"
 ---
 
 
-Let's start the development of our vending machine algorithm with the elements we used in the first code practice. For instance, we need to tell the users what is available, ask them for their choice and tell them their choice.
+Let's start the development of our vending machine algorithm with the elements we used in the first assignment. For instance, we need to tell the users what is available, ask them for their choice and tell them their choice.
 
 #### Hot beverage algorithm 1
 
@@ -38,7 +38,7 @@ Create a new _Replit_ project and write the _Hot beverage algorithm 1_ as commen
 
 ## Task 1.2: Write the Python code
 
-The next step is to write the Python code for each comment. Do not hesitate to revisit the first code practice if you forgot about the Python syntax.
+The next step is to write the Python code for each comment. Do not hesitate to revisit the first assignment if you forgot about the Python syntax.
 
 ## Task 1.3: Execute the code
 
@@ -46,4 +46,4 @@ The first version of your vending machine algorithm is ready, execute the code t
 
 [TODO GIF OF HOW IT SHOULD LOOK LIKE]
 
-There are a few things that we can work on (or many), but let’s focus on the choices: in this code practice we will ask more information depending on the user’s choice
+There are a few things that we can work on (or many), but let’s focus on the choices: in this assignment we will ask more information depending on the user’s choice

@@ -11,7 +11,7 @@ has_children: true
 
 ---
 
-Through this code practice we will explore the following concepts:
+Through this assignment we will explore the following concepts:
 
 API
 {: .label .label-green }

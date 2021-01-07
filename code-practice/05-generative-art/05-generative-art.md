@@ -14,7 +14,7 @@ So far, show text and draw boxes with text characters
 
 ---
 
-Through this code practice we will explore the following concepts:
+Through this assignment we will explore the following concepts:
 
 import
 {: .label .label-green }

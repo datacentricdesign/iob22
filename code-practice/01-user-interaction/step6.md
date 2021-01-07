@@ -15,13 +15,13 @@ parent: "01 Calculator"
 
 ---
 
-You completed the first code practice: you taught the computer how to ask for inputs, convert these inputs into numbers, sum them and tell the user what the result is.
+You completed the first assignment: you taught the computer how to ask for inputs, convert these inputs into numbers, sum them and tell the user what the result is.
 
 On the way, you used algorithms to right in plain English what you want to teach the computer. This is an important practice to make sure you know what you want the computer to do.
 
 Once you formulated your algorithm, you can always ask Google if there are elements you do not know how to write in Python (or in another language). For instance, similar to the search of `type`, you could have looked up on Google _'Python how to convert text to integer'_. This is why it is important to always think in terms of an algorithm before coding. It helps us figure out what we want the computer to do.
 
-You did not have enough from this code practice? Feeling comfortable going further? There are a few steps you can take to improve this code.
+You did not have enough from this assignment? Feeling comfortable going further? There are a few steps you can take to improve this code.
 
 ## Extra Task 6.1 Accept decimal numbers
 

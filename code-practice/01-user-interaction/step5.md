@@ -84,7 +84,7 @@ print(type(x))
 
 Ask the computer to execute your instruction by clicking on the green arrow at the top of the page.
 
-If you run this program several times with a number or a word as input, you will notice that in any case the type of `x` becomes `str`. It stands for _string_, a chain of characters, in other words 'text'. Note: the exact result is `<class 'str'>`. We will introduce what a class is later in the code practices.
+If you run this program several times with a number or a word as input, you will notice that in any case the type of `x` becomes `str`. It stands for _string_, a chain of characters, in other words 'text'. Note: the exact result is `<class 'str'>`. We will introduce what a class is later in the assignments.
 
 It looks like we touch on the problem. We want to sum two numbers but instead, we concatenate two string.
 

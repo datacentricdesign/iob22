@@ -25,4 +25,4 @@ Some special characters such as new line, what is a new line
 Encoding
 
 
-Concatenation, adding strings together, we noticed this principle in the first code practice when trying to sum two numbers which were in of type string
+Concatenation, adding strings together, we noticed this principle in the first assignment when trying to sum two numbers which were in of type string
