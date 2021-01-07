@@ -11,7 +11,7 @@ grand_parent: Code Practice
 ## Table of contents
 {: .no_toc .text-delta }
 
-1. TOC
+- TOC
 {:toc}
 
 ---
@@ -26,10 +26,10 @@ File, an Input/output similar to the console
 
 # Task 5.1 Write in a file
 
-* _path_ the location of the file
-* _mode_ what we want to do with the file, such as writing or reading
-* _fileVariable_ 
-* _data_ what we want to save in the file
+* `path` the location of the file
+* `mode` what we want to do with the file, such as writing or reading
+* `fileVariable` 
+* `data` what we want to save in the file
 
 #### Write in file Algorithm
 

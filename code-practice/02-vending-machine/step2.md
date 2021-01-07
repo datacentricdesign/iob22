@@ -16,11 +16,16 @@ grand_parent: Code Practice
 
 ---
 
-When the computer chose to do one of two actions, e.g. coffee or tea, this is called branching. To create a branch, we need three elements:
+When the computer chose to do one of two actions, e.g. coffee or tea, this is called branching.
 
-* condition
-* action
-* alternative action
+[TODO introduce type boolean]
+
+
+To create a branch, we need three elements:
+
+* `condition` definition what is true or false
+* `action` what to do when the condition is true
+* `alternativeAction` what to do when the condition is false
 
 So the branching algorithm looks like this:
 
@@ -52,8 +57,10 @@ Let’s pause on this syntax. This is the first expression we encounter that req
 * The indentation (4 spaces or a `TAB`) is required in front of each sub-expression.
 
 
-# Task 2.1 
+# Task 2.1 Chose beverage
 
+#### Choice Beverage Algorithm
+```
 Create a variable called choice of type number with the initial value 0
 Ask the user ‘Type in your choice: ’ and store the answer in choice
 Convert choice to integer and store in choice
@@ -61,8 +68,16 @@ If choice is equal to 1
 Then tell the user "Here is your coffee."
 Otherwise tell the user "Here is your " choice
 Tell the user "Have a great day!"
+```
 
-# Task 2.2
+# Task 2.2 Chose Addons
+
+#### Choice addons Algorithm
+
+Ask the user if they want sugar or milk and tune the final message accordingly
+
+```
+
+```
 
 
-# Task 2.3
