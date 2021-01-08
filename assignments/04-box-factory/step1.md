@@ -14,3 +14,8 @@ parent: "04 Box Factory"
 {:toc}
 
 ---
+
+
+Step 1: Make one box
+
+We can start developing our hot beverage algorithm with the elements we used in the first assignment. For example:

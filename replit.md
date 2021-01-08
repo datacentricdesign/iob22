@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Step 1 Review
-parent: "03 Function"
-
+title: Repl.it
+nav_order: 1
 ---
 
-# Step 1 Review
+# Repl.it
 {: .no_toc }
 
 ## Table of contents
@@ -15,3 +14,8 @@ parent: "03 Function"
 {:toc}
 
 ---
+
+
+[TODO video hands-on guided tour]
+
+[TODO writen manual]

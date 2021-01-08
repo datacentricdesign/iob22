@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 2
+title: Step 2 For-Loop
 parent: "04 Box Factory"
 ---
 
@@ -14,3 +14,4 @@ parent: "04 Box Factory"
 {:toc}
 
 ---
+

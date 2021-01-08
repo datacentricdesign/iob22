@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Step 4
+title: Step 3 Refactoring
 parent: "04 Box Factory"
 ---
 
-# Step 4
+# Step 3
 {: .no_toc }
 
 ## Table of contents

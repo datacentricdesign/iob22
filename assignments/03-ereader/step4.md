@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 3 String
-parent: "03 Function"
+parent: "03 eReader"
 
 ---
 
@@ -15,6 +15,24 @@ parent: "03 Function"
 {:toc}
 
 ---
+
+
+# Task 4.1 Pick more Books
+
+Let's pick another book such as [Oliver Twist by Charles Dickens](http://www.gutenberg.org/files/46675/46675-0.txt)
+
+
+
+
+# Task 4.2 List Available Books
+
+
+
+
+
+# Task 4.3 Search a Book
+
+
 
 
 Sequence of character 

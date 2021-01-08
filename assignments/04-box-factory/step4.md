@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Step 5
+title: Step 4 While-Loop
 parent: "04 Box Factory"
 ---
 
-# Step 5
+# Step 4
 {: .no_toc }
 
 ## Table of contents

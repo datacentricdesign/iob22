@@ -14,3 +14,8 @@ parent: "04 Box Factory"
 {:toc}
 
 ---
+
+
+Go ahead and tune your box factory as you like: you are the designer! Here are some possible extensions
+
+Share your code and a screenshot of your result on Discourse.

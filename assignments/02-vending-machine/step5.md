@@ -26,15 +26,25 @@ File, an Input/output similar to the console
 # Task 5.1 Write in a file
 
 * `path` the location of the file
-* `mode` what we want to do with the file, such as writing or reading
 * `fileVariable` 
 * `data` what we want to save in the file
 
 #### Write in file Algorithm
 
-_Open file at **path** in  in it, then do **action**; otherwise do **alternative action**_
-{: .fs-5 .ls-10 .code-example }
+```markdown
+Open the file located at 'path' in writing mode
+Write 'data' in the file
+Close the file
+```
+
+
 
 # Task 5.2 Read from file
 
 #### Read in file Algorithm
+
+```markdown
+Open the file located at 'path' in reading mode
+Read 'data' from the file
+Close the file
+```

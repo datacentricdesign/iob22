@@ -33,7 +33,12 @@ Now that we know what we want to do, it is a matter of finding the Python syntax
 name = initVal
 ```
 
->**Note:** Unlike in mathematics in which the equal sign ‘=’ means that the expressions on both sides are equal, in programming ‘=’ means that the right part is ‘assigned’ to the left part.
+**Attention!** Unlike in mathematics in which the equal sign `=` means that the expressions on both sides are equal, in programming `=` means that the right part is ‘assigned’ to the left part.
+{: .fs-5 .ls-10 .code-example .bg-yellow-000}
+
+
+**By convention**, variable names are noun, lower case, and with underscores `_` between elements.
+{: .fs-5 .ls-10 .code-example .bg-green-000}
 
 ## Task 2.1: Write the algorithm
 
