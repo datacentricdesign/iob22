@@ -21,5 +21,17 @@ Function
 String
 {: .label .label-green }
 
-List
+While-Loop
+{: .label .label-green }
+
+For-Loop
+{: .label .label-green }
+
+File
+{: .label .label-red }
+
+Flow chart
+{: .label .label-yellow }
+
+Object
 {: .label .label-green }

@@ -27,6 +27,8 @@ You did not have enough from this assignment? Feeling comfortable going further?
 
 So far, the program converts `string` to `integer`. What about a sum of decimal numbers? Write the algorithm for converting a decimal number, search on Google the Python syntax for such conversion and upgrade your code.
 
+[TODO link to replit solution]
+
 ## Extra Task 6.2 Show the result on one line
 
 So far, the program shows the result on 2 lines as follows:
@@ -38,8 +40,12 @@ The answer is
 
 Convert the variable `sum` into a type `string` and _concatenate_ it with "The answer is " so they appear on the same line.
 
-### Extra Task 6.3 Shorten your code
+[TODO link to replit solution]
+
+## Extra Task 6.3 Shorten your code
 
 If you are comfortable with your code, you should be able to shorten it into three lines (excluding comments).
 
 Warning: Make sure that in this transformation (so-called _'refactoring'_) you update your comments so that anyone can still read in plain English what you teach to the computer.
+
+[TODO link to replit solution]

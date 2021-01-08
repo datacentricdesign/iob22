@@ -31,3 +31,6 @@ Flow chart
 
 File
 {: .label .label-red }
+
+Object
+{: .label .label-green }

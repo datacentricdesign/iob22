@@ -57,3 +57,6 @@ y = input("Type in y: ")
 Ask the computer to execute your instruction by clicking on the green arrow at the top of the page.
 
 This time ‘Type in x:’ should appear in the Terminal window (black one on the right). Type a number and press ENTER. A second message should appear for the value of y. Once again, enter a value and press enter. The programme ends, as we do not do anything else.
+
+
+[TODO link to replit solution]

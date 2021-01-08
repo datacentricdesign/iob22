@@ -21,7 +21,7 @@ In this step, we will explore how to use files to store and retrieve information
 
 [TODO]
 
-File, an Input/output similar to the console
+File, an Input/output similar to the terminal
 
 # Task 5.1 Write in a file
 
@@ -37,6 +37,7 @@ Write 'data' in the file
 Close the file
 ```
 
+[TODO link to replit solution]
 
 
 # Task 5.2 Read from file
@@ -48,3 +49,6 @@ Open the file located at 'path' in reading mode
 Read 'data' from the file
 Close the file
 ```
+
+
+[TODO link to replit solution]

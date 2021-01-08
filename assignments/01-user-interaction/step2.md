@@ -33,6 +33,8 @@ Now that we know what we want to do, it is a matter of finding the Python syntax
 name = initVal
 ```
 
+[TODO expand on 'type' with a focus on numbers and string for now]
+
 **Attention!** Unlike in mathematics in which the equal sign `=` means that the expressions on both sides are equal, in programming `=` means that the right part is ‘assigned’ to the left part.
 {: .fs-5 .ls-10 .code-example .bg-yellow-000}
 
@@ -73,3 +75,5 @@ Ask the computer to execute your instruction by clicking on the green arrow at t
 
 Nothing happens. Indeed, we are storing zeros in three variables, without asking the computer to show anything.
 
+
+[TODO link to replit solution]

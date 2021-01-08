@@ -69,6 +69,9 @@ Otherwise tell the user "Here is your " choice
 Tell the user "Have a great day!"
 ```
 
+
+[TODO link to replit solution]
+
 # Task 2.2 Chose Addons
 
 #### Choice addons Algorithm
@@ -79,4 +82,6 @@ Ask the user if they want sugar or milk and tune the final message accordingly
 
 ```
 
+
+[TODO link to replit solution]
 

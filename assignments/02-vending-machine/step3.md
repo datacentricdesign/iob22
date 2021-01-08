@@ -25,6 +25,9 @@ For a complete list, you can refer to the W3Schools for a complete [list of oper
 
 Exploration of **comparison operators**, if more sugar than 2/5, show a nasty message to the user.
 
+
+[TODO link to replit solution]
+
 # Task 3.2 Customise Prices
 
 Exploration of **logical operators**, combining students/staff and beverage choice to calculate the price
@@ -33,6 +36,8 @@ In the previous step, we used the `==` operator to check if the user input is eq
 
 There are several other operators `>=` `<=`, `!=`
 
+
+[TODO link to replit solution]
 
 # Task 3.3 Count remaining cups
 
@@ -53,3 +58,6 @@ number_remaining_cups -= 1
 ```
 
 This means that we take the current value of the variable, we remove `1` and store the result in the variable.
+
+
+[TODO link to replit solution]

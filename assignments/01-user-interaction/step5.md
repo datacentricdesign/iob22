@@ -131,3 +131,6 @@ OK, let's start fresh. Create a new Replit project and bring back only the comme
 ```
 
 Add the line of code for each comment. Then, ask the computer to execute your instruction by clicking on the green arrow at the top of the page.
+
+
+[TODO link to replit solution]
