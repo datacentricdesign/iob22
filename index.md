@@ -4,7 +4,7 @@ title: Home
 nav_order: 0
 ---
 
-# Introduction to Python
+# From Design to Computational Thinking with Python
 {: .no_toc }
 
 ## Table of contents
@@ -16,48 +16,243 @@ nav_order: 0
 ---
 
 
-You did not sign for a Computer science degree!
+Welcome to this practical introduction to computational thinking for designers. As Industrial Design Engineers you are trained to master Design Thinking. Through this process, you empathise, define, ideate, prototype and test. As digital technology is becoming ubiquitous, your design solutions and your design process are impacted.
 
-# Goal
+You products embed or rely on computers to realise some of its functionalities, your prototype involves computers to test and analyse the feasibility of your solutions, your data combines qualitative and quantitative material to properly understand the challenges to address. For each of these tasks, you need the appropriate understanding about how computers manipulate information and how you can teach computers what you want them to do.
 
+Along with your design thinking, this series of code assignments aims to get you acquainted to another, complementary approach: computational thinking. Computational thinking relies on four steps. First, we decompose the problem into smaller parts, breaking it down to specifically identify each component of the problem to solve. Then, we look for patterns, similarities which can be tackled the same way. This leads us to elaborate components for our design that we can reuse for a whole category of problems (generalisation), that we can reuse without looking inside (abstraction). Finally, we design an algorithm, a set of instructions that tells the computer what to do.
 
+[TODO illustrate decomposition, pattern recognition, generalisation/abstraction and algorithm]
+Computational Thinking process
 
-# Approach
+By the end of this series of code assignments, you should have the confidence to use the computational thinking approach to teach computers simple tasks to perform. You should be able to break down simple problems into plain English instructions so that you can autonomously look them up on the Internet for the Python syntax that not yet in your toolbox.
 
-The language and the environment might scare you out. In these assignments, we will aim at breaking this to give you the confidence to go further.
+Disclaimer! While we are convinced that designers should get acquainted to computational thinking in a way that fits their discipline, we do not pretend we have the solution yet. We welcome your comments and suggestion for improvement. Reach out to Jacky (j.bourgeois@tudelft.nl)
+{: .fs-5 .ls-10 .code-example .bg-yellow-000}
 
-Everything is self-paced. A day of coding will fit for some of you. However, I recommend you to start making your own choice. A couple of hours per day works better? Go for it, try and see what works for you.
+## Code Assignments
 
-Everyone is going to learn at a different pace. For this, instead of an 8-hour assignment weekly assignment, we packaged this introduction to programming into small blocks of self-paced assignment to fit the different learning pace.
+Code assignments are accessible on this website, via the left panel or from the overview further down this page. They have a video introduction discussing and demonstrating the whole assignment. Each step is described in the text.
 
-Short videos, written tutorials and automated testing to fit the different learning styles. For some of you, the videos will sound too slow, for some of you, even some assignment might not go as fast as you would like.
+Apart from the first code assignment, each assignment starts with a review of the elements covered in the previous in the context of the assignment. Then, it explores new elements or iterates on some challenging elements already covered. Finally, it offers a series of extra tasks for you to explore if you feel like exploring further. We attributed each assignment a series of labels to indicate the type of element you will learn:
 
-We have marked each coding exercise to give you an indication, from fundamental (what we expect everyone to achieve) to intermediate (what we expect everyone to try) and advanced (for those who can't wait to learn more).
+Concepts
+{: .label .label-green }
 
-# Language
+Data Types
+{: .label .label-blue }
 
-We choose Python as a language, an overarching choice of TU Delft and many other institutions around the world as it enables a gradual immersion into coding. However, it is not about learning a syntax but getting into the software engineers habits.
+Technology
+{: .label .label-yellow }
 
-We will always start with algorithms, to think first about what we want to do. Once you know what you want to do, it is much easier to Google for the Python syntax or any other language syntax.
+Input/Output
+{: .label .label-red }
 
-An important disclaimer, you will not be a programmer by the end of this course. This might come as a disillusion for some of you, maybe a release for others. We are not going to cover in 64 hours what a computer science student achieves in several fulltime years.
+Package
+{: .label .label-purple }
 
-We want you to be comfortable reading a piece of code and using small pieces to tinker with the digital world, as you do for the physical one through materials, manufacturing and so on.
+We choose Python as a language, an overarching choice of TU Delft and many other institutions around the world as it enables a gradual immersion into coding. Each step of the way, assignments lead you to think about the algorithm and introduce Python syntax when necessary. You are in charge to implement the algorithm in Python, but the solution is just one click away if you get lost.
 
-[TODO] You have a question about the assignment.
-
-# Support
-
-Beyond the videos and tutorials, automated testing of your code or expected results from the tutorials should help you assess your progress.
-
-Googling your question, you will soon recognise one particular platform: Stack Overflow. Similar to Quora, this is a popular platform for programmers to ask questions and upvote the best answer. You might find your solution over there. However, you might feel intimidated or simply not understanding the jargon of the answer. We are here to help! This is why we have set up a similar environment.
-
-When something is not working as expected, that you do not understand how to move forward, please look at the course Q/A platform for questions related to the assignment you are working on.
-
-We encourage you not only to ask questions, but answer the one you feel like, from other students. Please upvote a question that you have as well, and the answer that helped you.
+We expect each assignment to take about eight hours. As part of our Bachelor course, we expect you to complete one a week. When something is not working as expected, that you do not understand how to move forward, please look at the [Discourse](https://io1075.datacentricdesign.org) for questions related to the code assignment you are working on. Open a new topic for any question that is not yet on Discourse. We encourage you not only to ask questions, but answer the one you feel like, from other students. Please upvote a question that you have as well, and the answer that helped you.
 
 See our template to ask questions that provide enough information for us and other students to help you effectively.
 
-Last piece of advice: type in the code from the tutorials instead of copying and pasting. For many of you this will slow you down but help you identify patterns of code coming over and over again.
+[TODO make template and link to template]
 
-It is going to be a challenging journey. Learning how to code requires dedication and perseverance. However, I believe it will be rewarding for all of you. 
+### [Environment]({{site.baseurl}}/ide)
+
+Before starting, it is important to know the development tool. This initial tutorial gives you a tour of the development environment we use for this series of code assignment.
+
+IDE
+{: .label .label-yellow }
+
+Replit
+{: .label .label-purple }
+
+### [01 Calculator]({{site.baseurl}}/assignments/01-calculator)
+
+The first code assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the users. Through this example, we introduce the concept of variables and data type along inputs and outputs to receive and send information to the user. We also discuss how to investigate (or debug) your code when the result is not the one you expect.
+
+Variable
+{: .label .label-green }
+
+Input
+{: .label .label-green }
+
+Output
+{: .label .label-green }
+
+Algorithm
+{: .label .label-green }
+
+Data Type
+{: .label .label-green }
+
+Assignment
+{: .label .label-green }
+
+Number
+{: .label .label-blue }
+
+String
+{: .label .label-blue }
+
+Terminal
+{: .label .label-red }
+
+Debug
+{: .label .label-yellow }
+
+### [02 Vending Machine]({{site.baseurl}}/assignments/02-vending-machine)
+
+How would you shape the behaviour of your favourite vending machine? In the second code assignment, you will prototype some logics with operators and conditions to drive through alternative paths in your program. This will shape the behaviour of a hot beverage vending machine depending on the user choices. You will also use files to store and retrieve available supply such as the number of remaining cups or the amount of sugar.
+
+Branch
+{: .label .label-green }
+
+Compound statement
+{: .label .label-green }
+
+Operator
+{: .label .label-green }
+
+Boolean
+{: .label .label-blue }
+
+Object
+{: .label .label-blue }
+
+File
+{: .label .label-red }
+
+Flow chart
+{: .label .label-yellow }
+
+
+### [03 eReader]({{site.baseurl}}/assignments/ereader)
+
+In the third code assignment, you will build an eReader loading an eBook in the Terminal and enabling the user to 'turn the page'. This exercise will reveal the need for loops to repeat part of the code which you will wrap (or encapsulate) into a reusable function. You will experience the four steps of computational thinking: decomposition, recognition, generalisation/abstraction and algorithm design.
+
+Function
+{: .label .label-green }
+
+Encapsulation
+{: .label .label-green }
+
+While-Loop
+{: .label .label-green }
+
+For-Loop
+{: .label .label-green }
+
+String
+{: .label .label-blue }
+
+Object
+{: .label .label-blue }
+
+File
+{: .label .label-red }
+
+Flow chart
+{: .label .label-yellow }
+
+### 04 Generative Art
+
+In the fourth code assignment, you will move the user interaction from the Terminal to the web browser. You will organise your code in several files and rely on code from other developers by importing modules. You will create an algorithm that generates random Scalable Vector Graphics (SVG) that you can expose on the web. 
+
+While-Loop
+{: .label .label-green }
+
+For-Loop
+{: .label .label-green }
+
+String
+{: .label .label-blue }
+
+web endpoint
+{: .label .label-red }
+
+SVG
+{: .label .label-red }
+
+import
+{: .label .label-yellow }
+
+Flask
+{: .label .label-purple }
+
+### 05 COVID-19 Dashboard
+
+In the fifth code assignment, you will continue exploring web interfaces. You will request data from a web service to collect the latest COVID-19 statistics. You will process this information, exploring time series and data format. Based on this data, you will expose a series of chat on the web.
+
+Data
+{: .label .label-green }
+
+Dictionary
+{: .label .label-blue }
+
+List
+{: .label .label-blue }
+
+JSON
+{: .label .label-red }
+
+Chart
+{: .label .label-yellow }
+
+Web Service
+{: .label .label-yellow }
+
+MatplotLib
+{: .label .label-purple }
+
+
+### 06 Connected Home
+
+At this stage you used different Objects and their methods such as a File or a List. In the sixth code assignment, you will look behind the Object and what they are into the paradigm of Object-Oriented Programming. Modelling a Home Hub and its appliances, you will explore this paradigm as a powerful abstraction mechanism.
+
+OOP
+{: .label .label-green }
+
+Abstraction
+{: .label .label-green }
+
+Inheritance
+{: .label .label-green }
+
+Class
+{: .label .label-green }
+
+Property
+{: .label .label-green }
+
+Methods
+{: .label .label-green }
+
+Object
+{: .label .label-blue }
+
+### 07 Landing page
+
+In the seventh code assignment, you will catch so potential user via a landing page. You will expose a product concept on the web and invite potential users to subscribe. You will store this information in a database.
+
+REST API
+{: .label .label-red }
+
+HTML
+{: .label .label-yellow }
+
+Database
+{: .label .label-yellow }
+
+### 08 Circuit Python?
+
+The final code assignment will introduce you to using Python on a Microcontroller.
+
+
+# What's next?
+
+Enough practicalities and theory, the next step is to get familiar with the development environment. For this, you will only need your favourite web browser, so let's jump in!
+
+[Next Step: Integrated Development Environment]({{site.baseurl}}/ide){: .btn .btn-purple }

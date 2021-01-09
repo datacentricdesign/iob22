@@ -17,6 +17,9 @@ The challenge we want to address in this assignment is repetition. Computers are
 
 Through this code, practice we will explore the following concepts:
 
+import
+{: .label .label-green }
+
 Loop
 {: .label .label-green }
 

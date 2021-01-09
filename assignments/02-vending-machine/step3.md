@@ -26,7 +26,7 @@ For a complete list, you can refer to the W3Schools for a complete [list of oper
 Exploration of **comparison operators**, if more sugar than 2/5, show a nasty message to the user.
 
 
-[TODO link to replit solution]
+[TODO link to Replit solution]
 
 # Task 3.2 Customise Prices
 
@@ -37,7 +37,7 @@ In the previous step, we used the `==` operator to check if the user input is eq
 There are several other operators `>=` `<=`, `!=`
 
 
-[TODO link to replit solution]
+[TODO link to Replit solution]
 
 # Task 3.3 Count remaining cups
 

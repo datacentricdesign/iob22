@@ -48,4 +48,4 @@ The first version of your vending machine algorithm is ready, execute the code t
 
 There are a few things that we can work on (or many), but let’s focus on the choices: in this assignment we will ask more information depending on the user’s choice
 
-[TODO link to replit solution]
+[TODO link to Replit solution]

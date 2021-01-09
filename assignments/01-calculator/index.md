@@ -6,9 +6,7 @@ has_children: true
 
 # 01 Calculator
 
-In this first assignment, we will teach the computer how to interact with us to sum two numbers. That is what programming is about: telling the computer what to do. Thus, we will build a calculator. 
-
-For this, we need to know what it should do. This is the algorithm, a sequence of well-defined instructions. Throughout the assignment, we will write algorithms in plain English, to make sure that we know what we want the computer to do. Then, writing the code is a matter of syntax, be it Python or any other language.
+In this first assignment, we will teach the computer how to interact with us to sum two numbers. That is what programming is about: telling the computer what to do. As an example, we will build a calculator.
 
 [TODO INTRO VIDEO]
 

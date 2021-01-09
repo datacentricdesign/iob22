@@ -70,7 +70,7 @@ Tell the user "Have a great day!"
 ```
 
 
-[TODO link to replit solution]
+[TODO link to Replit solution]
 
 # Task 2.2 Chose Addons
 
@@ -83,5 +83,5 @@ Ask the user if they want sugar or milk and tune the final message accordingly
 ```
 
 
-[TODO link to replit solution]
+[TODO link to Replit solution]
 
