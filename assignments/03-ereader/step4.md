@@ -23,24 +23,26 @@ Let's pick another book such as [Oliver Twist by Charles Dickens](http://www.gut
 
 
 
-
 # Task 4.2 List Available Books
 
+[TODO introduce list / method on list]
 
 
-
+[TODO link to Replit]
 
 # Task 4.3 Search a Book
 
 
+[TODO methods on string]
+
+[Initial ideas]
+
+// Some special characters such as new line, what is a new line
+// Encoding
+
+// Concatenation, adding strings together, we noticed this principle in the first assignment when trying to sum two numbers which were in of type string
+
+[TODO link to Replit]
 
 
-Sequence of character 
-
-It is an object, 
-
-Some special characters such as new line, what is a new line
-Encoding
-
-
-Concatenation, adding strings together, we noticed this principle in the first assignment when trying to sum two numbers which were in of type string
+[Next: Step 5 - Robustness]({{site.baseurl}}/assignments/03-ereader/step5){: .btn .btn-purple }

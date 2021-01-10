@@ -6,9 +6,11 @@ has_children: true
 
 # 01 Calculator
 
-In this first assignment, we will teach the computer how to interact with us to sum two numbers. That is what programming is about: telling the computer what to do. As an example, we will build a calculator.
+This first code assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the user. Through this example, we introduce the concept of `variable` and `data-type` along with `input` and `output` to receive from and send to the user some information. We also discuss how to investigate (or debug) your code when the result is not as expected.
 
 [TODO INTRO VIDEO]
+
+[Next: Step 1 - Algorithm]({{site.baseurl}}/assignments/01-calculator/step1){: .btn .btn-purple }
 
 ---
 
@@ -26,7 +28,7 @@ Output
 Algorithm
 {: .label .label-green }
 
-Type
+Data Type
 {: .label .label-green }
 
 Assignment
@@ -38,8 +40,8 @@ Number
 String
 {: .label .label-blue }
 
-Debug
-{: .label .label-yellow }
-
 Terminal
 {: .label .label-red }
+
+Debug
+{: .label .label-yellow }

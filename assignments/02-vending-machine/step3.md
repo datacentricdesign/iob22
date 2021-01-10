@@ -25,6 +25,7 @@ For a complete list, you can refer to the W3Schools for a complete [list of oper
 
 Exploration of **comparison operators**, if more sugar than 2/5, show a nasty message to the user.
 
+[TODO]
 
 [TODO link to Replit solution]
 
@@ -36,6 +37,7 @@ In the previous step, we used the `==` operator to check if the user input is eq
 
 There are several other operators `>=` `<=`, `!=`
 
+[TODO]
 
 [TODO link to Replit solution]
 
@@ -59,5 +61,9 @@ number_remaining_cups -= 1
 
 This means that we take the current value of the variable, we remove `1` and store the result in the variable.
 
+[TODO]
 
 [TODO link to replit solution]
+
+
+[Next: Step 4 - Exception]({{site.baseurl}}/assignments/02-vending-machine/step4){: .btn .btn-purple }

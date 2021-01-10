@@ -17,8 +17,17 @@ parent: "03 eReader"
 ---
 
 
-What if we reach the end of the book?
+# What if we reach the end of the book?
+
+[TODO]
+
+[TODO link to Replit]
+
+# What if we select a book that is not available?
+
+[TODO]
+
+[TODO link to Replit]
 
 
-What if we select a book that is not available?
-
+[Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/03-ereader/step6){: .btn .btn-purple }

@@ -16,7 +16,18 @@ parent: "03 eReader"
 
 ---
 
+[TODO]
 
 ## Extra Task 6.1 Save the page number
 
 Save page number in a file and read it at the start of the program to resume reading where you stoped.
+
+[TODO]
+
+## Extra Task 6.2
+
+[TODO]
+
+## Extra Task 6.3
+
+[TODO]

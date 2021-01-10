@@ -48,4 +48,7 @@ The first version of your vending machine algorithm is ready, execute the code t
 
 There are a few things that we can work on (or many), but let’s focus on the choices: in this assignment we will ask more information depending on the user’s choice
 
-[TODO link to Replit solution]
+[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step1)
+
+
+[Next: Step 2 - Branching]({{site.baseurl}}/assignments/02-vending-machine/step2){: .btn .btn-purple }

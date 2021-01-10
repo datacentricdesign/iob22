@@ -15,48 +15,45 @@ parent: "01 Calculator"
 
 ---
 
-With variables, we provide memory for our programme. We can now start thinking about what we want to teach the computer. Our goal is to interact with the user to sum two numbers. We want the computer to ask the user for two numbers, add them up and show the answer to the user.
+With variables, we provide memory for our programme. Our next step is to let the user provide two numbers so that the computer can sum them and show the result. Thus, we need to introduce the concept of `input`. Input is data received by the computer. In our case, it will receive numbers from the user. It has two elements:
 
-Thus, we need to introduce the concept of input. An input is an information received by the computer. In our case, it will receive numbers from the user. It has two elements:
-
-* `variable` where the answer from the user will be stored
+* `variable` where the answer from the user will be kept in memory
 * `message` the question being asked to the user
 
 Our input algorithm looks like this: 
 
-_Ask the user `message` and store the answer in `variable`_
-{: .fs-5 .ls-10 .code-example }
+#### Input algorithm
+
+```markdown
+Ask the user [message] and store the answer in [variable]
+```
 
 In Python, this would look like this:
+
+#### Input Python Syntax
 
 ```python
 variable = input("message")
 ```
 
-## Task 3.1: Write the code
+# Task 3.1 Ask Users for two numbers
 
-Write two comments and two Python lines to let the user enter the numbers to sum up.
+To ask the user for two numbers to sum up, we can repeat the input algorithm twice. This would look as follows:
 
-You should obtain something like this:
+#### Ask Users for two numbers Algorithm
 
-```python
-# Create a variable called x of type number that starts with the value 0
-x = 0
-# Create a variable called y of type number that starts with the value 0
-y = 0
-# Create a variable called sum of type number that starts with the value 0
-sum = 0
-# Ask the user ‘Type in x: ’ and store the answer in x
-x = input("Type in x: ")
-# Ask the user ‘Type in y: ’ and store the answer in y
-y = input("Type in y: ")
+```markdown
+Ask the user ‘Type in x: ’ and store the answer in x
+Ask the user ‘Type in y: ’ and store the answer in y
 ```
 
-## Task 3.2: Execute the code
+Add these to lines as comments (starting with `#`) at the end of your code. Then, use the Python syntax introduced above for translate them into Python.
+
+[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step3)
 
 Ask the computer to execute your instruction by clicking on the green arrow at the top of the page.
 
-This time ‘Type in x:’ should appear in the Terminal window (black one on the right). Type a number and press ENTER. A second message should appear for the value of y. Once again, enter a value and press enter. The programme ends, as we do not do anything else.
+This time ‘Type in x:’ should appear in the Terminal window (black one on the right). Type a number and press ENTER. Then, a second message should appear for the value of y. Once again, enter a value and press enter. Finally, the program ends because we do not tell the computer to do anything else.
 
 
-[TODO link to replit solution]
+[Next: Step 4 - Output]({{site.baseurl}}/assignments/01-calculator/step4){: .btn .btn-purple }

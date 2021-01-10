@@ -15,6 +15,7 @@ nav_order: 0
 
 ---
 
+# Introduction
 
 Welcome to this practical introduction to computational thinking for designers. As Industrial Design Engineers you are trained to master Design Thinking. Through this process, you empathise, define, ideate, prototype and test. As digital technology is becoming ubiquitous, your design solutions and your design process are impacted.
 
@@ -30,7 +31,7 @@ By the end of this series of code assignments, you should have the confidence to
 Disclaimer! While we are convinced that designers should get acquainted to computational thinking in a way that fits their discipline, we do not pretend we have the solution yet. We welcome your comments and suggestion for improvement. Reach out to Jacky (j.bourgeois@tudelft.nl)
 {: .fs-5 .ls-10 .code-example .bg-yellow-000}
 
-## Code Assignments
+# Code Assignments
 
 Code assignments are accessible on this website, via the left panel or from the overview further down this page. They have a video introduction discussing and demonstrating the whole assignment. Each step is described in the text.
 
@@ -53,15 +54,15 @@ Package
 
 We choose Python as a language, an overarching choice of TU Delft and many other institutions around the world as it enables a gradual immersion into coding. Each step of the way, assignments lead you to think about the algorithm and introduce Python syntax when necessary. You are in charge to implement the algorithm in Python, but the solution is just one click away if you get lost.
 
-We expect each assignment to take about eight hours. As part of our Bachelor course, we expect you to complete one a week. When something is not working as expected, that you do not understand how to move forward, please look at the [Discourse](https://io1075.datacentricdesign.org) for questions related to the code assignment you are working on. Open a new topic for any question that is not yet on Discourse. We encourage you not only to ask questions, but answer the one you feel like, from other students. Please upvote a question that you have as well, and the answer that helped you.
+We expect each assignment to take about eight hours. As part of our Bachelor course, we expect you to complete one a week. When something is not working as expected, that you do not understand how to move forward, please look at the [Discourse](https://discourse.datacentricdesign.org) for questions related to the code assignment you are working on. Open a new topic for any question that is not yet on Discourse. We encourage you not only to ask questions, but answer the one you feel like, from other students. Please upvote a question that you have as well, and the answer that helped you.
 
 See our template to ask questions that provide enough information for us and other students to help you effectively.
 
 [TODO make template and link to template]
 
-### [Environment]({{site.baseurl}}/ide)
+### [Development Environment]({{site.baseurl}}/ide)
 
-Before starting, it is important to know the development tool. This initial tutorial gives you a tour of the development environment we use for this series of code assignment.
+Before starting, it is important to know the basic of the tool we will use. This initial tutorial gives you a tour of the development environment we use for this series of code assignment.
 
 IDE
 {: .label .label-yellow }

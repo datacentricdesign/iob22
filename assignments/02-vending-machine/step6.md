@@ -19,6 +19,8 @@ We covered a lot of ground through the construction of this vending machine algo
 
 With the ability to save data into files and the endless combination of operators and condition, you can now design and implement your Vending Machine algorithm.
 
+[TODO provide potential ideas/directions]
+
 # Extra Task 6.1 Write your algorithm
 
 # Extra Task 6.2 Draw a flow chart

@@ -15,11 +15,11 @@ parent: "01 Calculator"
 
 ---
 
-You completed the first assignment: you taught the computer how to ask for inputs, convert these inputs into numbers, sum them and tell the user what the result is.
+You completed the first assignment: you taught the computer how to ask for inputs, convert these inputs from text into numbers, sum them and tell the user what the result is.
 
 On the way, you used algorithms to right in plain English what you want to teach the computer. This is an important practice to make sure you know what you want the computer to do.
 
-Once you formulated your algorithm, you can always ask Google if there are elements you do not know how to write in Python (or in another language). For instance, similar to the search of `type`, you could have looked up on Google _'Python how to convert text to integer'_. This is why it is important to always think in terms of an algorithm before coding. It helps us figure out what we want the computer to do.
+Once you formulated your algorithm, you can always ask _Google_ if there are elements you do not know how to write in Python (or in another language). For instance, similar to the search of `type`, you could have looked it up on _Google_: _Python how to convert text into integer_. This is why it is important to always think in terms of an algorithm before coding. It helps us figure out what we want the computer to do.
 
 You did not have enough from this assignment? Feeling comfortable going further? There are a few steps you can take to improve this code.
 
@@ -27,7 +27,7 @@ You did not have enough from this assignment? Feeling comfortable going further?
 
 So far, the program converts `string` to `integer`. What about a sum of decimal numbers? Write the algorithm for converting a decimal number, search on Google the Python syntax for such conversion and upgrade your code.
 
-[TODO link to replit solution]
+[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-1)
 
 ## Extra Task 6.2 Show the result on one line
 
@@ -40,7 +40,7 @@ The answer is
 
 Convert the variable `sum` into a type `string` and _concatenate_ it with "The answer is " so they appear on the same line.
 
-[TODO link to replit solution]
+[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-2)
 
 ## Extra Task 6.3 Shorten your code
 
@@ -48,4 +48,4 @@ If you are comfortable with your code, you should be able to shorten it into thr
 
 Warning: Make sure that in this transformation (so-called _'refactoring'_) you update your comments so that anyone can still read in plain English what you teach to the computer.
 
-[TODO link to replit solution]
+[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-3)

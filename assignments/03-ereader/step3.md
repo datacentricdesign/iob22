@@ -17,7 +17,6 @@ parent: "03 eReader"
 ---
 
 
-
 We already used functions, here are some examples: `print()` to display a message, `input()` to prompt the user for information, `int()` to convert a variable into an Integer. These are 'built-in' _function_, provided by _Python_.
 
 A function performs a set of actions.
@@ -29,8 +28,9 @@ A function performs a set of actions.
 
 The algorithm to teach the computer something to do:
 
-_Create a function called **name** using **parameters** to do **action** and return **result**._
-{: .fs-5 .ls-10 .code-example }
+```markdown
+Create a function called [name] using [parameters] to do [action] and return [result].
+```
 
 Functions are handy because it avoids us to rewrite code again and again. Let’s take the example of the print() function.
 
@@ -63,10 +63,16 @@ The result of the function is returned with the keyword `return`
 
 # Task 3.1 Read a Page
 
+[TODO explaination]
 
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step3-1)
 
 
 # Task 3.2 Read a Book
 
+[TODO explaination]
+
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step3-2)
+
+
+[Next: Step 4 - String]({{site.baseurl}}/assignments/03-ereader/step4){: .btn .btn-purple }

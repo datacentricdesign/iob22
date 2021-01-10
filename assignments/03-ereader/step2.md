@@ -24,15 +24,17 @@ For our eReader to read not only read the two first pages but the whole book, we
 `Condition` loop repeats if the condition is true
 `Change code` code to change sentry so the condition can be triggered
 
-#### While-Loop flow chart
-
-[TODO flow chart]
 
 #### While-Loop Algorithm
 
 ```markdown
 Set the initial condition with initialisation code then continue loop as long as the condition is true. Inside the loop, change the parameter of the condition with change code
 ```
+
+#### While-Loop flow chart
+
+[TODO flow chart]
+
 
 #### While-Loop Python syntax
 
@@ -65,7 +67,6 @@ While loops are well suited when we do not know when to stop. This case is a goo
 # Task 2.2 Read Line by Line
 
 You may have noticed that reading 500 characters at a time (or any other numbers) is not ideal. It cut words and shows various numbers of lines from one 'page' to another. To address these issues, we can read the file line by line, instead of blocks of characters.
-
 
 
 For loops
@@ -117,3 +118,5 @@ Close the file book.txt
 
 
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step2-2)
+
+[Next: Step 3 - Function]({{site.baseurl}}/assignments/03-ereader/step3){: .btn .btn-purple }

@@ -35,10 +35,15 @@ To protect our program against these errors, there is the concept of Exception. 
 * `cleanUpAction` what the computer should do in any case after the action or the fallback action
 
 #### Exception algorithm
-_Try to do **action**; if it fails, store the **error** and do **fallbackAction**; in any case do **cleanUpAction**_
-{: .fs-5 .ls-10 .code-example }
+
+```markdown
+Try to do [action];
+if it fails, store the [error] and do [fallbackAction];
+in any case do [cleanUpAction]
+```
 
 #### Exception flow chart
+
 ![Exception Flow Chart]({{site.baseurl}}/assets/flow_chart_exception.svg)
 
 
@@ -60,3 +65,5 @@ finally:
 
 
 [TODO link to Replit solution]
+
+[Next: Step 5 - File]({{site.baseurl}}/assignments/02-vending-machine/step5){: .btn .btn-purple }

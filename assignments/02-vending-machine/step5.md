@@ -17,7 +17,7 @@ parent: "02 Vending Machine"
 
 When we use assignment and condition to decrease the remaining number of cups, coffee or sugar, we realise that we need to save information. Otherwise, each time we execute the program the values start again from there initial values. Indeed, a variable saves information only during the execution of the program. When the program stops, all this memory is wiped out.
 
-In this step, we will explore how to use files to store and retrieve information at the begining and the end of the program.
+In this step, we will explore how to use files to store and retrieve information at the beginning and the end of the program.
 
 [TODO]
 
@@ -37,6 +37,8 @@ Write 'data' in the file
 Close the file
 ```
 
+[TODO]
+
 [TODO link to replit solution]
 
 
@@ -50,5 +52,8 @@ Read 'data' from the file
 Close the file
 ```
 
+[TODO]
 
 [TODO link to replit solution]
+
+[Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/02-vending-machine/step6){: .btn .btn-purple }

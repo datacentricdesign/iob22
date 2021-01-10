@@ -20,7 +20,7 @@ parent: "03 eReader"
 
 Create a new Replit project. In the left panel, create a new file 'book.txt'.
 
-Let's have a look to a book in the public domain such as [Les Misérables by Victor Hugo](http://www.gutenberg.org/files/135/135-0.txt). Open the link, skip the table of content and illustration, select the rest and copy. Then, paste the content in Replit, in the new file 'book.txt'.
+Let's have a look at a book in the public domain such as [Les Misérables by Victor Hugo](http://www.gutenberg.org/files/135/135-0.txt). Open the link, skip the table of content and illustration, select the rest and copy. Then, paste the content in Replit, in the new file 'book.txt'.
 
 # Task 1.2 Read the First Page
 
@@ -83,3 +83,5 @@ Execute your code to see if it works as expected.
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step1-4)
 
 We have now a program that read the two first pages of a book. We will not get far with two pages, but it will not make sense to repeat our code again and again for each of the thousand pages of the book. Instead, Step 2 will introduce the concept of **loops** to repeat an action as many time as it is needed. Then, in Step 2 we will see how to use **functions** to reuse blocks of code.
+
+[Next: Step 2 - Loops]({{site.baseurl}}/assignments/03-ereader/step2){: .btn .btn-purple }
