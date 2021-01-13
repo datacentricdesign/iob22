@@ -20,27 +20,27 @@ We covered a lot of ground through the construction of this vending machine algo
 
 # Extra Task 6.1 Add more Beverages
 
-Add a number of beverages and the related conditions.
+Add additional beverages and the related conditions, such as hot chocolates, cappuccinos and decaf coffee.
 
-[TODO link to replit solution]
+[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step6-1)
 
 # Extra Task 6.2 Prevent Serving Beverage
 
-heck the number of remaining cups and define behaviour when there is nothing left.
+Check the number of remaining cups and define behaviour when there is nothing left.
 
-[TODO link to replit solution]
+[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step6-2)
 
-# Extra Task 6.4 No unnecessary question
+# Extra Task 6.3 No unnecessary question
 
-Do not ask for sugar or milk if the choice of beverage is unknown.
+Do not ask for sugar or milk if the choice of beverage is unknown or has milk by default (e.g. cappuccino).
 
-[TODO link to replit solution]
+[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step6-3)
 
-# Extra Task 6.5 Manage Sugar and Milk
+# Extra Task 6.4 Manage Sugar and Milk
 
-Keep track of milk and sugar consumption (like the number of cups), save it to and retrieve it from files.
+Keep track of sugar consumption (like the number of cups), save it to and retrieve it from files.
 
-[TODO link to replit solution]
+[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step6-4)
 
 
 Go ahead and share your Vending Machine algorithm on Discourse! Make sure to provide a title and a short description that capture what makes it YOUR algorithm.
