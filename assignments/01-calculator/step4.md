@@ -16,7 +16,7 @@ parent: "01 Calculator"
 ---
 
 
-Variables and inputs get us close to a complete user interaction. To close the loop, we need to write back the result of the sum to the user: this is the concept of `output`. Output is data coming out of our programme. It has one element:
+Variables and inputs get us close to complete user interaction. To close the loop, we need to write back the result of the sum to the user: this is the concept of `output`. An Output is a data coming out of our programme. It has one element:
 
 * `message` the text to write to the user
 

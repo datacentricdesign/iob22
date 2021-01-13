@@ -48,7 +48,7 @@ Why three numbers? There are two numbers to add, and the result.
 
 # Flow Chart
 
-Along with plain English, it is often helpful to make a graphical representation of our algorithm. A flow chart is particularly suitable as it represents a sequence of steps and decisions.
+Along with plain English, it is often helpful to make a graphical representation of our algorithm. A flow chart is particularly suitable as it represents a sequence of steps and decisions. When thinking or communicating about your algorithm, you might find it easier to start with such a flow chart.
 
 Let's see how the _Calculator Algorithm_ could look like:
 
