@@ -86,25 +86,21 @@ Now click on the green 'Run' button from the top.
 
 ![](assets/images/run_example_4.png)
 
-In the terminal, you will see that, it ask for your name. Write it down and press Enter/return. Observe the terminal output!
+In the terminal, you will see that, it asks for your name. Write it down and press Enter/return. Observe the terminal output!
 
 ![](assets/images/run_example_5.png)
 
 ## Edit Code
 
-While writing pieces of code, you will often make mistakes. Either in term of spelling or programming syntax.
+While writing pieces of code, we often make mistakes in the form of spelling or programming syntax. The editor is here to help and highlight some of these mistakes. For example, let's say we have made a spelling mistake while adding another print statement.
 
-However, thanks to this intelligent IDE editor, you can actually be aware about the mistakes while writing code.
-
-For example, let's say we have made a spelling mistake while adding another print statement.
-
-The IDE will mark & show this error with red lines. And If you move your cursor on this red line, it will also show a short description about the error.
+The editor will signal this error with red lines. If you move your cursor on this red line, it will also show a short description of this error.
 
 ![Syntax highlighting](assets/images/code_error.png)
 
 ## Organise Files
 
-While writing code, many times you need to organise some piece of code in separated file or folder. You can do that by creating a new file / folder from the file explorer.
+While writing code, many times you need to organise some piece of code in separated file or folder. You can do that by creating a new file/folder from the file explorer.
 
 ![creating new file](assets/images/create_new_file.png)
 
