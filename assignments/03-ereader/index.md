@@ -6,7 +6,7 @@ has_children: true
 
 # 03 eReader
 
-In this third code assignment, you will build an eReader loading an eBook in the Terminal and enabling the user to 'turn the page'. This exercise will reveal the need for loops to repeat part of the code which you will wrap (or encapsulate) into a reusable function. You will experience the four steps of computational thinking: decomposition, recognition, generalisation/abstraction and algorithm design.
+In this third Python programming assignment, you will build an eReader loading an eBook in the Terminal and enabling the user to 'turn the page'. This exercise will reveal the need for loops to repeat part of the code which you will wrap (or encapsulate) into a reusable function. You will experience the four steps of computational thinking: decomposition, recognition, generalisation/abstraction and algorithm design.
 
 [TODO INTRO VIDEO]
 

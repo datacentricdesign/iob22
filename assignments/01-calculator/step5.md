@@ -80,7 +80,7 @@ Ask the computer to execute your instruction by clicking on the green arrow at t
 If you run this program several times with a number or a word as input, you will notice that in any case, the type of `x` becomes `str`.
 In Python, `str` stands for `string`, as we just explained, a chain of characters, or in other words text.
 
-Note: the exact result is `<class 'str'>`. We will introduce what a class is later in the code assignments.
+Note: the exact result is `<class 'str'>`. We will introduce what a class is later in the assignments.
 
 It looks like we touch on the problem. We want to sum two numbers but instead, we concatenate (e.g. join together) two strings. This explains why `2 + 5` provide `25` as a result. Here, we highlight the influence of data type on the computer's behaviour.
 

@@ -2,7 +2,7 @@ remote_theme: pmarsceill/just-the-docs
 #theme: just-the-docs
 
 title: Code @ IDE
-description: Some coding foundation for Industrial Design Engineers
+description: From Design to Computational Thinking with Python
 baseurl: "/code"
 url: "https://datacentricdesign.github.io"
 

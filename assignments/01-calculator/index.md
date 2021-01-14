@@ -6,7 +6,7 @@ has_children: true
 
 # 01 Calculator
 
-This first code assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the user. Through this example, we introduce the concept of `variable` and `data-type` along with `input` and `output` to receive from and send to the user some information. We also discuss how to investigate (or debug) your code when the result is not as expected.
+This first Python programming assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the user. Through this example, we introduce the concept of `variable` and `data-type` along with `input` and `output` to receive from and send to the user some information. We also discuss how to investigate (or debug) your code when the result is not as expected.
 
 [TODO INTRO VIDEO]
 

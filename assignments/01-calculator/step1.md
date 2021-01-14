@@ -15,7 +15,7 @@ parent: "01 Calculator"
 
 ---
 
-We mentioned in the introduction that computational thinking is about decomposition, pattern recognition, generalisation/abstraction and algorithm design. Working on these concepts throughout the code assignments, we will express the algorithm of the solution we want to design in different forms. Here, we take the definition of an algorithm in a broad sense: _a set of instructions that tells the computer what to do_. 
+We mentioned in the introduction that computational thinking is about decomposition, pattern recognition, generalisation/abstraction and algorithm design. Working on these concepts throughout the assignments, we will express the algorithm of the solution we want to design in different forms. Here, we take the definition of an algorithm in a broad sense: _a set of instructions that tells the computer what to do_. 
 
 We will start with a list of elements and connect them in plain English. We will also think about the algorithm in graphical forms such as flow chart of state diagrams. Finally, we will translate these algorithms in Python so that we can test them.
 
@@ -54,7 +54,7 @@ Let's see how the _Calculator Algorithm_ could look like:
 
 ![Flow Chart Calculator Algorithm]({{site.baseurl}}/assets/flow_chart_calculator.svg)
 
-We read a flow chart from _start_ to _end_ in oval/rounded shapes. Each shape is connected to another via an arrow and rectangles represent a process (i.e. an action to perform). As our algorithms get more complicated throughout the code assignments, we will introduce a few more shapes in due time.
+We read a flow chart from _start_ to _end_ in oval/rounded shapes. Each shape is connected to another via an arrow and rectangles represent a process (i.e. an action to perform). As our algorithms get more complicated throughout the assignments, we will introduce a few more shapes in due time.
 
 
 # State Machine Diagram

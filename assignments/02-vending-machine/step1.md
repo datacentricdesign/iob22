@@ -41,7 +41,7 @@ Open _Replit_ in your web browser and create a new _Python_ project with the nam
 
 ## Task 1.2: Write the Python code
 
-The next step is to write the Python code for each comment. Do not hesitate to revisit the first code assignment if you forgot about the Python syntax.
+The next step is to write the Python code for each comment. Do not hesitate to revisit the first assignment if you forgot about the Python syntax.
 
 ## Task 1.3: Execute the code
 

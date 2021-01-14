@@ -28,7 +28,9 @@ For our eReader to read not only read the two first pages but the whole book, we
 #### While-Loop Algorithm
 
 ```markdown
-Set the initial condition with initialisation code then continue loop as long as the condition is true. Inside the loop, change the parameter of the condition with change code
+Set the initial condition with [initialisation code]
+then continue loop as long as the [condition] is true;
+    Inside the loop, change the parameter of the condition with [change code]
 ```
 
 #### While-Loop flow chart
@@ -80,7 +82,8 @@ For loops
 #### For-loop algorithm
 
 ```markdown
-Begin with i at the start and add change to i in each iteration until i is larger than or equal to finish; do action in each iteration
+Begin with [i] at the [start] and add [change] to [i] in each iteration until [i] is larger than or equal to [finish];
+do [action] in each iteration
 ```
 
 #### For-loop flow chart
