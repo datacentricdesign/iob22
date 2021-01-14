@@ -5,16 +5,13 @@ nav_order: 1
 ---
 
 # Software Development Environment
-
 {: .no_toc }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
-
+{:toc}
 ---
 
 When you start to learn to program, it is important to understand that software development is an _iterative process_. Software developers continuously iterate and evaluate their code in a software development environment providing a set of tools to achieve the desired goal. In comparison, designers will iteratively sketch their design in their (mobile) design studio with different sheets of paper, pencils and colour, refining their work to achieve the desired goal.
