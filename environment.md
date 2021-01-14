@@ -28,13 +28,13 @@ Thus, we will use [Replit](https://repl.it), an software development environment
 
 [TODO video hands-on guided tour]
 
-## Sign Up
+# Sign Up
 
 To use _Replit_, we need to create an account. Open [Replit](https://repl.it) and click on the button **SignUp** (top-right corner). Fill in the username of your choice with email and password. Then, click on the blue button **Sign Up** at the bottom to create your _Replit_ account.
 
 ![Replit Signup](assets/images/ide_signup.png)
 
-## Create a New _Replit_ Project
+# Create a New _Replit_ Project
 
 Once you have created your _Replit_ account, you will be presented the _Replit_ dashboard. Now let's explore this online software development environment by creating a project with some example code. You can create as many projects as you want from this page.
 
@@ -46,7 +46,7 @@ Fill in the project name in the pop-up window and click on the blue button at th
 
 ![Name your repl](assets/images/fill_in_repl_name.png)
 
-## Explore the Replit Layout
+# Explore the Replit Layout
 
 Once you have created the project, you can see the software development environment, composed of three vertical panels:
 
@@ -56,7 +56,7 @@ Once you have created the project, you can see the software development environm
 
 ![Explore code editor layout](assets/images/explore_repl_layout.png)
 
-## Execute Code
+# Execute Code
 
 Now that we have the code editor opened with a new project, let's try to run a code example.
 
@@ -80,13 +80,13 @@ In the Terminal, you will see that, it asks for your name. Write it down and pre
 
 ![](assets/images/run_example_5.png)
 
-## Edit Code
+# Edit Code
 
 Software development requires a rigorous syntax. It is easy to make mistakes by misspelling a word or Python syntax. While a reader can tolerate mistakes to a certain degree, the computer does not. The editor is here to help and highlight some of these mistakes. For example, remove a letter from the word `print` on the second line. The editor will signal this error with red lines because this is not a correct Python syntax anymore. If you move your cursor on this red line, it will also show a short description of this error.
 
 [TODO screenshot]
 
-## Organise Files
+# Organise Files
 
 While writing code, you often need to organise pieces of code in separated files or folders. You can do this by creating a new file/folder from the file explorer in the left panel
 
