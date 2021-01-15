@@ -19,9 +19,12 @@ In Step 3 we played with different operators. For instance, we used assignments 
 
 In this step, we will explore how to use files to store and retrieve information at the beginning and the end of the program so that our program can 'remember' the number of remaining cups.
 
-# Task 5.1 Save Remaining Cups
+## What is a File?
 
 A computer as two types of memory, short term that we often called RAM (for Random Access Memory) and long-term that we often call drive (e.g. HDD or SSD). On the former, the computer handles the variables of all program currently running while the latter is for everything to save for later use. Files is a common way to structure long-term memory. You certainly use files to store pictures and other documents. A file is characterised by a path (where to find it), a type of content (e.g. text, picture, video) and a size.
+
+
+# Task 5.1 Save Remaining Cups
 
 In our context, we want to save the number of remaining cups in a file. Thus, we will focus on text files. In order to write in a file, we need the following elements:
 

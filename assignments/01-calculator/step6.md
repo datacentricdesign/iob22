@@ -15,6 +15,8 @@ parent: "01 Calculator"
 
 ---
 
+## What did we cover?
+
 You completed the first assignment: you taught the computer how to ask for inputs, convert these inputs from text into numbers, sum them and tell the user what the result is.
 
 On the way, you used algorithms to right in plain English what you want to teach the computer. This is an important practice to make sure you know what you want the computer to do.
@@ -23,13 +25,13 @@ Once you formulated your algorithm, you can always ask _Google_ if there are ele
 
 You did not have enough from this assignment? Feeling comfortable going further? There are a few steps you can take to improve this code.
 
-## Extra Task 6.1 Accept decimal numbers
+# Extra Task 6.1 Accept decimal numbers
 
 So far, the program converts `string` to `integer`. What about a sum of decimal numbers? Write the algorithm for converting a decimal number, search on Google the Python syntax for such conversion and upgrade your code.
 
 [Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-1)
 
-## Extra Task 6.2 Show the result on one line
+# Extra Task 6.2 Show the result on one line
 
 So far, the program shows the result on 2 lines as follows:
 
@@ -42,7 +44,7 @@ Convert the variable `sum` into a type `string` and _concatenate_ it with "The a
 
 [Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-2)
 
-## Extra Task 6.3 Shorten your code
+# Extra Task 6.3 Shorten your code
 
 If you are comfortable with your code, you should be able to shorten it into three lines (excluding comments).
 

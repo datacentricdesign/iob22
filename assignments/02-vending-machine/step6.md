@@ -15,6 +15,8 @@ parent: "02 Vending Machine"
 
 ---
 
+## What did we cover?
+
 We covered a lot of ground through the construction of this vending machine algorithm. The branches provide different alternatives to your algorithms, you can save to and retrieve from files. With this ability the endless combination of operators and condition, you can now design and implement your Vending Machine algorithm. Here are four tasks you can explore to expend your algorithm
 
 

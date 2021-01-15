@@ -15,6 +15,8 @@ parent: "02 Vending Machine"
 
 ---
 
+## What is Branching?
+
 When the computer chose to do one of two actions, e.g. coffee or tea, we call this _branching_.
 
 To create a branch, we need three elements:

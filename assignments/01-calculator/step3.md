@@ -15,6 +15,8 @@ parent: "01 Calculator"
 
 ---
 
+## What is an Input?
+
 With variables, we provide memory for our programme. Our next step is to let the user provide two numbers so that the computer can sum them and show the result. Thus, we need to introduce the concept of `input`. Input is data received by the computer. In our case, it will receive numbers from the user. It has two elements:
 
 * `variable` where the answer from the user will be kept in memory

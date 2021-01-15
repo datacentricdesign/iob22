@@ -29,7 +29,11 @@ Our program fails with the following:
 
 Indeed, there is a `ValueError`. The user provides input because the string that cannot be converted into an integer. Of course, we entered a value that does not represent a number. This event makes the program fails, but there is nothing wrong in the code. We call these _Runtime Errors_: errors that occur during the execution of the program.
 
-We could prevent the user from entering anything else but a number by designing a numeric keypad, thus providing only keys for digits. Another solution is to protect our program against these errors. For this, there is the concept of `Exception`. Exceptions give the computer the ability to _try_ executing a piece of code and deal with the error if any pops up.
+We could prevent the user from entering anything else but a number by designing a numeric keypad, thus providing only keys for digits. Another solution is to protect our program against these errors. For this, there is the concept of `Exception`.
+
+## What is an Exception?
+
+Exceptions give the computer the ability to _try_ executing a piece of code and deal with the error if any pops up.
 
 It has the following elements:
 

@@ -15,6 +15,8 @@ parent: "01 Calculator"
 
 ---
 
+## What is a Variable?
+
 For the computer to learn, it needs the ability to memorise information. This is the role of the **variables**. In programming, a variable is a storage location in the computer's memory, paired with a name. This name will enable us to retrieve the information to use in our programme.
 
 To create a new variable, we need three elements:
