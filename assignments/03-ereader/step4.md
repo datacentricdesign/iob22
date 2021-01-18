@@ -25,7 +25,7 @@ Let's pick another book such as [Oliver Twist by Charles Dickens](http://www.gut
 
 # Task 4.2 List Available Books
 
-[TODO introduce list / method on list]
+[TODO introduce list / method on a list]
 
 
 [TODO link to Replit]
@@ -36,6 +36,8 @@ Let's pick another book such as [Oliver Twist by Charles Dickens](http://www.gut
 [TODO methods on string]
 
 [Initial ideas]
+
+introduce f strings
 
 // Some special characters such as new line, what is a new line
 // Encoding

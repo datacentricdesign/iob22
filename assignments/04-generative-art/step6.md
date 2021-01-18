@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Step 3 Refactoring
-parent: "04 Box Factory"
+title: Step 6 Recap and More
+parent: "04 Generative Art"
+
 ---
 
-# Step 3
+# Step 6 Recap and More
 {: .no_toc }
 
 ## Table of contents

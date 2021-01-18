@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 3 Web page
-parent: "05 Generative Art"
+parent: "04 Generative Art"
 ---
 
 # Step 3 Web page

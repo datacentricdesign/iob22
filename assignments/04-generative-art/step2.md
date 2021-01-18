@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 2 Import
-parent: "05 Generative Art"
+parent: "04 Generative Art"
 
 ---
 

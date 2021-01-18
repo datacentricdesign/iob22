@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 4 SVG
-parent: "05 Generative Art"
+parent: "04 Generative Art"
 
 ---
 

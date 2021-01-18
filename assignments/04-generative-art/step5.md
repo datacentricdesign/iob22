@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 5 Maze
-parent: "05 Generative Art"
+parent: "04 Generative Art"
 
 ---
 
