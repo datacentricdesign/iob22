@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 2 Import
+title: Step 2 Modules and Packages
 parent: "04 Generative Art"
 
 ---
 
-# Step 1 Import
+# Step 1 Modules and Packages
 {: .no_toc }
 
 ## Table of contents
@@ -16,9 +16,26 @@ parent: "04 Generative Art"
 
 ---
 
-
-Install, bringing the code from other into your project
+## What is a module?
 
 Imports: making this code available for your algorithm
 
+## What is Refactoring?
+
+## What is Package
+
+Install, bringing the code from other into your project
+
 Package manager: your code is a package, code from others are packages
+
+# Task 2.1 Refactor the Code into Modules
+
+[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step2-1)
+
+# Task 2.2 Introduce a Main Function
+
+[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step2-2)
+
+# Task 2.3 Install the Flask Package
+
+[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step2-3)

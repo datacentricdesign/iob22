@@ -15,4 +15,15 @@ parent: "04 Generative Art"
 
 ---
 
-Flask, endpoint, access to the web page Hello World
+
+# Task 3.1 Start a Web Server
+
+[TODO Hello, World!]
+
+# Task 3.2 Serve Drawing
+
+
+# Task 3.3 Serve Drawing with Parameters
+
+
+# Task 3.4 Serve Drawing with optional Parameters
