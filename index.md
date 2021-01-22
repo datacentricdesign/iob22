@@ -256,4 +256,4 @@ The final Python programming assignment will introduce you to using Python on a 
 
 Enough practicalities and theory, the next step is to get familiar with the development environment. For this, you will only need your favourite web browser, so let's jump in!
 
-[Next Step: Integrated Development Environment]({{site.baseurl}}/ide){: .btn .btn-purple }
+[Next Step: Software Development Environment]({{site.baseurl}}/environment){: .btn .btn-purple }
