@@ -72,7 +72,7 @@ Replit
 
 ### [01 Calculator]({{site.baseurl}}/assignments/01-calculator)
 
-The first Python programming assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the users. Through this example, we introduce the concept of variables and data type along inputs and outputs to receive and send information to the user. We also discuss how to investigate (or debug) your code when the result is not the one you expect.
+The first Python programming assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the users. Through this example, we introduce the concept of variables and data type along inputs and outputs to receive and send information to the user. We also discuss how to investigate (or debug) the code when the result is not the one you expect.
 
 Variable
 {: .label .label-green }
@@ -160,7 +160,7 @@ Flow chart
 
 ### 04 Generative Art
 
-In the fourth Python programming assignment, you will move the user interaction from the Terminal to the web browser. You will organise your code in several files and rely on code from other developers by importing modules. You will create an algorithm that generates random Scalable Vector Graphics (SVG) that you can expose on the web. 
+In the fourth Python programming assignment, you will move the user interaction from the Terminal to the web browser. You will organise the code in several files and rely on code from other developers by importing modules. You will create an algorithm that generates random Scalable Vector Graphics (SVG) that you can expose on the web. 
 
 While-Loop
 {: .label .label-green }
@@ -236,7 +236,7 @@ Object
 
 ### 07 Landing page
 
-In the seventh Python programming assignment, you will catch so potential user via a landing page. You will expose a product concept on the web and invite potential users to subscribe. You will store this information in a database.
+In the seventh Python programming assignment, you will catch potential user via a landing page. You will expose a product concept on the web and invite potential users to subscribe. You will store this information in a database.
 
 REST API
 {: .label .label-red }
@@ -247,10 +247,21 @@ HTML
 Database
 {: .label .label-yellow }
 
-### 08 Circuit Python?
+### 08 Shared Pomodoro
 
-The final Python programming assignment will introduce you to using Python on a Microcontroller.
+In the eigth Python programming assignment, you will develop the state-machine algorithm of a Pomodoro time-tracker. You will make your web application more dynamic with the use of web sockets and let you Python progam run several processes in parallel using `threads`. 
 
+Thread
+{: .label .label-green }
+
+SVG
+{: .label .label-yellow }
+
+Web Socket
+{: .label .label-red }
+
+State Machine
+{: .label .label-yellow }
 
 # What's next?
 

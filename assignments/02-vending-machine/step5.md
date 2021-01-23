@@ -15,7 +15,7 @@ parent: "02 Vending Machine"
 
 ---
 
-In Step 3 we played with different operators. For instance, we used assignments and conditions to decrease the number of remaining cups. You might have noticed that each time you execute your code, the number of cups is 10 (or the number that you set) and then it decreases by one. The computer 'forget' between each execution of the code. The variables that keep information during the execution of the code are only available during the execution. As soon as the program stop, all this information is wiped out.
+In Step 3 we played with different operators. For instance, we used assignments and conditions to decrease the number of remaining cups. You might have noticed that each time you execute the code, the number of cups is 10 (or the number that you set) and then it decreases by one. The computer 'forget' between each execution of the code. The variables that keep information during the execution of the code are only available during the execution. As soon as the program stop, all this information is wiped out.
 
 In this step, we will explore how to use files to store and retrieve information at the beginning and the end of the program so that our program can 'remember' the number of remaining cups.
 
@@ -67,7 +67,7 @@ Close the file cup.txt
 
 Note the conversion of the number into a string: we can only store a piece of text.
 
-In your _Replit_ project, you can add this algorithm at the end of your code and translate each line into Python syntax. 
+In your _Replit_ project, you can add this algorithm at the end of the code and translate each line into Python syntax. 
 
 Execute the code to check that it behaves the way you expect.
 
@@ -111,7 +111,7 @@ Close the file cup.txt
 
 Note the conversion again from string to integer, so that we can use the text from the file as a number.
 
-In your _Replit_ project, you can add this algorithm at the beginning of your code and translate each line into Python syntax.
+In your _Replit_ project, you can add this algorithm at the beginning of the code and translate each line into Python syntax.
 
 Execute the code to check that it behaves the way you expect.
 
@@ -122,7 +122,7 @@ Execute the code to check that it behaves the way you expect.
 
 With this code, we do not need to initialise number_remaining_cups as it comes from the file. However, there is still one situation when we need to do so: when there is no existing file to tell us the number of remaining cups.
 
-Let's test! Right-click on the file cups.txt and delete it. Then, execute your code again. An error fails the program because the file does not exist.
+Let's test! Right-click on the file cups.txt and delete it. Then, execute the code again. An error fails the program because the file does not exist.
 
 We can reuse the `Exception` mechanism we introduced in the previous step. In this case, we want to try to open and read the file. If this action fails, then we need to initialise the number of remaining cups. This would look like this:
 

@@ -45,7 +45,7 @@ Now that we receive two numbers from the user, we can sum them. For this, Python
 Put x + y in sum
 ```
 
-Add this line at end of your code as a comment and add the translation into Python. Note: Put -- assigning a value to an existing variable -- is the same in Python as creating a variable.
+Add this line at end of the code as a comment and add the translation into Python. Note: Put -- assigning a value to an existing variable -- is the same in Python as creating a variable.
 
 # Task 4.2 Tell the Result to the User
 
@@ -56,7 +56,7 @@ Tell user "The answer is "
 Tell user sum
 ```
 
-Add these two lines at end of your code as a comment and use the above output syntax to add the translation into Python.
+Add these two lines at end of the code as a comment and use the above output syntax to add the translation into Python.
 
 [Check the code on Replit](https://repl.it/@IO1075/01-calculator-step4)
 

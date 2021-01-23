@@ -27,7 +27,7 @@ You did not have enough from this assignment? Feeling comfortable going further?
 
 # Extra Task 6.1 Accept decimal numbers
 
-So far, the program converts `string` to `integer`. What about a sum of decimal numbers? Write the algorithm for converting a decimal number, search on Google the Python syntax for such conversion and upgrade your code.
+So far, the program converts `string` to `integer`. What about a sum of decimal numbers? Write the algorithm for converting a decimal number, search on Google the Python syntax for such conversion and upgrade the code.
 
 [Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-1)
 
@@ -44,9 +44,9 @@ Convert the variable `sum` into a type `string` and _concatenate_ it with "The a
 
 [Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-2)
 
-# Extra Task 6.3 Shorten your code
+# Extra Task 6.3 Shorten the code
 
-If you are comfortable with your code, you should be able to shorten it into three lines (excluding comments).
+If you are comfortable with the code, you should be able to shorten it into three lines (excluding comments).
 
 Warning: Make sure that in this transformation (so-called _'refactoring'_) you update your comments so that anyone can still read in plain English what you teach to the computer.
 

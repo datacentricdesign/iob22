@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "08 Connected Home"
+title: "08 Shared Pomodoro"
 has_children: true
 ---
 
-# 08 Connected Home
+# 08 Shared Pomodoro
 
 [TODO INTRO VIDEO]
 
 ---
 
-Through this assignment we will explore the following concepts:
+Through this assignment, we will explore the following concepts:
 
 OOP
 {: .label .label-green }

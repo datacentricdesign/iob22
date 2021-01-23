@@ -67,7 +67,7 @@ We read a flow chart from _start_ to _end_ in oval/rounded shapes. Each shape is
 
 As a final step, you will translate each assignment step into Python so that you can test your algorithm. At this stage, we will introduce new Python-related syntax when necessary. We will distinguish between:
 
-* what you have to write for your code to work: these are the keywords and code structure that defines Python in the same way grammar and punctuation defines English. Introducing typos in these syntaxes will lead to unexpected output or simply your program not starting.
+* what you have to write for the code to work: these are the keywords and code structure that defines Python in the same way grammar and punctuation defines English. Introducing typos in these syntaxes will lead to unexpected output or simply your program not starting.
 * what is conventional, what developers in Python are used to see: we will use green boxes to indicate these conventions.
 
 Let's start with the first Python Syntax: comments.

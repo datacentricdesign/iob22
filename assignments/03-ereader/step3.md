@@ -75,4 +75,6 @@ The result of the function is returned with the keyword `return`
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step3-2)
 
 
+
+
 [Next: Step 4 - String]({{site.baseurl}}/assignments/03-ereader/step4){: .btn .btn-purple }

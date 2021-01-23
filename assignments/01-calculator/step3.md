@@ -49,7 +49,7 @@ Ask the user ‘Type in x: ’ and store the answer in x
 Ask the user ‘Type in y: ’ and store the answer in y
 ```
 
-Add these to lines as comments (starting with `#`) at the end of your code. Then, use the Python syntax introduced above for translate them into Python.
+Add these to lines as comments (starting with `#`) at the end of the code. Then, use the Python syntax introduced above for translate them into Python.
 
 [Check the code on Replit](https://repl.it/@IO1075/01-calculator-step3)
 

@@ -26,7 +26,7 @@ Imports: making this code available for your algorithm
 
 Install, bringing the code from other into your project
 
-Package manager: your code is a package, code from others are packages
+Package manager: the code is a package, code from others are packages
 
 # Task 2.1 Refactor the Code into Modules
 
