@@ -16,7 +16,7 @@ parent: "04 Generative Art"
 
 ---
 
-## What is a module?
+## What is a Module?
 
 Imports: making this code available for your algorithm
 

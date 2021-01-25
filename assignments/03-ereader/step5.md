@@ -15,7 +15,7 @@ parent: "03 eReader"
 
 ---
 
-## What are Object's Methods?
+## What Are Object's Methods?
 
 In the first assignment, we learned about `strings` as _objects_: data structures which combines one or several values. In fact, `strings` combine characters (`char` data type) as a sequence. In the second assignment, we learned about files, another object combining all the necessary values to mange access to a file. We used the file object to read from (`file.read()`), write into (`file.write()`) and close (`file.close()`) the text file. 
 
@@ -23,7 +23,7 @@ These are `methods`: functions that act on an object. You can recognise the Pyth
 
 In this step we explore the concept of `method` with the `string` object. we have plenty of `string` objects at hand: each line of the book we read is a `string` that we can 'play' with. A list of `string` methods is available on [W3School website](https://www.w3schools.com/python/python_ref_string.asp)
 
-# Task 5.1 Change Chapter Lines into Titles
+# Task 5.1 Change Chapter Lines Into Titles
 
 When reading a book, we want to ensure that titles of chapters are properly written: each word starting with an upper case. That is a typical example of what we can do on a `string`.
 
