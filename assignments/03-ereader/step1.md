@@ -16,7 +16,7 @@ parent: "03 eReader"
 
 ---
 
-In the previous assignment, we explore how to read from and write into a file. In this first step, we will review this by reading the content of a book.
+In the previous assignment, we explored how to read from and write into a text file. In this first step, we will review this by reading the content of a book from a text file.
 
 # Task 1.1 Find a Book to Read
 
@@ -29,14 +29,20 @@ Let's have a look at a book in the public domain such as [Les Misérables by Vic
 From the previous assignment, we have all the elements to read the first page of the book.
 
 ```markdown
-Open the file book.txt in 'read' mode and keep it in the 'book' variable
-Create a variable called 'page_size' with the value 500 (we assume that a page is 500 characters)
+Create a constant 'PAGE_SIZE' with the value 500 (we assume that a page is 500 characters)
+Create a constant BOOK_PATH with the value 'book.txt'
+Open the file BOOK_PATH in 'read' mode and keep it in the 'book' variable
 Read the first page of the book and keep it in the variable page_content
 Show the user the first page of the book
 Close the file book.txt
 ```
 
-Back in the file `main.py` in _Replit_, write the five lines of code to implement this algorithm in Python. Note that now we do not want to read the whole file at once. The principle of an eReader is to read one page after another. For now we will only read the first page (here defined as the first 500 characters). We can achieve this with `read(page_size)`.
+Note that we create a `constant` PAGE_SIZE. A `constant` is a variable which will not change throughout the program. We use it to remember a value that we can use at multiple places in the code. When we need to change it, there is only one place where we need to edit the code.
+
+**By convention**, a `constant` is usually written all uppercase with underscore `_` between words. We place them at the top of the file, clearly identifiable to be changed if necessary.
+{: .fs-5 .ls-10 .code-example .bg-green-000}
+
+Back in the file `main.py` in _Replit_, write the five lines of code to implement this algorithm in Python. Note that we do not want to read the whole file at once. The principle of an eReader is to read one page after another. For now, we read the first page (here defined as the first 500 characters). We can achieve this with `read(PAGE_SIZE)`.
 
 Execute the code to see if it works as expected.
 
@@ -46,18 +52,18 @@ Execute the code to see if it works as expected.
 
 # Task 1.3 Go to the Second Page
 
-The key functionality of an eReader is the ability _to go to the next page_. We know how to ask users for input. In this case, we do not want text. We will ask the users to press ENTER whenever they want to go to the next page.
+The key functionality of an eReader is its ability _to go to the next page_. We know how to ask users for input. In this case, we do not want text. We ask the users to press ENTER whenever they want to go to the next page.
 
 ```markdown
 Ask the user 'For the next page, press ENTER:' and store the answer in 'action'
-If user pressed ENTER (empty string)
+If the user pressed ENTER (empty string)
     Read the second page of the book and store it in the variable page_content
     Show the user the second page of the book
 ```
 
 [TODO flowchart]
 
-Write the four lines of code to implement this algorithm in Python. This code complements the previous task, so we will write it below our existing code, just before closing the file.
+Write the four lines of code to implement this algorithm in Python. This code complements the previous task, so we write it below the existing code, just before closing the file.
 
 Execute the code to see if it works as expected.
 
@@ -67,13 +73,17 @@ Execute the code to see if it works as expected.
 
 # Task 1.4 Clean the Screen between Pages
 
-To resemble the behaviour of an eReader, we still miss the removing of the previous page before showing the following one. Indeed, the text appears below the previous one. An easy way to mimic this behaviour is to show a series of empty lines. An empty line is a `string` with no character but `\n`: a special character which represents the and of a line. For each `\n`, Python will start writing on a new line. Thus, to clear the screen, we could write:
+To resemble the behaviour of an eReader, we still miss the removing of the previous page before showing the following one. Indeed, the text appears below the previous one. An easy way to mimic the eReader behaviour is to show a series of empty lines.
+
+## What is an Empty Line?
+
+An empty line is a `string` with no character but `\n`: a special character which represents the end of a line. For each `\n`, Python starts writing on a new line. Thus, to clear the screen, we could write:
 
 ```python
 print("\n\n\n\n")
 ```
 
-With many more `\n` to create empty lines. However, we saw in the first assignment that operators work with `string` too. It is particularly convenient when, for example, we want to have 40 empty lines. We can 'multiple' the `\n` time `40` as follows:
+We need many more `\n` to create enough empty lines and clear the screen. However, we saw in the first assignment that operators also work on `strings`. It is particularly convenient when, for example, we want to have 40 empty lines. We can 'multiply' the `\n` by `40` as follows:
 
 ```python
 # Show 40 empty lines
@@ -86,6 +96,6 @@ Execute the code to see if it works as expected.
 
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step1-4)
 
-We have now a program that reads the two first pages of a book. This is limited, but it would not make sense to repeat our code for each of the thousand pages of this book. Instead, Step 2 will introduce the concept of **loops** to repeat an action as many time as it is needed. Then, in Step 3 we will see how to use **functions** to reuse blocks of code.
+We have now a program that reads the two first pages of a book. This is limited, but it would not make sense to repeat our code for each of the thousand pages of this book. Instead, Step 2 and 3 introduce the concept of **loops** to repeat an action as many time as it is needed. Then, in Step 4 highlights how to define **functions** to reuse blocks of code.
 
-[Next: Step 2 - Loops]({{site.baseurl}}/assignments/03-ereader/step2){: .btn .btn-purple }
+[Next: Step 2 - While Loops]({{site.baseurl}}/assignments/03-ereader/step2){: .btn .btn-purple }

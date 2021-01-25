@@ -18,16 +18,20 @@ parent: "03 eReader"
 
 [TODO]
 
-## Extra Task 6.1 Save the page number
+## Extra Task 6.1 Close the book
 
-Save page number in a file and read it at the start of the program to resume reading where you stoped.
-
-[TODO]
-
-## Extra Task 6.2
+When reaching the end of the book, the program should terminate.
 
 [TODO]
 
-## Extra Task 6.3
+## Extra Task 6.2 Save the page number
+
+Save page number in a file and read it at the start of the program to resume reading where you stopped.
+
+[TODO]
+
+## Extra Task 6.3 Indicate Progress
+
+At the top of the screen, the eReader indicate the page number. How could we indicate the progress (percentage read)?
 
 [TODO]
