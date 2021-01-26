@@ -32,9 +32,12 @@ Package manager: the code is a package, code from others are packages
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step2-1)
 
+# Task 2.2 Refactor the Function make_drawing_
+
 # Task 2.2 Introduce a Main Function
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step2-2)
+
 
 # Task 2.3 Install the Flask Package
 

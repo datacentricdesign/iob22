@@ -10,6 +10,7 @@ This first Python programming assignment leads you through the design of your fi
 
 [TODO INTRO VIDEO]
 
+
 [Next: Step 1 - Algorithm]({{site.baseurl}}/assignments/01-calculator/step1){: .btn .btn-purple }
 
 ---

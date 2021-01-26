@@ -16,7 +16,7 @@ parent: "03 eReader"
 
 ---
 
-[TODO]
+
 
 ## Extra Task 6.1 Close the book
 

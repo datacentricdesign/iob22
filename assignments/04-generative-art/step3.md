@@ -25,5 +25,8 @@ parent: "04 Generative Art"
 
 # Task 3.3 Serve Drawing with Parameters
 
+[TODO endpoint with parameters, passed as function arguments]
 
 # Task 3.4 Serve Drawing with optional Parameters
+
+[TODO endpoint with optional parameters, introduction of default values and optional parameters]

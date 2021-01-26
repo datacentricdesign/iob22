@@ -31,7 +31,7 @@ We first need to check whether the line starts with "CHAPTER". Then, we want to 
 
 ```markdown
 Read the next line from the book
-if the line starts with "CHAPTER"
+If the line starts with "CHAPTER"
     Apply the title capitalisation
 ```
 
