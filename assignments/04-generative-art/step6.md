@@ -15,3 +15,11 @@ parent: "04 Generative Art"
 {:toc}
 
 ---
+
+# Extra Task 6.1 Try Different Book or Text
+
+
+# Extra Task 6.2 Randomise the colour of the Abstract Sentence Drawing
+
+
+# Extra Task 6.3 Tweak the Abstract Sentence 
