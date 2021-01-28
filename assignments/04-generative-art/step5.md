@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 5 Maze
+title: Step 5 List
 parent: "04 Generative Art"
 
 ---
 
-# Step 5 Maze
+# Step 5 List
 {: .no_toc }
 
 ## Table of contents

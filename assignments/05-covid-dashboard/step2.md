@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 2 API
-parent: "06 COVID Dashboard"
+parent: "05 COVID Dashboard"
 
 ---
 

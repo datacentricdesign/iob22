@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "06 COVID Dashboard"
+title: "05 COVID Dashboard"
 has_children: true
 ---
 

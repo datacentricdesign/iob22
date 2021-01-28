@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "06 COVID Dashboard"
+parent: "05 COVID Dashboard"
 
 ---
 
