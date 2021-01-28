@@ -82,7 +82,7 @@ granularity -- Increment between each line (default=5)
 The structure of the algorithm remains the same. the only change is the use of the new parameters width, height and granularity in place of the previously static values (e.g. `5` or `95`).
 
 ```markdown
-Initiate the drawing of size widthxheight with the SVG tag
+Initiate the drawing of size width x height with the SVG tag
 Create variables x with initial value granularity (left with margin)
 Create variables y with initial value granularity (top with margin)
 Create variables x2 with initial value width - granularity (right with margin)
@@ -95,7 +95,7 @@ Close the drawing with the SVG tag
 Return the drawing
 ```
 
-At this stage, we need to update the function call to make the code work again. Indeed, before refactoring we were calling the function with only one parameter. The function now requires four parameters. To avoid this change, we can introduce a `default value` for each parameter. By specifying a default value for a parameter, we make this parameter optional: it is not required to provide an argument for this parameter when calling the function. Giving a default value to each parameter, the definition of `make_drawing_radial_lines()` looks as follows:
+At this stage, we need to update the function call to make the code work again. Indeed, before refactoring, we were calling the function with only one parameter. The function now requires four parameters. To avoid this change, we can introduce a `default value` for each parameter. By specifying a default value for a parameter, we make this parameter optional: it is not required to provide an argument for this parameter when calling the function. Giving a default value to each parameter, the definition of `make_drawing_radial_lines()` looks as follows:
 
 ```python
 def make_drawing_radial_lines(colour="black", width=100, height=100, granularity=5):
