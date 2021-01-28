@@ -238,4 +238,8 @@ While exploring SVG, we reviewed the important concepts from the previous assign
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step1-3)
 
+This step was inspired by the work of [Amanda J Hogan](https://2019.pycon-au.org/talks/pretty-vector-graphics--playing-with-svg-in-python)
+
 [Next: Step 2 - Refactoring]({{site.baseurl}}/assignments/04-generative-art/step2){: .btn .btn-purple }
+
+

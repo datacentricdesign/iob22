@@ -34,6 +34,3 @@ import
 
 Flask
 {: .label .label-purple }
-
-
-[Inspired by Amanda J Hogan](https://2019.pycon-au.org/talks/pretty-vector-graphics--playing-with-svg-in-python)
