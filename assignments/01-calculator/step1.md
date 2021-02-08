@@ -59,10 +59,6 @@ Let's see how the _Calculator Algorithm_ could look like:
 We read a flow chart from _start_ to _end_ in oval/rounded shapes. Each shape is connected to another via an arrow and rectangles represent a process (i.e. an action to perform). As our algorithms get more complicated throughout the assignments, we will introduce a few more shapes in due time.
 
 
-# State Machine Diagram
-
-[TODO @Aadjan: shall we introduce state machine here so that we can express some algorithm in state machine diagrams later on?]
-
 # Python syntax
 
 As a final step, you will translate each assignment step into Python so that you can test your algorithm. At this stage, we will introduce new Python-related syntax when necessary. We will distinguish between:

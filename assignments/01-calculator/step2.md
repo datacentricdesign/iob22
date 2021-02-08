@@ -52,6 +52,8 @@ name = initial_value
 **Attention!** Unlike in mathematics in which the equal sign `=` means that the expressions on both sides are equal, in programming `=` means that the right part is ‘assigned’ to the left part.
 {: .fs-5 .ls-10 .code-example .bg-yellow-000}
 
+For the name of your variables, you can use all alpha-numerical combinations except the `keywords` of the Python language which are reserved. You can find the all list of `keywords` to avoid on the [W3Schools website](https://www.w3schools.com/python/python_ref_keywords.asp)
+
 **By convention**, variable names are noun, lower case, and with underscores `_` between elements.
 {: .fs-5 .ls-10 .code-example .bg-green-000}
 
@@ -65,7 +67,7 @@ Create a variable called y of type number that starts with the value 0
 Create a variable called sum of type number that starts with the value 0
 ```
 
-Create a new project in Replit, select the language 'Python' and name it '01-calculator' [See Replit tutorial]({{site.baseurl}}/ide). In the text editor (middle part), type in the three lines of the algorithm. Start each line with a hashtag `#`,  it will a comment: plain English explanation of what you want to do.
+Create a new project in Replit, select the language 'Python' and name it '01-calculator' [See Environment page]({{site.baseurl}}/environment). In the text editor (middle part), type in the three lines of the algorithm. Start each line with a hashtag `#`,  it will a comment: plain English explanation of what you want to do.
 
 # Task 2.2 From English to Python
 

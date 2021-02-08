@@ -43,7 +43,7 @@ In _Replit_, change the code to show each chapter title in title capitalisation.
 
 # Task 5.2 Add a Line Number
 
-After applying capitalization, it would be a good place to add the line number. This is a convenient information when referencing a quote from the book. For this, use the variable 'i' from the For-Loop and concatenate it with the content of the line.
+After applying capitalisation, it would be a good place to add the line number. This is a convenient information when referencing a quote from the book. For this, use the variable 'i' from the For-Loop and concatenate it with the content of the line.
 
 Add the new line and execute the code. The line numbers should appear on the left side of each line, from 1 to 15.
 

@@ -19,14 +19,14 @@ nav_order: 0
 
 Welcome to this practical introduction to computational thinking for designers. As Industrial Design Engineers you are trained to master Design Thinking. Through this process, you empathise, define, ideate, prototype and test. As digital technology is becoming ubiquitous, your design solutions and your design process are impacted.
 
-You products embed or rely on computers to realise some of its functionalities, your prototype involves computers to test and analyse the feasibility of your solutions, your data combines qualitative and quantitative material to properly understand the challenges to address. For each of these tasks, you need the appropriate understanding about how computers manipulate information and how you can teach computers what you want them to do.
+Your products embed or rely on computers to realise some of its functionalities, your prototype involves computers to test and analyse the feasibility of your solutions, your data combines qualitative and quantitative material to properly understand the challenges to address. For each of these tasks, you need the appropriate understanding about how computers manipulate information and how you can teach computers what you want them to do.
 
 Along with your design thinking, this series of Python programming assignments aims to get you acquainted to another, complementary approach: computational thinking. Computational thinking relies on four steps. First, we decompose the problem into smaller parts, breaking it down to specifically identify each component of the problem to solve. Then, we look for patterns, similarities which can be tackled the same way. This leads us to elaborate components for our design that we can reuse for a whole category of problems (generalisation), that we can reuse without looking inside (abstraction). Finally, we design an algorithm, a set of instructions that tells the computer what to do.
 
 [TODO illustrate decomposition, pattern recognition, generalisation/abstraction and algorithm]
 Computational Thinking process
 
-By the end of this series of Python programming assignments, you should have the confidence to use the computational thinking approach to teach computers simple tasks to perform. You should be able to break down simple problems into plain English instructions so that you can autonomously look them up on the Internet for the Python syntax that not yet in your toolbox.
+By the end of this series of Python programming assignments, you should have the confidence to use the computational thinking approach to teach computers simple tasks to perform. You should be able to break down simple problems into plain English instructions so that you can autonomously look them up on the Internet for the Python syntax that is not yet in your toolbox.
 
 Disclaimer! While we are convinced that designers should get acquainted to computational thinking in a way that fits their discipline, we do not pretend we have the solution yet. We welcome your comments and suggestion for improvement. Reach out to Jacky (j.bourgeois@tudelft.nl)
 {: .fs-5 .ls-10 .code-example .bg-yellow-000}
@@ -35,7 +35,7 @@ Disclaimer! While we are convinced that designers should get acquainted to compu
 
 The Python programming assignments are accessible on this website, via the left panel or from the overview further down this page. They have an introductory video discussing and demonstrating the whole assignment. Each step is described in the text.
 
-Apart from the first one, each assignment starts with a review of the elements covered in the previous in the context of the assignment. Then, it explores new elements or iterates on some challenging elements already covered. Finally, it offers a series of extra tasks for you to explore if you feel like exploring further. We attributed each assignment a series of labels to indicate the type of element you will learn:
+Apart from the first one, each assignment starts with a review of the elements covered in the previous assignment. Then, it explores new elements or iterates on some challenging elements already covered. Finally, it offers a series of extra tasks for you to explore if you feel like exploring further. We attributed each assignment a series of labels to indicate the type of element you will learn:
 
 Concepts
 {: .label .label-green }
@@ -60,9 +60,9 @@ See our template to ask questions that provide enough information for us and oth
 
 [TODO make template and link to template]
 
-### [Development Environment]({{site.baseurl}}/ide)
+### [Development Environment]({{site.baseurl}}/environment)
 
-Before starting, it is important to know the basic of the tool we will use. This initial tutorial gives you a tour of the development environment we use for this series of Python programming assignment.
+Before starting, it is important to know the basics of the tool we will use. This initial tutorial gives you a tour of the development environment we use for this series of Python programming assignments.
 
 IDE
 {: .label .label-yellow }
@@ -72,7 +72,7 @@ Replit
 
 ### [01 Calculator]({{site.baseurl}}/assignments/01-calculator)
 
-The first Python programming assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the users. Through this example, we introduce the concept of variables and data type along inputs and outputs to receive and send information to the user. We also discuss how to investigate (or debug) the code when the result is not the one you expect.
+The first Python programming assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the users. Through this example, we introduce the concept of variables and data types along inputs and outputs to receive and send information to the user. We also discuss how to investigate (or debug) the code when the result is not the one you expect.
 
 Variable
 {: .label .label-green }
@@ -185,7 +185,7 @@ Flask
 
 ### 05 COVID-19 Dashboard
 
-In the fifth Python programming assignment, you will continue exploring web interfaces. You will request data from a web service to collect the latest COVID-19 statistics. You will process this information, exploring time series and data format. Based on this data, you will expose a series of chat on the web.
+In the fifth Python programming assignment, you will continue exploring web interfaces. You will request data from a web service to collect the latest COVID-19 statistics. You will process this information, exploring time series and data format. Based on this data, you will expose a series of charts on the web.
 
 Data
 {: .label .label-green }
@@ -236,7 +236,7 @@ Object
 
 ### 07 Landing page
 
-In the seventh Python programming assignment, you will catch potential user via a landing page. You will expose a product concept on the web and invite potential users to subscribe. You will store this information in a database.
+In the seventh Python programming assignment, you will catch potential users via a landing page. You will expose a product concept on the web and invite potential users to subscribe. You will store this information in a database.
 
 REST API
 {: .label .label-red }
