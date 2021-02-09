@@ -23,9 +23,6 @@ Your products embed or rely on computers to realise some of its functionalities,
 
 Along with your design thinking, this series of Python programming assignments aims to get you acquainted to another, complementary approach: computational thinking. Computational thinking relies on four steps. First, we decompose the problem into smaller parts, breaking it down to specifically identify each component of the problem to solve. Then, we look for patterns, similarities which can be tackled the same way. This leads us to elaborate components for our design that we can reuse for a whole category of problems (generalisation), that we can reuse without looking inside (abstraction). Finally, we design an algorithm, a set of instructions that tells the computer what to do.
 
-[TODO illustrate decomposition, pattern recognition, generalisation/abstraction and algorithm]
-Computational Thinking process
-
 By the end of this series of Python programming assignments, you should have the confidence to use the computational thinking approach to teach computers simple tasks to perform. You should be able to break down simple problems into plain English instructions so that you can autonomously look them up on the Internet for the Python syntax that is not yet in your toolbox.
 
 Disclaimer! While we are convinced that designers should get acquainted to computational thinking in a way that fits their discipline, we do not pretend we have the solution yet. We welcome your comments and suggestion for improvement. Reach out to Jacky (j.bourgeois@tudelft.nl)
