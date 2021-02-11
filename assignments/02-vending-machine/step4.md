@@ -17,7 +17,7 @@ parent: "02 Vending Machine"
 
 When executing your vending machine algorithm, you might have already run into issues while entering unexpected values. In this step, we will explore how to deal with this issue.
 
-# Task 2.1 Test incorrect values
+# Task 4.1 Test incorrect values
 
 What if something goes wrong, such as the user enters a value that is not expected?
 
@@ -25,9 +25,9 @@ Let's take the latest version of our program in _Replit_ (from the previous step
 
 Our program fails with the following:
 
-[TODO screenshot value error]
+![Assignment 2 Step 4 - Value Error]({{site.baseurl}}/assets/images/assignment2-step4.png)
 
-Indeed, there is a `ValueError`. The user provides input because the string that cannot be converted into an integer. Of course, we entered a value that does not represent a number. This event makes the program fails, but there is nothing wrong in the code. We call these _Runtime Errors_: errors that occur during the execution of the program.
+Indeed, there is a `ValueError`. The user provides a string that cannot be converted into an integer. Of course, we entered a value that does not represent a number. This event makes the program fails, but there is nothing wrong in the code. We call these _Runtime Errors_: errors that occur during the execution of the program.
 
 We could prevent the user from entering anything else but a number by designing a numeric keypad, thus providing only keys for digits. Another solution is to protect our program against these errors. For this, there is the concept of `Exception`.
 

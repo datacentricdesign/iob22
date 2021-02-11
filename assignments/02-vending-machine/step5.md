@@ -17,11 +17,11 @@ parent: "02 Vending Machine"
 
 In Step 3 we played with different operators. For instance, we used assignments and conditions to decrease the number of remaining cups. You might have noticed that each time you execute the code, the number of cups is 10 (or the number that you set) and then it decreases by one. The computer 'forget' between each execution of the code. The variables that keep information during the execution of the code are only available during the execution. As soon as the program stop, all this information is wiped out.
 
-In this step, we will explore how to use files to store and retrieve information at the beginning and the end of the program so that our program can 'remember' the number of remaining cups.
+In this step, we explore the use of files to store and retrieve information. We do so at the beginning and the end of the program to 'remember' the number of remaining cups.
 
 ## What is a File?
 
-A computer as two types of memory, short term that we often called RAM (for Random Access Memory) and long-term that we often call drive (e.g. HDD or SSD). On the former, the computer handles the variables of all program currently running while the latter is for everything to save for later use. Files is a common way to structure long-term memory. You certainly use files to store pictures and other documents. A file is characterised by a path (where to find it), a type of content (e.g. text, picture, video) and a size.
+A computer has two types of memory, short term that we often called RAM (for Random Access Memory) and long-term that we often call drive (e.g. HDD or SSD). On the former, the computer handles the variables of all programs currently running while the latter is for everything to save for later use. Files is a common way to structure long-term memory. You certainly use files to store pictures and other documents. A file is characterised by a path (where to find it), a type of content (e.g. text, picture, video) and a size.
 
 
 # Task 5.1 Save Remaining Cups
@@ -51,7 +51,7 @@ file_variable.write(text)
 file_variable.close()
 ```
 
-In this syntax we can recognise that the first line 'opens' a file, using the path. `w` stands for `writing` mode. Like a string, the file_variable is an `object`, a data structure that combines several data-types enabling us to easily manipulate a file. `write` and `close` are actions that we can perform on this file `object`. 
+In this syntax, we can recognise that the first line 'opens' a file, using the path. `w` stands for `writing` mode. Like a string, the file_variable is an `object`, a data structure that combines several data-types enabling us to easily manipulate a file. `write` and `close` are actions that we can perform on this file `object`. 
 
 
 #### Save Remaining Cups Algorithm
