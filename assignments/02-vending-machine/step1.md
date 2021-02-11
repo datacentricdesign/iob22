@@ -47,7 +47,7 @@ The next step is to write the Python code for each comment. Do not hesitate to r
 
 The first version of your vending machine algorithm is ready. Execute the code to check that it behaves the way you expect.
 
-[TODO GIF OF HOW IT SHOULD LOOK LIKE]
+![Animation Result Assignment 2 - Step 1]({{site.baseurl}}/assets/images/assignment2-step1.gif)
 
 Once you achieve a similar behaviour, there are a few things that we can work on. Let's focus on the choice: the response we make to the user is directly what they typed in, such as `1` for coffee or `2` for tea. In the next step, we will use branches to do specific actions based on the users' choice such as providing a more comprehensive message.
 
