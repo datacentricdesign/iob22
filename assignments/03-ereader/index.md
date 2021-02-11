@@ -15,7 +15,7 @@ In this third Python programming assignment, you will build an eReader loading a
 ---
 
 
-Through this assignment, we will explore the following concepts:
+Through this assignment, we explore the following concepts:
 
 Function
 {: .label .label-green }

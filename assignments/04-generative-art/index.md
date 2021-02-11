@@ -12,7 +12,7 @@ In this fourth Python programming assignment, you will move the user interaction
 
 ---
 
-Through this assignment, we will explore the following concepts:
+Through this assignment, we explore the following concepts:
 
 While-Loop
 {: .label .label-green }

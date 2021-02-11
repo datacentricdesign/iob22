@@ -15,7 +15,7 @@ This first Python programming assignment leads you through the design of your fi
 
 ---
 
-Through this assignment, we will explore the following computational concepts:
+Through this assignment, we explore the following computational concepts:
 
 Variable
 {: .label .label-green }

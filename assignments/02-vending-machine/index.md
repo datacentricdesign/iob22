@@ -14,7 +14,7 @@ How would you shape the behaviour of your favourite vending machine? In this sec
 
 ---
 
-Through this assignment, we will explore the following concepts:
+Through this assignment, we explore the following concepts:
 
 Branch
 {: .label .label-green }
