@@ -16,6 +16,8 @@ parent: "03 eReader"
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a5vXt4xudO0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What is a While-Loop?
 
 For our eReader to read not only the two first pages but the whole book, we need to continuously read and ask the reader to press `ENTER` for the next page. This is a typical case of `while-loop`, a structure that repeats a block of code _while_ a condition is `true`. It involves the following elements:

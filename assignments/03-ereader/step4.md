@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 3 Function
+title: Step 4 Function
 parent: "03 eReader"
 
 ---

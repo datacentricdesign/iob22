@@ -18,6 +18,8 @@ parent: "03 eReader"
 
 In the previous assignment, we explored how to read from and write into a text file. In this first step, we will review this by reading the content of a book from a text file.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JOoQUh9IrcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Task 1.1 Find a Book to Read
 
 Create a new _Replit_ project. In the left panel, create a new file 'book.txt'.

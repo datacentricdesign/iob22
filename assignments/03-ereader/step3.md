@@ -19,6 +19,8 @@ parent: "03 eReader"
 
 You may have noticed that reading 500 characters at a time (or any other number of characters) is not ideal. It cuts words and shows various numbers of lines from one 'page' to another. To address these issues, we can read the file line-by-line, instead of blocks of characters at a time.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nqp_ZIFulXM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What is a For-Loop
 
 In contrast with the `While-Loop`, the `For-Loop` structure makes the boundaries of the loop explicit. This is the recommended way when we know how many loops are needed. The elements of the For-Loop look as follows:
