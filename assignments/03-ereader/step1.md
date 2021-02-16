@@ -49,7 +49,7 @@ Back in the file `main.py` in _Replit_, write the five lines of code to implemen
 
 Execute the code to see if it works as expected.
 
-[TODO Screenshot of the expected result]
+![Animation Result Assignment 3 - Step 1]({{site.baseurl}}/assets/images/assignment3-step1-2.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step1-2)
 
@@ -70,7 +70,7 @@ Write the four lines of code to implement this algorithm in Python. This code co
 
 Execute the code to see if it works as expected.
 
-[TODO Screenshot of the expected result]
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment3-step1-3.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step1-3)
 

@@ -70,6 +70,8 @@ Ask the user 'For the next page, press ENTER:' and store the answer in 'action'
 
 Make the two changes to the Python code and execute the program to see if it works as expected. As long as you press `ENTER`, the program should show the following page. To stop the program, type in any character before pressing `ENTER`. The input will no longer equal 'ENTER', thus leaving the `while-loop` and ending the programme.
 
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment3-step2.gif)
+
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step2-1)
 
 While-loops are well suited **when we do not know when to stop**. This case is a good example, as we cannot know when the user will decide to continue or stop reading.

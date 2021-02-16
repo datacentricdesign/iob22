@@ -1,17 +1,19 @@
 ---
 layout: default
 title: Step 1 Review
-parent: "04 Generative Art"
+parent: '04 Generative Art'
 ---
 
 # Step 1 Review
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -63,6 +65,8 @@ colour -- hexadecimal or colour name
 This function can be written in a single line. We recommend using the f-string as introduced in the previous assignment.
 
 Call this function with the arguments of your choice and show its results to the user. Execute the code. The program should display one line of SVG describing the line.
+
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step1-1.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step1-1)
 
@@ -124,9 +128,11 @@ Write content in file
 Close the file path
 ```
 
-Instead of showing the result of the function `make_drawing_cross()` to the user, we can use this result as an argument of the function `save_in_file()`. We recommend to create a constant PATH  at the top of the file, containing the path of the SVG file such as `draw.svg`. Then, we can use this constant as argument when calling the function `save_in_file()`.
+Instead of showing the result of the function `make_drawing_cross()` to the user, we can use this result as an argument of the function `save_in_file()`. We recommend to create a constant PATH at the top of the file, containing the path of the SVG file such as `draw.svg`. Then, we can use this constant as argument when calling the function `save_in_file()`.
 
 Execute the code. This time, the program should not display anything as it now write the result the file `draw.svg`. In the left panel, you should see this new file appearing. Click on it to show your drawing.
+
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step1-2.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step1-2)
 
@@ -225,9 +231,9 @@ Initiate the drawing of size 100x100 with the SVG tag
 Create variables x and y with initial value 5 (top-left)
 Create variables x2 and y2 with initial value 95 (top-left)
 For the height of the drawing, i with 5-pixel increments
-    Draw a line tilting y and y2 with +/- i
+Draw a line tilting y and y2 with +/- i
 For the width of the drawing, i with 5-pixel increments
-    Draw a line tilting x and x2 with +/- i
+Draw a line tilting x and x2 with +/- i
 Close the drawing with the SVG tag
 Return the drawing
 ```
@@ -241,5 +247,3 @@ While exploring SVG, we reviewed the important concepts from the previous assign
 This step was inspired by the work of [Amanda J Hogan](https://2019.pycon-au.org/talks/pretty-vector-graphics--playing-with-svg-in-python)
 
 [Next: Step 2 - Refactoring]({{site.baseurl}}/assignments/04-generative-art/step2){: .btn .btn-purple }
-
-
