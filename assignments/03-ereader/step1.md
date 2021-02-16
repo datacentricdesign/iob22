@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Step 1 Review
-parent: "03 eReader"
-
+parent: '03 eReader'
 ---
 
 # Step 1 Review
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -59,11 +60,11 @@ The key functionality of an eReader is its ability _to go to the next page_. We 
 ```markdown
 Ask the user 'For the next page, press ENTER:' and store the answer in 'action'
 If the user pressed ENTER (empty string)
-    Read the second page of the book and store it in the variable page_content
-    Show the user the second page of the book
+Read the second page of the book and store it in the variable page_content
+Show the user the second page of the book
 ```
 
-[TODO flowchart]
+![Turn-page Flow Chart]({{site.baseurl}}/assets/flow_chart_next_page.svg)
 
 Write the four lines of code to implement this algorithm in Python. This code complements the previous task, so we write it below the existing code, just before closing the file.
 
