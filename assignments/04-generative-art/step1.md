@@ -15,6 +15,8 @@ parent: "04 Generative Art"
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/f5zgMrSGkTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What is SVG?
 
 In this initial step, we will only use Python syntax we already encountered in the previous assignments. We will particularly reuse `functions`, `loops` and `files`. However, we need to introduce what we will play with: Scalable Vector Graphics (SVG). You might use tools such as Illustrator or Inkscape to draw on your computer. These tools are keeping track of what we draw as a list of objects. SVG is a data format to save all the information related to these objects: colour, size, position, etc.

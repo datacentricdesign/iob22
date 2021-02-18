@@ -15,6 +15,8 @@ parent: "04 Generative Art"
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O-GBEIW40vQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What is Package?
 
 In the previous step, we introduced `modules`. These are files with Python code that we can import and use in our code. While `modules` are files,  `packages` are folders hierarchically structuring modules. You can install packages from other developers so that your code can rely on their code. `Packages` opens up whole new horizons: you are not coding everything by yourselves but reusing functions made available by others. We say that your code has 'dependencies', i.e. it depends on packages from other developers.
