@@ -61,6 +61,14 @@ For the number of lines per page
     Show the user the next line of the book
 ```
 
+Previously we used the `read` and `write` methods to change the value for number_remaining_cups in a separate file. However, we’re now dealing with more than one line of information; a full book! There several methods to be used on a file variable, and in this case the `readline` method seems the one best fitting our needs. In python syntax:
+
+```python
+file_variable = open("path", "r")
+file_variable.readline()
+file_variable.close()
+```
+
 We need to define the number of lines we want per page. Let's assume we want 15 lines. So, twice in the algorithm, we want to replace the line _Read first/second page of the book..._ with a `For-Loop`.
 
 ```markdown
