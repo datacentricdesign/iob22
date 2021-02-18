@@ -1,17 +1,19 @@
 ---
 layout: default
 title: Step 3 Web Server
-parent: "04 Generative Art"
+parent: '04 Generative Art'
 ---
 
 # Step 3 Web Server
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -19,10 +21,9 @@ parent: "04 Generative Art"
 
 ## What is Package?
 
-In the previous step, we introduced `modules`. These are files with Python code that we can import and use in our code. While `modules` are files,  `packages` are folders hierarchically structuring modules. You can install packages from other developers so that your code can rely on their code. `Packages` opens up whole new horizons: you are not coding everything by yourselves but reusing functions made available by others. We say that your code has 'dependencies', i.e. it depends on packages from other developers.
+In the previous step, we introduced `modules`. These are files with Python code that we can import and use in our code. While `modules` are files, `packages` are folders hierarchically structuring modules. You can install packages from other developers so that your code can rely on their code. `Packages` opens up whole new horizons: you are not coding everything by yourselves but reusing functions made available by others. We say that your code has 'dependencies', i.e. it depends on packages from other developers.
 
 Installing a package means downloading a folder with subfolders and files (e.g. packages and modules) which contain functions that you can use in your code in the same way you use your modules. As each package can rely on its own set of dependencies, the installation becomes quickly complicated. No worries. `Package managers` are here to handle this process for us.
-
 
 ## What is a Web Server?
 
@@ -34,19 +35,19 @@ Serving the output of our code on a webpage has many advantages for designers. S
 
 ## What is an HTTP route?
 
-Then, we have the definition of an HTTP route. It means that we connect the URL of the web page  (i.e. `https://tudelft.nl/io`) to a function in the Python code. For instance, on the TU Delft website, we reach the IO Faculty web page with the route `/io`. To connect an HTTP route to our code, we need the following elements:
+Then, we have the definition of an HTTP route. It means that we connect the URL of the web page (i.e. `https://tudelft.nl/io`) to a function in the Python code. For instance, on the TU Delft website, we reach the IO Faculty web page with the route `/io`. To connect an HTTP route to our code, we need the following elements:
 
-* `HTTP_route` The 'web page' we want to access from the web browser such as `/io`
-* `function` The definition of a Python function to call when a client requests the `HTTP_route`
-* `response` The content to send to the client in response to the request
+- `HTTP_route` The 'web page' we want to access from the web browser such as `/io`
+- `function` The definition of a Python function to call when a client requests the `HTTP_route`
+- `response` The content to send to the client in response to the request
 
 #### Serve web page Algorithm
 
 ```markdown
 Listen on [HTTP_route]
 When receiving a request on [HTTP_route];
-    Call [function];
-    Return [response] to the client
+Call [function];
+Return [response] to the client
 ```
 
 Note the 'when', indicating that the webserver continuously listen and call the function for each new request. In Python, this algorithm involves complicated tasks such as listening on the network, managing requests from web clients and sending back a response on the network. However, we can install a `package` that take care of all these tasks for us. In this assignment, we use the package [Flask](https://flask.palletsprojects.com/en/1.1.x/).
@@ -76,7 +77,7 @@ We have all the elements to serve our radial lines drawing on a web page. Howeve
 
 On the left panel of _Replit_, click on the third icon (box icon). Type in `Flack` in the search bar, select the first result and click the plus sign `+` to install `Flask` in your project. You notice outputs in the Terminal. They reflect the process of downloading all necessary dependencies for `Flask`.
 
-On the left panel, click on the first icon (file icon). It brings you back to the list of files in your project. The package manager created two new files (`poetry.lock` and `pyproject.toml`) which keep track of the dependencies. 
+On the left panel, click on the first icon (file icon). It brings you back to the list of files in your project. The package manager created two new files (`poetry.lock` and `pyproject.toml`) which keep track of the dependencies.
 
 Let's define the algorithm that serves the radial lines drawing.
 
@@ -94,35 +95,35 @@ Create a webserver object called 'Generative Art' and keep track of it in the va
 Define an HTTP route /radial
 
 Define the function 'serve_radial_lines()' and connect it to the route /radial
-    Make drawing radial lines and returns it to the client.
+Make drawing radial lines and returns it to the client.
 
 Start the webserver
 ```
 
 In this algorithm, we already know:
 
-* how to import elements from modules
-* how to create constants
-* how to make drawing radial lines
-* how to serve a web page
+- how to import elements from modules
+- how to create constants
+- how to make drawing radial lines
+- how to serve a web page
 
 Write the Python code for the 'Serving Radial Lines' algorithm into `main.py` and execute it.
 
 The Terminal shows a couple of information about the webserver, telling us that it is _running..._. _Replit_ should open a web page above the Terminal.
 
-[TODO Screenshot]
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-1.gif)
 
 Ah! The page is not found! Indeed, by default the requested http route is '/' and the Python code only defines the route '/radia'.
 
-[TODO Screenshot]
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-2.gif)
 
 Click on the 'extend' icon on the top-right corner of the web page to open the page in a new tab.
 
-[TODO Screenshot]
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-3.gif)
 
 You can now edit the URL to add '/radial'
 
-[TODO Screenshot]
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-4.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step3-1)
 
@@ -135,8 +136,8 @@ The next step is to make the HTTP route reusable for a larger set of requests. W
 ```markdown
 Define an HTTP route /radial/<width>/<height> to serve custom radial lines drawings
 Define the function 'serve_custom_radial_lines()' and connect it to the route /radial/<width>/<height>
-    Convert parameters width and height into integers
-    Make drawing radial lines with width and height, and return the result
+Convert parameters width and height into integers
+Make drawing radial lines with width and height, and return the result
 ```
 
 The 'Custom Radial Lines' algorithm receives the request, for example, on the route `/radial/200/100`. `200` and `100` are are the arguments for the parameters `width` and `height`. Flask atomatically map them to the function `serve_custom_radial_lines(width, height)`.
@@ -159,9 +160,10 @@ def make_drawing_radial_lines(colour="black",
 It starts with the parameter `colour`, and then the `width` and `height`. Thus, we currently call this function providing the argumment `width` to the parameter `colour` and the argument `height` to the parameter `width`. Python does not raise an error because all parameters have default values. However, the colour of value `100` does not represent any colour: nothing appear on the screen.
 
 To solve this issue, there are three options:
-* add the colour parameter in the URL so that we can provide this argument, i.e. `/radial/<colour>/<width>/<height>`
-* add a default colour when we call the function, i.e. `make_drawing_radial_lines("red", width, height)`
-* specify arguments with keywords
+
+- add the colour parameter in the URL so that we can provide this argument, i.e. `/radial/<colour>/<width>/<height>`
+- add a default colour when we call the function, i.e. `make_drawing_radial_lines("red", width, height)`
+- specify arguments with keywords
 
 Keywords arguments? Indeed, we can explicitly specify the parameter to which each arguments refer. This approach remmove the need for a strict position of each argument. The call would look as follows:
 

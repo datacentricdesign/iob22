@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Step 1 Review
-parent: "03 eReader"
-
+parent: '03 eReader'
 ---
 
 # Step 1 Review
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -48,7 +49,7 @@ Back in the file `main.py` in _Replit_, write the five lines of code to implemen
 
 Execute the code to see if it works as expected.
 
-[TODO Screenshot of the expected result]
+![Animation Result Assignment 3 - Step 1]({{site.baseurl}}/assets/images/assignment3-step1-2.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step1-2)
 
@@ -59,17 +60,17 @@ The key functionality of an eReader is its ability _to go to the next page_. We 
 ```markdown
 Ask the user 'For the next page, press ENTER:' and store the answer in 'action'
 If the user pressed ENTER (empty string)
-    Read the second page of the book and store it in the variable page_content
-    Show the user the second page of the book
+Read the second page of the book and store it in the variable page_content
+Show the user the second page of the book
 ```
 
-[TODO flowchart]
+![Turn-page Flow Chart]({{site.baseurl}}/assets/flow_chart_next_page.svg)
 
 Write the four lines of code to implement this algorithm in Python. This code complements the previous task, so we write it below the existing code, just before closing the file.
 
 Execute the code to see if it works as expected.
 
-[TODO Screenshot of the expected result]
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment3-step1-3.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step1-3)
 

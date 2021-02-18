@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Step 3 For Loops
-parent: "03 eReader"
-
+parent: '03 eReader'
 ---
 
 # Step 3 For Loops
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
-
 
 You may have noticed that reading 500 characters at a time (or any other number of characters) is not ideal. It cuts words and shows various numbers of lines from one 'page' to another. To address these issues, we can read the file line-by-line, instead of blocks of characters at a time.
 
@@ -25,11 +25,11 @@ You may have noticed that reading 500 characters at a time (or any other number 
 
 In contrast with the `While-Loop`, the `For-Loop` structure makes the boundaries of the loop explicit. This is the recommended way when we know how many loops are needed. The elements of the For-Loop look as follows:
 
-* `i` integer variable that will control loop
-* `start` integer value of `i` at the beginning
-* `finish` integer value of `i` at the end
-* `change` integer to add to `i` at each pass
-* `action` the block of code to perform in each iteration
+- `i` integer variable that will control loop
+- `start` integer value of `i` at the beginning
+- `finish` integer value of `i` at the end
+- `change` integer to add to `i` at each pass
+- `action` the block of code to perform in each iteration
 
 This time we define a variable as part of the structure, often named `i` for 'index', which keeps track of the iteration number. `start`, `finish` and `change` define the number of iterations.
 
@@ -42,7 +42,7 @@ do [action] in each iteration
 
 #### For-loop flow chart
 
-[TODO flow chart]
+![For loop - Flow Chart]({{site.baseurl}}/assets/flow_chart_for_loop.svg)
 
 #### For-loop Python syntax
 
@@ -50,7 +50,6 @@ do [action] in each iteration
 for i in range(start, finish, change):
     # action
 ```
-
 
 # Task 3.1 Read Line by Line
 
@@ -70,8 +69,8 @@ Open the file book.txt in 'read' mode and store it in the 'book' variable
 
 Show 40 empty lines
 For the number of lines per page
-    Read the next line from the book
-    Show the user the next line of the book
+Read the next line from the book
+Show the user the next line of the book
 Ask the user 'For the next page, press ENTER:' and store the answer in 'action'
 
 While user pressed ENTER (empty string)
@@ -90,6 +89,5 @@ Make the two changes to the Python code and execute the program to see if it wor
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step3-1)
 
 At this stage, we achieved the objective to read all pages of a book with consistency. Identifying patterns helped us repeat blocks of code instead of duplicating it indefinitely. However, when looking at the code closely, we note that a block of five lines is still duplicated. Can you see it? In the next step, we introduce the concept of `Function` to avoid this issue.
-
 
 [Next: Step 4 - String]({{site.baseurl}}/assignments/03-ereader/step4){: .btn .btn-purple }
