@@ -13,7 +13,7 @@ parent: '04 Generative Art'
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 

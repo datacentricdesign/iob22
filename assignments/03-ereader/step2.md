@@ -13,7 +13,7 @@ parent: '03 eReader'
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
