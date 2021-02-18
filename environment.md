@@ -98,6 +98,6 @@ There are more button and functionalities on _Replit_, but so far this is all we
 
 In order to include your Replit directly into your post on Discourse, you can embed it using the 'Copy embed code' button. 
 
-![embed code in discourse](assets/images/embed-snippet.gif.png)
+![embed code in discourse](assets/images/embed-snippet.gif)
 
 [Next Step: Assignment 1 - Calculator]({{site.baseurl}}/assignments/01-calculator){: .btn .btn-purple }
