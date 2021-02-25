@@ -51,7 +51,9 @@ Then, import this function at the top of the file `main.py`.
 
 Finally, create a new HTTP route '/sentences' which connects to a new function `serve_abstract_sentences()` to return the result of `make_drawing_abstract_sentences()`.
 
-Execute the code, and check the web page on `/sentence` to see the result.
+Execute the code, and check the web page on `/sentences` to see the result.
+
+![Animation Result Assignment 5 - Step 1]({{site.baseurl}}/assets/images/task-4-5-1.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step5-1)
 
@@ -127,6 +129,8 @@ number_words = len(sentence.replace('\n', ' ').split(' '))
 Finally, throughout the iterations we keep track of the last turn by counting from 0 to 3. In each iteration we apply a modulo 4 on the turn_counter to ensure that the counter never exceed 3. In Python, the modulo operator is the percent symbole `%`. You can use the assignment `turn_counter %= 4`.
 
 Execute the code and refresh the web page `/sentences` to check the results.
+
+![Animation Result Assignment 5 - Step 2]({{site.baseurl}}/assets/images/task-4-5-2.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step5-2)
 
