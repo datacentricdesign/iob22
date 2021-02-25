@@ -113,10 +113,7 @@ The Terminal shows a couple of information about the webserver, telling us that 
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-1.gif)
 
-Ah! The page is not found! Indeed, by default the requested http route is '/' and the Python code only defines the route '/radia'.
-
-![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-2.gif)
-
+Ah! The page is not found! Indeed, by default the requested http route is '/' and the Python code only defines the route '/radial'.
 Click on the 'extend' icon on the top-right corner of the web page to open the page in a new tab.
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-3.gif)
@@ -129,7 +126,7 @@ You can now edit the URL to add '/radial'
 
 # Task 3.2 Serve Drawing with Parameters
 
-The next step is to make the HTTP route reusable for a larger set of requests. We want to map information from the URL into argumments for the function make_drawing_radial_lies(). Flask has a convenient way to do mapping. We can specify the parameters in the URL, wrapped between lower than `<` and greater than `>` signs. Then, we add these parameters to the connected function.
+The next step is to make the HTTP route reusable for a larger set of requests. We want to map information from the URL into argumments for the function make_drawing_radial_lines(). Flask has a convenient way to do mapping. We can specify the parameters in the URL, wrapped between lower than `<` and greater than `>` signs. Then, we add these parameters to the connected function.
 
 #### Serving Custom Radial Lines Algorithm
 
@@ -146,7 +143,9 @@ Write the code for the route `/radial/<width>/<height>` connected to `serve_cust
 
 Execute the code and load the web page with the route, for example, `/radial/100/200`.
 
-Oh, White page, nothing happen, no error!
+![Animation Result Assignment 3 - Step 2]({{site.baseurl}}/assets/images/task-4-3-3-blank.gif)
+
+Oh, white page, nothing happens, no error!
 
 Let's investigate. To make the radial lines drawing, we call the function `make_drawing_radial_lines(width, height)`, using the argument received from URL. However, if we look into the file `drawing.py`, we defined this function as follows:
 
@@ -157,7 +156,7 @@ def make_drawing_radial_lines(colour="black",
                               granularity=5):
 ```
 
-It starts with the parameter `colour`, and then the `width` and `height`. Thus, we currently call this function providing the argumment `width` to the parameter `colour` and the argument `height` to the parameter `width`. Python does not raise an error because all parameters have default values. However, the colour of value `100` does not represent any colour: nothing appear on the screen.
+It starts with the parameter `colour`, and then the `width` and `height`. Thus, we currently call this function providing the argumment `width` to the parameter `colour` and the argument `height` to the parameter `width`. Python does not raise an error because all parameters have default values. However, the colour of value `100` does not represent any colour: nothing appears on the screen.
 
 To solve this issue, there are three options:
 
@@ -204,6 +203,8 @@ colour = request.args.get('colour', default = "black", type = str)
 Write the code to extract the colour and granularity arguments from the URL and pass them to the function `make_drawing_radial_lines()`.
 
 Execute the code and refresh, add request the web page with the optional arguments.
+
+![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/task-4-3-4.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step3-3)
 
