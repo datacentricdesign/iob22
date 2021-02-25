@@ -42,6 +42,8 @@ Finally, create a new HTTP route `/random` in `main.py` which connects to a func
 
 Execute the code and go to the HTTP route `/random` to check the result.
 
+![Animation Result Assignment 4 - Step 4]({{site.baseurl}}/assets/images/task-4-4-1.gif)
+
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step4-1)
 
 # Random Length and Position
@@ -95,6 +97,8 @@ In `drawing.py`, write a function `generate_random_hexadecimal_colour()` which r
 Then, call this function in `make_drawing_random_radial_lines()` to randomly colour the radial lines.
 
 Execute the code and go to the HTTP route `/random` to check the result.
+
+![Animation Result Assignment 4 - Step 4]({{site.baseurl}}/assets/images/task-4-4-random-colour.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step4-3)
 
