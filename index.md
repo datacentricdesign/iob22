@@ -202,7 +202,7 @@ Chart
 Web Service
 {: .label .label-yellow }
 
-MatplotLib
+Vega
 {: .label .label-purple }
 
 

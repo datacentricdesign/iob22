@@ -44,7 +44,7 @@ Execute the code and go to the HTTP route `/random` to check the result.
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step4-1)
 
-# Random Length and Position
+# Task 4.2 Random Length and Position
 
 We can further randomise the drawing by changing the length and positions of each line. To generate a value within a range, we can use the function `randrange()` from the random module. It takes two arguments: a start value and an end value. We could generate two random number for each line, which could influence its start position and end position. For example:
 
@@ -60,7 +60,7 @@ Execute the code and go to the HTTP route `/random` to check the result. If you 
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step4-2)
 
-# Random Colour
+# Task 4.3 Random Colour
 
 Let's play with colour as a third way of randomising the the drawings.
 
