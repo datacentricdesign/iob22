@@ -40,7 +40,7 @@ Once you have created your _Replit_ account, you will be presented the _Replit_ 
 
 Click on the blue button `+` on the top-right corner.
 
-[TODO Screenshot]
+![Make new repl](assets/images/new-repl.gif)
 
 Fill in the project name in the pop-up window and click on the blue button at the bottom: 'Create Repl'.
 
@@ -82,9 +82,9 @@ In the Terminal, you will see that, it asks for your name. Write it down and pre
 
 # Edit Code
 
-Software development requires a rigorous syntax. It is easy to make mistakes by misspelling a word or Python syntax. While a reader can tolerate mistakes to a certain degree, the computer does not. The editor is here to help and highlight some of these mistakes. For example, remove a letter from the word `print` on the second line. The editor will signal this error with red lines because this is not a correct Python syntax anymore. If you move your cursor on this red line, it will also show a short description of this error.
+Software development requires a rigorous syntax. It is easy to make mistakes by misspelling a word or Python syntax. While a reader can tolerate mistakes to a certain degree, the computer does not. The editor is here to help and highlight some of these mistakes. For example, remove a letter from the word `print`. The editor will signal this error with red lines because this is not a correct Python syntax anymore. If you move your cursor on this red line, it will also show a short description of this error.
 
-[TODO screenshot]
+![Example of an error](assets/images/error-message-example.gif)
 
 # Organise Files
 
@@ -93,5 +93,11 @@ While writing code, you often need to organise pieces of code in separated files
 ![creating new file](assets/images/create_new_file.png)
 
 There are more button and functionalities on _Replit_, but so far this is all we need to know to get started. Let's jump in the first Python programming assignment!
+
+# Embed your code in Discourse
+
+In order to include your Replit directly into your post on Discourse, you can embed it using the 'Copy embed code' button. 
+
+![embed code in discourse](assets/images/embed-snippet.gif)
 
 [Next Step: Assignment 1 - Calculator]({{site.baseurl}}/assignments/01-calculator){: .btn .btn-purple }

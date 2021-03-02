@@ -53,9 +53,7 @@ We choose Python as a language, an overarching choice of TU Delft and many other
 
 We expect each assignment to take about eight hours. As part of our Bachelor course, we expect you to complete one a week. When something is not working as expected, that you do not understand how to move forward, please look at the [Discourse](https://discourse.datacentricdesign.org) for questions related to the Python programming assignment you are working on. Open a new topic for any question that is not yet on Discourse. We encourage you not only to ask questions, but answer the one you feel like, from other students. Please upvote a question that you have as well, and the answer that helped you.
 
-See our template to ask questions that provide enough information for us and other students to help you effectively.
-
-[TODO make template and link to template]
+See our template to ask questions that provide enough information for us and other students to help you effectively. It appears automatically whenever you open a new topic in the [Code Assignments](https://discourse.datacentricdesign.org/c/code-assignments/) category. 
 
 ### [Development Environment]({{site.baseurl}}/environment)
 
