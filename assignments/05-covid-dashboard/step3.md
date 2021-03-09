@@ -184,10 +184,10 @@ By default, the method `send_static_file()` from the flask serve is looking for 
 Run the code and trigger the route `/` to see the chart with the data.
 
 TODO Screenshot of result
-TODO Replit code snippest of 3.3
 
-Two small bonuses to quickly improve this chart. In the Vega template we can add the key `tooltip` with the value `true` in `mark` to make the chart reactive to the mouse cursor. We can also add the key `sort` with the value `"-x"` in `y` to sort the countries from most to least impacted. There are many options that you can explore from the Vega documentation.
 
 [Check the code on Replit](https://repl.it/@IO1075/step3)
+
+Two small bonuses to quickly improve this chart. In the Vega template we can add the key `tooltip` with the value `true` in `mark` to make the chart reactive to the mouse cursor. We can also add the key `sort` with the value `"-x"` in `y` to sort the countries from most to least impacted. There are many options that you can explore from the Vega documentation.
 
 [Next: Step 4 - HTML / CSS]({{site.baseurl}}/assignments/05-covid-dashboard/step4){: .btn .btn-purple }
