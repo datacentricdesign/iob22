@@ -36,7 +36,7 @@ The algorithm looks as follows:
 
 ```markdown
 Send the request to [URL] using [method] and store the response in the variable [response]
-Then, check the [responseStatus] for a 'successul' code
+Then, check the [responseStatus] for a 'successful' code
 Do the [successAction]
 Otherwise, something went wrong
 Do the [errorAction]
