@@ -19,13 +19,13 @@ parent: '05 COVID Dashboard'
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1lPOiUwgpwI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-So far, our web server is capable of collecting COVID-19 data from a web service and serves the data. The web server does not bring any additional value yet. There are many different tools, framework and libraries to visualise data. In this assignment, we introce [Vega](https://vega.github.io/vega/), trying to shift the focus on the visualisation rather than the code. This contrast with visualisation tools that constraints the visualisation by the way the code is structured.
+So far, our web server is capable of collecting COVID-19 data from a web service and serves the data. The web server does not bring any additional value yet. There are many different tools, frameworks and libraries to visualise data. In this assignment, we introce [Vega](https://vega.github.io/vega/), trying to move the focus to the visualisation rather than the code. This contrasts with visualisation tools that constrain the visualisation by the way the code is structured.
 
 # Vega - Vizualisation Grammar
 
-As described from its website, _'Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using Canvas or SVG.'_ [Vega](https://vega.github.io/vega/)
+As described from its website, _'Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using Canvas or SVG'._ [Vega](https://vega.github.io/vega/)
 
-We think that this approach might enables designers of visualisations to focus on visualisation concepts rather than the technical implementation.
+We think that this approach might enable designers of visualisations to focus on graphic concepts rather than the technical implementation.
 
 # Task 3.1 Specify Summary Chart
 
@@ -60,19 +60,19 @@ We start with the top right chart summarising the global COVID situation by list
 
 This is all we need to describe the chart.
 
-- The schema, like for SVG, is a link to the rule definitions of Vega - all element that we can put in this JSON structure to be considered as a valid Vega chart;
+- The schema, like for SVG, is a link to the rule definitions of Vega - all elements that we can put in this JSON structure to be considered as a valid Vega chart;
 - The title of the chart;
 - The data, an array of values to show on the chart. Here it is empty, each time we will show the chart, we will get the latest data and insert them here;
 - The mark specifies the shape of the chart. For now we will leave Vega generate a default bar chart;
-- The encoding is the place where we define what should go where. There is an `x` and `y` axes. Looking at the data extract below (from our own server), the total confirmed cases per country appears as the key `TotalConfirmed` in each country. We use this key for `x`, it is a number, we use the type `quantitative`. Similarly for the `y` axes, we use the key `Country` in each country, this time with a type `nominal` (not numbers, and no meaning out of a sorting). Note that the countries are on the `y` axis so that the long list of countries unfold vertical. The other way around would also work.
+- The encoding is the place where we define what should go where. There is an `x` and `y` axes. Looking at the data extract below (from our own server), the total confirmed cases per country appears as the key `TotalConfirmed` in each country. We use this key for `x`, it is a number, we use the type `quantitative`. Similarly for the `y` axes, we use the key `Country` in each country, this time with a type `nominal` (not numbers, and no meaning out of a sorting). Note that the countries are on the `y` axis so that the long list of countries unfolds vertically. The other way around would also work.
 
 ![Assignment 5 - Sample data total confirmed ]({{site.baseurl}}/assets/images/assignment5-step3-total-confirmed.png)
 
-This is all the details needed for Vega to generate a bar chart. We now need to bring in the data.
+These are all the details needed for Vega to generate a bar chart. We now need to bring in the data.
 
 # Dictionary
 
-We briefly mentioned `dict` in the previous Step to wrap an list of data in a JSON data structure with key/value pair. A `dict` is the equivalent of JSON in Python. It is an object composed of key/value pairs which we can manipulate in Python. All JSON data structures are mapped into `dict` to be manipulated.
+We briefly mentioned `dict` in the previous step to wrap an list of data in a JSON data structure with key/value pair. A `dict` is the equivalent of JSON in Python. It is an object composed of key/value pairs which we can manipulate in Python. All JSON data structures are mapped into `dict` to be manipulated.
 
 We define a `dict` with curly brackets as mentioned in the previous step.
 
@@ -137,17 +137,18 @@ Finally, we are ready to return the Vega template containing the data.
 ```
 
 Run the code and trigger the route `/summary` to check if the result properly contains the Vega template with the data.
+![Assignment 5 - Summary]({{site.baseurl}}/assets/images/task 5-3-2.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/step3-2)
 
 # Task 3.3 Display data
 
-We now have a description of visualisation along with the data. Still, the web browser is showing this as a raw JSON data structure. A web page for human (not JSON raw data) is structured with `HTML`. `HTML` stands for Hyper Text Markup Language and relies on XML data structure like SVG, with `<tag>` to open and `</tag>` to close an element.
+We now have a description of visualisation along with the data. Still, the web browser is showing this as a raw JSON data structure. A web page that is practical for humans (not JSON raw data) is structured with `HTML`. `HTML` stands for Hyper Text Markup Language and relies on XML data structure like SVG, with `<tag>` to open and `</tag>` to close an element.
 
 Let's create a folder `static` and inside this folder create a file `index.html` with the following content. It starts with a special tag which indicate that we look at an `HTML` document. The whole document is included inside the tag `<html>` divided into two parts:
 
-- the head for information that are not visible inside the page, setting up for instance the `title` showing up in the web browser tab, and importing the libraries that are needed: in our case we need Vega.
-- the body describes the structure of the page. At this stage, we have just a tag `<div>` (for division), which represents an area in the document. It is important to note that this division has an `id` which we use to retrieve this area in the document. The last tag is `script` which defines one line of Javascript: the language that define the dynamic behaviour of the page. Here we use the Vega library to download the data from the route `/summay` and generate the chart in the area with the id `summary` (`#` indicate that we are looking for an id).
+- the head for information that are not visible inside the page, setting up for instance the `title` showing up in the web browser tab, and importing the libraries that are needed; in our case we need Vega.
+- the body describes the structure of the page. At this stage, we have just a tag `<div>` (for division), which represents an area in the document. It is important to note that this division has an `id` which we use to retrieve this area in the document. The last tag is `script` which defines one line of Javascript: the language that define the dynamic behaviour of the page. Here we use the Vega library to download the data from the route `/summary` and generate the chart in the area with the id `summary` (`#` indicate that we are looking for an id).
 
 ```html
 <!DOCTYPE html>
@@ -170,7 +171,7 @@ Let's create a folder `static` and inside this folder create a file `index.html`
 </html>
 ```
 
-I here you! Many new things! Yes, the web is combining several languages together, each with a key responsibility. We will detail further on as we go. For now, just consider this HTML structured is downloaded by the web browser. From there, it knows which libraries it needs to download and from where, it knows how the page should be structured, and running the `vegaEmbed()` function it will download and display the chart on the page.
+I hear you! Many new things! Yes, the web is combining several languages together, each with a key responsibility. We will detail further on as we go. For now, just consider this HTML structure is downloaded by the web browser. From there, it knows which libraries it needs to download and from where, it knows how the page should be structured, and running the `vegaEmbed()` function it will download and display the chart on the page.
 
 The final element is how do we get this HTML document into the web browser? Well, the web server needs to serve it, like it serves the JSON data structure. It is time to replace the sentence `"A nice COVID dashboard"` from the route `/` by the following line:
 
@@ -183,8 +184,7 @@ By default, the method `send_static_file()` from the flask serve is looking for 
 
 Run the code and trigger the route `/` to see the chart with the data.
 
-TODO Screenshot of result
-
+![Assignment 5 - Vega]({{site.baseurl}}/assets/images/task 5-3-3.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/step3-3)
 
