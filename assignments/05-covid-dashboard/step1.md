@@ -61,7 +61,7 @@ Return the string "An area chart of COVID cases over time in the Netherlands."
 Start the web server
 ```
 
-TODO Replit code sample here
+[Check the code on Replit](https://repl.it/@IO1075/step1)
 
 Copy and paste this English description in the file `main.py` of your _Replit_ project as comments. Then, for each comment, add its Python translation. Note that for now, our HTTP routes are returning a string. We are just putting in place the structure of our web server.
 
@@ -96,18 +96,16 @@ To see how the data looks like, copy and paste the URL of each API in the web br
 
 Note: depending on the web browser, the result will be formated on multiple lines or kept as raw.
 
-The data is structured with the JavaScript Object Notation (JSON, pronounced 'Jason'). It is a typical data structure for sharing or storing data. It sarts and ends with curly brackets `{}` and it is composed of key/value pairs separated by a colon and a comma between each pair. The value can be of type:
+The data is structured with the JavaScript Object Notation (JSON, pronounced 'Jason'). It is a typical data structure for sharing or storing data. It starts and ends with curly brackets `{}` and it is composed of key/value pairs separated by a colon and a comma between each pair. The value can be of type:
 
 - a string (with double quotes, similar to Python);
 - a number;
 - a boolean (true or false)
-- an array (a list of values separated by comma, delimited by square brackets `[]`)
+- an array (a list of values separated by a comma, delimited by square brackets `[]`)
 - an object (a sub-json structure, delimited by curly brackets `{}`)
 
 We can see in this example that we have first the key `Global`, leading to a sub-json structure with the latest COVID statistics globally. Then, we have the key `Countries`, leading to an array. Each JSON structure in this array represents the COVID latest number for a specific country.
 
-In the next step we will see how to get this COVID data directly in our Python code.
-
-[Check the code on Replit](https://repl.it/@IO1075/step1)
+In the next step, we will see how to get this COVID data directly in our Python code.
 
 [Next: Step 2 - HTTP Request]({{site.baseurl}}/assignments/05-covid-dashboard/step2){: .btn .btn-purple }
