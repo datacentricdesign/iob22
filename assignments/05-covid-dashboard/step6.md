@@ -33,4 +33,4 @@ Tune the charts by looking into the [Vega grammar](https://vega.github.io/vega/d
 Update /netherlands to be able to choose the country, then call this new endpoint to display the distribution of several countries
 
 
-Go ahead and share your abstract visualisation on Discourse! Make sure to provide a title and a short description that capture what makes it YOUR algorithm.
+Go ahead and share your dashboard on Discourse! Make sure to provide a title and a short description that capture what makes it YOUR algorithm.
