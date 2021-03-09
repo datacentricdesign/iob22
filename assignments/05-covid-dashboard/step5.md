@@ -1,24 +1,25 @@
 ---
 layout: default
 title: Step 5 Dictionary
-parent: "05 COVID Dashboard"
-
+parent: '05 COVID Dashboard'
 ---
 
 # Step 5 Dictionary
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
 We walked through the full cycle of setting up a visualisation, downloading data to inject it in the visualisation and render this visualisation as part of an HTML/CSS/JavaScript dashboard. In this step we repeat these steps to add two additional charts.
 
-# Task 5.1 Display Netherlands History 
+# Task 5.1 Display Netherlands History
 
 This time we want an area chart mapping the case history in the Netherlands. First, we have the template, which includes the same elements as the previous chart. This time we look for an area chart
 
@@ -61,22 +62,24 @@ The process of combining template and data is the same as in Step 3, with a diff
 
 Run the code and trigger the route `/netherlands` to see the template together with the data.
 
+TODO Replit code here
+
 In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next to existing `vegaEmbed` from the first chart.
 
 ```js
-vegaEmbed('#netherlands', "/netherlands")
+vegaEmbed('#netherlands', '/netherlands');
 ```
 
 A styling details, as the chart is wide it would fit better on the full length of the page. We could add an id to the second section so that we can apply some CSS on that specific element. Another strategy is to add the class property. While an id must be unique, the class can be apply to many elements. As we might want to create several charts for other countries to compare, the class seems an appropriate choice. Add property `class="country"` to the second section. Then, in the CSS, add the following to increase the size of the grid for this particular section. Note the dot `.` in contrast with the hashtag `#` to target the name of a class instead of an id.
 
 ```css
 .country {
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-    text-align: center
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  text-align: center;
 }
 ```
 
-Test
+TODO screenshot of results
 
 # Task 5.2 Display New Cases
 
@@ -138,14 +141,15 @@ The function `serve_summary_new()` looks as follows:
 
 Run the code and trigger the route `/new` to see the template together with the data.
 
+TODO Replit code here
+
 In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next to existing `vegaEmbed` from the first chart.
 
 ```js
-vegaEmbed('#new', "/new")
+vegaEmbed('#new', '/new');
 ```
 
-Test
-
+TODO screenshot of results
 
 [Check the code on Replit](https://repl.it/@IO1075/step5)
 

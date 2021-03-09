@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Step 2 HTTP Requests
-parent: "05 COVID Dashboard"
-
+parent: '05 COVID Dashboard'
 ---
 
 # Step 2 HTTP Requests
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -22,12 +23,12 @@ We have identified a service to access COVID-19 latest data. However, we need ou
 
 An HTTP Request is a message that a computer sends to the web to receive information in response: the HTTP Response. It is what we want to achieve to collect data from the covi19api.com service. The algorithm of an HTTP Request has the following elements:
 
-* `URL` Where is the resource located?
-* `method` What is the HTTP method?
-* `response` Where the response should be stored?
-* `responseStatus` What is the status of the response? Did it succeed? Did it fail?
-* `successAction` What shall we do if the request was successful?
-* `errorAction` What shall we do if the request failed?
+- `URL` Where is the resource located?
+- `method` What is the HTTP method?
+- `response` Where the response should be stored?
+- `responseStatus` What is the status of the response? Did it succeed? Did it fail?
+- `successAction` What shall we do if the request was successful?
+- `errorAction` What shall we do if the request failed?
 
 #### HTTP Request Algorithm
 
@@ -36,9 +37,9 @@ The algorithm looks as follows:
 ```markdown
 Send the request to [URL] using [method] and store the response in the variable [response]
 Then, check the [responseStatus] for the code a successul code
-    Do the [successAction]
+Do the [successAction]
 Otherwise, something went wrong
-    Do the [errorAction]
+Do the [errorAction]
 ```
 
 The HTTP protocol has an extensive list of response codes to indicate the status of a response (i.e. how did it go?) The typical successful status code is `200`. You can see the full list of [HTTP response status codes on MDN Web Docs](https://developer.mozilla.org/nl/docs/Web/HTTP/Status).
@@ -76,9 +77,9 @@ Inside this file, to be able to make an HTTP request, we first need to import th
 def download_summary():
     """
   Send HTTP request to API /summary and return the response in JSON format.
-  
+
   API details: https://documenter.getpostman.com/view/10808728/SzS8rjbc#00030720-fae3-4c72-8aea-ad01ba17adf8
-  
+
   """
     # Send the HTTP request
     # Check for the HTTP response status 200 (OK)
@@ -110,16 +111,16 @@ Run the code and trigger the route `/summary` to check if the COVID data is serv
 
 # Task 2.2 Download Confirmed Cases per Country
 
-Let's repeat this process to download the data from the `/country` API. We want to download the historical data for the Netherlands. Back in `covid.py`, create a function `download_confirmed_per_country()`. 
+Let's repeat this process to download the data from the `/country` API. We want to download the historical data for the Netherlands. Back in `covid.py`, create a function `download_confirmed_per_country()`.
 
 ```python
 def download_confirmed_per_country(country):
     """
   Send HTTP request to API /country/<country>/status/confirmed to receive the daily number of confirmed cases for the requested country. Return the response in JSON format.
-  
+
   API details: https://documenter.getpostman.com/view/10808728/SzS8rjbc#b07f97ba-24f4-4ebe-ad71-97fa35f3b683
-  
-  country -- the name of the requested 
+
+  country -- the name of the requested
   """
     # Send the HTTP request
     # Check for the HTTP response status 200 (OK)
@@ -142,7 +143,7 @@ In `main.py`, we import this new function at the top of the file. Finally, we ca
     return download_confirmed_per_country("netherlands")
 ```
 
-Run the code, and trigger the route `/netherlands`  to check if the COVID data is served. Once again, the expected result is the same as directly calling the COVID19 API: our Python code is downloading the data and forwarding it.
+Run the code, and trigger the route `/netherlands` to check if the COVID data is served. Once again, the expected result is the same as directly calling the COVID19 API: our Python code is downloading the data and forwarding it.
 
 Oh! It does not work! `500 Internal Server Error`, what can that possibly mean! Well `500` is the generic HTTP status code for when something went wrong on the server (as opposed to `200`). If we look at the Terminal in _Replit_, we can indeed see that something went wrong.
 
@@ -164,7 +165,7 @@ Indeed, this data does not start and end with curly brackets `{}`, it starts dir
 }
 ```
 
-Note that we choose `data` as key where we could have picked any key name. In the Python code, we can use a similar. The equivalent of a JSON structure (i.e. a map of key and value) is the data type `dict` (for dictionary). We will explore further what we can do with `dict` when manipulating the data  in the next step. For now, we can change our code of `download_confirmed_per_country()` as follows, taking the list from the response and wrapping it into a `dict` under the key `data`.
+Note that we choose `data` as key where we could have picked any key name. In the Python code, we can use a similar. The equivalent of a JSON structure (i.e. a map of key and value) is the data type `dict` (for dictionary). We will explore further what we can do with `dict` when manipulating the data in the next step. For now, we can change our code of `download_confirmed_per_country()` as follows, taking the list from the response and wrapping it into a `dict` under the key `data`.
 
 ```python
         # Return the response as JSON
@@ -190,11 +191,13 @@ We can now replace the this part of the URL in both functions with `{URL_API}` (
 
 As your code is growing, it becomes hard to keep track of what is happening. It feels appropriate to introduce logs. Logging refers to keeping track of what the programme is doing. As we move our user interface from the Terminal to the web browser, the only information we want to show in the Terminal are in fact, logs. While the function `print()` is good to start with, it is very limited. It can on show information in the Terminal. If we want any extra information such as the time or line number from the code emitting this message, we would need to do that ourself. When switching from debugging to regular execution, we need to go through the code to remove the `print()`. Instead of showing this information in the terminal, we often want it in a file, or maybe somewhere else. A logger is providing all these functionalities.
 
-* You can `format` the information you want to see for each log;
-* You can change the `log level` to quickly switch from `DEBUG` logging showing a lot of details to `ERROR` logging only showing the errors;
-* You can change the output from the Terminal to a file, maybe both at the same time. 
+- You can `format` the information you want to see for each log;
+- You can change the `log level` to quickly switch from `DEBUG` logging showing a lot of details to `ERROR` logging only showing the errors;
+- You can change the output from the Terminal to a file, maybe both at the same time.
 
-In short, as soon as you code more than a few line of codes, logging is a requirements to save you hours of unecessary work. 
+TODO Screenshot of log
+
+In short, as soon as you code more than a few line of codes, logging is a requirements to save you hours of unecessary work.
 
 # Task 2.3 Log Errors and Service Access
 
@@ -233,10 +236,11 @@ We can also log the access to our API. In this case, we would use the log level 
 
 Run the code again, and trigger the route `/netherlands` to see what happens. The web page should work as before. In _Replit_, You should see much less lines in the Terminal. A file `covid.py` should now exists with a few logs.
 
+TODO screenshot of file with log
+
 You can experiment with the logging parameters in `main.py`. If you remove the filename, then your logs appear in the terminal. If you change `logging.INFO` into `logging.ERROR`, then your INFO logs are not appearing anymore. In conclusion, we recommend you to use the `logging` module instead of `print()` for any code that you write.
 
 We now hae our web server in place, fetching fresh data about the COVID situation and forwarding that data to the web browser. Still, this is not really convincing as long as we are not visualising this data. That is the purpose of Step 3.
-
 
 [Check the code on Replit](https://repl.it/@IO1075/step2)
 

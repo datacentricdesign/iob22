@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Step 3 Chart
-parent: "05 COVID Dashboard"
-
+parent: '05 COVID Dashboard'
 ---
 
 # Step 3 Chart
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -24,8 +25,7 @@ So far, our web server is capable of collecting COVID-19 data from a web service
 
 As described from its website, _'Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using Canvas or SVG.'_ [Vega](https://vega.github.io/vega/)
 
-We think that this approach might enables designers of visualisations to focus on visualisation concepts rather than the technical implementation. 
-
+We think that this approach might enables designers of visualisations to focus on visualisation concepts rather than the technical implementation.
 
 # Task 3.1 Specify Summary Chart
 
@@ -60,12 +60,11 @@ We start with the top right chart summarising the global COVID situation by list
 
 This is all we need to describe the chart.
 
-* The schema, like for SVG, is a link to the rule definitions of Vega - all element that we can put in this JSON structure to be considered as a valid Vega chart;
-* The title of the chart;
-* The data, an array of values to show on the chart. Here it is empty, each time we will show the chart, we will get the latest data and insert them here;
-* The mark specifies the shape of the chart. For now we will leave Vega generate a default bar chart;
-* The encoding is the place where we define what should go where. There is an `x` and `y` axes. Looking at the data extract below (from our own server), the total confirmed cases per country appears as the key `TotalConfirmed` in each country. We use this key for `x`, it is a number, we use the type `quantitative`. Similarly for the `y` axes, we use the key `Country` in each country, this time with a type `nominal` (not numbers, and no meaning out of a sorting). Note that the countries are on the `y` axis so that the long list of countries unfold vertical. The other way around would also work.   
-
+- The schema, like for SVG, is a link to the rule definitions of Vega - all element that we can put in this JSON structure to be considered as a valid Vega chart;
+- The title of the chart;
+- The data, an array of values to show on the chart. Here it is empty, each time we will show the chart, we will get the latest data and insert them here;
+- The mark specifies the shape of the chart. For now we will leave Vega generate a default bar chart;
+- The encoding is the place where we define what should go where. There is an `x` and `y` axes. Looking at the data extract below (from our own server), the total confirmed cases per country appears as the key `TotalConfirmed` in each country. We use this key for `x`, it is a number, we use the type `quantitative`. Similarly for the `y` axes, we use the key `Country` in each country, this time with a type `nominal` (not numbers, and no meaning out of a sorting). Note that the countries are on the `y` axis so that the long list of countries unfold vertical. The other way around would also work.
 
 ![Assignment 5 - Sample data total confirmed ]({{site.baseurl}}/assets/images/assignment5-step3-total-confirmed.png)
 
@@ -96,7 +95,6 @@ To assign the value to a specific key, we turn the expression around.
 my_data_dictionary["Country"] = "Netherlands"
 ```
 
-
 # Task 3.2 Select Data
 
 This is already enough about Dictionaries to manipulate our data. In the sample data from the previous task, we know that the data comes in a JSON object with the key `Countries` including the detailed list of all countries. So what we need to do is to get our Vega template, get fresh data from the API, extract the list of countries inside the key `Countries` and insert this list in the Vega template.
@@ -110,7 +108,7 @@ To load the Vega template from the JSON file, we use the `json` module at the to
   # Send the chart description to the client
 ```
 
-To load the JSON template, we use the json module. We use `open()` that we already used in the previous assignments to open a file. We give this file to the function `load()` from the json module. This bring our json template in Python, as `dict`. 
+To load the JSON template, we use the json module. We use `open()` that we already used in the previous assignments to open a file. We give this file to the function `load()` from the json module. This bring our json template in Python, as `dict`.
 
 ```python
   # Load json template from summary.json
@@ -140,35 +138,35 @@ Finally, we are ready to return the Vega template containing the data.
 
 Run the code and trigger the route `/summary` to check if the result properly contains the Vega template with the data.
 
+TODO Replit code snippest of 3.2
+
 # Task 3.3 Display data
 
 We now have a description of visualisation along the data. Still, the web browser is showing this as a raw JSON data structure. A web page for human (not JSON raw data) is structured with `HTML`. `HTML` stands for Hyper Text Markup Language and relies on XML data structure like SVG, with `<tag>` to open and `</tag>` to close an element.
 
 Let's create a folder `static` and inside this folder create a file `index.html` with the following content. It starts with a special tag which indicate that we look at an `HTML` document. The whole document is included inside the tag `<html>` divided into two parts:
 
-* the head for information that are not visible inside the page, setting up for instance the `title` showing up in the web browser tab, and importing the libraries that are needed: in our case we need Vega.
-* the body describe the structure of the page. At this stage we have just a tag `<div>` (for division), which represents an area in the document. It is important to note that this division has an `id` which we use to retrieve this area in the document. The last tag is `script` which define one line of Javascript: the language that define the dynamic behaviour of the page. Here we use the Vega library to download the data from the route `/summay` and generate the chart in the area with the id `summary` (`#` indicate that we are looking for an id).
+- the head for information that are not visible inside the page, setting up for instance the `title` showing up in the web browser tab, and importing the libraries that are needed: in our case we need Vega.
+- the body describe the structure of the page. At this stage we have just a tag `<div>` (for division), which represents an area in the document. It is important to note that this division has an `id` which we use to retrieve this area in the document. The last tag is `script` which define one line of Javascript: the language that define the dynamic behaviour of the page. Here we use the Vega library to download the data from the route `/summay` and generate the chart in the area with the id `summary` (`#` indicate that we are looking for an id).
 
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>COVID Dashboard</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
-<body>
+  <head>
+    <title>COVID Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  </head>
+  <body>
+    <!-- Where to draw the summary for all countries (Bar chart) -->
+    <div id="summary"></div>
 
-<!-- Where to draw the summary for all countries (Bar chart) -->
-<div id="summary"></div>
-
-<script type="text/javascript">
-  vegaEmbed('#summary', "/summary")
-</script>
-
-</body>
+    <script type="text/javascript">
+      vegaEmbed('#summary', '/summary');
+    </script>
+  </body>
 </html>
 ```
 
@@ -185,8 +183,10 @@ By default, the method `send_static_file()` from the flask serve is looking for 
 
 Run the code and trigger the route `/` to see the chart with the data.
 
-Two small bonuses to quickly improve this chart. In the Vega template we can add the key `tooltip` with the value `true` in `mark` to make the chart reactive to the mouse cursor. We can also add the key `sort` with the value `"-x"` in `y` to sort the countries from most to least impacted. There are many options that you can explore from the Vega documentation.
+TODO Screenshot of result
+TODO Replit code snippest of 3.3
 
+Two small bonuses to quickly improve this chart. In the Vega template we can add the key `tooltip` with the value `true` in `mark` to make the chart reactive to the mouse cursor. We can also add the key `sort` with the value `"-x"` in `y` to sort the countries from most to least impacted. There are many options that you can explore from the Vega documentation.
 
 [Check the code on Replit](https://repl.it/@IO1075/step3)
 

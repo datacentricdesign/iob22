@@ -61,6 +61,8 @@ Return the string "An area chart of COVID cases over time in the Netherlands."
 Start the web server
 ```
 
+TODO Replit code sample here
+
 Copy and paste this English description in the file `main.py` of your _Replit_ project as comments. Then, for each comment, add its Python translation. Note that for now, our HTTP routes are returning a string. We are just putting in place the structure of our web server.
 
 **Don't remember the syntax?** You might want to look at the previous assignment, Step 3 (Serve web page Python Syntax) for a reminder on the syntax.
