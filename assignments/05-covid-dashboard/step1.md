@@ -70,7 +70,7 @@ Copy and paste this English description in the file `main.py` of your _Replit_ p
 
 Execute the code and visit the four HTTP routes `/`, `/summary`, `/new` and `/netherlands` to check that you receive the four sentences as expected.
 
-TODO Screenshot of the 4 web pages
+![Assignment 5 - Sample code]({{site.baseurl}}/assets/images/task 5-1-1.gif)
 
 # Task 1.2 Explore COVID-19 API
 
