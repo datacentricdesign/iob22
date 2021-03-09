@@ -186,7 +186,7 @@ Run the code and trigger the route `/` to see the chart with the data.
 TODO Screenshot of result
 
 
-[Check the code on Replit](https://repl.it/@IO1075/step3)
+[Check the code on Replit](https://repl.it/@IO1075/step3-3)
 
 Two small bonuses to quickly improve this chart. In the Vega template we can add the key `tooltip` with the value `true` in `mark` to make the chart reactive to the mouse cursor. We can also add the key `sort` with the value `"-x"` in `y` to sort the countries from most to least impacted. There are many options that you can explore from the Vega documentation.
 
