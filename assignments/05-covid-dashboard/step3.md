@@ -16,6 +16,8 @@ parent: "05 COVID Dashboard"
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1lPOiUwgpwI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 So far, our web server is capable of collecting COVID-19 data from a web service and serves the data. The web server does not bring any additional value yet. There are many different tools, framework and libraries to visualise data. In this assignment, we introce [Vega](https://vega.github.io/vega/), trying to shift the focus on the visualisation rather than the code. This contrast with visualisation tools that constraints the visualisation by the way the code is structured.
 
 # Vega - Vizualisation Grammar

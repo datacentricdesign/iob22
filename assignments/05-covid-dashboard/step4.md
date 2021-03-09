@@ -16,6 +16,8 @@ parent: "05 COVID Dashboard"
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F8hQdtyRQaY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 We have seen a few lines of HTML and 1 line of Javascript so far. In this step, we cover a few more HTML tags to complete the structure of our dashboard and we introduce the third language of a web page: CSS, for the style.
 
 Note: as you start playing with HTML and CSS, you do not necessarily need to rerun your Python code each time. Refreshing the page should be enough. However, you will certainly experience 'cahing' issues, i.e. the web browser pretenting to refresh the page but actually reusing the files already downloaded without getting them again from the server. To avoid this for example with Firefox, you can right click on the page, click 'Inspect'. Inthe tools that open, click the tab 'Network' and make sure that the option 'disable cache' on the right side is ticked.
