@@ -138,16 +138,16 @@ Finally, we are ready to return the Vega template containing the data.
 
 Run the code and trigger the route `/summary` to check if the result properly contains the Vega template with the data.
 
-TODO Replit code snippest of 3.2
+[Check the code on Replit](https://repl.it/@IO1075/step3-2)
 
 # Task 3.3 Display data
 
-We now have a description of visualisation along the data. Still, the web browser is showing this as a raw JSON data structure. A web page for human (not JSON raw data) is structured with `HTML`. `HTML` stands for Hyper Text Markup Language and relies on XML data structure like SVG, with `<tag>` to open and `</tag>` to close an element.
+We now have a description of visualisation along with the data. Still, the web browser is showing this as a raw JSON data structure. A web page for human (not JSON raw data) is structured with `HTML`. `HTML` stands for Hyper Text Markup Language and relies on XML data structure like SVG, with `<tag>` to open and `</tag>` to close an element.
 
 Let's create a folder `static` and inside this folder create a file `index.html` with the following content. It starts with a special tag which indicate that we look at an `HTML` document. The whole document is included inside the tag `<html>` divided into two parts:
 
 - the head for information that are not visible inside the page, setting up for instance the `title` showing up in the web browser tab, and importing the libraries that are needed: in our case we need Vega.
-- the body describe the structure of the page. At this stage we have just a tag `<div>` (for division), which represents an area in the document. It is important to note that this division has an `id` which we use to retrieve this area in the document. The last tag is `script` which define one line of Javascript: the language that define the dynamic behaviour of the page. Here we use the Vega library to download the data from the route `/summay` and generate the chart in the area with the id `summary` (`#` indicate that we are looking for an id).
+- the body describes the structure of the page. At this stage, we have just a tag `<div>` (for division), which represents an area in the document. It is important to note that this division has an `id` which we use to retrieve this area in the document. The last tag is `script` which defines one line of Javascript: the language that define the dynamic behaviour of the page. Here we use the Vega library to download the data from the route `/summay` and generate the chart in the area with the id `summary` (`#` indicate that we are looking for an id).
 
 ```html
 <!DOCTYPE html>
