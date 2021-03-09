@@ -1,22 +1,25 @@
 ---
 layout: default
 title: Step 1 Review
-parent: "05 COVID Dashboard"
-
+parent: '05 COVID Dashboard'
 ---
 
 # Step 1 Review
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
-In the previous assignment, we used _Flask_ to serve the result of our generative art. It was a big step forward, moving from the Terminal output locally to exposing results to the web. The web serves information. It makes it a convenient prototyping tool to shape all types of digital user interactions. That is what we explore further with the COVID dashboard. How do we collect data from a `web service`? How do we filter and shape the data in the way we want it for our design? How do we generate charts and put them together in a structured dashboard? Well, this is what we practice in this programming assignment. The result of the fifth step looks as follows, but as you already know, this is your role as designers to take these starting components to the next level. We provide you with some hints in Step 6.
+In the previous assignment, we used _Flask_ to serve the result of our generative art. It was a big step forward, moving from the Terminal output locally to exposing results to the web. The web serves information. It makes it a convenient prototyping tool to shape all types of digital user interactions. That is what we explore further with the COVID dashboard. How do we collect data from a `web service`? How do we filter and shape the data in the way we want it for our design? How do we generate charts and put them together in a structured dashboard? Well, this is what we practice in this programming assignment.
+
+The result of the fifth step looks as follows, but as you already know, this is your role as designers to take these starting components to the next level. We provide you with some hints in Step 6.
 
 ![Assignment 5 - End Result]({{site.baseurl}}/assets/images/assignment5-end-result.png)
 
@@ -24,11 +27,11 @@ In the previous assignment, we used _Flask_ to serve the result of our generativ
 
 Let's start with what we already know from the previous steps. Go to _Replit_ and create a new project for this Python programming assignment. Go to the package manager and install _Flask_, the Python package we use to make a web server. Have a look at Task 3.1 of the previous assignment if you struggle to find your way.
 
-As we can see on the screenshot above, we aim to generate three different charts: 
+As we can see on the screenshot above, we aim to generate three different charts:
 
-* the 'New Cases' in the world in the last 24hrs;
-* the 'Total per Country';
-* the distribution of 'Confirmed Cases' in a given country over time.
+- the 'New Cases' in the world in last 24hrs;
+- the 'Total cases per Country';
+- the distribution of 'Confirmed Cases' in a given country over time.
 
 Thus, we can structure our code with three HTTP routes with there respective Python function to serve each chart. In addition, we need a fourth one to serve the dashboard itself.
 
@@ -37,23 +40,23 @@ Thus, we can structure our code with three HTTP routes with there respective Pyt
 ```markdown
 Import the object Flask from flask module
 
-Create a webserver object called 'COVID Dashboard' and keep track of it in the variable server
+Create a webserver object called 'COVID Dashboard' and keep track of it in the variable called server
 
 Define an HTTP route / to serve the dashboard home web page
 Define the function 'index()' and connect it to the route /
-  Return the string "A nice COVID dashboard"
+Return the string "A nice COVID dashboard"
 
 Define an HTTP route /summary to serve the summary chart
 Define the function 'serve_summary()' and connect it to the route /summary
-  Return the string "A bar chart summary of COVID cases per country."
+Return the string "A bar chart summary of COVID cases per country."
 
 Define an HTTP route /new to serve the new count worldwide chart
 Define the function 'serve_summary_new()' and connect it to the route /new
-  Return the string "A pie chart summary of new COVID cases globally."
+Return the string "A pie chart summary of new COVID cases globally."
 
 Define an HTTP route /netherlands to serve the chart of the Netherlands
 Define the function 'serve_netherlands_history()' and connect it to the route /netherlands
-  Return the string "An area chart of COVID cases over time in the Netherlands."
+Return the string "An area chart of COVID cases over time in the Netherlands."
 
 Start the web server
 ```
@@ -73,7 +76,7 @@ Now there is only so much we can do for a COVID dashboard without actual data. L
 
 Why this choice? It is a free, registration free and easy to use API which enables our dashboard to show the latest data. It would not work for a product because there is a limitation to the free service, such as how many times we can request the data within one day. However, it perfectly fits our prototyping needs.
 
-How to get started? On the front page towards the bottom, there is a [documentation](https://documenter.getpostman.com/view/10808728/SzS8rjbc) link. It looks like a good place to start. We land on a `Postman` page, which is a tool for developing and documenting APIs.
+How to get started? On the front page towards the bottom, there is a [documentation](https://documenter.getpostman.com/view/10808728/SzS8rjbc) link. It looks like a good place to start. We land on a page of platform called `Postman` , which is a tool for developing and documenting APIs.
 
 In this assignment, we focus on two APIs: the `/summary` and the `/countries`. From the `/summary` API, we can extract the total number of cases per country up to now (the bar chart of our dashboard on the right) and the total of new cases in the last 24 hours (the pie chart on the left).
 
@@ -93,11 +96,11 @@ Note: depending on the web browser, the result will be formated on multiple line
 
 The data is structured with the JavaScript Object Notation (JSON, pronounced 'Jason'). It is a typical data structure for sharing or storing data. It sarts and ends with curly brackets `{}` and it is composed of key/value pairs separated by a colon and a comma between each pair. The value can be of type:
 
-* a string (with double quotes, similar to Python);
-* a number;
-* a boolean (true or false)
-* an array (a list of values separated by comma, delimited by square brackets `[]`)
-* an object (a sub-json structure, delimited by curly brackets `{}`)
+- a string (with double quotes, similar to Python);
+- a number;
+- a boolean (true or false)
+- an array (a list of values separated by comma, delimited by square brackets `[]`)
+- an object (a sub-json structure, delimited by curly brackets `{}`)
 
 We can see in this example that we have first the key `Global`, leading to a sub-json structure with the latest COVID statistics globally. Then, we have the key `Countries`, leading to an array. Each JSON structure in this array represents the COVID latest number for a specific country.
 
