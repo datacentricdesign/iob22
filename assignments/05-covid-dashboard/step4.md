@@ -33,7 +33,7 @@ To add a header, use the tag `<header>` and `</header>` and insert text in the m
 <header>COVID-19 Dashboard</header>
 ```
 
-Note that evrything could fit on one line, the placement are just for readability. Next we could add a `<main>` tag which will include all our charts. To create headings like in a word processor, use the tags `<h1>` to `<h6>`.In our example we use two `<h1>` headings for "Around the World" and "In the Netherlands". Finally we have two sections with tags `<section>`. The first one includes two `<div>`, one for each chart with id 'new' and 'summary'. Note that we already had created the `<div>` for the 'summary' chart in the previous Step. The second section include one `<div>` with the id 'netherlands' which will host the chart forthe Netherlands. This looks as follows:
+Note that evrything could fit on one line, the placement are just for readability. Next, we could add a `<main>` tag which will include all our charts. To create headings like in a word processor, use the tags `<h1>` to `<h6>`.In our example we use two `<h1>` headings for "Around the World" and "In the Netherlands". Finally we have two sections with tags `<section>`. The first one includes two `<div>`, one for each chart with id 'new' and 'summary'. Note that we already had created the `<div>` for the 'summary' chart in the previous step. The second section include one `<div>` with the id 'netherlands' which will host the chart forthe Netherlands. This looks as follows:
 
 ```html
 <main>
@@ -59,7 +59,7 @@ Note the tags `<!-- -->` which are the equivalent of comments in HTML
 
 Run the code and check how the page looks like. We obtain a page with headings which have default styles, the chart shows up in the first section, the header appears at the top. Note that it only appear at the top because we placed it first in the body of our page. The name of the tags has no influence on their position. We have now a structured page (behind the scene) but not much is translating on the web page. This is where the styling of the page comes into play with CSS.
 
-TODO Replit code here
+[Check the code on Replit](https://repl.it/@IO1075/step4-1)
 
 # Task 4.2 Style the Dashboard
 
@@ -81,7 +81,7 @@ body {
 }
 ```
 
-To add style to your page, use the tag `<style>` inside `<head>`. When we refresh the page, we obtain a light blue background and the font changed across all text of the page. Here are some additional properties applied to the `<header>` and the `<main>` tags. In the main, we set a maximum width in combination with automatic margin. This combination centers the main area on the page as soon as the screen is larger than 900 pixels.
+To add style to your page, use the tag `<style>` inside `<head>`. When we refresh the page, we obtain a light blue background and the font changed across all text of the page. Here are some additional properties applied to the `<header>` and the `<main>` tags. In the main, we set a maximum width in combination with automatic margin. This combination centres the main area on the page as soon as the screen is larger than 900 pixels.
 
 ```css
 header {
@@ -100,7 +100,7 @@ main {
 }
 ```
 
-For a dashboard, we chose to structure the two sections a grids. The elements inside each section will fill the space for a maximum of 400 pixel wide and with a 30 pixel gap between them.
+For a dashboard, we chose to structure the two sections as a grid. The elements inside each section will fill up the space for a maximum 400-pixel wide and with a 30-pixel gap between them.
 
 ```css
 section {
@@ -110,7 +110,7 @@ section {
 }
 ```
 
-With the greater than sign `>` you can specify the style of a sub element. For instance, we define all `<div>` tags into a `<section>` with a white background and a slight shadow giving the effect of a paper sheet.
+With the greater than sign `>` you can specify the style of a sub-element. For instance, we define all `<div>` tags into a `<section>` with a white background and a slight shadow giving the effect of a paper sheet.
 
 ```css
 section > div {
@@ -131,6 +131,6 @@ Refreshing the page should give a style to your dashboard much closer to the end
 
 This give a brief introduction of HTML structure and CSS styling. Make sure to explore on your own and leave your mark on this dashboard with your own style.
 
-[Check the code on Replit](https://repl.it/@IO1075/step4)
+[Check the code on Replit](https://repl.it/@IO1075/step4-2)
 
 [Next: Step 5 - Dictionary]({{site.baseurl}}/assignments/05-covid-dashboard/step5){: .btn .btn-purple }

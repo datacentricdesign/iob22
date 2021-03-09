@@ -21,7 +21,7 @@ We walked through the full cycle of setting up a visualisation, downloading data
 
 # Task 5.1 Display Netherlands History
 
-This time we want an area chart mapping the case history in the Netherlands. First, we have the template, which includes the same elements as the previous chart. This time we look for an area chart
+This time we want an area chart mapping the case history in the Netherlands. First, we have the template, which includes the same elements as the previous chart. This time we look for an area chart. We can copy and paste this template in `templates/history.json`
 
 ```json
 {
@@ -62,7 +62,7 @@ The process of combining template and data is the same as in Step 3, with a diff
 
 Run the code and trigger the route `/netherlands` to see the template together with the data.
 
-TODO Replit code here
+[Check the code on Replit](https://repl.it/@IO1075/step5-1)
 
 In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next to existing `vegaEmbed` from the first chart.
 
@@ -141,9 +141,7 @@ The function `serve_summary_new()` looks as follows:
 
 Run the code and trigger the route `/new` to see the template together with the data.
 
-TODO Replit code here
-
-In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next to existing `vegaEmbed` from the first chart.
+In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next to the existing `vegaEmbed` from the first chart.
 
 ```js
 vegaEmbed('#new', '/new');
@@ -151,6 +149,6 @@ vegaEmbed('#new', '/new');
 
 TODO screenshot of results
 
-[Check the code on Replit](https://repl.it/@IO1075/step5)
+[Check the code on Replit](https://repl.it/@IO1075/step5-2)
 
 [Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/05-covid-dashboard/step6){: .btn .btn-purple }
