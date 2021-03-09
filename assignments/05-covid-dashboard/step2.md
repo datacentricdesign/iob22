@@ -13,7 +13,7 @@ parent: '05 COVID Dashboard'
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
@@ -48,7 +48,7 @@ Regarding the HTTP methods, the most commonly used are GET (to get data from a w
 
 #### HTTP Request Flow chart
 
-TODO flow chart
+![HTTP Request Flow chart]({{site.baseurl}}/assets/images/assignment5-step2-http-req.png)
 
 #### HTTP Request Python Syntax
 
