@@ -67,9 +67,9 @@ def welcome_to_io()
 server.run('0.0.0.0')
 ```
 
-Note the at sign `@` in front of 'server'. This is a `decorator`. There is no need to understant this mechanism at this stage. Only remember that it allows to _connect_ the HTTP route to the following function definition. Thus, both definitions (route and function) must be written next to eachother, without line of code in between.
+Note the at sign `@` in front of 'server'. This is a `decorator`. There is no need to understand this mechanism at this stage. Only remember that it allows to _connect_ the HTTP route to the following function definition. Thus, both definitions (route and function) must be written next to each other, without any line of code in between.
 
-The webserver starts with the argument `0.0.0.0`. It allows the webserver to be accessed from the network.
+The web server starts with the argument `0.0.0.0`. It allows the webserver to be accessed from the network.
 
 # Task 3.1 Serve the Radial Lines Drawing
 

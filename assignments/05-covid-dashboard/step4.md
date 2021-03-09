@@ -1,0 +1,138 @@
+---
+layout: default
+title: Step 4 HTML / CSS
+parent: "05 COVID Dashboard"
+
+---
+
+# Step 4 HTML / CSS
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+We have seen a few lines of HTML and 1 line of Javascript so far. In this step, we cover a few more HTML tags to complete the structure of our dashboard and we introduce the third language of a web page: CSS, for the style.
+
+Note: as you start playing with HTML and CSS, you do not necessarily need to rerun your Python code each time. Refreshing the page should be enough. However, you will certainly experience 'cahing' issues, i.e. the web browser pretenting to refresh the page but actually reusing the files already downloaded without getting them again from the server. To avoid this for example with Firefox, you can right click on the page, click 'Inspect'. Inthe tools that open, click the tab 'Network' and make sure that the option 'disable cache' on the right side is ticked.
+
+
+# Task 4.1 Structure the Dashboard
+
+In this step, we only focus on the file `static/index.html`: code that will be interpreted by the web browsers. A typical dashboard, and to some extend web page, involves common elements such as a header and a main part with sections. All these elements fit inside the tag `<body>`, the parts that are visible.
+
+To add a header, use the tag `<header>` and `</header>` and insert text in the middle, for example:
+
+```html
+<header>
+  COVID-19 Dashboard
+</header>
+```
+
+Note that evrything could fit on one line, the placement are just for readability. Next we could add a `<main>` tag which will include all our charts. To create headings like in a word processor, use the tags `<h1>` to `<h6>`.In our example we use two `<h1>` headings for "Around the World" and "In the Netherlands". Finally we have two sections with tags `<section>`. The first one includes two `<div>`, one for each chart with id 'new' and 'summary'. Note that we already had created the `<div>` for the 'summary' chart in the previous Step. The second section include one `<div>` with the id 'netherlands' which will host the chart forthe Netherlands. This looks as follows:
+
+```html
+<main>
+
+  <h1>Around the World</h1>
+  
+  <section>
+    <!-- Where to draw the newest count (Donut) -->
+    <div id="new"></div>
+    <!-- Where to draw the summary for all countries (Bar chart) -->
+    <div id="summary"></div>
+  </section>
+
+  <h1>In the Netherlands</h1>
+
+  <section>
+    <!-- Where to draw the netherlands chart (Area chart) -->
+    <div id="netherlands"></div>
+  </section>
+    
+</main>
+```
+
+Note the tags `<!-- -->` which are the equivalent of comments in HTML
+
+Run the code and check how the page looks like. We obtain a page with headings which have default styles, the chart shows up in the first section, the header appears at the top. Note that it only appear at the top because we placed it first in the body of our page. The name of the tags has no influence on their position. We have now a structured page (behind the scene) but not much is translating on the web page. This is where the styling of the page comes into play with CSS.
+
+
+# Task 4.2 Style the Dashboard
+
+CSS stands for Cascading Style Sheets and has been created for this purpose: styling HTML web pages. It works as follows:
+
+```css
+element {
+    key: value;
+}
+```
+
+The element point to one or mamy parts of the page. It is followed by curly brackets that includes key/value pairs, each defining a styling property of the pointed element. Here is an example with the tag `<body>`. We want to color the background, give a font to all text in the page and ensure that there is no white margin remaining all around.
+
+```css
+body {
+    margin: 0;
+    background-color: #e6f2ff;
+    font-family: Arial
+}
+```
+
+To add style to your page, use the tag `<style>` inside `<head>`. When we refresh the page, we obtain a light blue background and the font changed across all text of the page. Here are some additional properties applied to the `<header>` and the `<main>` tags. In the main, we set a maximum width in combination with automatic margin. This combination centers the main area on the page as soon as the screen is larger than 900 pixels.
+
+```css
+header {
+    height: 25px;
+    background-color: #3399ff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding:10px;
+}
+
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin:auto;
+}
+```
+
+For a dashboard, we chose to structure the two sections a grids. The elements inside each section will fill the space for a maximum of 400 pixel wide and with a 30 pixel gap between them. 
+
+```css
+section {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+```
+
+With the greater than sign `>` you can specify the style of a sub element. For instance, we define all `<div>` tags into a `<section>` with a white background and a slight shadow giving the effect of a paper sheet.
+
+```css
+section > div {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+```
+
+Refreshing the page should give a style to your dashboard much closer to the end result. One element that is still problematic is the lenght of the chart going very low in the page. We call this overflow. To solve this, we could add styling to this particular element by id. Here the hashtag `#` means that we target the element with the id 'summary'. We want to top its height to 280px and set the overflow as automatic, so that it start scrolling if the contnt does not fit.
+
+```css
+#summary {
+    max-height: 280px;
+    overflow: auto;
+}
+```
+
+This give a brief introduction of HTML structure and CSS styling. Make sure to explore on your own and leave your mark on this dashboard with your own style.
+
+
+[Check the code on Replit](https://repl.it/@IO1075/step4)
+
+[Next: Step 5 - Dictionary]({{site.baseurl}}/assignments/05-covid-dashboard/step5){: .btn .btn-purple }
