@@ -30,7 +30,7 @@ Tune the charts by looking into the [Vega grammar](https://vega.github.io/vega/d
 
 # Extra Task 6.3 Add more Countries
 
-Update /netherlands to be able to choose the country, then call this new endpoint to display the distribution of several countries
+Update `/netherlands` to be able to choose the country, then call this new endpoint to display the distribution of several countries
 
 
 Go ahead and share your dashboard on Discourse! Make sure to provide a title and a short description that capture what makes it YOUR algorithm.
