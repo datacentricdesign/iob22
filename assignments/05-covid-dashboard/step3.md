@@ -140,7 +140,7 @@ Finally, we are ready to return the "filled" Vega json template containing the u
 Run the code and trigger the route `/summary` to check if the result properly contains the Vega template with the data.
 ![Assignment 5 - Summary]({{site.baseurl}}/assets/images/task 5-3-2.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/step3-2)
+[Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step3-2)
 
 # Task 3.3 Display data
 
@@ -190,7 +190,7 @@ Run the code and trigger the route `/` to see the chart with the data.
 
 ![Assignment 5 - Vega]({{site.baseurl}}/assets/images/task 5-3-3.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/step3-3)
+[Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step3-3)
 
 Two small tips to quickly improve this chart. In the Vega template we can add the key `tooltip` with the value `true` in `mark` to make the chart reactive to the mouse cursor. We can also add the key `sort` with the value `"-x"` in `y` to sort the countries from most to least impacted. There are many options that you can explore from the Vega documentation.
 

@@ -249,6 +249,6 @@ You can experiment with the logging parameters in `main.py`. If you remove the f
 
 We now have our web server in place, which fetches fresh data about the most current COVID situation and forwards that to the web browser. Still, this is not a compelling way of presenting this data. That is the goal of Step 3 - Data Visualization.
 
-[Check the code on Replit](https://repl.it/@IO1075/step2)
+[Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step2)
 
 [Next: Step 3 - Chart]({{site.baseurl}}/assignments/05-covid-dashboard/step3){: .btn .btn-purple }

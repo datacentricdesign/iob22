@@ -62,7 +62,7 @@ Similarly to Step 3, we need to combine this template with the data. However, we
 
 Run the code and trigger the route `/netherlands` to see the template together with the data.
 
-[Check the code on Replit](https://repl.it/@IO1075/step5-1)
+[Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step5-1)
 
 In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next to the existing `vegaEmbed` from the first chart.
 
@@ -149,6 +149,6 @@ vegaEmbed('#new', '/new');
 
 ![Assignment 5 - End Result]({{site.baseurl}}/assets/images/assignment5-step5-2.png)
 
-[Check the code on Replit](https://repl.it/@IO1075/step5-2)
+[Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step5-2)
 
 [Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/05-covid-dashboard/step6){: .btn .btn-purple }
