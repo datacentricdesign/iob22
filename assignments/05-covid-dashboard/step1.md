@@ -13,7 +13,6 @@ parent: '05 COVID Dashboard'
 {: .no_toc .text-delta }
 
 1. TOC
-
 {:toc}
 
 ---
@@ -105,7 +104,7 @@ The data is structured in the JavaScript Object Notation  (JSON, pronounced 'Jas
 - an array (a list of values separated by a comma, delimited by square brackets `[]`)
 - an object (a sub-json structure, delimited by curly brackets `{}`)
 
-We can see in this example that we have first the key `Global`, leading to a sub-json structure with the latest global COVID statistics. Then, we have the key `Countries`, leading to an array. Each JSON structure in this array represents the COVID latest numbers for a specific country.
+We can see in this example that we have first the key `Global`, leading to a sub-json structure with the latest global COVID statistics. Then, we have the key `Countries`, leading to an array. Each JSON structure in this array represents the latest  COVID  numbers for a specific country.
 
 In the next step, we will see how to get this COVID data directly in our Python code.
 
