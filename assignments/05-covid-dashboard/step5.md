@@ -17,7 +17,7 @@ parent: '05 COVID Dashboard'
 
 ---
 
-We walked through the full cycle of setting up a visualisation, downloading data to inject it in the visualisation and render this visualisation as part of an HTML/CSS/JavaScript dashboard. In this step we repeat these steps to add two additional charts.
+We walked through the full cycle of setting up a visualisation, downloading data to inject it into the visualisation and render this visualisation as part of an HTML/CSS/JavaScript dashboard. In this step, we repeat these steps to add two additional charts.
 
 # Task 5.1 Display Netherlands History
 
@@ -51,11 +51,11 @@ This time we want an area chart mapping the case history in the Netherlands. Fir
 }
 ```
 
-The process of combining template and data is the same as in Step 3, with a different template and different pick at the data.
+Similarly to Step 3, we need to combine this template with the data. However, we select the template 'history.json' and take the data from the function `download_confirmed_per_country()`.
 
 ```python
-    # Load json template from history.json
-    # Download the confirmed cases of the netherlands from the COVID API
+    # Load JSON template from history.json
+    # Download the confirmed cases of the Netherlands from the COVID API
     # Add the data (key "data") to the template (key "data" > "values")
     # Send the chart description to the client
 ```
@@ -64,13 +64,13 @@ Run the code and trigger the route `/netherlands` to see the template together w
 
 [Check the code on Replit](https://repl.it/@IO1075/step5-1)
 
-In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next to existing `vegaEmbed` from the first chart.
+In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next to the existing `vegaEmbed` from the first chart.
 
 ```js
 vegaEmbed('#netherlands', '/netherlands');
 ```
 
-A styling details, as the chart is wide it would fit better on the full length of the page. We could add an id to the second section so that we can apply some CSS on that specific element. Another strategy is to add the class property. While an id must be unique, the class can be apply to many elements. As we might want to create several charts for other countries to compare, the class seems an appropriate choice. Add property `class="country"` to the second section. Then, in the CSS, add the following to increase the size of the grid for this particular section. Note the dot `.` in contrast with the hashtag `#` to target the name of a class instead of an id.
+Let's fix a layout styling detail. As the chart is wide, it would fit better on the full length of the page. We could add an `id` property to the second section and use this `id` to apply some _CSS_ on that specific element. Another strategy is to add the class property. While an `id` must be unique, we can use a class in many elements. As we might want to create several charts for other countries to compare, the class seems an appropriate choice. Add property `class="country"` to the second section. Then, in the _CSS_, add the following to increase the size of the grid for this particular section. Note the dot `.` in contrast with the hashtag `#` to target the name of a `class` instead of an `id`.
 
 ```css
 .country {
@@ -81,9 +81,9 @@ A styling details, as the chart is wide it would fit better on the full length o
 
 TODO screenshot of results
 
-# Task 5.2 Display New Cases
+# Task 5.2 Display New COVID Cases
 
-For the new cases, we use once again a similar vega template, this time with arc to represent a pie chart.
+For the new COVID cases, we use a similar Vega template. This time, we use the type `arc` to represent a pie chart. Create a file `templates/new.json` and paste the following JSON structure.
 
 ```json
 {
@@ -114,7 +114,7 @@ For the new cases, we use once again a similar vega template, this time with arc
 }
 ```
 
-The data regarding the new cases is part of the `/summary` API along the details of each countries. The new cases are specifically in the key `Global`. This is an opportunity to see how to loop through a `dict`. In the following example, we see the construction `for key in json_data["Global"]` which means we loop through all the keys as par of the nested `dict` 'Global'. This gives us the ability to filter keys that start with 'New',including 'NewConfirmed', 'NewDeaths' and 'NewRecovered'.
+The data regarding the new COVID cases is part of the `/summary` API together with the details of each country. The new COVID cases are located at the key `Global`. This is an opportunity to see how to loop through a Python dictionary. In the following example, we see the construction `for key in json_data["Global"]`. It means we loop through all the keys as part of the nested Python dictionary 'Global'. It gives us the ability to filter keys that start with 'New', including 'NewConfirmed', 'NewDeaths' and 'NewRecovered'.
 
 The function `serve_summary_new()` looks as follows:
 

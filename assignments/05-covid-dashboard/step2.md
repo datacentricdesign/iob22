@@ -52,7 +52,7 @@ Regarding the HTTP methods, the most commonly used are GET (to get data from a w
 
 #### HTTP Request Python Syntax
 
-Switching to the Python syntax, we use the function `get` from the module `requests` to make an HTTP request with the method GET. Same would apply for a POST request with the function post(). Then, `get()` takes a parameter `URL`: where is the resource located? Here we use the URL that we typed in the web broswer in the previous step. When store the result of `get()` in response: What comes back from the web service. The HTTP response include a property `status_code` which contains the HTTP status of the request. As discussed above, we check for the status `200`,meaning that the request would be successful. Otherwise, we use the `else` to run the errorAction.
+Switching to the Python syntax, we use the function `get` from the module `requests` to make an HTTP request with the method GET. Same would apply for a POST request with the function post(). Then, `get()` takes a parameter `URL`: where is the resource located? Here we use the URL that we typed in the web broswer in the previous step. When store the result of `get()` in response: What comes back from the web service. The HTTP response includes a property `status_code` which contains the HTTP status of the request. As discussed above, we check for the status `200`, meaning that the request would be successful. Otherwise, we use the `else` to run the `errorAction`.
 
 ```python
 from requests import get
@@ -105,7 +105,7 @@ And if it fails, it would be practicle to get some information about the error. 
         return {}
 ```
 
-We are done implementing our HTTP request in Python. We can go back to the file `main.py` and import this function at the top of the file (the same way we imported the svg functions in the previous assignment). Finally, we can replace the sentence `"Bar chart summary of COVID cases per country"` by a call to `download_summary()`, which will return the JSON data instead of the sentence.
+We are done implementing our HTTP request in Python. We can go back to the file `main.py` and import this function at the top of the file (the same way we imported the svg functions in the previous assignment). Finally, we can replace the sentence `"Bar chart summary of COVID cases per country"` by a call to `download_summary()`, which returns the JSON data instead of the sentence.
 
 Run the code and trigger the route `/summary` to check if the COVID data is served. The expected result is the same as directly calling the COVID19 API: our Python code is downloading the data and forwarding it.
 
