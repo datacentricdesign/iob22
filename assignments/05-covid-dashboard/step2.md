@@ -195,19 +195,19 @@ We can now replace this part of the URL in both functions with `{URL_API}` (usin
 
 # Logging
 
-As your code is growing, it becomes hard to keep track of what is happening. It feels appropriate to introduce logs. Logging refers to keeping track of what the programme is doing. As we move our user interface from the Terminal to the web browser, the only information we want to show in the Terminal are in fact, logs. While the function `print()` is good to start with, it is very limited. It can on show information in the Terminal. If we want any extra information such as the time or line number from the code emitting this message, we would need to do that ourself. When switching from debugging to regular execution, we need to go through the code to remove the `print()`. Instead of showing this information in the terminal, we often want it in a file, or maybe somewhere else. A logger is providing all these functionalities.
+As your code is growing, it becomes hard to keep track of what is happening. It feels appropriate to introduce logs. Logging refers to keeping track of what the programme is doing with regular prompt updates. As we move our user interface from the Terminal to the web browser, the only information we want to show in the Terminal are in fact, logs. While the function `print()` is good to start with, it is very limited. It can only show information we insert in the Terminal. If we want any extra information such as the time of incident or line number from the code emitting this message, we would need to do that ourselves. When switching from debugging to regular execution, we would need to go through the code to remove/comment all of the `print()` instances. Instead of showing this information in the terminal, we also often want it in a file, or maybe somewhere else. A logger can provides all these functionalities.
 
 - You can `format` the information you want to see for each log;
-- You can change the `log level` to quickly switch from `DEBUG` logging showing a lot of details to `ERROR` logging only showing the errors;
-- You can change the output from the Terminal to a file, maybe both at the same time.
+- You can change the `log level` to quickly switch from `DEBUG` logging (showing a lot of details) to `ERROR` logging (only showing the explicit errors);
+- You can change the logging output from the Terminal to a file, or maybe both at the same time.
 
 ![Assignment 5 - Netherlands]({{site.baseurl}}/assets/images/task 5-2-2 log.png)
 
-In short, as soon as you code more than a few line of codes, logging is a requirements to save you hours of unecessary work.
+In short, as soon as you start to code more more complex programs, logging can save you hours of unnecessary work.
 
 # Task 2.3 Log Errors and Service Access
 
-Python comes with the `logging` module to do just that. In `main.py`, add the three following lines of code at the to of the file.
+Python provides  the `logging` module to do just that. In `main.py`, add the three following lines of code at the top of the file.
 
 ```python
 # Import and setup logging
@@ -216,9 +216,9 @@ log_format = "[%(levelname)s] - %(asctime)s : %(message)s in %(module)s:%(lineno
 logging.basicConfig(filename='covid.log', format=log_format, level=logging.INFO)
 ```
 
-The first line is familiar, we import the module `logging`. Then, we defined the format, what we want to show for each log. This setting will show the log level, the time of execution, the message (the only information coming from `print()`), which module and which line of code. The third line puts it together, saying that we want to write the logs in the file `covid.log`, with the format we defined above for all logs of level `INFO` or above. The log levels are as follows `DEBUG`, `INFO`, `WARN`, `ERROR` and `CRITICAL`. Thus, the above set would show all logs bug `DEBUG`.
+The first line is familiar, we are importing the module `logging`. Then, we defined the logging format, what we want to show for each log. This setting will show the log level, the time of execution, the message (the  information usually coming from `print()`), and which module  and  line of code is currently running. The third line puts it all together, saying that we want to write the logs in the file `covid.log`, with the format we have defined above for all logs of level `INFO` or above. The log levels are as follows: `DEBUG`, `INFO`, `WARN`, `ERROR` and `CRITICAL`. Thus, the above set would show all logs but `DEBUG`.
 
-Let's make use of this logs. In `covid.py`, we have two `print()` statements as we want to show what went wrong for a failed HTTP request. At the top of the file, import the logging module. Here we do not need any configuration, we already setup the logger in `main.py`. Then, replace the two `print()` statement by logs, for instance replace:
+Let's make use of these logs. In `covid.py`, we have two `print()` statements,  to show what went wrong for a failed HTTP request. At the top of the file, import the logging module. Here we do not need any configuration, as we already setup the logger in `main.py`. Then, replace the two `print()` statement by logs, for instance replace:
 
 ```python
         # Show the error message
@@ -240,13 +240,13 @@ We can also log the access to our API. In this case, we would use the log level 
         return { "data" : response.json() }
 ```
 
-Run the code again, and trigger the route `/netherlands` to see what happens. The web page should work as before. In _Replit_, You should see much less lines in the Terminal. A file `covid.log` should now exists with a few logs.
+Run the code again, and trigger the route `/netherlands` to see what happens. The web page should work as before. In _Replit_, You should see much less lines in the Terminal. A file `covid.log` should now exist with a few log statements.
 
 ![Assignment 5 - Logging]({{site.baseurl}}/assets/images/task 5-2-3- split screen.gif)
 
-You can experiment with the logging parameters in `main.py`. If you remove the filename, then your logs appear in the terminal. If you change `logging.INFO` into `logging.ERROR`, then your INFO logs are not appearing anymore. In conclusion, we recommend you to use the `logging` module instead of `print()` for any code that you write.
+You can experiment with the logging parameters in `main.py`. If you remove the filename, then your logs will appear in the terminal. If you change the level parameter from  `logging.INFO` into `logging.ERROR`, then your INFO logs are not appearing anymore. In conclusion, we recommend you to use the `logging` module instead of `print()` for  more complex code that you write, as it will help you diagnose problems more easily.
 
-We now have our web server in place, fetching fresh data about the COVID situation and forwarding that data to the web browser. Still, this is not really convincing as long as we are not visualising this data. That is the purpose of Step 3.
+We now have our web server in place, which fetches fresh data about the most current COVID situation and forwards that to the web browser. Still, this is not very compelling  way of presenting this data. That will be the goal of Step 3 - Data Visualization.
 
 [Check the code on Replit](https://repl.it/@IO1075/step2)
 
