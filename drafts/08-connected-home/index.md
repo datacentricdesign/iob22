@@ -1,25 +1,40 @@
 ---
 layout: default
-title: "08 Shared Pomodoro"
+title: "08 Connected Home"
 has_children: true
 ---
 
-# 08 Shared Pomodoro
+# 08 Connected Home
+
+At this stage, you used different Objects and their methods such as a File or a List. In the sixth Python programming assignment, you will look behind the Object and what they are into the paradigm of Object-Oriented Programming. Modelling a Home Hub and its appliances, you will explore this paradigm as a powerful abstraction mechanism.
 
 [TODO INTRO VIDEO]
 
 ---
 
-Through this assignment, we will explore the following concepts:
+Through this assignment, we explore the following concepts:
 
 OOP
 {: .label .label-green }
 
-encapsulation
+Abstraction
 {: .label .label-green }
 
-inheritance
+Inheritance
 {: .label .label-green }
+
+Class
+{: .label .label-green }
+
+Property
+{: .label .label-green }
+
+Methods
+{: .label .label-green }
+
+Object
+{: .label .label-blue }
+
 
 
 Programming paradigm, a style of programming
