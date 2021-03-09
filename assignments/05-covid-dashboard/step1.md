@@ -13,8 +13,8 @@ parent: '05 COVID Dashboard'
 {: .no_toc .text-delta }
 
 1. TOC
-   
-   {:toc}
+
+{:toc}
 
 ---
 

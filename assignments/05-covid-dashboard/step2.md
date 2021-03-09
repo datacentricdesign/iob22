@@ -13,7 +13,7 @@ parent: '05 COVID Dashboard'
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
@@ -109,6 +109,8 @@ We are done implementing our HTTP request in Python. We can go back to the file 
 
 Run the code and trigger the route `/summary` to check if the COVID data is served. The expected result is the same as directly calling the COVID19 API: our Python code is downloading the data and forwarding it.
 
+![Assignment 5 - Summary]({{site.baseurl}}/assets/images/task 5-2-1.gif)
+
 # Task 2.2 Download Confirmed Cases per Country
 
 Let's repeat this process to download the data from the `/country` API. We want to download the historical data for the Netherlands. Back in `covid.py`, create a function `download_confirmed_per_country()`.
@@ -174,6 +176,8 @@ Note that we choose `data` as key where we could have picked any key name. In th
 
 Run the code again, and trigger the route `/netherlands` to check if the COVID data is served. This time it works, note the difference with the original response from the COVID19 API: it starts with the key `data`.
 
+![Assignment 5 - Netherlands]({{site.baseurl}}/assets/images/task 5-2-2.gif)
+
 # Constant
 
 At this stage, we can make a couple of improvements to our code in `covid.py`.
@@ -195,7 +199,7 @@ As your code is growing, it becomes hard to keep track of what is happening. It 
 - You can change the `log level` to quickly switch from `DEBUG` logging showing a lot of details to `ERROR` logging only showing the errors;
 - You can change the output from the Terminal to a file, maybe both at the same time.
 
-TODO Screenshot of log
+![Assignment 5 - Netherlands]({{site.baseurl}}/assets/images/task 5-2-2 log.png)
 
 In short, as soon as you code more than a few line of codes, logging is a requirements to save you hours of unecessary work.
 
@@ -234,13 +238,13 @@ We can also log the access to our API. In this case, we would use the log level 
         return { "data" : response.json() }
 ```
 
-Run the code again, and trigger the route `/netherlands` to see what happens. The web page should work as before. In _Replit_, You should see much less lines in the Terminal. A file `covid.py` should now exists with a few logs.
+Run the code again, and trigger the route `/netherlands` to see what happens. The web page should work as before. In _Replit_, You should see much less lines in the Terminal. A file `covid.log` should now exists with a few logs.
 
-TODO screenshot of file with log
+![Assignment 5 - Logging]({{site.baseurl}}/assets/images/task 5-2-3- split screen.gif)
 
 You can experiment with the logging parameters in `main.py`. If you remove the filename, then your logs appear in the terminal. If you change `logging.INFO` into `logging.ERROR`, then your INFO logs are not appearing anymore. In conclusion, we recommend you to use the `logging` module instead of `print()` for any code that you write.
 
-We now hae our web server in place, fetching fresh data about the COVID situation and forwarding that data to the web browser. Still, this is not really convincing as long as we are not visualising this data. That is the purpose of Step 3.
+We now have our web server in place, fetching fresh data about the COVID situation and forwarding that data to the web browser. Still, this is not really convincing as long as we are not visualising this data. That is the purpose of Step 3.
 
 [Check the code on Replit](https://repl.it/@IO1075/step2)
 
