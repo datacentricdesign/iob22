@@ -48,13 +48,14 @@ Regarding the HTTP methods, the most commonly used are GET (to get data from a w
 
 #### HTTP Request Flow chart
 
-TODO flow chart
+![HTTP Request Flow chart]({{site.baseurl}}/assets/images/assignment5-step2-http-req.png)
 
 #### HTTP Request Python Syntax
 
 Switching to the Python syntax, we use the function `get()` from the module `requests` to make an HTTP request with the method GET. The same structure would apply for a POST request (with the function post() instead). 
 
 `get()` takes a parameter:`URL` (where is the resource located?). Here we use the URL that we typed in the web broswer in the previous step. We store the result of `get()` (what comes back from the web service) in the variable response. The HTTP response includes a property: `status_code`, which contains the HTTP response status of the request. As discussed above, we check for the status `200`, meaning that the request was  successful. Otherwise, we use the `else` to run an errorAction.
+
 
 ```python
 from requests import get
