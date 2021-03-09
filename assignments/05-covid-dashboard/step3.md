@@ -23,9 +23,9 @@ So far, our web server is capable of collecting COVID-19 data from a web service
 
 # Vega - Vizualisation Grammar
 
-As described from its website, _'Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using Canvas or SVG.'_ [Vega](https://vega.github.io/vega/)
+As described from its website, _'Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using Canvas or SVG'._ [Vega](https://vega.github.io/vega/)
 
-We think that this approach might enable designers of visualisations to focus on visualisation concepts rather than the technical implementation.
+We think that this approach might enable designers of visualisations to focus on graphic concepts rather than the technical implementation.
 
 # Task 3.1 Specify Summary Chart
 
@@ -59,6 +59,7 @@ We start with the top right chart summarising the global COVID situation by list
 ```
 
 This is all we need to describe the chart.
+
 
 - The schema, like for SVG, is a link to the rule definitions of Vega - all the elements that we can put in this JSON structure to render a valid Vega chart;
 - The title of the chart;
@@ -137,10 +138,12 @@ Finally, we are ready to return the "filled" Vega json template containing the u
 ```
 
 Run the code and trigger the route `/summary` to check if the result properly contains the Vega template with the data.
+![Assignment 5 - Summary]({{site.baseurl}}/assets/images/task 5-3-2.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/step3-2)
 
 # Task 3.3 Display data
+
 
 We now have a description of visualisation along with the data. Still, the web browser is showing this as a raw JSON data structure. A web page for human (not JSON raw data) is structured with `HTML`. `HTML` stands for Hyper Text Markup Language and relies on XML data structure (like SVG), with `<tag>` to open and `</tag>` to close an element.
 
@@ -148,6 +151,7 @@ Let's create a folder `static` and inside this folder create a file `index.html`
 
 - _the head_ for information that is not directly visible in the browser page, setting up for instance the `title` showing up in the web browser tab, and importing the libraries that are needed: in our case we need Vega.
 - _the body_ describes the structure of the page. At this stage, we just have a tag `<div>` (for division), which represents an area/visual element in the document. It is important to note that this division has an `id` which we use to retrieve/reference this particular area in the document. The last tag is `script` which defines one line of Javascript: the language that defines the dynamic behaviour of the page (like animations). Here we use the Vega library to download the data from the route `/summary` and generate the chart in the area with the id `summary` (`#` indicates that we are looking for an element/area id).
+
 
 ```html
 <!DOCTYPE html>
@@ -170,6 +174,7 @@ Let's create a folder `static` and inside this folder create a file `index.html`
 </html>
 ```
 
+
 Yes, many new things have happened! The modern web is a combination of several languages, frameworks, and APIs, each with key responsibilities. We will delve into further detail as we go. For now, just consider this HTML structure (the backbone - skeleton - of your webpage) is downloaded by the web browser. From there, it knows which libraries it needs to download and once it has done that, it knows how the page should be structured, and that, through javascript, it needs to run the `vegaEmbed()` function that will download and display the chart on the page.
 
 The final element is how do we get this HTML document into the web browser? Well, the web server needs to serve it, like it serves the JSON data structure. It is time to replace the sentence `"A nice COVID dashboard"` from the route `/` by the following line:
@@ -183,8 +188,7 @@ By default, the method `send_static_file()` from the flask serve is looking for 
 
 Run the code and trigger the route `/` to see the chart with the data.
 
-TODO Screenshot of result
-
+![Assignment 5 - Vega]({{site.baseurl}}/assets/images/task 5-3-3.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/step3-3)
 
