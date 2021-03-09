@@ -46,9 +46,9 @@ The HTTP protocol has an extensive list of response codes to indicate the status
 
 Regarding the HTTP methods, the most commonly used are GET (to get data from a web server) and POST (to send data to a web server).
 
-#### HTTP Request Flow chart
+#### HTTP Request Sequence Diagram
 
-![HTTP Request Flow chart]({{site.baseurl}}/assets/images/assignment5-step2-http-req.png)
+![HTTP Request Sequence Diagram]({{site.baseurl}}/assets/images/assignment5-step2-http-req.png)
 
 #### HTTP Request Python Syntax
 
@@ -99,7 +99,7 @@ You should be able convert to  the appropriate line of Python code for most comm
         return response.json()
 ```
 
-if it fails, it would be practical to get some information about the error. This can be done by printing the HTTP response status. Then we would finish by return an empty JSON object.
+If it fails, it would be practical to get some information about the error. This can be done by printing the HTTP response status. Then we would finish by return an empty JSON object.
 
 ```python
         # Log the error message
@@ -204,11 +204,11 @@ As your code is growing, it becomes hard to keep track of what is happening. It 
 
 ![Assignment 5 - Netherlands]({{site.baseurl}}/assets/images/task 5-2-2 log.png)
 
-In short, as soon as you start to code more more complex programs, logging can save you hours of unnecessary work.
+In short, as soon as you start to code more complex programs, logging can save you hours of unnecessary work.
 
 # Task 2.3 Log Errors and Service Access
 
-Python provides  the `logging` module to do just that. In `main.py`, add the three following lines of code at the top of the file.
+Python provides the `logging` module to do just that. In `main.py`, add the three following lines of code at the top of the file.
 
 ```python
 # Import and setup logging
@@ -245,9 +245,9 @@ Run the code again, and trigger the route `/netherlands` to see what happens. Th
 
 ![Assignment 5 - Logging]({{site.baseurl}}/assets/images/task 5-2-3- split screen.gif)
 
-You can experiment with the logging parameters in `main.py`. If you remove the filename, then your logs will appear in the terminal. If you change the level parameter from  `logging.INFO` into `logging.ERROR`, then your INFO logs are not appearing anymore. In conclusion, we recommend you to use the `logging` module instead of `print()` for  more complex code that you write, as it will help you diagnose problems more easily.
+You can experiment with the logging parameters in `main.py`. If you remove the filename, then your logs will appear in the Terminal. If you change the level parameter from  `logging.INFO` into `logging.ERROR`, then your INFO logs are not appearing anymore. In conclusion, we recommend you to use the `logging` module instead of `print()` for more complex code that you write, as it helps you diagnose problems more easily.
 
-We now have our web server in place, which fetches fresh data about the most current COVID situation and forwards that to the web browser. Still, this is not very compelling  way of presenting this data. That will be the goal of Step 3 - Data Visualization.
+We now have our web server in place, which fetches fresh data about the most current COVID situation and forwards that to the web browser. Still, this is not a compelling way of presenting this data. That is the goal of Step 3 - Data Visualization.
 
 [Check the code on Replit](https://repl.it/@IO1075/step2)
 

@@ -79,7 +79,7 @@ Let's fix a layout styling detail. As the chart is wide, it would fit better on 
 }
 ```
 
-TODO screenshot of results
+![Assignment 5 - End Result]({{site.baseurl}}/assets/images/assignment5-step5-1.png)
 
 # Task 5.2 Display New COVID Cases
 
@@ -147,7 +147,7 @@ In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next t
 vegaEmbed('#new', '/new');
 ```
 
-TODO screenshot of results
+![Assignment 5 - End Result]({{site.baseurl}}/assets/images/assignment5-step5-2.png)
 
 [Check the code on Replit](https://repl.it/@IO1075/step5-2)
 
