@@ -12,7 +12,9 @@ parent: '05 COVID Dashboard'
 
 {: .no_toc .text-delta }
 
-1. TOC
+1. Set Up a Web Server
+2. Explore the COVID-19 API
+3. Trigger API from web browser
 {:toc}
 
 ---
