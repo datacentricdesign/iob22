@@ -96,16 +96,16 @@ To see how the data looks like, copy and paste the URL of each API in the web br
 
 Note: depending on the web browser, the result will be formated on multiple lines or kept as raw.
 
-The data is structured with the JavaScript Object Notation (JSON, pronounced 'Jason'). It is a typical data structure for sharing or storing data. It sarts and ends with curly brackets `{}` and it is composed of key/value pairs separated by a colon and a comma between each pair. The value can be of type:
+The data is structured with the JavaScript Object Notation (JSON, pronounced 'Jason'). It is a typical data structure for sharing or storing data. It starts and ends with curly brackets `{}` and it is composed of key/value pairs separated by a colon and a comma between each pair. The value can be of type:
 
 - a string (with double quotes, similar to Python);
 - a number;
 - a boolean (true or false)
-- an array (a list of values separated by comma, delimited by square brackets `[]`)
+- an array (a list of values separated by a comma, delimited by square brackets `[]`)
 - an object (a sub-json structure, delimited by curly brackets `{}`)
 
 We can see in this example that we have first the key `Global`, leading to a sub-json structure with the latest COVID statistics globally. Then, we have the key `Countries`, leading to an array. Each JSON structure in this array represents the COVID latest number for a specific country.
 
-In the next step we will see how to get this COVID data directly in our Python code.
+In the next step, we will see how to get this COVID data directly in our Python code.
 
 [Next: Step 2 - HTTP Request]({{site.baseurl}}/assignments/05-covid-dashboard/step2){: .btn .btn-purple }
