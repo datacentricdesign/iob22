@@ -82,11 +82,11 @@ How to get started? On the front page towards the bottom, there is a [documentat
 
 In this assignment, we focus on two APIs: the `/summary` and the `/countries`. From the `/summary` API, we can extract the total number of cases per country up to now (the bar chart of our dashboard on the right) and the total of new cases in the last 24 hours (the donut chart on the left).
 
-![Assignment 5 - API Summary]({{site.baseurl}}/assets/images/assignment5-step1-summary.png)
+![Assignment 5 - API Summary]({{site.baseurl}}/assets/images/assignment5-step1-countries.png)
 
 From the `/countries` API, we can extract the historical data for a specific country, such as the Netherlands (the area chart of our dashboard at the bottom).
 
-![Assignment 5 - API Countries]({{site.baseurl}}/assets/images/assignment5-step1-countries.png)
+![Assignment 5 - API Countries]({{site.baseurl}}/assets/images/assignment5-step1-summary.png)
 
 # Task 1.3 Trigger API from web browser
 
