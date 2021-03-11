@@ -17,10 +17,18 @@ parent: "06 Landing Page"
 ---
 
 
-# Task 2.1 Design a Data Form on the Landing Page
+# Task 3.1 Design a Data Form on the Landing Page
 
 
-# Task 2.1 Receive Data on the Web Server
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step3-1])
+
+# Task 3.1 Receive Data on the Web Server
 
 
-# Task 2.3 Serve Data on the Administration Dashboard
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step3-2])
+
+
+# Task 3.3 Serve Data on the Administration Dashboard
+
+
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step3-3])

@@ -17,10 +17,16 @@ parent: "06 Landing Page"
 ---
 
 
-# Task 4.1 Structure a Database with Users and Subscriptions
+# Task 4.1 Structure a Database with Customers and Orders
+
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step4-1])
+
+# Task 4.2 Store Customers and Orders
 
 
-# Task 4.2 Store Users and Subscriptions
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step4-2])
+
+# Task 4.3 Retrieve Customers and Orders
 
 
-# Task 4.3 Retrieve Users and Subscriptions
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step4-3])

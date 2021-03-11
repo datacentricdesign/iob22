@@ -18,5 +18,8 @@ parent: "06 Landing Page"
 
 # Task 1.1 Design a Landing Page with HTML and CSS
 
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step1-1])
 
 # Task 1.2 Design an Administration Dashboard with HTML and CSS
+
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step1-2])

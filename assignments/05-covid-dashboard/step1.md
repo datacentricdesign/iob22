@@ -29,7 +29,7 @@ Let's start with what we already know from the previous steps. Go to _Replit_ an
 
 As we can see from the screenshot above, we aim to generate three different charts:
 
-- the 'New Cases' in the world in last 24hrs ring chart;
+- the 'New Cases' in the world in the last 24hrs ring chart;
 - the 'Total cases per Country' horizontal bar chart;
 - the distribution of 'Confirmed Cases' in a given country over time area chart.
 
@@ -38,13 +38,13 @@ Thus, we can structure our code with three HTTP routes with there respective Pyt
 #### COVID Dashboard HTTP Routes
 
 ```markdown
-Import the object Flask from flask module
+Import the object Flask from the flask module
 
 Create a webserver object called 'COVID Dashboard' and keep track of it in the variable called server
 
 Define an HTTP route / to serve the dashboard home web page
 Define the function 'index()' and connect it to the route /
-Return the string "A nice COVID dashboard"
+Return the string "A nice COVID dashboard."
 
 Define an HTTP route /summary to serve the summary chart
 Define the function 'serve_summary()' and connect it to the route /summary
@@ -58,12 +58,12 @@ Define an HTTP route /netherlands to serve the chart of the Netherlands
 Define the function 'serve_netherlands_history()' and connect it to the route /netherlands
 Return the string "An area chart of COVID cases over time in the Netherlands."
 
-Start the web server
+Start the webserver
 ```
 
 [Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step1)
 
-Copy and paste this English description in the file `main.py` of your _Replit_ project as comments. Then, for each comment, convert it to its Python implementation. Note that for now, our HTTP routes are returning a string. Here we are just putting in place the  general structure of our web server.
+Copy and paste this English description in the file `main.py` of your _Replit_ project as comments. Then, for each comment, convert it to its Python implementation. Note that for now, our HTTP routes are returning a string. Here we are just putting in place the general structure of our web server.
 
 **Don't remember the syntax?** You might want to look at the previous assignment, Step 3 (Serve web page Python Syntax) for a reminder on the syntax.
 {: .fs-5 .ls-10 .code-example .bg-yellow-000}
@@ -78,9 +78,9 @@ Now there is only so much we can do for a COVID dashboard without actual data. L
 
 Why this choice? It is a free, registration free and easy to use API which enables our dashboard to show the latest COVID data. It would not work for a product because there are limitations to the free service, such as how many times we can request the data within one day. However, it fits perfectly for our prototyping needs.
 
-How to get started? On the front page towards the bottom, there is a [documentation](https://documenter.getpostman.com/view/10808728/SzS8rjbc) link. It looks like a good place to start. We land on a page of platform called `Postman` , which is a tool for developing and documenting APIs.
+How to get started? On the front page towards the bottom, there is a [documentation](https://documenter.getpostman.com/view/10808728/SzS8rjbc) link. It looks like an excellent place to start. We land on a page of `Postman`, a tool for developing and documenting APIs.
 
-In this assignment, we focus on two APIs: the `/summary` and the `/countries`. From the `/summary` API, we can extract the total number of cases per country up to now (the bar chart of our dashboard on the right) and the total of new cases in the last 24 hours (the donut chart on the left).
+This assignment focuses on two APIs: the `/summary` and the `/countries`. From the `/summary` API, we can extract the total number of cases per country up to now (the bar chart of our dashboard on the right) and the total of new cases in the last 24 hours (the doughnut chart on the left).
 
 ![Assignment 5 - API Summary]({{site.baseurl}}/assets/images/assignment5-step1-summary.png)
 
@@ -88,23 +88,23 @@ From the `/countries` API, we can extract the historical data for a specific cou
 
 ![Assignment 5 - API Countries]({{site.baseurl}}/assets/images/assignment5-step1-countries.png)
 
-# Task 1.3 Trigger API from web browser
+# Task 1.3 Trigger API from a web browser
 
-To see how the data looks like, copy and paste the URL of each API in your favorite web browser. Once loaded, you should obtain something like this:
+To see how the data looks like, copy and paste the URL of each API in your favourite web browser. Once loaded, you should obtain something like this:
 
 ![Assignment 5 - API Countries Result]({{site.baseurl}}/assets/images/assignment5-step1-json.png)
 
 Note: depending on the web browser, the result will be formated on multiple lines or kept "as raw".
 
-The data is structured in the JavaScript Object Notation  (JSON, pronounced 'Jason') format. It is a typical data structure for sharing or storing data in the web. It starts and ends with curly brackets `{}` and it is composed of key/value pairs separated by a colon and a comma between each pair. The value can be of the following types:
+The data is structured in the JavaScript Object Notation  (JSON, pronounced 'Jason') format. It is a typical data structure for sharing or storing data on the web. It starts and ends with curly brackets `{}`, and it is composed of key/value pairs separated by a colon and a comma between each pair. The value can be of the following types:
 
 - a string (with double quotes, similar to Python);
 - a number;
 - a boolean (true or false)
 - an array (a list of values separated by a comma, delimited by square brackets `[]`)
-- an object (a sub-json structure, delimited by curly brackets `{}`)
+- an object (a sub-JSON structure, delimited by curly brackets `{}`)
 
-We can see in this example that we have first the key `Global`, leading to a sub-json structure with the latest global COVID statistics. Then, we have the key `Countries`, leading to an array. Each JSON structure in this array represents the latest  COVID  numbers for a specific country.
+We can see in this example that we have first the key `Global`, leading to a sub-JSON structure with the latest global COVID statistics. Then, we have the key `Countries`, leading to an array. Each JSON structure in this array represents the latest  COVID  numbers for a specific country.
 
 In the next step, we will see how to get this COVID data directly in our Python code.
 
