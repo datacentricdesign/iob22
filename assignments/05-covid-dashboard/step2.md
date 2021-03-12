@@ -54,10 +54,10 @@ Regarding the HTTP methods, the most commonly used are GET (to get data from a w
 
 Switching to the Python syntax, we use the function `get()` from the module `requests` to make an HTTP request with the method GET. The same structure would apply for a POST request (with the function post() instead). 
 
-`get()` takes a parameter:`URL` (where is the resource located?). Here we use the URL that we typed in the web browser in the previous step. We store the result of `get()` (what comes back from the web service) in the variable response. The HTTP response includes a property: `status_code`, which contains the request's HTTP response status. As discussed above, we check for the status `200`, meaning that the request was successful. Otherwise, we use the `else` to run an errorAction.
+`get()` takes a parameter:`URL` (where is the resource located?). Here we use the URL that we typed in the web browser in the previous step. We store the result of `get()` (what comes back from the web service) in the variable response. The HTTP response includes a property: `status_code`, which contains the request's HTTP response status. As discussed above, we check for the status `200`, meaning that the request was successful. Otherwise, we use the `else` to run an `errorAction`.
 
 
-```Python
+```python
 from requests import get
 
 # Send the request to url using the get method and store the response in response
@@ -72,11 +72,11 @@ else:
 
 # Task 2.1 Download Summary
 
-Let's give it a try. In your _Replit_ project, create a new file `covid.py`, where we will interact directly  with the COVID19 API.
+Let's give it a try. In your _Replit_ project, create a new file, `covid.py`, where we interact directly with the COVID19 API.
 
-Inside this file, to be able to make an HTTP request, we first need to import the `get` function (see the first line of Python code example above). Then, we create a function `download_summary()`, as follows:
+Inside this file, to make an HTTP request, we first need to import the `get` function (see the first line of Python code example above). Then, we create a function `download_summary()`, as follows:
 
-```Python
+```python
 def download_summary():
 	"""
   Send HTTP request to API /summary and return the response in JSON format.
@@ -92,25 +92,25 @@ def download_summary():
     # Return an empty result
 ```
 
-You should be able convert to  the appropriate line of Python code for most comments based on the previous step 'HTTP Request Python syntax'. What we are missing is what to do in `successAction` and `errorAction`. In these cases, the success action should return the JSON object response (what we were looking at in the web browser in Step 1). We extract it from the response variable as follows:
+Convert to the Python code's appropriate line based on the previous step, 'HTTP Request Python syntax'. What we miss is what to do in `successAction` and `errorAction`. In these cases, the success action should return the JSON object response (what we were looking at in the web browser in Step 1). We extract it from the response variable as follows:
 
-```Python
+```python
         # Return the response as JSON
         return response.json()
 ```
 
 If it fails, it would be practical to get some information about the error. This can be done by printing the HTTP response status. Then we would finish by return an empty JSON object.
 
-```Python
+```python
         # Log the error message
         print(f'An error has occurred: HTTP status {response.status_code}')
         # Return an empty result
         return {}
 ```
 
-We are done implementing our HTTP request in Python. We can go back to the file `main.py` and import this function at the top of the file (the same way we imported the svg functions in the previous assignment). Finally, we can replace the sentence `"Bar chart summary of COVID cases per country"` by a call to the function `download_summary()`, which will return the JSON data instead of the sentence.
+We are done implementing our HTTP request in Python. We can go back to the file `main.py` and import this function at the top of the file (the same way we imported the SVG functions in the previous assignment). Finally, we can replace the sentence `"Bar chart summary of COVID cases per country."` by a call to the function `download_summary()`, which returns the JSON data instead of the sentence.
 
-Run the code and trigger the route `/summary` to check if the COVID data is being served. The expected result is the same as directly calling the COVID19 API: our Python code is downloading the data and forwarding it to the browser.
+Run the code and trigger the route `/summary` to check if it serves the COVID data. The expected result is the same as directly calling the COVID19 API: our Python code downloads the data and forwards it to the web browser.
 
 ![Assignment 5 - Summary]({{site.baseurl}}/assets/images/task 5-2-1.gif)
 
@@ -135,22 +135,22 @@ def download_confirmed_per_country(country):
     # Return an empty result
 ```
 
-The only major difference from the previous 'download_summary()' declaration is the new function parameter `country`. We want to specify the name of the country as parameter, so that we can reuse this function for an arbitrary country. We use the country parameter in the URL of the HTTP request like so:
+The only major difference from the previous 'download_summary()' declaration is the new function parameter `country`. We want to specify the country's name as a parameter so that we can reuse this function for an arbitrary country. We use the country parameter in the URL of the HTTP request like so:
 
-```Python
+```python
     # Send the HTTP request
     response = get(f'http://api.covid19api.com/country/{country}/status/confirmed')
 ```
 
-In `main.py`, we import this new function at the top of the file. Finally, we can replace the sentence `"Area chart of COVID cases over time in the Netherlands."` by a call to `download_confirmed_per_country()`, which will return the JSON data instead of the sentence. Let's not forget to provide the name of a valid country when we call our function:
+In `main.py`, we import this new function at the top of the file. Finally, we can replace the sentence `"Area chart of COVID cases over time in the Netherlands."` by a call to `download_confirmed_per_country()`, which returns the JSON data instead of the sentence. Let's not forget to provide the name of a valid country when we call our function:
 
-```Python
+```python
     return download_confirmed_per_country("netherlands")
 ```
 
-Run the code, and trigger the route `/netherlands` to check if the correct COVID data is served. Once again, the expected result is the same as directly calling the COVID19 API: our Python code is downloading the data and forwarding it.
+Run the code, and trigger the route `/netherlands` to check if it serves the correct COVID data. Once again, the expected result is the same as directly calling the COVID19 API: our Python code downloads the data and forwards it.
 
-Oh! It does not work! `500 Internal Server Error`, what can that possibly mean! Well `500` is the generic HTTP status code for when something went wrong on the server (as opposed to `200`). If we look at the Terminal in _Replit_, we can indeed see that something went wrong.
+Oh! It does not work! `500 Internal Server Error`, what can that possibly mean! Well, `500` is the generic HTTP status code for when something went wrong on the server (as opposed to `200`). If we look at the Terminal in _Replit_, we can indeed see that something went wrong.
 
 ![Assignment 5 - 500 Internal Server Error]({{site.baseurl}}/assets/images/assignment5-step2-error.png)
 
@@ -172,7 +172,7 @@ Indeed, this data does not start and end with curly brackets `{}`. It starts dir
 
 Note that we choose `data` as the key where we could have picked any key name. In Python code, we can use a similar syntax to express this. The equivalent of a JSON structure (i.e. a map of keys and values) is the data type `dict` (for dictionary). We will explore further what we can do with `dict` when manipulating the data in the next step. For now, we can change the code of `download_confirmed_per_country()` as follows by taking the list from the response and inserting it into a `dict` under the key `data` and returning it.
 
-```Python
+```python
         # Return the response as JSON
         return { "data" : response.json() }
 ```
@@ -187,7 +187,7 @@ At this stage, we can make a couple of improvements to our code in `covid.py`.
 
 First, we are duplicating the URL of the COVID19 API. As duplicating is never a good strategy, we suggest to create a constant variable `URL_API` at the top of the file, just after the `import` statement:
 
-```Python
+```python
 # Create a constant 'URL_API' with the url of the api
 URL_API = "http://api.covid19api.com"
 ```
@@ -210,7 +210,7 @@ In short, as soon as you start to code more complex programs, logging can save y
 
 Python provides the `logging` module to do just that. In `main.py`, add the three following lines of code at the top of the file.
 
-```Python
+```python
 # Import and setup logging
 import logging
 log_format = "[%(levelname)s] - %(asctime)s : %(message)s in %(module)s:%(lineno)d"
@@ -221,7 +221,7 @@ The first line is familiar; we are importing the module `logging`. Then, we defi
 
 Let's make use of these logs. In `covid.py`, we have two `print()` statements to show what went wrong for a failed HTTP request. At the top of the file, import the logging module. We do not need any configuration, as we already set up the logger in `main.py`. Then, replace the two `print()` statement with logs; for instance, replace:
 
-```Python
+```python
         # Show the error message
         print(f'An error has occurred: HTTP status {response.status_code}')
 ```
@@ -235,7 +235,7 @@ By:
 
 We can also log accesses to our API. In this case, we would use the log level `INFO`. For example, we could generate an info log each time we receive the data with a status of `200` (successful request):
 
-```Python
+```python
         # Return the response as JSON
         logging.info('Successfully received Dutch data from COVID19 API')
         return { "data" : response.json() }
