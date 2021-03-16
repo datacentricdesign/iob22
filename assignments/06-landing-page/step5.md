@@ -13,7 +13,7 @@ parent: '06 Landing Page.'
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
