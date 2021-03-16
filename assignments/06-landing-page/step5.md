@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Step 5 Database
-parent: "06 Landing Page."
-
+parent: '06 Landing Page.'
 ---
 
 # Step 5 Database (3hrs, ⚠️)
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -26,7 +27,7 @@ Let's add a class to our class diagram. The `DatabaseStore` plays the same role 
 
 Create a file `model/database_store.py` and define a class `DatabaseStore`.
 
-#### Class DatabaseStore - DocString 
+#### Class DatabaseStore - DocString
 
 ```python
     """
@@ -54,7 +55,7 @@ Note that the 'try to create the database' takes place with the method `createDa
 
 In `__init__.py`, import the class `DatabaseStore` from `database_store`. Then, add 'DatabaseStore' in the `__all__` list.
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-1])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-1)
 
 # Database Interaction
 
@@ -62,12 +63,11 @@ Before going further, it is time to map the process that takes place for each in
 
 To interact with a database, we need four elements:
 
-* `path`: the path to the database
-* `connection`: the connection to the database
-* `query`: the SQL which specify the interaction with the database
-* `values`: the values to include in the query
-* `result`: the data coming from the database as a result of the query
-
+- `path`: the path to the database
+- `connection`: the connection to the database
+- `query`: the SQL which specify the interaction with the database
+- `values`: the values to include in the query
+- `result`: the data coming from the database as a result of the query
 
 #### Database Interaction Algorithm
 
@@ -156,7 +156,7 @@ INSERT INTO PRE_ORDERS (id, order_time, customer_email, number_products, size, c
 VALUES (?,?,?,?,?,?)
 ```
 
-Note the six question marks `?` which indicate where the six values of a pre-orders should be placed. Python does that automatically while provided with a list of six values. This is the recommended way for security reasons. 
+Note the six question marks `?` which indicate where the six values of a pre-orders should be placed. Python does that automatically while provided with a list of six values. This is the recommended way for security reasons.
 
 #### addPreOrder - DocString
 
@@ -180,7 +180,6 @@ Execute the query with the values
 Commit (save) the changes
 Close the connection
 ```
-
 
 #### INSERT a Customer - SQL Query
 
@@ -210,25 +209,23 @@ Execute the query with the values
 Commit (save) the changes
 Close the connection
 For each pre_order in customer.preOrderList
-    Call the method addPreOrder with the customer email and the pre_order
+Call the method addPreOrder with the customer email and the pre_order
 ```
 
 [Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-3)
-
 
 # Task 5.4 Select PreOrders
 
 #### SELECT all rows in PRE_ORDERS table - SQL Query
 
 ```sql
-SELECT id, order_time, number_products, size, colour 
+SELECT id, order_time, number_products, size, colour
 FROM pre_orders
 ```
 
 #### totalListPreOrders - Algorithm
 
-
-Define a method totalListPreOrders() which returns the list of all PreOrders. 
+Define a method totalListPreOrders() which returns the list of all PreOrders.
 
 ```markdown
 Connect to the database in path and keep the 'connection'
@@ -236,8 +233,8 @@ Define the SQL query to SELECT all rows in PRE_ORDERS table
 Create an empty pre_order_list
 Execute the query and keep the 'result'
 For each row in result
-    Construct a PreOrder object with the values from the row
-    Add pre_order to the pre_order_list
+Construct a PreOrder object with the values from the row
+Add pre_order to the pre_order_list
 Close the connection
 Return the pre_order_list
 ```
