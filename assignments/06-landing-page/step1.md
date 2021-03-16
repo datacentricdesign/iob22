@@ -2,7 +2,6 @@
 layout: default
 title: Step 1 Review
 parent: "06 Landing Page"
-
 ---
 
 # Step 1 Review (1hr, ✅)

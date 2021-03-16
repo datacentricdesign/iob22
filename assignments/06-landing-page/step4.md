@@ -2,7 +2,6 @@
 layout: default
 title: Step 4 Data Collection
 parent: "06 Landing Page"
-
 ---
 
 # Step 4 Data Collection (1hr, 🏗)

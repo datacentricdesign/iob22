@@ -2,7 +2,6 @@
 layout: default
 title: Step 3  Lists and Dictionaries
 parent: "06 Landing Page"
-
 ---
 
 # Step 3 Lists and Dictionaries (2hrs, ⚠️)
