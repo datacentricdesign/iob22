@@ -203,19 +203,9 @@ Web Service
 Vega
 {: .label .label-purple }
 
+### 06 Landing page
 
-### 06 Connected Home
-
-At this stage, you used different Objects and their methods such as a File or a List. In the sixth Python programming assignment, you will look behind the Object and what they are into the paradigm of Object-Oriented Programming. Modelling a Home Hub and its appliances, you will explore this paradigm as a powerful abstraction mechanism.
-
-OOP
-{: .label .label-green }
-
-Abstraction
-{: .label .label-green }
-
-Inheritance
-{: .label .label-green }
+In this sixth Python programming assignment, you catch potential customers via a landing page. You expose a product concept on the web and invite potential customers to sign up for a pre-order. You structure your software with objects and store data in a database. You visualise pre-orders on a dashboard.
 
 Class
 {: .label .label-green }
@@ -229,20 +219,16 @@ Methods
 Object
 {: .label .label-blue }
 
-### 07 Landing page
+Dictionary
+{: .label .label-blue }
 
-In the seventh Python programming assignment, you will catch potential users via a landing page. You will expose a product concept on the web and invite potential users to subscribe. You will store this information in a database.
-
-REST API
-{: .label .label-red }
-
-HTML
-{: .label .label-yellow }
+List
+{: .label .label-blue }
 
 Database
 {: .label .label-yellow }
 
-### 08 Shared Pomodoro
+### 07 Shared Pomodoro
 
 In the eigth Python programming assignment, you will develop the state-machine algorithm of a Pomodoro time-tracker. You will make your web application more dynamic with the use of web sockets and let you Python progam run several processes in parallel using `threads`. 
 
@@ -257,6 +243,19 @@ Web Socket
 
 State Machine
 {: .label .label-yellow }
+
+
+### 08 Connected Home
+
+At this stage, you used different Objects and their methods such as a File or a List. In the sixth Python programming assignment, you will look behind the Object and what they are into the paradigm of Object-Oriented Programming. Modelling a Home Hub and its appliances, you will explore this paradigm as a powerful abstraction mechanism.
+
+Abstraction
+{: .label .label-green }
+
+Inheritance
+{: .label .label-green }
+
+
 
 # What's next?
 

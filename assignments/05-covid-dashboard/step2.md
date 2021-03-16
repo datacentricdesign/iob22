@@ -142,7 +142,7 @@ The only major difference from the previous 'download_summary()' declaration is 
     response = get(f'http://api.covid19api.com/country/{country}/status/confirmed')
 ```
 
-In `main.py`, we import this new function at the top of the file. Finally, we can replace the sentence `"Area chart of COVID cases over time in the Netherlands."` by a call to `download_confirmed_per_country()`, which returns the JSON data instead of the sentence. Let's not forget to provide the name of a valid country when we call our function:
+In `main.py`, we import this new function at the top of the file. Finally, we can replace the sentence `" Area chart of COVID cases over time in the Netherlands. "` by a call to `download_confirmed_per_country()`, which returns the JSON data instead of the sentence. Let's not forget to provide the name of a valid country when we call our function:
 
 ```python
     return download_confirmed_per_country("netherlands")
@@ -160,7 +160,7 @@ Let's not be scared out by an error stack: something went wrong, so Python is sh
 TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
 ```
 
-It tells us that our Python code returns a list where it is not permitted. It says `Response Instance`, the whole error is about Flask so we can safely assume it is about the HTTP Response we try to send back to the web browser. The one containing the Netherlands data. Let's have a look at the Netherlands data once again: [http://api.covid19api.com/country/netherlands/status/confirmed](http://api.covid19api.com/country/netherlands/status/confirmed).
+It tells us that our Python code returns a list where it is not permitted. It says `Response Instance`, most lines in the error message are about Flask so we can safely assume it is about the HTTP Response we try to send back to the web browser. The one containing the Netherlands data. Let's have a look at the Netherlands data once again: [http://api.covid19api.com/country/netherlands/status/confirmed](http://api.covid19api.com/country/netherlands/status/confirmed).
 
 Indeed, this data does not start and end with curly brackets `{}`. It starts directly with square brackets `[]`; this is a list of values instead of a JSON object composed of key/value pairs. As this is not JSON standard, _Flask_ does not seem to like it. To solve the problem, we can put this list into a JSON object as follows:
 
@@ -188,7 +188,7 @@ At this stage, we can make a couple of improvements to our code in `covid.py`.
 First, we are duplicating the URL of the COVID19 API. As duplicating is never a good strategy, we suggest to create a constant variable `URL_API` at the top of the file, just after the `import` statement:
 
 ```python
-# Create a constant 'URL_API' with the url of the api
+# Create a constant 'URL_API' with the URL of the API
 URL_API = "http://api.covid19api.com"
 ```
 
@@ -217,7 +217,7 @@ log_format = "[%(levelname)s] - %(asctime)s : %(message)s in %(module)s:%(lineno
 logging.basicConfig(filename='covid.log', format=log_format, level=logging.INFO)
 ```
 
-The first line is familiar; we are importing the module `logging`. Then, we defined the logging format, what we want to show for each log. This setting shows the log level, the time of execution, the message (the information usually coming from `print()`), and which module and line of code is currently running. The third line puts it all together, saying that we want to write the logs in the file `covid.log`, with the format we have defined above for all logs of level `INFO` or above. The log levels are as follows: `DEBUG`, `INFO`, `WARN`, `ERROR` and `CRITICAL`. Thus, the above set would show all logs but `DEBUG`.
+The first line is familiar; we are importing the module `logging`. Then, we defined the logging format, what we want to show for each log. This setting shows the log level, the time of execution, the message (the information usually coming from `print()`), and which module and line of code is currently running. The third line puts it all together, saying that we want to write the logs in the file `covid.log`, with the format we have defined above for all logs of level `INFO` or higher. The log levels are as follows: `DEBUG` (lowest), `INFO`, `WARN`, `ERROR` and `CRITICAL` (highest). Thus, the above set would show all logs but `DEBUG`.
 
 Let's make use of these logs. In `covid.py`, we have two `print()` statements to show what went wrong for a failed HTTP request. At the top of the file, import the logging module. We do not need any configuration, as we already set up the logger in `main.py`. Then, replace the two `print()` statement with logs; for instance, replace:
 
@@ -241,7 +241,7 @@ We can also log accesses to our API. In this case, we would use the log level `I
         return { "data" : response.json() }
 ```
 
-Run the code again, and trigger the route `/netherlands` to see what happens. The web page should work as before. In _Replit_, You should see much less lines in the Terminal. A file `covid.log` should now exist with a few log statements.
+Rerun the code, and trigger the route `/netherlands` to see what happens. The web page should work as before. In _Replit_, You should see much less lines in the Terminal. A file `covid.log` should now exist with a few log statements.
 
 ![Assignment 5 - Logging]({{site.baseurl}}/assets/images/task 5-2-3- split screen.gif)
 

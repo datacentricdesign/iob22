@@ -35,3 +35,8 @@ Web Service
 Vega 
 {: .label .label-purple }
 
+HTML
+{: .label .label-red }
+
+CSS
+{: .label .label-red }

@@ -25,7 +25,7 @@ The result of the fifth step looks as follows, but as you already know, this is 
 
 # Task 1.1 Set Up a Web Server
 
-Let's start with what we already know from the previous steps. Go to _Replit_ and create a new project for this Python programming assignment. Go to the package manager and install _Flask_, the Python package we use to make a web server. Have a look at Task 3.1 of the previous assignment if you are struggling to find your way with this.
+Let's start with what we already know from the previous assignment. Go to _Replit_ and create a new project for this Python programming assignment. Go to the package manager and install _Flask_, the Python package we use to make a web server. Have a look at Task 3.1 of the previous assignment if you are struggling to find your way with this.
 
 As we can see from the screenshot above, we aim to generate three different charts:
 
@@ -94,7 +94,7 @@ To see how the data looks like, copy and paste the URL of each API in your favou
 
 ![Assignment 5 - API Countries Result]({{site.baseurl}}/assets/images/assignment5-step1-json.png)
 
-Note: depending on the web browser, the result will be formated on multiple lines or kept "as raw".
+Note: depending on the web browser, the result is shown on multiple lines or kept "as raw".
 
 The data is structured in the JavaScript Object Notation  (JSON, pronounced 'Jason') format. It is a typical data structure for sharing or storing data on the web. It starts and ends with curly brackets `{}`, and it is composed of key/value pairs separated by a colon and a comma between each pair. The value can be of the following types:
 

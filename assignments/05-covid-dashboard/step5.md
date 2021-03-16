@@ -21,7 +21,7 @@ We walked through the full cycle of setting up a visualisation, downloading data
 
 # Task 5.1 Display Netherlands History
 
-This time we want an area chart mapping the case history in the Netherlands. First, we have the template, which includes the same elements as the previous chart. This time we look for an area chart. We can copy and paste this template in `templates/history.json`
+This time we want an area chart mapping the case history in the Netherlands. First, we have the template, which includes the same elements as the previous chart. This time we look for an area chart. We can copy and paste this template in `templates/history.json`.
 
 ```json
 {
@@ -70,7 +70,7 @@ In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next t
 vegaEmbed('#netherlands', '/netherlands');
 ```
 
-Let's fix a layout styling detail. As the chart is wide, it would fit better on the full length of the page. We could add an `id` property to the second section and use this `id` to apply some _CSS_ on that specific element. Another strategy is to add the class property. While an `id` must be unique, we can use a class in many elements. As we might want to create several charts for other countries to compare, the class seems an appropriate choice. Add property `class="country"` to the second section. Then, in the _CSS_, add the following to increase the size of the grid for this particular section. Note the dot `.` in contrast with the hashtag `#` to target the name of a `class` instead of an `id`.
+Let's fix a layout styling detail. As the chart is wide, it would fit better on the full length of the page. We could add an `id` property to the second section to apply some _CSS_ on that specific element. Another strategy is to add the class property. While an `id` must be unique, we can use a class in many elements. As we might want to create several charts for other countries to compare, the class seems an appropriate choice. Add property `class="country"` to the second section. Then, in the _CSS_, add the following to increase the grid's size for this particular section. Note the dot `.` in contrast with the hashtag `#` to target the name of a `class` instead of an `id`.
 
 ```css
 .country {
@@ -114,7 +114,7 @@ For the new COVID cases, we use a similar Vega template. This time, we use the t
 }
 ```
 
-The data regarding the new COVID cases is part of the `/summary` API together with the details of each country. The new COVID cases are located at the key `Global`. This is an opportunity to see how to loop through a Python dictionary. In the following example, we see the construction `for key in json_data["Global"]`. It means we loop through all the keys as part of the nested Python dictionary 'Global'. It gives us the ability to filter keys that start with 'New', including 'NewConfirmed', 'NewDeaths' and 'NewRecovered'.
+The data regarding the new COVID cases, together with each country's details, is part of the `/summary` API. The new COVID cases are located at the key `Global`. It is an opportunity to see how to loop through a Python dictionary. In the following example, we see the construction `for key in json_data["Global"]`. It means we loop through all the keys as part of the nested Python dictionary 'Global'. It gives us the ability to filter keys that start with 'New', including 'NewConfirmed', 'NewDeaths' and 'NewRecovered'.
 
 The function `serve_summary_new()` looks as follows:
 

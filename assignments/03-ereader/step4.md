@@ -36,7 +36,7 @@ A function is a block of code that performs an action, identified by a name.
 Create a function called [name] using [parameters] to do [action] and return [result].
 ```
 
-We use the name to `call` the function, which means running the associated block of code. When calling a function, we provide the values (or arguments) necessary for each of the function's parameters. So, functions are handy because it avoids to duplicate code, making the development more efficient and robust. Let's take the example of the `print()` function.
+We use the name to `call` the function, which means running the associated block of code. When calling a function, we provide the values (or arguments) necessary for each of the function's parameters. So, functions are handy because it avoids duplicating code, making the development more efficient and robust. Let's take the example of the `print()` function.
 
 * `name` print
 * `action` figure out where to display the message, convert each character into a visual representation and display them.
