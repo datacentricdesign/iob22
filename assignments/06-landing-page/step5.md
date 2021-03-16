@@ -201,6 +201,8 @@ values = [
 ]
 ```
 
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-3)
+
 # Task 5.4 Insert Customer
 
 The approach to insert a customer is the same. We create a method `addCustomer()` with the following DocString. It has a single parameter: the Customer to insert in the database.
@@ -241,7 +243,7 @@ For each pre_order in customer.preOrderList
     Call the method addPreOrder() with the customer email and the pre_order
 ```
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-3)
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-4)
 
 # Task 5.5 Select PreOrders
 
@@ -278,6 +280,6 @@ Note that with a `SELECT`, we do not change the database. Thus there is no need 
 
 Our class `DatabaseStore` is complete. To use it in `main.py`, import it and replace `Store()` by `DatabaseStore('preorders.db')`. 'preorders.db' will be the name of the file storing the database, any name would work. The landing page should behave as before. However, when we restart the programme, the customers and pre-orders are still available, taken from the database.
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-4)
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-5)
 
 [Next: Step 5 - Database]({{site.baseurl}}/assignments/06-landing-page/step5){: .btn .btn-purple }
