@@ -52,6 +52,8 @@ Create a file `model/database_store.py` and define a class `DatabaseStore`.
 
 Note that the 'try to create the database' takes place with the method `createDatabase()` in the next task.
 
+In `__init__.py`, import the class `DatabaseStore` from `database_store`. Then, add 'DatabaseStore' in the `__all__` list.
+
 [Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-1])
 
 # Database Interaction
@@ -139,7 +141,8 @@ Close the connection
 
 For the SQL queries, use the ones defined above. We recommend using triple quotes `"""` so that it can spread over several lines.
 
-TODO
+We add a call to this method in the DatabaseStore constructor so that the database structure gets created if it does not exists yet.
+
 [Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-2)
 
 # Task 5.3 Insert Customers and PreOrders
@@ -210,7 +213,6 @@ For each pre_order in customer.preOrderList
     Call the method addPreOrder with the customer email and the pre_order
 ```
 
-TODO
 [Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-3)
 
 
@@ -244,10 +246,8 @@ To construct PreOrder objects, we need to import the class from the `model` at t
 
 Note that with a select, we do not change the database. Thus there is no need to 'commit'.
 
+To use the class DatabaseStore in `main.py`, import it and replace `Store()` by `DatabaseStore('preorders.db')`. 'preorders.db' will be the name of the file storing the database, any name would work. The landing page should behave as before. However, when we restart the programme, the customers and pre-orders are still available, taken from the database.
 
-To use the class DatabaseStore in `main.py`, import it and replace `Store()` by `DatabaseStore('preorders.db')`. Your landing page should behave as before. However, when you restart the programme, the customers and pre-orders are still available.
-
-TODO
 [Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-4)
 
 [Next: Step 5 - Database]({{site.baseurl}}/assignments/06-landing-page/step5){: .btn .btn-purple }

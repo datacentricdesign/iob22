@@ -19,11 +19,11 @@ parent: "01 Calculator"
 
 You completed the first assignment: you taught the computer how to ask for inputs, convert these inputs from text into numbers, sum them and tell the user what the result is.
 
-On the way, you used algorithms to right in plain English what you want to teach the computer. This is an important practice to make sure you know what you want the computer to do.
+On the way, you used algorithms to write in plain English what you want to teach the computer. This is an important practice to make sure you know what you want the computer to do.
 
 Once you formulated your algorithm, you can always ask _Google_ if there are elements you do not know how to write in Python (or in another language). For instance, similar to the search of `type`, you could have looked it up on _Google_: _Python how to convert text into integer_. This is why it is important to always think in terms of an algorithm before writing code. It helps us figure out what we want the computer to do.
 
-You did not have enough from this assignment? Feeling comfortable going further? There are a few steps you can take to improve this code.
+Did not have enough from this assignment? Do you feel comfortable going further? There are a few steps you can take to improve this code.
 
 # Extra Task 6.1 Accept decimal numbers
 
