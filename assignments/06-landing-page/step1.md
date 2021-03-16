@@ -65,7 +65,7 @@ Start the webserver
 
 Run the code and trigger the route `/` to see how your web browser interprets `index.html`. At this stage, we can see the fancy product name. 
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step1-1])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step1-1)
 
 # Task 1.2 Hook Potential Customer
 
@@ -117,7 +117,7 @@ The end of the route is dynamic. Anything coming after `/assets/` is part of the
 
 Rerun the code and trigger the route `/` to check the background.
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step1-2])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step1-2)
 
 # Task 1.3 Fine-tune the Style
 
@@ -151,7 +151,7 @@ footer {
 
 Note the first block, which applies styling property to both `<header>` and `<section>` tags. With the `absolute` position, elements are not constraint by the sequence, so we can place them to the `top`, `right`, `left` and `bottom` of their container (in this case, the `<body>` element).
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step1-2])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step1-2)
 
 ![Assignment 6 - Step 1.3]({{site.baseurl}}/assets/images/assignment6-step1-3-result.png)
 

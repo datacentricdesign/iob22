@@ -117,7 +117,7 @@ These 62 lines certainly look intimidating. Let's not be scared and read the com
 
 Among these lines, many refer to comments and docStrings explaining and motivating what the class is for, how to construct an object of this class, what attributes and methods are available. This is important to leave no ambiguity for other developers to use this class. Do not forget this includes yourself when looking back at your code after weeks, months or years.
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step2-1])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step2-1)
 
 # Task 2.2 Package the Module preorder.py
 
@@ -133,7 +133,7 @@ __all__ = ['PreOrder']
 
 This code tells Python that the PreOrder class is accessible from the package `model`.
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step2-2])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step2-2)
 
 #  Task 2.3 Test the PreOrder Class
 
@@ -180,7 +180,7 @@ Hmm. It tells us that we ran a test in 0 seconds. It looks 'OK', but it does not
 
 The result shows the id (UUID, a string of 32 characters with dashes), the order time in second since Jan 1, 1970 (check [Epoch Converter](https://www.epochconverter.com/) for a translation into a date), and `2`, the number of products we gave as argument of the constructor.
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step2-2])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step2-2)
 
 # Task 2.4 Define a Customer Class
 
@@ -219,7 +219,7 @@ In `__init__.py`, import the class `Customer` from `customer`. Then, add 'Custom
 
 ![Assignment 6 - Step 2.3 Class Diagram]({{site.baseurl}}/assets/images/assignment6-step2-4-test.png)
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step2-4])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step2-4)
 
 # Task 2.5 Improve Test
 

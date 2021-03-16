@@ -195,7 +195,7 @@ Return all attributes as key/value pair dictionary
             "The first element of the pre_order_list should have a size 's'")
 ```
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step3-4])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step3-4)
 
 # Task 3.5 Define a Class Store
 
@@ -345,6 +345,6 @@ Return the list 'pre_orders'
             "The fourth pre-order of the total list should have 14 products.")
 ```
 
-[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step3-7])
+[Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step3-7)
 
 [Next: Step 4 - Data Collection]({{site.baseurl}}/assignments/06-landing-page/step4){: .btn .btn-purple }
