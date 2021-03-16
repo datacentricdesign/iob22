@@ -209,7 +209,7 @@ Execute the query with the values
 Commit (save) the changes
 Close the connection
 For each pre_order in customer.preOrderList
-Call the method addPreOrder with the customer email and the pre_order
+    Call the method addPreOrder with the customer email and the pre_order
 ```
 
 [Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step5-3)
@@ -233,8 +233,8 @@ Define the SQL query to SELECT all rows in PRE_ORDERS table
 Create an empty pre_order_list
 Execute the query and keep the 'result'
 For each row in result
-Construct a PreOrder object with the values from the row
-Add pre_order to the pre_order_list
+    Construct a PreOrder object with the values from the row
+    Add pre_order to the pre_order_list
 Close the connection
 Return the pre_order_list
 ```
