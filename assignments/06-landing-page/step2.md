@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 2 Classes and Tests
-parent: "06 Landing Page."
+parent: "06 Landing Page"
 ---
 
 # Step 2 Classes and Tests (1hr, ⚠️)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 3  Lists and Dictionaries
-parent: "06 Landing Page."
+parent: "06 Landing Page"
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 1 Review
-parent: "06 Landing Page."
+parent: "06 Landing Page"
 
 ---
 

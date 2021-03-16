@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 5 Database
-parent: '06 Landing Page.'
+parent: '06 Landing Page'
 ---
 
 # Step 5 Database (3hrs, ⚠️)

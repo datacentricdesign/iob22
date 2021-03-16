@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 4 Data Collection
-parent: "06 Landing Page."
+parent: "06 Landing Page"
 
 ---
 
