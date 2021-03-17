@@ -117,6 +117,9 @@ These 62 lines certainly look intimidating. Let's not be scared and read the com
 
 Among these lines, many refer to comments and docStrings explaining and motivating what the class is for, how to construct an object of this class, what attributes and methods are available. This is important to leave no ambiguity for other developers to use this class. Do not forget this includes yourself when looking back at your code after weeks, months or years.
 
+**By convention**, class names are noun with each element starting with an upper case (e.g. `Customer`, `PreOrder`). Attributes and methods start with a lower case with an upper case  `_` at the start of each element (e.g. `toDict`, `orderTime`).
+{: .fs-5 .ls-10 .code-example .bg-green-000}
+
 [Check the code on Replit](https://repl.it/@IO1075/06-landing-page-step2-1)
 
 # Task 2.2 Package the Module preorder.py
