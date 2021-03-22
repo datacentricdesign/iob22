@@ -230,13 +230,10 @@ Database
 
 ### 07 Shared Pomodoro
 
-In the eigth Python programming assignment, you will develop the state-machine algorithm of a Pomodoro time-tracker. You will make your web application more dynamic with the use of web sockets and let you Python progam run several processes in parallel using `threads`. 
+In the seventh Python programming assignment, you develop the state-machine algorithm of a Pomodoro time-tracker. You make your web application more dynamic with the use of web sockets and let your Python programme runs several processes in parallel using `threads`.  
 
 Thread
 {: .label .label-green }
-
-SVG
-{: .label .label-yellow }
 
 Web Socket
 {: .label .label-red }

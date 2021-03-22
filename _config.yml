@@ -19,6 +19,11 @@ compress_html:
   ignore:
     envs: all
 
+includes_dir: _cards
+
+collections:
+  - cards
+
 kramdown:
   toc_levels: 1..2
 

@@ -8,7 +8,7 @@ has_children: true
 
 In this sixth Python programming assignment, you catch potential customers via a landing page. You display a product concept on the web and invite potential customers to sign up for a pre-order. You structure your programme with objects and store data in a database. The results could look as follows, though you can shape this page the way you want.
 
-![Assignment 6 - Step 1.3]({{site.baseurl}}/assets/images/assignment6-final-result.png)
+![Assignment 6 - Final Result]({{site.baseurl}}/assets/images/assignment6-final-result.png)
 
 ## ⏰  Time Management and Expectations
 
