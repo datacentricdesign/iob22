@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "08 Shared Pomodoro"
+parent: "07 Shared Pomodoro"
 
 ---
 
