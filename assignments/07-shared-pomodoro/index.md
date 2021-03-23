@@ -10,6 +10,25 @@ In the seventh Python programming assignment, you develop the state-machine algo
 
 ![Assignment 7 - Final Result]({{site.baseurl}}/assets/images/assignment7-final-result.png)
 
+---
+
+Through this assignment, we explore the following concepts:
+
+Thread
+{: .label .label-green }
+
+Web Socket
+{: .label .label-red }
+
+State Machine
+{: .label .label-yellow }
+
+---
+
+Thanks Aadjan van der Helm <A.J.C.vanderHelm@tudelft.nl> who inspired this assignment and Doreen Mulder <D.Mulder@student.tudelft.nl> who shared code that we adapted for this assignment.
+
+---
+
 ## ⏰  Time Management and Expectations
 
 This assignment aims at 8 hours. However, it is easy to spend more time on each step. Keep in mind the following indications. It is crucial to practice your computational thinking by defining implementing the state machine's logic (Steps 2 and 4). We encourage you to copy and paste in Step 3 because setting up a web page is not the focus of this assignment.
@@ -32,7 +51,7 @@ Remember that it is an exercise of courage, continuously admitting when you do n
 
 Working at a distance adds a layer of complexity. With _Replit_, one person in the pair creates a project. Then, using the `share` button on the top right corner, you share an 'editable' link with your pair, which you can both edit.
 
-![Pair Programming - Replit]({{site.baseurl}}/assets/images/pair-replit.gif)
+![Pair Programming - Replit]({{site.baseurl}}/assets/images/pair.gif)
 
 We suggest using a communication tool such as MS Team to open a video channel, staying in constant video and voice interaction during the duration of the pair programming
 
@@ -46,20 +65,3 @@ Do you want to explore the Git/GitHub workflow? You need to create a free GitHub
 Create a repository with an initial README.md file, then access this repository from _Replit_.
 
 ![GitHub create repository - Replit]({{site.baseurl}}/assets/images/git.gif)
-
----
-
-Through this assignment, we explore the following concepts:
-
-Thread
-{: .label .label-green }
-
-Web Socket
-{: .label .label-red }
-
-State Machine
-{: .label .label-yellow }
-
----
-
-Thanks Aadjan van der Helm <A.J.C.vanderHelm@tudelft.nl> who inspired this assignment and Doreen Mulder <D.Mulder@student.tudelft.nl> who shared code that we adapted for this assignment.
