@@ -32,7 +32,7 @@ IDLE = 0
 
 Then, we need to initialise our state machine. On the diagram, there is the method `setup()` which brings us to the initial state `IDLE`. In this method, initialise the attribute `currentState` to `IDLE`. As we need to apply this as soon as we construct the Pomodoro object, call `setup()` in the constructor.
 
-Each time we transition from one state to another, we change the attribute `currentState` with the new state. Create a method `changeState` which takes a parameter `state` (the new state). In this method, set `currentState` to the new state and log a message 'Transition to [NEW STATE]' so that we can see what happens. 
+Each time we transition from one state to another, we change the attribute `currentState` with the new state. Create a method `changeState` which takes a parameter `state` (the new state). In this method, set `currentState` to the new state and log a message 'Transition to [NEW STATE]' so that we can see what happens.
 
 Run the code to check we have so far. We can see Construction, setup and start appearing in the logs before endlessly check the state.
 
@@ -58,7 +58,9 @@ Run the code to see what we have. For this tasks we wrote 20 lines of code, but 
 
 # Task 2.3 Define Press Event
 
-To offer the ability to 'press' the pomodoro timer, we need three elements:
+To offer the ability to 'press' the pomodoro timer, we will need to define what the button should do when it pressed.
+
+To do this sofasticatedly, we need three elements:
 
 * First, we need an attribute `_pressStatus` to keep track of this status. In the constructor initialise the attribute `_pressStatus` to `False` (e.g. not pressed);
 * Second, we need the ability to change this status. Define a method `press()`. In this method, set the attribute `_pressStatus` to `True` and add a log 'Pomodoro pressed';
@@ -76,6 +78,6 @@ Have a look at the state diagram again. Similarly to `startWork()`, for each tra
 
 [Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step2-3)
 
-We are ready to connect the state machine to a web interface.
+Now that we have state machine have implemented for our code, We are ready to connect this state machine to a web interface.
 
 [Next: Step 3 - Web Socket ]({{site.baseurl}}/assignments/07-shared-pomodoro/step3){: .btn .btn-purple }
