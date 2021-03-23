@@ -88,7 +88,7 @@ Why cannot we create a `while-loop` in the main thread, which would call `checkS
 
 # Task 1.3 Stop the State Machine
 
-With two threads running in parallel, we cannot exit the programme anymore. We need first to cancel the Timer currently waiting for the next check. Remember that we keep track of our Timer object in the attribute `_nextCheck`. A Timer object has a method `cancel()` to cancel the execution planned earlier. Thus, we need a method `stop()` which could look as follows:
+With two threads running in parallel, we cannot exit the programme anymore and do any other things. We need first to cancel the Timer currently waiting for the next check. Remember that we keep track of our Timer object in the attribute `_nextCheck`. A Timer object has a method `cancel()` to cancel the execution planned earlier. Thus, we need a method `stop()` which could look as follows:
 
 ```python
   def stop(self):
@@ -99,13 +99,19 @@ With two threads running in parallel, we cannot exit the programme anymore. We n
       self._nextCheck.cancel()
 ```
 
-When shall we call this method `stop()`? When we want to stop the programme, thus when we press `CTRL-C`. This leads us to a first handling our first `event`: we want to listen to the event 'user pressed `CTRL-C` on the keyboard' and react by stopping the Pomodoro machine. In `main.py`, import the Python module `signal`.
+When shall we call this method `stop()`? When we want to stop the programme, thus when we press `CTRL-C`. This leads us to a first handling our first `event`: we want to listen to the event 'user pressed `CTRL-C` on the keyboard' and react by stopping the Pomodoro machine. To do this we can use "Handler", that will close the programme when user press `CTRL-C`.
 
 ## What is a Handler?
 
 A handler is a function that the programme calls in response to an event. In our case, we want to stop the Pomodoro state machine and exit the programme when the user presses `CTRL-C`.
 
 Define a function `handle_control_c()` with two parameters 'signal' and 'frame'. In this function, call the Pomodoro method `stop()`, then call the function `exit()` (to close Python).
+
+first import `signal` file at the top of the `main.py`
+
+```python
+import the Python module `signal`
+```
 
 Finally, we connect the event to the handler function. For this, add the following line at the bottom of the file:
 
