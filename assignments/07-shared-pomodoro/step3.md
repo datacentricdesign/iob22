@@ -20,11 +20,13 @@ In this step, we create a webserver like in the previous assignments. However, t
 
 ## What is WebSocket?
 
-WebSocket is a network protocol of the application layer (in the Internet stack) like HTTP. It is often used above HTTP to ensure compatibility with the web protocols. While HTTP only enables clients (e.g. web browsers) to communicate with the server, WebSocket enables a bi-directional communication. The server can push data to all connected clients in a more efficient way, whenever it needs to, without the clients having to pull for an update.
+WebSocket is a network protocol of the application layer (in the Internet stack) like HTTP (You know what is HTTP by now!). Web socket often used above HTTP to ensure compatibility with the web protocols. While HTTP only enables clients (e.g. web browsers) to communicate with the server, WebSocket enables a bi-directional communication. The server can push data to all connected clients in a more efficient way, whenever it needs to, without the clients having to pull for an update.
 
 # Task 3.1 Setup the Webserver
 
-To create a webserver that support websockets, we can use Flask again, together with the extension SocketIO. Add their imports to `main.py`
+To create a webserver that support websockets, we can use again use `Flask` library here, together with the extension `SocketIO`. The `SocketIO` package will enable us to implement the websocket for bi-rectional communication.
+
+First let's import these two packages to `main.py`
 
 ```python
 # Import the package for the web server
@@ -33,7 +35,7 @@ from flask import Flask
 from flask_socketio import SocketIO
 ```
 
-Then, we construct both a Flask object and a SocketIO object. Note that we pass the server as an argument of the socketio. SocketIO builds on top of the webserver, taking all it functionalities and adding the ability to handle websockets.
+Now, we construct both a Flask object and a SocketIO object. Note that we pass the server as an argument of the socketio. SocketIO builds on top of the webserver, taking all it functionalities and adding the ability to handle websockets.
 
 ```python
 # Create a webserver object called 'Shared Pomodoro' and keep track of it in the variable called server
@@ -130,7 +132,7 @@ The `<text>` tag sits empty in the middle. This is where we will display the Pom
 
 # Task 3.3 Send Press Event
 
-As we mentioned in the previous assignments, JavaScript is the language to handle the web page behaviour. When we click on the Pomodoro, the function `pressPomodoro()` is a Javascript function. The code to handle the event looks as follows. We first first create a weksocket connection, and then we define the function `pressPomodoro()` which use the websocket to 'emit' (e.g. send) a message to the server. This message is emitted on the channel 'json' and is structured as a JSON data structure with a value 'press' attached to the key 'action'.
+As we mentioned in the previous assignments, JavaScript is the language to handle the web page behaviour. When we click on the Pomodoro, the function `pressPomodoro()` is a Javascript function. The code to handle the event looks as follows. We first create a weksocket connection, and then we define the function `pressPomodoro()` which use the websocket to 'emit' (e.g. send) a message to the server. This message is emitted on the channel 'json' and is structured as a JSON data structure with a value 'press' attached to the key 'action'.
 
 ```html
 <script>
@@ -141,9 +143,9 @@ As we mentioned in the previous assignments, JavaScript is the language to handl
 </script>
 ```
 
-Add this script in the `<head>` of `index.html`. This is all we need to do to capture a 'click' event and send a message via the websocket to the Python webserver.
+Add this script inside the `<head>` tag of `index.html`. This is all we need to do to capture a 'click' event and send a message via the websocket to the Python webserver.
 
-Back in `main.py`, we want to receive the message emitted by the web page. The following snippet of code give an example of how to achieve this. Similarly to an HTTP route, we first 'listen' to event on the 'json' channel. We define a handler, a function which is trigger when a new message arrive on the 'json' channel. This function as one parameter 'data': the data received from the web page. As all JSON structure in Python, the data is a Dictionary. We check if the key 'action' exists in this dictionary and if this action is 'press'. In that case, we can call the method `press()` of the Pomodoro object.
+Back in `main.py`, we want to receive the message emitted by the web page. The following snippet of code give an example of how to achieve this. Similarly to an HTTP route, we first 'listen' to event on the 'json' channel. We define a handler, a function which is trigger when a new message arrive on the 'json' channel. This function as one parameter 'data': the data received from the web page. As all JSON data-structure in Python, the data we received here is also in `Dictionary` format. We check if the key 'action' exists in this dictionary and if this action is 'press'. In that case, we can call the method `press()` of the Pomodoro object.
 
 ```python
 # Define a Websocket event 'json'
@@ -166,6 +168,6 @@ Run the code and trigger the HTTP route '/'. When clicking on the Pomodoro drawi
 
 [Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step3-3)
 
-We deliberately went fast through this step, with explanation and copy paste. The core of this assignment is to practice Python rather than web technologies. However, it gives a concrete example of Websocket enabled user interface that we will build upon in the next steps. 
+We deliberately went fast through this step, with explanation and copy paste. The core of this assignment is to practice Python rather than web technologies. However, it gives a concrete example of Websocket enabled user interface that we will build upon in the next steps.
 
 [Next: Step 4 - Time]({{site.baseurl}}/assignments/07-shared-pomodoro/step4){: .btn .btn-purple }
