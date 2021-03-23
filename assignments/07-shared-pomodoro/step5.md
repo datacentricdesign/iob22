@@ -59,18 +59,50 @@ Finally, in `index.html`, we need to listen for WebSocket messages coming from t
 socket.on('json', handleEvent);
 
 function handleEvent(event) {
-        console.log(event)
-        const messageTag = document.getElementById("text-message")
-        messageTag.innerHTML = event.message
-    }
+    console.log(event)
+    const messageTag = document.getElementById("text-message")
+    messageTag.innerHTML = event.message
+}
 ```
 
 In this function, the parameter content the event -- the JSON message sent by the webserver. We look for the tag `<text>` in the drawing, locating it by its id `text-message`. We inject inside this tag the message from the event.
 
-Rerun the code. When click (pressing) on the Pomodoro, the state machine switch to work, leading to a message sent to the webclient, and 'Work' should appear on the drawing.
+Rerun the code. When clicking (pressing) on the Pomodoro, the state machine switch to work, leading to a message sent to the webclient, and 'Work' should appear on the drawing.
 
 [Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step5-1)
 
+# Task 5.2 Share Current Setup
+
+The web page is now receiving all state change from the server, showing the receive message on the Pomodoro. However, when we load the page, there is no message: we need to wait the next state change to receive an update and show the message. We can improve this by sending the setup as soon as the web client connect to the WebSocket.
+
+In `pomodoro.py`, let's create a method `shareSetup()` which emit the current Pomodoro setup (i.e. its state) on the WebSocket. This method is the same as the method `changeState()`. The only difference is that we do not _change the state_, we only emit the message on the WebSocket.
+
+```python
+    def shareSetup(self):
+        """
+        Emit a web socket event to share the current setup with all web clients.
+        """
+        self._socketio.emit(
+            'json', {
+                'state': self.currentState,
+                'message': stateMessages[self.currentState]
+            })
+```
+
+Now, when is the right moment to call this method? We could for instance call it each time a web client is connecting to the server. In `main.py`, this would look as follows: 
+
+```python
+# Define a Websocket event 'connect'
+@socketio.on('connect')
+# Define the function 'handle_connect_event()' and connect it to the event 'connect'
+def handle_connect_event():
+    # call the method shareSetup() of pomodoro
+    pomodoro.shareSetup()
+```
+
+You can recognise the say syntax as for receiving messages on the channel `json`. Instead we use the channel `connect`. The handler calls the method `shareSetup()` that we just defined in the Pomodoro class.
+
+Rerun the code. This time, the message 'Press Me!' (for the `IDLE` state) should appear on the Pomodoro device.
 
 
 [Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/07-shared-pomodoro/step6){: .btn .btn-purple }

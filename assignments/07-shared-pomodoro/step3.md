@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 3 WebSocket
+title: Step 3 Interaction
 parent: "07 Shared Pomodoro"
 
 ---
 
-# Step 3 WebSocket
+# Step 3 Web User Interaction
 {: .no_toc }
 
 ## Table of contents
