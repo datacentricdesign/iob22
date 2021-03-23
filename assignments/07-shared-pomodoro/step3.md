@@ -64,7 +64,7 @@ socketio.run(server, host="0.0.0.0")
 
 At this stage, running the code give us an empty webpage, along the state machine as we have it from Step 2.
 
-[Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step3-1)
+[Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodor-step3-1)
 
 # Task 3.2 Define the webpage
 
