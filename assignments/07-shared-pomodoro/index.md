@@ -39,6 +39,14 @@ We suggest using a communication tool such as MS Team to open a video channel, s
 Share your experience on Discourse with the tag `pair-programming` 
 
 
+## 🔗 Git and GitHub
+
+Do you want to explore the Git/GitHub workflow? You need to create a free GitHub account if you do not have one yet. This flow works regardless of working solo or in pair.
+
+Create a repository with an initial README.md file, then access this repository from _Replit_.
+
+![GitHub create repository - Replit]({{site.baseurl}}/assets/images/git.gif)
+
 ---
 
 Through this assignment, we explore the following concepts:
