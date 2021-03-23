@@ -12,6 +12,32 @@ In the seventh Python programming assignment, you develop the state-machine algo
 
 ## ⏰  Time Management and Expectations
 
+This assignment aims at 8 hours. However, it is easy to spend more time on each step. Keep in mind the following indications. It is crucial to practice your computational thinking by defining implementing the state machine's logic (Steps 2 and 4). We encourage you to copy and paste in Step 3 because setting up a web page is not the focus of this assignment.
+
+* ✅ (1hr) Step 1 (class) revisits elements already covered through a class definition. It also introduces the concept of handlers;
+* ⚠️ (2.5hr) Step 2 (states) is a critical step of this assignment, defining part of your state machine;
+* 🏗 (1hrs) Step 3 (WebSocket) setups the web server;
+* ⚠️(2.5hr) Step 4 (States) is a critical step of this assignment, finalising the definition of your state machine;
+* ✅ (1hrs) Step 5 (WebSocket) uses WebSocket to send updates to clients;
+
+## 👥 Pair Programming
+
+Did you decide to work through this assignment in pair programming? Brilliant! Pair programming is an excellent opportunity to exchange end strengthen your knowledge.
+
+* We suggest switching role for each Task, as the code gets executed and marks a clear transition.
+* As you take the driver seat, remember to think aloud and ask questions to the navigator
+* As you take on the navigator seat, help the driver answering his question. If you spot an error, let the driver finish his/her flow before communicating them
+
+Remember that it is an exercise of courage, continuously admitting when you do not know. This way, the other get the opportunity to explain and, through this process, check whether they have themselves a clear understanding of the concept at hand. 
+
+Working at a distance adds a layer of complexity. With _Replit_, one person in the pair creates a project. Then, using the `share` button on the top right corner, you share an 'editable' link with your pair, which you can both edit.
+
+![Pair Programming - Replit]({{site.baseurl}}/assets/images/pair-replit.gif)
+
+We suggest using a communication tool such as MS Team to open a video channel, staying in constant video and voice interaction during the duration of the pair programming
+
+Share your experience on Discourse with the tag `pair-programming` 
+
 
 ---
 
