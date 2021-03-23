@@ -22,7 +22,7 @@ The core of this assignment is to develop a state machine. The following diagram
 
 First let's try to understand this diagram:
 
-In the diagram, each circle re-present individual state in the program. The `setup()` method (with two circles on the left) leads us to the starting point: the `IDLE` state. When the user 'press' the device it move to the `WORK`. This state remains until the time we set as work time is over. In this situation, the `BREAK_ALARM` start ringing (i.e. it is time for a break). There is only one good condition to leave this state: the user must press the device.
+In the diagram, each circle re-present individual state in the program (we will will discuss what is state in Step 2). The `setup()` method (with two circles on the left) leads us to the starting point: the `IDLE` state. When the user 'press' the device it move to the `WORK`. This state remains until the time we set as work time is over. In this situation, the `BREAK_ALARM` start ringing (i.e. it is time for a break). There is only one good condition to leave this state: the user must press the device.
 
 However, the Pomodoro timer can transition to a `SHORT_BREAK` or a `LONG_BREAK` state. This depends on how many work/short-break cycles we already completed. If we have to complete more cycles, we go for the `SHORT_BREAK` leading to a `WORK_ALARM`. Otherwise, it is time for a `LONG_BREAK`, which end whenever the user decides to press the device.
 

@@ -16,7 +16,7 @@ parent: "07 Shared Pomodoro"
 
 ---
 
-Let's bring back the state diagram.
+To starts with let's look again at the state diagram.
 
 ![Assignment 7 - State Machine]({{site.baseurl}}/assets/images/assignment7-step1-state-machine.svg)
 
@@ -40,7 +40,7 @@ Run the code to check we have so far. We can see Construction, setup and start a
 
 # Task 2.2 Change State
 
-We have states and a looping state machine. However, it does not transition to any state yet. It is time to go back to the `checkState()` method, where we continuously start a new 1-second timer. In addition to setting the timer, we want to check whether we should transition to a new state. We propose to build a long chain of condition. This is how we start completing `checkState()`:
+For now we have states and a looping state machine. However, it does not transition to any state yet. Because we haven't implemented it. So it is time to go back to the `checkState()` method, where we continuously start a new 1-second timer. Here, in addition to setting the timer, we want to check whether we should transition to a new state. We propose to build a long chain of condition in `checkState()`. Something like this:
 
 ```python
 if self.currentState == IDLE:
@@ -48,23 +48,44 @@ if self.currentState == IDLE:
         self.startWork()
 ```
 
-Reading the state machine diagram, continue with `elif` statement to check each state (e.g. `IDLE`), check the exit condition (e.g. `isPressed()`) and call the transition method (e.g. `startWork()`).
+The code above represent the transition from `IDLE` state to `WORK` state using `if` statement to check each state (e.g. `IDLE`), check the exit condition (e.g. `isPressed()`) and call the transition method (e.g. `startWork()`). You can extend this code uisng `elif` statement to check (e.g. `WORK`) state and the condition(e.g. isTimeOver()) and call the transition method (e.g. 'ringBreakAlarm()').
 
-Conclude with a `else` statement with a log message to show that the state is unknown. In theory we should never reach that stage, but it makes error easier to detect.
+At the end you can onclude with a `else` statement with a log message that says  "the state is unknown". In theory we should never reach that stage, but it makes error easier to detect.
 
-Run the code to see what we have. For this tasks we wrote 20 lines of code, but the programme is not doing much more. The only difference is the message 'Is Pressed?' for every check. To transition from `IDLE` to `WORK`, we have to... press the device!
+Run the code to see what we have. For this tasks we wrote 20 lines of code, but the programme is not doing much more. The only difference is the message 'Is Pressed?' for every check. To transition from `IDLE` to `WORK`, we have to implement the function that change the state when we press the device!
 
 [Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step2-2)
 
 # Task 2.3 Define Press Event
 
-To offer the ability to 'press' the pomodoro timer, we will need to define what the button should do when it pressed.
+To offer the ability to 'press' and change the state in the pomodoro timer, we will need to define what the button should do when it pressed.
 
 To do this sofasticatedly, we need three elements:
 
-* First, we need an attribute `_pressStatus` to keep track of this status. In the constructor initialise the attribute `_pressStatus` to `False` (e.g. not pressed);
-* Second, we need the ability to change this status. Define a method `press()`. In this method, set the attribute `_pressStatus` to `True` and add a log 'Pomodoro pressed';
-* Finally, we need the ability to switch back to `False`. We can do this in `isPressed()`. Each time we check whether the pomodoro is pressed, we check `_pressStatus`. If it is `True`, switch back `False` and return `True`, otherwise return `False`. This make sure this method return true only once before swtching back to `False`.
+* First, we need an attribute `_pressStatus` to keep track of this status. In the constructor (__init__) initialise the attribute `_pressStatus` with it's initial value `False` (e.g. not pressed);
+
+* Second, we need the ability to change this status. To do this define a method called `press()`. In this method, set the attribute `_pressStatus` to `True` and add a log 'Pomodoro pressed';
+
+```python
+def press(self):
+        """
+        Use _buttonStatus as a flag so that for the next check state the button is 'pressed'.
+        """
+        logging.debug("Pomodoro pressed")
+        self._pressStatus = True
+```
+
+* Finally, we need the ability to switch back to `False`. We can do this in our `isPressed()` method that we created earlier. Here in `isPressed()` Each time we check whether the pomodoro is pressed, we check `_pressStatus`. If it is `True`, switch back `False` and return `True`, otherwise return `False`. This make sure this method return true only once before swtching back to `False`.
+
+```python
+def isPressed(self):
+    logging.debug("Is Pressed?")
+    if self._pressStatus:
+        # Switch back button status to False, so that it is taken into account only once
+        self._pressStatus = False
+        return True
+    return False
+```
 
 Back in `main.py`, we can check the press mechanism by calling the method `press()` after calling the method `start()`.
 
