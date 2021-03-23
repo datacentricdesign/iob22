@@ -62,9 +62,9 @@ Finally, we start the server. Once again, we use SocketIO and pass the server as
 socketio.run(server, host="0.0.0.0")
 ```
 
-At this stage, running the code give us an empty webpage, along the state machine as we have it from Step 2.
+At this stage, running the code gives us an empty webpage along with the state machine as we have it from Step 2.
 
-[Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodor-step3-1)
+[Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step3-1)
 
 # Task 3.2 Define the webpage
 
@@ -96,7 +96,7 @@ body {
     background-color: #f2be8a;
     max-width: 400px;
     margin:auto;
-    font-family: "Ranchers"
+    font-family: "Ranchers";
 }
 ```
 
