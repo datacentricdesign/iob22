@@ -104,5 +104,6 @@ You can recognise the say syntax as for receiving messages on the channel `json`
 
 Rerun the code. This time, the message 'Press Me!' (for the `IDLE` state) should appear on the Pomodoro device.
 
+[Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step5-2)
 
 [Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/07-shared-pomodoro/step6){: .btn .btn-purple }
