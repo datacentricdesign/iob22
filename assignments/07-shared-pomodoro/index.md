@@ -51,7 +51,7 @@ Remember that it is an exercise of courage, continuously admitting when you do n
 
 Working at a distance adds a layer of complexity. With _Replit_, one person in the pair creates a project. Then, using the `share` button on the top right corner, you share an 'editable' link with your pair, which you can both edit.
 
-![Pair Programming - Replit]({{site.baseurl}}/assets/images/pair.gif)
+![Pair Programming - Replit]({{site.baseurl}}/assets/images/replit-pair.gif)
 
 We suggest using a communication tool such as MS Team to open a video channel, staying in constant video and voice interaction during the duration of the pair programming
 
