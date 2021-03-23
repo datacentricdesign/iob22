@@ -96,8 +96,17 @@ body {
     background-color: #f2be8a;
     max-width: 400px;
     margin:auto;
+    font-family: "Ranchers"
 }
 ```
+
+Note: for the sake of customisation, we changed the font to 'Ranchers'. To make this font available we need to had the following tag inside `<head>`:
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet"> 
+```
+
+We can pick a font for example from [Google Fonts](https://fonts.google.com/)
 
 Finally, we had the SVG drawing of the 'pomodoro' below the `<h1>`
 
