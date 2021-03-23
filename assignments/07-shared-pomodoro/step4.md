@@ -27,9 +27,9 @@ With the 'press' event, our state machine reaches the state `WORK`. To leave thi
 * Define an attribute `_timerDuration` which represents the duration of the period we are tracking. We will set this attribute each time we start a new period, so for now we initialise it to 0;
 * Define an attribute `_timerStart` which represents the start time of the period we are tracking. We will use this as the reference to check how much time we spent so far in the current period.
 
-These three attributes will help us define the method `startWork()`. In this method we already change the state to `WORK`. In addition, set `_timerDuration` to `workDuration` so that we know which duration which should refer to. Then, we need to check what is the current time so that we can use it later as a reference point. The time module as a convenient function `monotonic()` for that. Import the module `time` at the top of the file and set `_timeStart` to `monotonic()`.
+These three attributes will help us define the method `startWork()`. In this method we already change the state to `WORK`. In addition, set `_timerDuration` to `workDuration` so that we know which duration we should refer to. Then, we need to check what is the current time so that we can use it later as a reference point. The time module as a convenient function `monotonic()` for that. Import the module `time` at the top of the file and set `_timeStart` to `monotonic()`.
 
-We can move on `isTimeOver()`. As we checked the time when switching to `WORK` (using monotonic), we can use this as a reference time. Thus, the condition to decide whether the is over looks as follows:
+We can move on `isTimeOver()`. As we checked the time when switching to `WORK` (using monotonic), we can use this as a reference time. Thus, the condition to decide whether it is over. It should looks as follows:
 
 ```python
 monotonic() - self._timerStart > self.timerDuration
@@ -43,7 +43,7 @@ Run the code to check. At this stage, the state machine count the work duration 
 
 # Task 4.2 Track Short Break Time
 
-Using the previous task as an example, add the attribute `breakDuration` to the constructor and use it in `startShortBreak()` to have the same control over time.
+Using the previous task as an example, add another attribute `breakDuration` to the constructor (`__init__`) and use it in `startShortBreak()` to have the same control over time.
 
 Run the code to check. At this stage we have an infite loop of work and short breaks.
 
@@ -58,7 +58,9 @@ To complete the state machine, we need to count the cylces of work and short bre
 * In `startLongBreak()` we need to reset the number of cycles;
 * In `isTimeForLongBreak()` we need to compare the `numberCycles` to `_cycleCounter` to return True or False;
 
-Run the code to check. At this stage the state machine should be complete.
+At this stage the state machine should be complete. Indeed it is bit complex but very usuful concept to let the machine permform multiple task simultaneously.
+
+Run the code to check.
 
 [Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step4-3)
 

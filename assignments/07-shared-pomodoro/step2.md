@@ -78,6 +78,6 @@ Have a look at the state diagram again. Similarly to `startWork()`, for each tra
 
 [Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step2-3)
 
-Now that we have state machine have implemented for our code, We are ready to connect this state machine to a web interface.
+Now that we have implemented an intial state machine for our code, we are ready to connect this state machine to a web interface.
 
 [Next: Step 3 - Web Socket ]({{site.baseurl}}/assignments/07-shared-pomodoro/step3){: .btn .btn-purple }
