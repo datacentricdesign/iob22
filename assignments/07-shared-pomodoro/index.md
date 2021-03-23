@@ -6,7 +6,7 @@ has_children: true
 
 # 07 Shared Pomodoro
 
-In the seventh Python programming assignment, you develop the state-machine algorithm of a Pomodoro time-tracker. You make your web application more dynamic with the use of web sockets and let your Python programme runs several processes in parallel using `threads`.
+In the seventh Python programming assignment, you develop the state-machine algorithm of a Pomodoro time-tracker. You make your web application more dynamic with WebSocket and let your Python programme run several parallel processes using `threads`.
 
 ![Assignment 7 - Final Result]({{site.baseurl}}/assets/images/assignment7-final-result.png)
 
@@ -25,13 +25,13 @@ State Machine
 
 ---
 
-Thanks Aadjan van der Helm <A.J.C.vanderHelm@tudelft.nl> who inspired this assignment and Doreen Mulder <D.Mulder@student.tudelft.nl> who shared code that we adapted for this assignment.
+Thanks Aadjan van der Helm <A.J.C.vanderHelm@tudelft.nl> who inspired this assignment, and Doreen Mulder <D.Mulder@student.tudelft.nl> who shared the code that we adapted for this assignment.
 
 ---
 
 ## ⏰  Time Management and Expectations
 
-This assignment aims at 8 hours. However, it is easy to spend more time on each step. Keep in mind the following indications. It is crucial to practice your computational thinking by defining implementing the state machine's logic (Steps 2 and 4). We encourage you to copy and paste in Step 3 because setting up a web page is not the focus of this assignment.
+This assignment aims at 8 hours. However, it is easy to spend more time on each step. Keep in mind the following indications. It is crucial to practice your computational thinking by implementing the state machine's logic (Steps 2 and 4). We encourage you to copy and paste in Step 3 because setting up a web page is not the focus of this assignment.
 
 * ✅ (1hr) Step 1 (class) revisits elements already covered through a class definition. It also introduces the concept of handlers;
 * ⚠️ (2.5hr) Step 2 (states) is a critical step of this assignment, defining part of your state machine;
@@ -68,7 +68,7 @@ Create a repository with an initial README.md file, then access this repository 
 
 We suggest:
 
-* creating a commit and pushing on your GitHub repository at the end of each task;
+* creating a commit and pushing on your GitHub repository at the end of each Task;
 * creating a branch at the beginning of each step and merge it in the Master at the end of each step.
 
 ![GitHub create branch and commit - Replit]({{site.baseurl}}/assets/images/git_commit_push.gif)

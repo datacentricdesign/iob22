@@ -129,10 +129,10 @@ signal.signal(signal.SIGINT, handle_control_c)
 
 This line relies on the module `signal`, saying there is an event `SIGINT` (e.g. a SIGnal INTeruption such as `CTRL+C` pressed on the keyboard), then call the function `handle_control_c()`.
 
-Note that the parameters 'signal' and 'frame' are imposed by the signal module which emit relies on handler that must have these two parameters. They provide information about the triggered event.
+Note that the module `signal` imposes the parameters 'signal' and 'frame'. A function handler must have these two parameters to handle an event from the module `signal`. They provide information about the triggered event.
 
 Run the code. This time, pressing CTRL-C will stop the programme.
 
-And we have a an initial state machine that we can start and stop, we are only missing states. Let'improvise this state machine in next step.
+Finally we have a an initial state machine that we can start and stop, we are only missing states. Let'improvise this state machine in next step.
 
 [Next: Step 2 - State Machine]({{site.baseurl}}/assignments/07-shared-pomodoro/step2){: .btn .btn-purple }
