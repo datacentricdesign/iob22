@@ -72,7 +72,7 @@ To start the Pomodoro machine, we can add another method, `start()`, to the Pomo
 
 Run the code and see what happens. Look what we achieved! The code is continuously printing a log 'Check state'. We created an infinite loop, `checkState()` calling itself every second, forever!
 
-Hmm. Indeed forever, there is no 'Stop' button and even pressing `CTRL+C` does not stop the programme. Why? When we try to stop the programme, Python notices there are two `threads` running in parallel.
+Hmm. Indeed forever, there is no 'Stop' button, and even pressing `CTRL+C` does not stop the programme. Why? When we try to stop the programme, Python notices there are two `threads` running in parallel.
 
 ## What is a Thread?
 
@@ -122,10 +122,10 @@ signal.signal(signal.SIGINT, handle_control_c)
 
 This line relies on the module `signal`, saying there is an event `SIGINT` (e.g. a SIGnal INTeruption such as `CTRL+C` pressed on the keyboard), then call the function `handle_control_c()`.
 
-Note that the parameters 'signal' and 'frame' are imposed by the signal module which emit relies on handler that must have these two parameters. They provide information about the triggered event.
+Note that the module `signal` imposes the parameters 'signal' and 'frame'. A function handler must have these two parameters to handle an event from the module `signal`. They provide information about the triggered event.
 
-Run the code. This time, pressing CTRL-C stop the programme.
+Run the code. Pressing CTRL-C now leads to interrupting the programme.
 
-We have a state machine that we can start and stop, we are only missing states.
+We have a state machine that we can start and stop. We are only missing states.
 
 [Next: Step 2 - State Machine]({{site.baseurl}}/assignments/07-shared-pomodoro/step2){: .btn .btn-purple }
