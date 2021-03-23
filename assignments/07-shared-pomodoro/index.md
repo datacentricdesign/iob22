@@ -65,3 +65,10 @@ Do you want to explore the Git/GitHub workflow? You need to create a free GitHub
 Create a repository with an initial README.md file, then access this repository from _Replit_.
 
 ![GitHub create repository - Replit]({{site.baseurl}}/assets/images/git.gif)
+
+We suggest:
+
+* creating a commit and pushing on your GitHub repository at the end of each task;
+* creating a branch at the beginning of each step and merge it in the Master at the end of each step.
+
+TODO GIF commit and branch
