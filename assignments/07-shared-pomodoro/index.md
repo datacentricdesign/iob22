@@ -6,7 +6,7 @@ has_children: true
 
 # 07 Shared Pomodoro
 
-In the seventh Python programming assignment, you develop the state-machine algorithm of a Pomodoro time-tracker. You make your web application more dynamic with the use of web sockets and let your Python programme runs several processes in parallel using `threads`. 
+In the seventh Python programming assignment, you develop the state-machine algorithm of a Pomodoro time-tracker. You make your web application more dynamic with the use of web sockets and let your Python programme runs several processes in parallel using `threads`.
 
 ![Assignment 7 - Final Result]({{site.baseurl}}/assets/images/assignment7-final-result.png)
 
@@ -47,7 +47,7 @@ Did you decide to work through this assignment in pair programming? Brilliant! P
 * As you take the driver seat, remember to think aloud and ask questions to the navigator
 * As you take on the navigator seat, help the driver answering his question. If you spot an error, let the driver finish his/her flow before communicating them
 
-Remember that it is an exercise of courage, continuously admitting when you do not know. This way, the other get the opportunity to explain and, through this process, check whether they have themselves a clear understanding of the concept at hand. 
+Remember that it is an exercise of courage, continuously admitting when you do not know. This way, the other get the opportunity to explain and, through this process, check whether they have themselves a clear understanding of the concept at hand.
 
 Working at a distance adds a layer of complexity. With _Replit_, one person in the pair creates a project. Then, using the `share` button on the top right corner, you share an 'editable' link with your pair, which you can both edit.
 
@@ -55,7 +55,7 @@ Working at a distance adds a layer of complexity. With _Replit_, one person in t
 
 We suggest using a communication tool such as MS Team to open a video channel, staying in constant video and voice interaction during the duration of the pair programming
 
-Share your experience on Discourse with the tag `pair-programming` 
+Share your experience on Discourse with the tag `pair-programming`
 
 
 ## 🔗 Git and GitHub
@@ -71,4 +71,4 @@ We suggest:
 * creating a commit and pushing on your GitHub repository at the end of each task;
 * creating a branch at the beginning of each step and merge it in the Master at the end of each step.
 
-TODO GIF commit and branch
+![GitHub create branch and commit - Replit]({{site.baseurl}}/assets/images/git_commit_push.gif)
