@@ -16,7 +16,7 @@ How would you shape the behaviour of your favourite vending machine? In this sec
 
 Through this assignment, we explore the following concepts:
 
-Branch
+[Branch]({{site.baseurl}}/key_concepts/#branching)
 {: .label .label-green }
 
 Compound statement
