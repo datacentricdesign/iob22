@@ -26,4 +26,4 @@ Why memory? Anything the computer manipulates needs to be in its memory.
 
 With the key ingredients of our Then, we want to connect these elements. Let's try with plain English:
 
-[({{site.baseurl}}{{page.url}})]
+[]({{site.baseurl}}{{page.url}})
