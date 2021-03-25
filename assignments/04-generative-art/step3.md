@@ -20,9 +20,19 @@ parent: '04 Generative Art'
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O-GBEIW40vQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-{% include package.md %}
+## What is Package?
 
-{% include webserver.md %}
+In the previous step, we introduced `modules`. These are files with Python code that we can import and use in our code. While `modules` are files, `packages` are folders hierarchically structuring modules. You can install packages from other developers so that your code can rely on their code. `Packages` opens up whole new horizons: you are not coding everything by yourselves but reusing functions made available by others. We say that your code has 'dependencies', i.e. it depends on packages from other developers.
+
+Installing a package means downloading a folder with subfolders and files (e.g. packages and modules) which contain functions that you can use in your code in the same way you use your modules. As each package can rely on its own set of dependencies, the installation becomes quickly complicated. No worries. `Package managers` are here to handle this process for us.
+
+## What is a Web Server?
+
+In this assignment, we want to move beyond the Terminal inputs and outputs. From this step, the output of the code will appear on a `web page`.
+
+When you use your web browser to open a web page, you are requesting content from a network of computers. These computers are listening for requests and respond with the requested content. They _serve_ content on to _clients_ such as a web browser. We describe here the role of a `webserver`.
+
+Serving the output of our code on a webpage has many advantages for designers. Software is increasingly accessible as web applications, and many devices can display web pages. These make web page an appropriate medium for prototyping, even though the final product or service might rely on different technologies.
 
 ## What is an HTTP route?
 
