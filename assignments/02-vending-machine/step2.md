@@ -40,7 +40,7 @@ Else serve a tea by default
 
 Tell the user "Have a great day!"
 ```
- 
+
 We can see that we have again a conversion similar to the first assignment so that we can compare the user input to a number. Then we recognise the `if` and `else` with there respective action and alternative action. In our case In the condition, to make this comparison `choice is equal to 1` in Python, you can use double-equal `==`.
 
 Attention! The equal `=` assigns a value to a variable, it is not to be used to compare two values.

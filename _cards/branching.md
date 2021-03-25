@@ -1,6 +1,4 @@
 ---
-layout: default
-title: Branching
 link-assignment: /assignments/02-vending-machine/step2/#what-is-branching
 ---
 
@@ -44,7 +42,7 @@ else:
 
 Let's pause on this syntax for a moment. This is the first Python syntax we encounter that requires several lines of code. We call this a compound statement. This structure involves two important Python elements:
 
-* The colons `:` at the end of the `if` and `else` lines tell the computer that the expression is not yet complete. It involves a sub-expression; 
+* The colons `:` at the end of the `if` and `else` lines tell the computer that the expression is not yet complete. It involves a sub-expression;
 * The indentation -- 4 spaces or a `TAB` in front of the action and alternative action -- are required in front of each sub-expression.
 
 Finally, the result of the condition is `True` or `False`. There is a data-type for this, `boolean`. Variable of type `boolean` can only take the value `True` or `False`. This adds to the data-types `int`, `float` and `char`.

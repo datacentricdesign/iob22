@@ -1,6 +1,4 @@
 ---
-layout: default
-title: Syntax
 link-assignment: /assignments/01-calculator/step1/#python-syntax
 ---
 

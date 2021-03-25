@@ -1,6 +1,4 @@
 ---
-layout: default
-title: Package
 link-assignment: /assignments/04-generative-art/step3/#what-is-a-package
 ---
 

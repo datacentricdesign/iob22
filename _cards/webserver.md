@@ -1,6 +1,4 @@
 ---
-layout: default
-title: Web Server
 link-assignment: /assignments/04-generative-art/step3/#what-is-a-web-server
 ---
 

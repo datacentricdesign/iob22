@@ -1,6 +1,4 @@
 ---
-layout: default
-title: Algorithm
 link-assignment: /assignments/01-calculator/step1/#what-is-an-algorithm
 ---
 

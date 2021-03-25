@@ -1,6 +1,4 @@
 ---
-layout: default
-title: Function
 link-assignment: /assignments/03-ereader/step4/#what-is-a-function
 ---
 
@@ -10,7 +8,7 @@ We already used functions, here are some examples: `print()` to display a messag
 
 A function is a block of code that performs an action, identified by a name.
 
-* `name` what do we call this thing that we want the computer to do? 
+* `name` what do we call this thing that we want the computer to do?
 * `action` what is to be done?
 * `parameters` what information is needed to perform the action?
 * `return value` what will it produce?

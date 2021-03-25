@@ -1,6 +1,4 @@
 ---
-layout: default
-title: FlowChart
 link-assignment: /assignments/01-calculator/step1/#flow-chart
 ---
 
