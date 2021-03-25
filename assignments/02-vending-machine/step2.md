@@ -15,7 +15,8 @@ parent: "02 Vending Machine"
 
 ---
 
-{% include branching.md %}
+{% capture my_include %}{% include branching.md %}{% endcapture %}
+{{ my_include | markdownify }}
 
 # Task 2.1 Chose beverage
 
