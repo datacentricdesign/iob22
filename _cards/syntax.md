@@ -31,4 +31,4 @@ And an example of conventions:
 **By convention**, comments explain _what_ to do and not _how_ to do it. The how comes from the code.
 {: .fs-5 .ls-10 .code-example .bg-green-000}
 
-({{site.baseurl}}{{page.url}})
+[]({{site.baseurl}}{{page.url}})
