@@ -2,7 +2,7 @@
 link-assignment: /assignments/05-covid-dashboard/step3/#dictionary
 ---
 
-# Dictionary
+# What is Dictionary?
 
 We briefly mentioned `dict` in the previous Step to wrap a list of data in a JSON data structure with key/value pair. A `dict` can be seen as an equivalent of a JSON object in Python. It is an object composed of key/value pairs that we can manipulate in Python. All JSON data structures are mapped into `dict` to be manipulated.
 

@@ -2,7 +2,7 @@
 link-assignment: /assignments/01-calculator/step1/#flow-chart
 ---
 
-# Flow Chart
+# What is Flow Chart?
 
 Along with plain English, it is often helpful to make a graphical representation of our algorithm. A flow chart is particularly suitable as it represents a sequence of steps and decisions. When thinking or communicating about your algorithm, you might find it easier to start with such a flow chart.
 

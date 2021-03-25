@@ -2,7 +2,7 @@
 link-assignment: /assignments/05-covid-dashboard/step2/#task-21-download-summary
 ---
 
-# HTTP Request
+# What is HTTP Request?
 
 An HTTP Request is a message that a computer sends to the web to receive information in response: the HTTP Response. It is what we want to achieve to collect data from the covi19api.com service. The algorithm of an HTTP Request has the following elements:
 
