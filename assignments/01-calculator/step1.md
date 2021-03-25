@@ -35,3 +35,5 @@ Why three numbers? There are two numbers to add, and the result.
 In the next step, we will deal with memory as the first element of our algorithm.
 
 [Next: Step 2 - Variable]({{site.baseurl}}/assignments/01-calculator/step2){: .btn .btn-purple }
+
+({{site.baseurl}}{{page.url}})
