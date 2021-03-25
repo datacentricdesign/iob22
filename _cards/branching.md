@@ -1,6 +1,4 @@
 ---
-layout: default
-title: Branching
 link-assignment: /assignments/02-vending-machine/step2/#what-is-branching
 ---
 
