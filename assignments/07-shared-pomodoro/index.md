@@ -25,9 +25,9 @@ State Machine
 
 ---
 
-Thanks Aadjan van der Helm <A.J.C.vanderHelm@tudelft.nl> who inspired this assignment, and Doreen Mulder <D.Mulder@student.tudelft.nl> who shared the code that we adapted for this assignment.
+## Acknowledgement
 
----
+Thanks [Aadjan van der Helm](mailto:A.J.C.vanderHelm@tudelft.nl) who inspired this assignment, and [Doreen Mulder](mailto:D.Mulder@student.tudelft.nl) who shared the code that we adapted for this assignment.
 
 ## ⏰  Time Management and Expectations
 

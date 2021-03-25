@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 3 WebSocket
+title: Step 3 Interaction
 parent: "07 Shared Pomodoro"
 
 ---
 
-# Step 3 WebSocket
+# Step 3 Web User Interaction
 {: .no_toc }
 
 ## Table of contents
@@ -62,7 +62,7 @@ Finally, we start the server. Once again, we use SocketIO and pass the server as
 socketio.run(server, host="0.0.0.0")
 ```
 
-At this stage, running the code give us an empty webpage, along the state machine as we have it from Step 2.
+At this stage, running the code gives us an empty webpage along with the state machine as we have it from Step 2.
 
 [Check the code on Replit](https://replit.com/@IO1075/07-shared-pomodoro-step3-1)
 
@@ -96,8 +96,17 @@ body {
     background-color: #f2be8a;
     max-width: 400px;
     margin:auto;
+    font-family: "Ranchers";
 }
 ```
+
+Note: for the sake of customisation, we changed the font to 'Ranchers'. To make this font available we need to had the following tag inside `<head>`:
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet"> 
+```
+
+We can pick a font for example from [Google Fonts](https://fonts.google.com/)
 
 Finally, we had the SVG drawing of the 'pomodoro' below the `<h1>`
 
