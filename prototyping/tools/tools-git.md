@@ -6,9 +6,7 @@ grand_parent: "Prototyping"
 has_children: false
 ---
 
-In this post we introduce Git and how it can help you managing your project.
-
-Git is a version control system (VCS). It helps to keep track of all the  changes
+Git is a version control system (VCS). It helps to keep track of all the changes
 in your project and sharing these. While it is heavily used by software developers to
 track and share code, it is also useful to track and share the progress of any
 design or research process. The principle is as follows: you share a remote
