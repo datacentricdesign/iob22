@@ -22,13 +22,13 @@ You will notice many settings appear. It is because Bucket gathers them at once 
 
 The first section of settings is about restricting access to your Raspberry Pi. As you will store network information on your Raspberry Pi, it is essential to set it up in a way that prevents others from accessing it.
 
-![Create a Thing with WiFi Credentials connecting to the Internet](/assets/images/dcd/bucket-raspberrypi/1_2_21.png)
+![Create a Thing with WiFi Credentials connecting to the Internet]({{site.baseurl}}/assets/images/dcd/bucket-raspberrypi/1_2_21.png)
 
 The second section is about connecting to the network. Eduroam is an enterprise-grade network that requires several challenging interventions on the Raspberry Pi system. Filling in your NetId and password, we ensure that your Raspberry Pi can automatically connect to Eduroam and manage your credential properly. We conveniently provide a similar function for your home network.
 
-![Home network](/assets/images/dcd/bucket-raspberrypi/1_2_22.png)
+![Home network]({{site.baseurl}}/assets/images/dcd/bucket-raspberrypi/1_2_22.png)
 
-![Eduroam](/assets/images/dcd/bucket-raspberrypi/1_2_23.png)
+![Eduroam]({{site.baseurl}}/assets/images/dcd/bucket-raspberrypi/1_2_23.png)
 
 Once you have filled in all sections 1 and 2, click the 'Create' button. The page should update with your newly created Thing. However, it will take a _long_ time to generate your disk image. You can see a status indicator that will turn into a 'Download' button when your disk image is ready.
 
@@ -53,7 +53,7 @@ Slide the SD card into the Raspberry Pi and power it with the USB micro charger.
 
 If you correctly entered the details of your home network, your Raspberry Pi should automatically connect to this network. After a couple of minutes, refresh your Thing page on the Bucket web app. You should see the IP address of your Raspberry Pi at the top of the page. We will use the local IP address.
 
-![Connected Thing](/assets/images/dcd/bucket-raspberrypi/2_1_0.png)
+![Connected Thing]({{site.baseurl}}/assets/images/dcd/bucket-raspberrypi/2_1_0.png)
 
 ## Task 2.2: Connecting to the Raspberry Pi
 
@@ -71,6 +71,6 @@ Another way to connect to your Raspberry Pi, less convenient but often more reli
 ssh [username]@[your.local.IP.address]
 ```
 
-![SSH Pi using Username & Hostname](/assets/img/courses/id5415/module1/assignment/4_2_0.png)
+![SSH Pi using Username & Hostname]({{site.baseurl}}/assets/img/courses/id5415/module1/assignment/4_2_0.png)
 
 **Note:** When you enter your password, nothing appears? It is normal behaviour; we do not want to leave our passwords in the command line traces. So type your password (blindly) and press enter.
