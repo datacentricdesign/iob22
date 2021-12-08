@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 6 Recap and More
+title: Step 7 Recap and More
 parent: "02 Vending Machine"
 grand_parent: "Computational Thinking"
 ---
 
-# Step 6 Recap and More
+# Step 7 Recap and More
 {: .no_toc }
 
 ## Table of contents

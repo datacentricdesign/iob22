@@ -169,4 +169,4 @@ Execute the code to check that it behaves the way you expect.
 This is it for our operator exploration. As mentioned in the introduction, there are many more which you can explore on the [W3School website](https://www.w3schools.com/python/python_operators.asp). However, the way to use them is the same, feel free to explore on your own.
 
 
-[Next: Step 4 - Exception]({{site.baseurl}}/assignments/02-vending-machine/step4){: .btn .btn-purple }
+[Next: Step 4 - Exception]({{site.baseurl}}/computational-thinking/02-vending-machine/step4){: .btn .btn-purple }

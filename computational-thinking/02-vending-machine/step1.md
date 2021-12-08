@@ -55,4 +55,4 @@ Once you achieve a similar behaviour, there are a few things that we can work on
 [Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step1)
 
 
-[Next: Step 2 - Branching]({{site.baseurl}}/assignments/02-vending-machine/step2){: .btn .btn-purple }
+[Next: Step 2 - Branching]({{site.baseurl}}/computational-thinking/02-vending-machine/step2){: .btn .btn-purple }

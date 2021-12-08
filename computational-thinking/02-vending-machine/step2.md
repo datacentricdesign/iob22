@@ -160,4 +160,4 @@ Execute the code to check that it behaves the way you expect.
 [Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step2-3)
 
 
-[Next: Step 3 - Operator]({{site.baseurl}}/assignments/02-vending-machine/step3){: .btn .btn-purple }
+[Next: Step 3 - Operator]({{site.baseurl}}/computational-thinking/02-vending-machine/step3){: .btn .btn-purple }

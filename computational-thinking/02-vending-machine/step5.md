@@ -144,4 +144,4 @@ Execute the code to check that it behaves the way you expect.
 [Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step5-3)
 
 
-[Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/02-vending-machine/step6){: .btn .btn-purple }
+[Next: Step 6 - Recap and More]({{site.baseurl}}/computational-thinking/02-vending-machine/step6){: .btn .btn-purple }

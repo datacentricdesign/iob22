@@ -11,13 +11,16 @@ How would you shape the behaviour of your favourite vending machine? In this sec
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jm4fkykLPJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Next: Step 1 - Review]({{site.baseurl}}/assignments/02-vending-machine/step1){: .btn .btn-purple }
+[Next: Refresher]({{site.baseurl}}/computational-thinking/02-vending-machine/refresher/){: .btn .btn-purple }
 
 ---
 
 Through this assignment, we explore the following concepts:
 
-[Branch]({{site.baseurl}}/key_concepts/#branching)
+<!-- [Branch]({{site.baseurl}}/key_concepts/#branching)
+{: .label .label-green } -->
+
+Branching
 {: .label .label-green }
 
 Compound statement

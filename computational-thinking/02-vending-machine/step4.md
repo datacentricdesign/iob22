@@ -102,4 +102,4 @@ Execute the code to check that it behaves the way you expect.
 [Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step4-2)
 
 
-[Next: Step 5 - File]({{site.baseurl}}/assignments/02-vending-machine/step5){: .btn .btn-purple }
+[Next: Step 5 - File]({{site.baseurl}}/computational-thinking/02-vending-machine/step5){: .btn .btn-purple }
