@@ -5,7 +5,7 @@ parent: "01 Calculator"
 grand_parent: "Computational Thinking"
 ---
 
-# Algorithm
+# Step 1 Algorithm
 {: .no_toc }
 
 ## Table of contents
@@ -88,4 +88,4 @@ And an example of conventions:
 
 In the next step, we will deal with memory as the first element of our algorithm.
 
-[Next: Step 2 - Variable]({{site.baseurl}}/assignments/01-calculator/step2){: .btn .btn-purple }
+[Next: Step 2 - Variable]({{site.baseurl}}/computational-thinking/01-calculator/step2){: .btn .btn-purple }

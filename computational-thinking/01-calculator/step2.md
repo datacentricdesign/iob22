@@ -85,4 +85,4 @@ Finally, ask the computer to execute your instructions by clicking on the green 
 Nothing happens. Indeed, we are storing the value `0` in three variables, without asking the computer to show anything. Let's see how we can address the second step of our calculator algorithm: asking the users for two numbers.
 
 
-[Next: Step 3 - Input]({{site.baseurl}}/assignments/01-calculator/step3){: .btn .btn-purple }
+[Next: Step 3 - Input]({{site.baseurl}}/computational-thinking/01-calculator/step3){: .btn .btn-purple }

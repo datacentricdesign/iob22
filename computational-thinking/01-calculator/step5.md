@@ -128,4 +128,4 @@ Translate each line into Python. Then, ask the computer to execute your instruct
 
 [Check the code on Replit](https://repl.it/@IO1075/01-calculator-step5-2)
 
-[Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/01-calculator/step6){: .btn .btn-purple }
+[Next: Step 6 - Recap and More]({{site.baseurl}}/computational-thinking/01-calculator/step6){: .btn .btn-purple }

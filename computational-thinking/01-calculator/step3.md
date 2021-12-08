@@ -59,4 +59,4 @@ Ask the computer to execute your instruction by clicking on the green arrow at t
 This time ‘Type in x:’ should appear in the Terminal window (black one on the right). Type a number and press ENTER. Then, a second message should appear for the value of y. Once again, enter a value and press enter. Finally, the program ends because we do not tell the computer to do anything else.
 
 
-[Next: Step 4 - Output]({{site.baseurl}}/assignments/01-calculator/step4){: .btn .btn-purple }
+[Next: Step 4 - Output]({{site.baseurl}}/computational-thinking/01-calculator/step4){: .btn .btn-purple }

@@ -66,4 +66,4 @@ Ask the computer to execute your instruction by clicking on the green arrow at t
 What happened? Did you get the correct answer? Something is wrong? Let's explore this in the next step.
 
 
-[Next: Step 5 - Debug]({{site.baseurl}}/assignments/01-calculator/step5){: .btn .btn-purple }
+[Next: Step 5 - Debug]({{site.baseurl}}/computational-thinking/01-calculator/step5){: .btn .btn-purple }
