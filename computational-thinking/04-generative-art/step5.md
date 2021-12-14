@@ -136,4 +136,4 @@ Execute the code and refresh the web page `/sentences` to check the results.
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step5-2)
 
 
-[Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/04-generative-art/step5){: .btn .btn-purple }
+[Next: Step 6 - Recap and More]({{site.baseurl}}/computational-thinking/04-generative-art/step6){: .btn .btn-purple }

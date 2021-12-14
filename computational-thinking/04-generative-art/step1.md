@@ -247,4 +247,4 @@ While exploring SVG, we reviewed the important concepts from the previous assign
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step1-3)
 
-[Next: Step 2 - Refactoring]({{site.baseurl}}/assignments/04-generative-art/step2){: .btn .btn-purple }
+[Next: Step 2 - Refactoring]({{site.baseurl}}/computational-thinking/04-generative-art/step2){: .btn .btn-purple }

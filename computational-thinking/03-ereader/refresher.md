@@ -29,7 +29,7 @@ We read a flow chart from _start_ to _end_ in oval/rounded shapes. Each shape is
 ## What is a File?
 A file is a common way to structure long-term memory. You certainly use files to store pictures and other documents. A file is characterised by a path (where to find it), a type of content (e.g. text, picture, video) and a size.
 
-In the previous assignment we covered how to write text to a file, and how to read text from a file. 
+In the previous assignment we covered writing text to a file, and how to read text from a file. 
 
 
 [Next: Step 1 - Review]({{site.baseurl}}/computational-thinking/03-ereader/step1){: .btn .btn-purple }

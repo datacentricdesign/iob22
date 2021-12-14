@@ -108,4 +108,4 @@ Execute the code. The behaviour should remain exactly the same as we simply reor
 
 Now that we reorganised the code, we are ready to bring in code from others.
 
-[Next: Step 3 - Web Server]({{site.baseurl}}/assignments/04-generative-art/step3){: .btn .btn-purple }
+[Next: Step 3 - Web Server]({{site.baseurl}}/computational-thinking/04-generative-art/step3){: .btn .btn-purple }

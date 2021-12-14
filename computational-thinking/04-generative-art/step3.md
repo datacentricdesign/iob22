@@ -212,4 +212,4 @@ Execute the code and refresh, add request the web page with the optional argumen
 
 At this stage, we moved from the Terminal to a web page. It allows rich, graphical interactions and avoid saving results into files to visualise them.
 
-[Next: Step 4 - Random]({{site.baseurl}}/assignments/04-generative-art/step4){: .btn .btn-purple }
+[Next: Step 4 - Random]({{site.baseurl}}/computational-thinking/04-generative-art/step4){: .btn .btn-purple }

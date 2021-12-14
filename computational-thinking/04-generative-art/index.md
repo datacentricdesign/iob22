@@ -11,6 +11,8 @@ In this fourth Python programming assignment, you will move the user interaction
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/f4cK9KKObQA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[Next: Refesher]({{site.baseurl}}/computational-thinking/04-generative-art/refresher){: .btn .btn-purple }
+
 ---
 
 Through this assignment, we explore the following concepts:
@@ -39,3 +41,4 @@ Flask
 ---
 
 The Step 1 of this assignment was inspired by the work of [Amanda J Hogan](https://2019.pycon-au.org/talks/pretty-vector-graphics--playing-with-svg-in-python)
+
