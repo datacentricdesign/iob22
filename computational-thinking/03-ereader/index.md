@@ -11,7 +11,7 @@ In this third Python programming assignment, you will build an eReader loading a
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OBrzdtQcZOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Next: Step 1 - Review]({{site.baseurl}}/assignments/03-ereader/step1){: .btn .btn-purple }
+[Next: Refresher]({{site.baseurl}}/computational-thinking/03-ereader/refresher){: .btn .btn-purple }
 
 ---
 

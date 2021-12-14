@@ -102,4 +102,4 @@ Execute the code to see if it works as expected.
 
 We have now a program that reads the two first pages of a book. This is limited, but it would not make sense to repeat our code for each of the thousand pages of this book. Instead, Step 2 and 3 introduce the concept of **loops** to repeat an action as many time as it is needed. Then, in Step 4 highlights how to define **functions** to reuse blocks of code.
 
-[Next: Step 2 - While Loops]({{site.baseurl}}/assignments/03-ereader/step2){: .btn .btn-purple }
+[Next: Step 2 - While Loops]({{site.baseurl}}/computational-thinking/03-ereader/step2/){: .btn .btn-purple }

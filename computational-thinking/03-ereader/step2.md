@@ -77,4 +77,4 @@ Make the two changes to the Python code and execute the program to see if it wor
 
 While-loops are well suited **when we do not know when to stop**. This case is a good example, as we cannot know when the user will decide to continue or stop reading.
 
-[Next: Step 3 - For-Loop]({{site.baseurl}}/assignments/03-ereader/step3){: .btn .btn-purple }
+[Next: Step 3 - For-Loop]({{site.baseurl}}/computational-thinking/03-ereader/step3){: .btn .btn-purple }

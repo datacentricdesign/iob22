@@ -44,4 +44,4 @@ Finally, call the function `read_book()` at the bottom of the file. Execute the 
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step4-2)
 
 
-[Next: Step 5 - String Methods]({{site.baseurl}}/assignments/03-ereader/step5){: .btn .btn-purple }
+[Next: Step 5 - String Methods]({{site.baseurl}}/computational-thinking/03-ereader/step5){: .btn .btn-purple }

@@ -99,4 +99,4 @@ Make the two changes to the Python code and execute the program to see if it wor
 
 At this stage, we achieved the objective to read all pages of a book with consistency. Identifying patterns helped us repeat blocks of code instead of duplicating it indefinitely. However, when looking at the code closely, we note that a block of five lines is still duplicated. Can you see it? In the next step, we introduce the concept of `Function` to avoid this issue.
 
-[Next: Step 4 - String]({{site.baseurl}}/assignments/03-ereader/step4){: .btn .btn-purple }
+[Next: Step 4 - String]({{site.baseurl}}/computational-thinking/03-ereader/step4){: .btn .btn-purple }
