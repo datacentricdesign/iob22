@@ -16,13 +16,13 @@ grand_parent: "Computational Thinking"
 
 ---
 
-In step 5 from assignment 1 we covered the concept and importance of Debugging. 
+In step 5 from the first assignment we covered the concept and importance of Debugging. 
 
 Logging while writing code helps us understand when events have happened when executing our code, which is useful for us to understand what went wrong when our code resulted in unexpected behaviour. 
 
 In this step, we explore the use of logging and how that relates to writing and debugging code.
 
-## What is logging
+# What is logging
 
 Logging is a way to show messages when the code is running.
 In a way, we were already logging using the print function. However the print function is very basic in it's functionality, it outputs some text to the console. 
@@ -33,7 +33,7 @@ Python has a built-in module (more about modules later) for logging. This module
 With proper logging we can create code that is not only easier to debug, but also easier to understand.
 
 ## Logging example
-Let's take the same example from the debugging step of assignment 1, where the code is meant to ask the user for two numbers and then print out the sum.
+Let's take the same example from the debugging step of first assignment, where the code is meant to ask the user for two numbers and then print out the sum.
 ```python
 # Import the built-in logging module
 import logging
@@ -61,17 +61,19 @@ print('The answer is ')
 print(sum)
 ```
 
-In this example we see that the printed result is the concatenated string of the numbers instead of the sum of the numbers. With the logging module we can log the type of input and output variables and understand why the behaviour of the code.
+In this example we see that the printed result is the concatenated string of the numbers instead of the sum of the numbers. With the logging module we can log the type of the input and output variables and understand why the code resulted in unexpected behaviour.
 
 At the top of the example code there is the `import logging`, which is nessecary to use the built-in logging module. Modules will be covered in a later assignment.
-On lines 15, 16, and 20 in the example the logging module is called with the warning function which outputs a string. From this string we can see that x, y and sum are type `str`.
+On lines 15, 16, and 20 in the example the logging module is called with the warning function which outputs a string. From this we can see that x, y and sum are type `str`.
+
+[Check the code on Replit](https://replit.com/@cvdvalk/SophisticatedBustlingGigahertz)
 
 There are different logging functions that are named after the level or severity of the event they are used track.
 The logging levels are `DEBUG`, `INFO`, `WARNING`, `ERROR`, and `CRITICAL`. With `DEBUG` being the lowest level and `CRITICAL` the highest level.
 The `WARNING` level and is the default level for logging and prints out the log message in the console.
 We can use these logging levels to assign importance to events, which makes a more organised and clear log for us to read.
 
-## Logging to a file
+# Task 6.1 Logging to a file
 We can also log to a file, which can be useful in many cases. 
 In order to log to a file we need to configure the logger. 
 With the `basicConfig` fuction we can specify the filename and the level of the logger.
@@ -88,7 +90,11 @@ logging.warning('And this, too')
 logging.error('And non-ASCII stuff, too, like Øresund and Malmö')
 ```
 
-## Format log messages
+When you run this code, a file called `example.log` will be created that will contain the log messages. Also notice that the log messages are not displayed on the console. 
+
+[Check the code on Replit](https://replit.com/@cvdvalk/GrowlingCrazyInstances)
+
+# Task 6.2 Format log messages
 We can also format the log message to showing info in a different way, or show other info.
 
 This can also be done with the `basicConfig` function and providing the format parameter.
@@ -106,5 +112,7 @@ logging.debug('This message should appear on the console')
 logging.info('So should this')
 logging.warning('And this, too')
 ```
+
+[Check the code on Replit](https://replit.com/@cvdvalk/FarCreepyBracket)
 
 [Next: Step 7 - Recap and More]({{site.baseurl}}/computational-thinking/02-vending-machine/step7){: .btn .btn-purple }
