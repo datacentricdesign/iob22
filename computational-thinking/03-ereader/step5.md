@@ -127,4 +127,4 @@ Change the colour of the header and footer in orange. Change the colour of the l
 
 [Check the code on Replit](https://repl.it/@IO1075/03-ereader-step5-4)
 
-[Next: Step 6 - Recap and More]({{site.baseurl}}/computational-thinking/03-ereader/step6){: .btn .btn-purple }
+[Next: Step 6 - Assert]({{site.baseurl}}/computational-thinking/03-ereader/step6){: .btn .btn-purple }
