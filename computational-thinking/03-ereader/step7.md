@@ -30,3 +30,9 @@ Save page number in a file and read it at the start of the program to resume rea
 ## Extra Task 7.3 Indicate Progress
 
 At the top of the screen, the eReader indicate the page number. How could we indicate the progress (percentage read)?
+
+## Extra Task 7.4 Debug this code
+
+In this code the line numbers are in the incorrect order for some reason. Find out why this is happening. Don't forget that you can use the logger or the assert statement as debugging tools.
+
+[Check the code on Replit](https://replit.com/@cvdvalk/WingedConfusedCore)

@@ -45,7 +45,7 @@ z = x+y
 assert z == 4, "Should be 3"
 ```
 Here is the same example but with one change, the condition will not be met. It raises an AssertionError along with the message we provided.
-Test assert for yourself on _Replit_ in order to see what asserts give as output.
+Test assert for yourself on _Replit_ in order to see what assert gives as output.
 
 [Check the code on Replit](https://replit.com/@cvdvalk/UnevenCautiousArray)
 
