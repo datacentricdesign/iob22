@@ -10,7 +10,7 @@ has_children: false
 
 ## Task 1.1 Activate your space on 'Bucket'.
 
-Our Data-Centric Design Lab (DCD Lab) has prepared a space online where it is easy for the students in this course to create their cloud. It is called [Bucket](https://dwd.tudelft.nl/bucket). The following video gives you a little tour to familiarize yourself with Bucket. Then, to access and use it, you create your DCD Lab account.
+Our Data-Centric Design Lab (DCD Lab) has prepared a space online where it is easy for the students in this course to create their cloud. It is called [Bucket](https://dwd.tudelft.nl/bucket/). The following video gives you a little tour to familiarize yourself with Bucket. Then, to access and use it, you create your DCD Lab account.
 
 <iframe width="560" height="400" src="https://www.youtube.com/embed/H2Ogmi1J-P8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
