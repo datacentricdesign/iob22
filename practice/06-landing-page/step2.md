@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 2 Classes and Tests
-parent: "06 Landing Page"
-grand_parent: "Computational Thinking"
+parent: "Landing Page"
+grand_parent: "Practice"
 ---
 
 # Step 2 Classes and Tests (1hr, ⚠️)

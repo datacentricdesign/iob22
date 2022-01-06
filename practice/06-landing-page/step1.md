@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 1 Review
-parent: "06 Landing Page"
-grand_parent: "Computational Thinking"
+parent: "Landing Page"
+grand_parent: "Practice"
 ---
 
 # Step 1 Review (1hr, ✅)
@@ -19,7 +19,7 @@ grand_parent: "Computational Thinking"
 
 In this review step, we reuse the `HTML` (structure) and `CSS` (style) elements from the previous assignment. We develop the layout of the landing page.
 
-**Disclaimer** Do not take the style of these webpages as a good design! As designers, we grant you to do better. However, keep in mind that Step 2 (`Class`) and Step 4 (`Databases`) are the most important steps.
+**Disclaimer** Do not take the style of these web pages as a good design! As designers, we grant you to do better. However, keep in mind that Step 2 (`Class`) and Step 4 (`Databases`) are the most important steps.
 {: .fs-5 .ls-10 .code-example .bg-yellow-000}
 
 # Task 1.1 Build the Foundation of the Landing Page

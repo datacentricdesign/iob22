@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "06 Landing Page"
+title: "Landing Page"
 has_children: true
-parent: "Computational Thinking"
+parent: "Practice"
 ---
 
-# 06 Landing Page
+# Landing Page
 
 In this sixth Python programming assignment, you catch potential customers via a landing page. You display a product concept on the web and invite potential customers to sign up for a pre-order. You structure your programme with objects and store data in a database. The results could look as follows, though you can shape this page the way you want.
 

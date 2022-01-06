@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 4 Data Collection
-parent: "06 Landing Page"
-grand_parent: "Computational Thinking"
+parent: "Landing Page"
+grand_parent: "Practice"
 ---
 
 # Step 4 Data Collection (1hr, 🏗)

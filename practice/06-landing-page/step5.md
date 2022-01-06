@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 5 Database
-parent: '06 Landing Page'
-grand_parent: "Computational Thinking"
+parent: 'Landing Page'
+grand_parent: "Practice"
 ---
 
 # Step 5 Database (3hrs, ⚠️)

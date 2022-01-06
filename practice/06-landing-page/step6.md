@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "06 Landing Page"
-grand_parent: "Computational Thinking"
+parent: "Landing Page"
+grand_parent: "Practice"
 
 ---
 

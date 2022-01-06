@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 3  Lists and Dictionaries
-parent: "06 Landing Page"
-grand_parent: "Computational Thinking"
+parent: "Landing Page"
+grand_parent: "Practice"
 ---
 
 # Step 3 Lists and Dictionaries (2hrs, ⚠️)

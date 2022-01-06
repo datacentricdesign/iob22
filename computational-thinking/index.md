@@ -68,7 +68,7 @@ IDE
 Replit
 {: .label .label-purple }
 
-### [01 Calculator]({{site.baseurl}}/assignments/01-calculator)
+### [01 Calculator]({{site.baseurl}}/computational-thinking/01-calculator)
 
 The first Python programming assignment leads you through the Design of your first algorithm to mimic a calculator, adding two numbers provided by the users. Through this example, we introduce the concept of variables and data types along inputs and outputs to receive and send information to the user. We also discuss how to investigate (or debug) the code when the result is not the one you expect.
 
@@ -102,7 +102,7 @@ Terminal
 Debug
 {: .label .label-yellow }
 
-### [02 Vending Machine]({{site.baseurl}}/assignments/02-vending-machine)
+### [02 Vending Machine]({{site.baseurl}}/computational-thinking/02-vending-machine)
 
 How would you shape the behaviour of your favourite vending machine? In the second Python programming assignment, you will prototype some logics with operators and conditions to drive through alternative paths in your program. This will shape the behaviour of a hot beverage vending machine depending on the user choices. You will also use files to store and retrieve available supply such as the number of remaining cups or the amount of sugar.
 
@@ -128,7 +128,7 @@ Flow chart
 {: .label .label-yellow }
 
 
-### [03 eReader]({{site.baseurl}}/assignments/ereader)
+### [03 eReader]({{site.baseurl}}/computational-thinking/ereader)
 
 In the third Python programming assignment, you will build an eReader loading an eBook in the Terminal and enabling the user to 'turn the page'. This exercise will reveal the need for loops to repeat part of the code which you will wrap (or encapsulate) into a reusable function. You will experience the four steps of computational Thinking: decomposition, recognition, generalisation/abstraction and algorithm design.
 
@@ -156,7 +156,7 @@ File
 Flow chart
 {: .label .label-yellow }
 
-### 04 Generative Art
+### [04 Generative Art]({{site.baseurl}}/computational-thinking/generative-art)
 
 In the fourth Python programming assignment, you will move the user interaction from the Terminal to the web browser. You will organise the code in several files and rely on code from other developers by importing modules. You will create an algorithm that generates random Scalable Vector Graphics (SVG) that you can expose on the web. 
 
@@ -180,81 +180,6 @@ import
 
 Flask
 {: .label .label-purple }
-
-### 05 COVID-19 Dashboard
-
-In the fifth Python programming assignment, you will continue exploring web interfaces. You will request data from a web service to collect the latest COVID-19 statistics. You will process this information, exploring time series and data format. Based on this data, you will expose a series of charts on the web.
-
-Data
-{: .label .label-green }
-
-Dictionary
-{: .label .label-blue }
-
-List
-{: .label .label-blue }
-
-JSON
-{: .label .label-red }
-
-Chart
-{: .label .label-yellow }
-
-Web Service
-{: .label .label-yellow }
-
-Vega
-{: .label .label-purple }
-
-### 06 Landing page
-
-In this sixth Python programming assignment, you catch potential customers via a landing page. You expose a product concept on the web and invite potential customers to sign up for a pre-order. You structure your software with objects and store data in a database. You visualise pre-orders on a dashboard.
-
-Class
-{: .label .label-green }
-
-Property
-{: .label .label-green }
-
-Methods
-{: .label .label-green }
-
-Object
-{: .label .label-blue }
-
-Dictionary
-{: .label .label-blue }
-
-List
-{: .label .label-blue }
-
-Database
-{: .label .label-yellow }
-
-### 07 Shared Pomodoro
-
-In the seventh Python programming assignment, you develop the state-machine algorithm of a Pomodoro time-tracker. You make your web application more dynamic with the use of web sockets and let your Python programme runs several processes in parallel using `threads`.  
-
-Thread
-{: .label .label-green }
-
-Web Socket
-{: .label .label-red }
-
-State Machine
-{: .label .label-yellow }
-
-
-### 08 Connected Home
-
-At this stage, you used different Objects and their methods such as a File or a List. In the sixth Python programming assignment, you will look behind the Object and what they are into the paradigm of Object-Oriented Programming. Modelling a Home Hub and its appliances, you will explore this paradigm as a powerful abstraction mechanism.
-
-Abstraction
-{: .label .label-green }
-
-Inheritance
-{: .label .label-green }
-
 
 
 # What's next?

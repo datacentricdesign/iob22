@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 6 Recap and More
-parent: "05 COVID Dashboard"
-grand_parent: "Computational Thinking"
+parent: "COVID Dashboard"
+grand_parent: "Practice"
 
 ---
 

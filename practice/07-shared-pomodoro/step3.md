@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 3 Interaction
-parent: "07 Shared Pomodoro"
-grand_parent: "Computational Thinking"
+parent: "Shared Pomodoro"
+grand_parent: "Practice"
 
 ---
 

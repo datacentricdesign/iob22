@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 4 Time
-parent: "07 Shared Pomodoro"
-grand_parent: "Computational Thinking"
+parent: "Shared Pomodoro"
+grand_parent: "Practice"
 ---
 
 # Step 4 Time

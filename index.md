@@ -4,13 +4,17 @@ title: Home
 nav_order: 0
 ---
 
-# Code @ IDE
+# Welcome!
 
-Welcome! On this website you will find some resources to develop digital prototypes.
+On this website you will find some resources to develop digital prototypes.
 
-* [Computational Thinking]({{site.baseurl}}/computational-thinking/) is an introduction to programming in Python with an attempt to convey an approach to computational thinking. We use this material in the course 'Digital Product Development' (Bachelor 1st-year).
+* [Computational Thinking]({{site.baseurl}}/computational-thinking/) is an introduction to programming in Python with an attempt to convey an approach to computational thinking. We use this material in 'Digital Product Development', a first-year Bachelor course at Industrial Design Engineering (TU Delft).
+
+* [Energy Transition]({{site.baseurl}}/theme-energy-transition/) is our first thematic to practice Computational Thinking. It guides prototyping product-service systems that support timely electricity use from sustainable energy sources.
 
 * [Data-Centric Design]({{site.baseurl}}/data-centric-design/) is a series of tutorials to get started with the digital tools we develop at the DCD Lab.
+
+* [Practice]({{site.baseurl}}/theme-energy-transition/) is a set of tutorials we used in the past for teaching, which can provide additional practice.
 
 * [Prototyping]({{site.baseurl}}/prototyping/) is a set of resources for Internet of Things prototyping, with a mix of Microcontroller and Python examples.
 

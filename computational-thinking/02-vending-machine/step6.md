@@ -16,7 +16,7 @@ grand_parent: "Computational Thinking"
 
 ---
 
-In step 5 from the first assignment we covered the concept and importance of Debugging. 
+In step 5 from the first assignment, we covered the concept and importance of Debugging. 
 
 Logging while writing code helps us understand when events have happened when executing our code, which is useful for us to understand what went wrong when our code resulted in unexpected behaviour. 
 
@@ -24,15 +24,26 @@ In this step, we explore the use of logging and how that relates to writing and 
 
 # What is logging
 
-Logging is a way to show messages when the code is running.
-In a way, we were already logging using the print function. However the print function is very basic in it's functionality, it outputs some text to the console. 
+Logging is a way to show messages when the code is running. It helps keep track of what the programme is doing with regular prompt updates. In a way, we were already logging using the `print()` function. However, the print function is limited to outputting text to the console.
 
-When debugging, more info helps us determine what the code is doing, what went wrong, and where the unexpected behaviour occurs.
+If we want any extra information, such as the time of incidence or line number from the code emitting this message, we would need to do that ourselves. When switching from debugging to regular execution, we would need to go through the code to remove/comment on all of the `print()` instances. Instead of showing this information in the Terminal, we also often want it in a file or somewhere else. A logger can provide all these functionalities.
+
+As your code is growing, it becomes hard to keep track of what is happening. When debugging, more info helps us determine what the code is doing, what went wrong, and where the unexpected behaviour occurs. As we move our user interface from the Terminal to the web browser, the only information we want to show in the Terminal are, in fact, logs.
+
 Python has a built-in module (more about modules later) for logging. This modules allows us to log events, assign importance to these events, and attach extra information to the logged event.
 
-With proper logging we can create code that is not only easier to debug, but also easier to understand.
+With proper logging, we can create code that is not only easier to debug, but also easier to understand.
+
+- You can `format` the information you want to see for each log;
+- You can change the `log level` to quickly switch from `DEBUG` logging (showing many details) to `ERROR` logging (only showing the explicit errors);
+- You can change the logging output from the Terminal to a file, or maybe both at the same time.
+
+![Assignment 5 - Netherlands]({{site.baseurl}}/assets/images/task 5-2-2 log.png)
+
+In short, as soon as you start to code more complex programs, logging can save you hours of unnecessary work.
 
 ## Logging example
+
 Let's take the same example from the debugging step of first assignment, where the code is meant to ask the user for two numbers and then print out the sum.
 ```python
 # Import the built-in logging module

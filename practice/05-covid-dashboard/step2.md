@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 2 HTTP Requests
-parent: '05 COVID Dashboard'
-grand_parent: "Computational Thinking"
+parent: 'COVID Dashboard'
+grand_parent: "Practice"
 ---
 
 # Step 2 HTTP Requests
