@@ -7,12 +7,12 @@ parent: "Computational Thinking"
 
 # 01 Calculator
 
-This first Python programming assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the user. Through this example, we introduce the concept of `variable` and `data-type` along with `input` and `output` to receive from and send to the user some information. We also discuss how to investigate (or debug) the code when the result is not as expected.
+This first Python programming assignment leads you through the design of your first algorithm to mimic a calculator, adding two numbers provided by the user. Through this example, we introduce the concept of `variables` and `data types`. We also explore `inputs` and `outputs` to receive information from the users and respond to them. Finally, we discuss how to investigate (or debug) the code when the result is not as expected.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QqmRS15XQl8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-[Next: Step 1 - Algorithm]({{site.baseurl}}/computational-thinking/01-calculator/step1/){: .btn .btn-purple }
+[Next: Step 1 - Algorithm]({{site.baseurl}}/computational-thinking/01-calculator/step1-algo/){: .btn .btn-purple }
 
 ---
 

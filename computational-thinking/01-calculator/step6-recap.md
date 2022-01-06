@@ -20,11 +20,11 @@ grand_parent: "Computational Thinking"
 
 You completed the first assignment: you taught the computer how to ask for inputs, convert these inputs from text into numbers, sum them and tell the user what the result is.
 
-On the way, you used algorithms to write in plain English what you want to teach the computer. This is an important practice to make sure you know what you want the computer to do.
+On the way, you used algorithms to write what you wanted to teach the computer in plain English. This step is essential to know what you want the computer to do.
 
-Once you formulated your algorithm, you can always ask _Google_ if there are elements you do not know how to write in Python (or in another language). For instance, similar to the search of `type`, you could have looked it up on _Google_: _Python how to convert text into integer_. This is why it is important to always think in terms of an algorithm before writing code. It helps us figure out what we want the computer to do.
+Once you have formulated your algorithm, you can always ask _Google_ for the elements you don't know how to write in Python (or in another language). For instance, similar to the search of `type`, you could have looked it up on _Google_: _Python how to convert text into integer_. It is why it is critical to always think in terms of an algorithm before writing code. It helps us figure out what we want the computer to do.
 
-Did not have enough from this assignment? Do you feel comfortable going further? There are a few steps you can take to improve this code.
+Didn't you have enough from this assignment? Do you feel comfortable going further? There are a few steps you can take to improve this code.
 
 # Extra Task 6.1 Accept decimal numbers
 
@@ -34,7 +34,7 @@ So far, the program converts `string` to `integer`. What about a sum of decimal 
 
 # Extra Task 6.2 Show the result on one line
 
-So far, the program shows the result on 2 lines as follows:
+So far, the program shows the result on two lines as follows:
 
 ```sh
 The answer is 
@@ -49,6 +49,6 @@ Convert the variable `sum` into a type `string` and _concatenate_ it with "The a
 
 If you are comfortable with the code, you should be able to shorten it into three lines (excluding comments).
 
-Warning: Make sure that in this transformation (so-called _'refactoring'_) you update your comments so that anyone can still read in plain English what you teach to the computer.
+Warning: Don't forget to update your comments as you transform your code, so that it remains consistent for other and your future self.
 
 [Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-3)
