@@ -16,6 +16,6 @@ On this website you will find some resources to develop digital prototypes.
 
 * [Practice]({{site.baseurl}}/theme-energy-transition/) is a set of tutorials we used in the past for teaching, which can provide additional practice.
 
-* [Prototyping]({{site.baseurl}}/prototyping/) is a set of resources for Internet of Things prototyping, with a mix of Microcontroller and Python examples.
+* [Prototyping]({{site.baseurl}}/prototyping/) is a set of resources for Internet of Things prototyping, with a mix of Microcontroller and Python examples. It contains many links to the [folder of code examples](https://github.com/datacentricdesign/code/tree/main/examples).
 
 All these resources are open-source. We encourage contribution (e.g. improvements, new tutorials) via the [GitHub repository](https://github.com/datacentricdesign/code).
