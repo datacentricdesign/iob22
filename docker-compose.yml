@@ -1,0 +1,12 @@
+version: '3.6'
+services:
+
+  app:
+    container_name: jekyll
+    build: .
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    ports:
+      - 4000:4000
+    restart: always
