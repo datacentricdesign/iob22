@@ -11,7 +11,7 @@ Continuously upgrading our vending machine, we want to keep track of the number 
 ```markdown
 Create a variable called number_remaining_cups of type int with the initial value 10
 
-Tell the user "Welcome to IO1075 Hot Beverage service!"
+Tell the user "Welcome to IDE Hot Beverage service!"
 Tell the user "There are " number_remaining_cups " cups left."
 
 ...

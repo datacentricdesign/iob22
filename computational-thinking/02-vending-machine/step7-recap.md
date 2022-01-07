@@ -18,7 +18,7 @@ grand_parent: "Computational Thinking"
 
 ## What did we cover?
 
-We covered a lot of ground through the construction of this vending machine algorithm. The branches provide different alternatives to your algorithms, you can save to and retrieve from files. With this ability the endless combination of operators and condition, you can now design and implement your Vending Machine algorithm. Here are four tasks you can explore to expand your algorithm
+We covered a lot of ground through the construction of this vending machine algorithm. The branches provide different alternatives to your algorithms. You can save and retrieve information from files. With this ability and the endless combination of operators and conditions, you can now design and implement your Vending Machine algorithm. Here are four tasks you can explore to expand your algorithm
 
 
 # Extra Task 7.1 Add More Beverages
@@ -41,7 +41,7 @@ Do not ask for sugar or milk if the choice of beverage is unknown or has milk by
 
 # Extra Task 7.4 Manage Sugar and Milk
 
-Keep track of sugar consumption (like the number of cups), save it to and retrieve it from files.
+Keep track of sugar consumption (like the number of cups), save it, and retrieve it from files.
 
 [Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step6-4)
 
@@ -49,8 +49,9 @@ Go ahead and share your Vending Machine algorithm on Discourse! Make sure to pro
 
 # Extra Task 7.5 Debug this code
 
-The following code does not always serve the right beverage. This vending machine is supposed serve coffee, tea, hot chocolate, cappuccino, and decaf coffee. But for some reason it only serves coffee. 
-Look through the code to determine where this unexpected behaviour originates from. Use the logging module to help debug this code.
+The following code does not always serve the right beverage. This vending machine is supposed to serve coffee, tea, hot chocolate, cappuccino, and decaf coffee. But for some reason, it only serves coffee.
+
+Look through the code to locate the origin of this unexpected. Use the logging module to help debug this code.
 
 ```python
 # Import and configure the logger
@@ -74,8 +75,8 @@ except:
     logging.warning("There was no cup file")
     number_remaining_cups = 10
 
-# Tell the user "Welcome to IO1075 Hot Beverage service!"
-print("Welcome to IO1075 Hot Beverage service!")
+# Tell the user "Welcome to IDE Hot Beverage service!"
+print("Welcome to IDE Hot Beverage service!")
 
 if number_remaining_cups == 0:
     # Tell the user "There is no cup left."

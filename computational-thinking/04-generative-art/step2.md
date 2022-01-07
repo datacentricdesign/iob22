@@ -17,7 +17,7 @@ grand_parent: "Computational Thinking"
 
 ---
 
-The project is slowly building up. We structured the code in functions that we can reuse. In this step, we explore a two strategies to make the code more reusable: module and refactoring.
+The project is slowly building up. We structured the code in functions that we can reuse. In this step, we explore two strategies to make the code more reusable: module and refactoring.
 
 ## What is a Module?
 
