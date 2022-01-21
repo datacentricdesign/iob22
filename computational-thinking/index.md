@@ -128,7 +128,7 @@ Flow chart
 {: .label .label-yellow }
 
 
-### [03 eReader]({{site.baseurl}}/computational-thinking/ereader)
+### [03 eReader]({{site.baseurl}}/computational-thinking/03-ereader)
 
 In the third Python programming assignment, you will build an eReader loading an eBook in the Terminal and enabling the user to 'turn the page'. This exercise will reveal the need for loops to repeat part of the code which you will wrap (or encapsulate) into a reusable function. You will experience the four steps of computational Thinking: decomposition, recognition, generalisation/abstraction and algorithm design.
 
@@ -156,7 +156,7 @@ File
 Flow chart
 {: .label .label-yellow }
 
-### [04 Generative Art]({{site.baseurl}}/computational-thinking/generative-art)
+### [04 Generative Art]({{site.baseurl}}/computational-thinking/04-generative-art)
 
 In the fourth Python programming assignment, you will move the user interaction from the Terminal to the web browser. You will organise the code in several files and rely on code from other developers by importing modules. You will create an algorithm that generates random Scalable Vector Graphics (SVG) that you can expose on the web. 
 
@@ -181,6 +181,37 @@ import
 Flask
 {: .label .label-purple }
 
+
+### [05 COVID Dashboard]({{site.baseurl}}/computational-thinking/05-covid-dashboard)
+
+In this fifth Python programming assignment, you continue exploring web interfaces. You request data from a web service to collect the latest COVID-19 statistics and process it while exploring time series and data formats. Based on this data, you expose a series of charts on the web, organised into a dashboard.
+
+Data
+{: .label .label-green }
+
+Dictionary
+{: .label .label-blue }
+
+List
+{: .label .label-blue }
+
+JSON
+{: .label .label-red }
+
+Chart
+{: .label .label-yellow }
+
+Web Service
+{: .label .label-yellow }
+
+Vega
+{: .label .label-purple }
+
+HTML
+{: .label .label-red }
+
+CSS
+{: .label .label-red }
 
 # What's next?
 

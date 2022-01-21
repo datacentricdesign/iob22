@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 3 HTML / CSS
-parent: 'Web User Interface'
-grand_parent: "Theme: Energy Transition"
+title: Step 4 HTML / CSS
+parent: '05 COVID Dashboard'
+grand_parent: Computational Thinking
 ---
 
-# Step 3 HTML / CSS
+# Step 4 HTML / CSS
 
 {: .no_toc }
 
@@ -139,3 +139,5 @@ This step gave a brief introduction to HTML structure and CSS styling. Make sure
 ![Assignment 5 - Step 1]({{site.baseurl}}/assets/images/task 5-4-2.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step4-2)
+
+[Next: Step 5 - Dictionary]({{site.baseurl}}/assignments/05-covid-dashboard/step5){: .btn .btn-purple }

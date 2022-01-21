@@ -1,24 +1,19 @@
 ---
 layout: default
-title: "Theme: Energy Transition"
+title: "05 COVID Dashboard"
 has_children: true
-nav_order: 2
+parent: Computational Thinking
 ---
 
-# Theme - Energy Transition
-{: .no_toc }
+# COVID Dashboard
 
-## Table of contents
-{: .no_toc .text-delta }
+In this fifth Python programming assignment, you continue exploring web interfaces. You request data from a web service to collect the latest COVID-19 statistics and process it while exploring time series and data formats. Based on this data, you expose a series of charts on the web, organised into a dashboard.
 
-1. TOC
-{:toc}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SsH7m0eOHu4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-# Introduction
-
-
+Through this assignment, we explore the following concepts:
 
 Data
 {: .label .label-green }
@@ -32,17 +27,20 @@ List
 JSON
 {: .label .label-red }
 
-Web Service
-{: .label .label-yellow }
-
 Chart
 {: .label .label-yellow }
 
-Vega
+Web Service
+{: .label .label-yellow }
+
+Vega 
 {: .label .label-purple }
 
+HTML
+{: .label .label-red }
 
-# Electricity Map
+CSS
+{: .label .label-red }
 
 
 # Setting Up
@@ -80,32 +78,3 @@ We suggest:
 * creating a branch at the beginning of each step and merge it in the Master at the end of each step.
 
 ![GitHub create branch and commit - Replit]({{site.baseurl}}/assets/images/git_commit_push.gif)
-
-
-# Zoom-in
-
-Based on your interest, we propose 
-
-
-### Zoom-in -  Web User Interface
-
-
-
-### Zoom-in - Data Management
-
-
-Database
-{: .label .label-yellow }
-
-
-### Zoom-in - Live Events
-
-
-Thread
-{: .label .label-green }
-
-Web Socket
-{: .label .label-red }
-
-MQTT
-{: .label .label-red }

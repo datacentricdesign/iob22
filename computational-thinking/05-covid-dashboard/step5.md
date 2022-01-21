@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 5 Dictionary
-parent: 'COVID Dashboard'
-grand_parent: "Practice"
+parent: '05 COVID Dashboard'
+grand_parent: Computational Thinking
 ---
 
 # Step 5 Dictionary

@@ -17,7 +17,9 @@ grand_parent: "Computational Thinking"
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Sfa4Fk6yg2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="text-align: center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Sfa4Fk6yg2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 In this step we use text to generate an abstract visualisation. We extract the text of a book and split it into a list of sentences using the Natural Language Toolkit `nltk`. Then, we split the sentence into a list of words and count its number. This count of words drive the length of each path segment on the drawing to generate an abstract visualisation as follows.
 

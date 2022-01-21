@@ -38,8 +38,12 @@ Object
 File
 {: .label .label-red }
 
+Logging
+{: .label .label-red }
+
 Flow chart
 {: .label .label-yellow }
+
 
 ## 💨  Brief Refresher
 

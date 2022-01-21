@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Step 1 Review
-nav_order: 1
-parent: 'Theme: Energy Transition'
+parent: '05 COVID Dashboard'
+grand_parent: Computational Thinking
 ---
 
 # Step 1 Review

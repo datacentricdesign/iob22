@@ -64,4 +64,4 @@ Write this function in _Replit_ and have it ask for user input just like the Cal
 
 [Check the code on Replit](https://replit.com/@cvdvalk/BestDigitalListeners)
 
-[Next: Step 7 - Recap and More]({{site.baseurl}}/computational-thinking/03-ereader/step7){: .btn .btn-purple }
+[Next: Step 7 - Recap and More]({{site.baseurl}}/computational-thinking/03-ereader/step7-recap){: .btn .btn-purple }
