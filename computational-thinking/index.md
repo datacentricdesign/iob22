@@ -52,11 +52,11 @@ Input/Output
 Package
 {: .label .label-purple }
 
-We choose Python as a language, an overarching choice of the TU Delft and many other institutions worldwide because it enables a gradual immersion into software development. Each step of the way, assignments lead you to think about the algorithm and introduce Python syntax when necessary. Then, of course, you are in charge to implement the algorithm in Python. But the solution is just one click away if you get lost.
+We choose Python as a language, an overarching choice of the TU Delft and many other institutions worldwide, because it enables a gradual immersion into software development. Each step of the way, assignments lead you to think about the algorithm and introduce Python syntax when necessary. Then, of course, you are in charge to implement the algorithm in Python. But the solution is just one click away if you get lost.
 
-We expect each assignment to take about four hours. As part of our Bachelor course, we expect you to complete one a week. When something is not working as expected, that you do not understand how to move forward, please look at the [Discourse](https://discourse.datacentricdesign.org) for questions related to the Python programming assignment you are working on. Open a new topic for any question that is not yet on Discourse. We encourage you not only to ask questions, but answer the one you feel like, from other students. Please upvote a question that you have as well, and the answer that helped you.
+We expect each assignment to take about four hours. As part of our Bachelor course, we expect you to complete one a week. When something is not working as expected, that you do not understand how to move forward, please look at the [Discourse](https://bsc2021.io.tudelft.nl/){:target="_blank"} for questions related to the Python programming assignment you are working on. Open a new topic for any question that is not yet on Discourse. We encourage you not only to ask questions, but answer the one you feel like, from other students. Please upvote a question that you have as well, and the answer that helped you.
 
-See our template to ask questions that provide enough information for us and other students to help you effectively. It appears automatically whenever you open a new topic in the [Code Assignments](https://discourse.datacentricdesign.org/c/code-assignments/) category. 
+See our template to ask questions that provide enough information for other students and us to help you effectively. It appears automatically whenever you open a new topic in the [Code Assignments](https://bsc2021.io.tudelft.nl/c/iob2-2/programming-assignments/18){:target="_blank"} category. 
 
 ### [Development Environment]({{site.baseurl}}/environment)
 
