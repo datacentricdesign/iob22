@@ -96,7 +96,7 @@ In _Replit_, add the new lines of the algorithm to your project as comments. The
 
 Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step2-1)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step2-1)
 
 
 # Task 2.2 Chained conditional
@@ -137,7 +137,7 @@ In _Replit_, add the new lines of the algorithm to your project as comments, the
 
 Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step2-2)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step2-2)
 
 # Task 2.3 Choose Addons
 
@@ -161,7 +161,7 @@ In _Replit_, add the new lines of the algorithm to your project as comments. The
 
 Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step2-3)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step2-3)
 
 
 [Next: Step 3 - Operator]({{site.baseurl}}/computational-thinking/02-vending-machine/step3-operators/){: .btn .btn-purple }

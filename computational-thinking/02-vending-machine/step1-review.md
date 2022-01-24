@@ -52,7 +52,7 @@ The first version of your vending machine algorithm is ready! Now, execute the c
 
 Once you achieve a similar behaviour, there are a few things that we can improve. First, let's focus on the choice: the response to the users is (directly) what they type, such as `1` for coffee or `2` for tea. In the next step, we will use branches to do specific actions based on the users' choice, such as providing a more comprehensive message.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step1)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step1)
 
 
 [Next: Step 2 - Branching]({{site.baseurl}}/computational-thinking/02-vending-machine/step2-branching/){: .btn .btn-purple }

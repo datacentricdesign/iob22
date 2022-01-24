@@ -76,7 +76,7 @@ Execute the code to check that it behaves the way you expect.
 
 When your program works correctly, you should see a new file, 'cups.txt', in the left panel of _Replit_. You can open it and check if it contains the correct number of remaining cups.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step5-1)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step5-1)
 
 
 # Task 5.2 Retrieve Remaining Cups
@@ -118,7 +118,7 @@ In your _Replit_ project, you can add this algorithm and translate each line int
 
 Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step5-2)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step5-2)
 
 
 # Task 5.3 Deal with Missing Information
@@ -143,7 +143,7 @@ In your _Replit_ project, you can transform your algorithm to add the exception 
 
 Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step5-3)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step5-3)
 
 
 [Next: Step 6 - Logging]({{site.baseurl}}/computational-thinking/02-vending-machine/step6-logging){: .btn .btn-purple }
