@@ -25,25 +25,25 @@ We covered a lot of ground through the construction of this vending machine algo
 
 Add additional beverages and the related conditions, such as hot chocolates, cappuccinos and decaf coffee.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step6-1)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step7-1)
 
 # Extra Task 7.2 Prevent Serving Beverage
 
 Check the number of remaining cups and define behaviour when there is nothing left.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step6-2)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step7-2)
 
 # Extra Task 7.3 No unnecessary question
 
 Do not ask for sugar or milk if the choice of beverage is unknown or has milk by default (e.g. cappuccino).
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step6-3)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step7-3)
 
 # Extra Task 7.4 Manage Sugar and Milk
 
 Keep track of sugar consumption (like the number of cups), save it, and retrieve it from files.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step6-4)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step7-4)
 
 Go ahead and share your Vending Machine algorithm on Discourse! Make sure to provide a title and a short description that capture what makes it YOUR algorithm.
 
@@ -211,4 +211,4 @@ else:
     print("BTW, there are " + str(number_remaining_cups) + " cups left!")
 ```
 
-[Check the code on Replit](https://replit.com/@cvdvalk/PitifulHappyTrace)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step7-5)

@@ -105,7 +105,7 @@ In your _Replit_ project, you can transform your algorithm to add the exception 
 
 Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step4-2)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step4-2)
 
 
 [Next: Step 5 - File]({{site.baseurl}}/computational-thinking/02-vending-machine/step5-file){: .btn .btn-purple }

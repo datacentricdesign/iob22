@@ -45,7 +45,7 @@ Tell user the value of sum
 
 Translate these four lines in Python, then ask the computer to execute your instructions by clicking on the green arrow at the top of the page.
 
-[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step5-1)
+[Check the code on Replit](https://replit.com/@dcdlab/calculator-step5-1)
 
 What do we get? 7, this is the correct answer. The `+` sign is not broken!
 
@@ -125,6 +125,6 @@ Tell user sum
 
 Translate each line in Python. Then, ask the computer to execute your instruction by clicking on the green arrow at the top of the page.
 
-[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step5-2)
+[Check the code on Replit](https://replit.com/@dcdlab/calculator-step5-2)
 
 [Next: Step 6 - Recap and More]({{site.baseurl}}/computational-thinking/01-calculator/step6-recap){: .btn .btn-purple }

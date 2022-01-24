@@ -74,7 +74,7 @@ It means that we take the current value of the variable, remove `1` and store th
 
 With these elements, you can add the lines of the Counting Cups Algorithm to your project in _Replit_ as comments. Then, translate each line into Python syntax. Finally, Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step3-1)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step3-1)
 
 # Task 3.2 Compose messages
 
@@ -114,7 +114,7 @@ In your _Replit_ project, you can transform your algorithm to switch from "Tell"
 
 Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step3-2)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step3-2)
 
 # Task 3.3 Shame greedy users
 
@@ -144,7 +144,7 @@ In your _Replit_ project, you can transform your algorithm to add the biased mes
 
 Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step3-3)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step3-3)
 
 # Task 3.4 Combine Conditions
 
@@ -164,7 +164,7 @@ In your _Replit_ project, you can transform your algorithm to add the black coff
 
 Execute the code to check that it behaves the way you expect.
 
-[Check the code on Replit](https://repl.it/@IO1075/02-vending-machine-step3-4)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step3-4)
 
 That's it for our operator exploration. As mentioned in the introduction, there are many more which you can explore on the [W3School website](https://www.w3schools.com/python/python_operators.asp). However, the way to use them is the same. Thus, feel free to explore on your own.
 

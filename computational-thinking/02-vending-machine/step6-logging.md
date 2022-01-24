@@ -116,7 +116,8 @@ In Python, the logging levels are `DEBUG`, `INFO`, `WARNING`, `ERROR`, and `CRIT
 
 Let's go back to our vending machine and apply the logs. To do so, you need to import the built-in `logging` module at the top of your code, followed by the `basicConfig()` statement with the log level of your choice. Then, finally, transform all `print()` statements with the appropriate logging equivalent.
 
-[TODO Replit example]
+<!-- [TODO Replit example] -->
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step6-2)
 
 # Task 6.3 Logging into a file
 
@@ -132,7 +133,8 @@ Execute your programme again with this change. You will notice that nothing appe
 
 [TODO GIF running code and opening file]
 
-[TODO Replit example]
+<!-- [TODO Replit example] -->
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step6-3)
 
 # Task 6.4 Format log messages
 
@@ -150,6 +152,6 @@ Here, the output format will contain the line number (`%(lineno)d`), the logger 
 Everything could fit on one single line, including the format and level parameters. **By convention**, we write parameters on separated lines when it gets too long.
 {: .fs-5 .ls-10 .code-example .bg-green-000}
 
-[Check the code on Replit](https://replit.com/@cvdvalk/FarCreepyBracket)
+[Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step6-4)
 
 [Next: Step 7 - Recap and More]({{site.baseurl}}/computational-thinking/02-vending-machine/step7){: .btn .btn-purple }
