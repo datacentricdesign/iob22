@@ -59,7 +59,7 @@ Tell user sum
 
 Add these two lines at the end of the code as a comment and use the above output syntax to add the translation into Python.
 
-[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step4)
+[Check the code on Replit](https://replit.com/@dcdlab/calculator-step4)
 
 Ask the computer to execute your instruction by clicking on the green arrow at the top of the page.
 

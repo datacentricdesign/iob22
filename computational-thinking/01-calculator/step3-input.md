@@ -52,7 +52,7 @@ Ask the user "Type in y: " and store the answer in y
 
 Add these to lines as comments (starting with `#`) at the end of the code. Then, use the Python syntax introduced above to translate them into Python.
 
-[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step3)
+[Check the code on Replit](https://replit.com/@dcdlab/calculator-step3)
 
 Ask the computer to execute your instruction by clicking on the green arrow at the top of the page.
 

@@ -76,7 +76,7 @@ The next task is to translate each line from English to Python. Using the Python
 
 Feeling lost or in need of a double-check? The solution is never far away!
 
-[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step2)
+[Check the code on Replit](https://replit.com/@dcdlab/calculator-step2)
 
 # Task 2.3 Execute the code
 

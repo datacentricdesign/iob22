@@ -30,7 +30,7 @@ Didn't you have enough from this assignment? Do you feel comfortable going furth
 
 So far, the program converts `string` to `integer`. What about a sum of decimal numbers? Write the algorithm for converting a decimal number, search on Google the Python syntax for such conversion and upgrade the code.
 
-[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-1)
+[Check the code on Replit](https://replit.com/@dcdlab/calculator-step6-1)
 
 # Extra Task 6.2 Show the result on one line
 
@@ -43,7 +43,7 @@ The answer is
 
 Convert the variable `sum` into a type `string` and _concatenate_ it with "The answer is " so they appear on the same line.
 
-[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-2)
+[Check the code on Replit](https://replit.com/@dcdlab/calculator-step6-2)
 
 # Extra Task 6.3 Shorten the code
 
@@ -51,4 +51,4 @@ If you are comfortable with the code, you should be able to shorten it into thre
 
 Warning: Don't forget to update your comments as you transform your code, so that it remains consistent for other and your future self.
 
-[Check the code on Replit](https://repl.it/@IO1075/01-calculator-step6-3)
+[Check the code on Replit](https://replit.com/@dcdlab/calculator-step6-3)
