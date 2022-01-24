@@ -107,4 +107,4 @@ Execute the code and go to the HTTP route `/random` to check the result.
 
 As we mentioned at the beginning of this step, randomness is not an easy task for computers, and to some extent, for humans. Therefore, we rely on data instead of randomness in the next step.
 
-[Next: Step 5 - Generative Art]({{site.baseurl}}/computational-thinking/04-generative-art/step5){: .btn .btn-purple }
+[Next: Step 5 - Generative Art]({{site.baseurl}}/computational-thinking/04-generative-art/step5-list){: .btn .btn-purple }
