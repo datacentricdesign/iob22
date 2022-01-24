@@ -52,7 +52,7 @@ We suggest going through the steps without too much divergence, ensuring you obt
 
 We see this assignment as your most extensive project in this series. Therefore, we propose you experience `pair programming` and `version control` to learn how to deal with large projects.
 
-### 👥 Pair Programming
+## 👥 Pair Programming
 
 Pair programming is an excellent opportunity to exchange and strengthen your knowledge. Here is a relevant extract from the IOB22 course about pair programming.
 
@@ -70,10 +70,10 @@ Working at a distance adds a layer of complexity. So if you have the chance, we 
 
 ![Pair Programming - Replit]({{site.baseurl}}/assets/images/replit-pair.gif)
 
-Online, we suggest using a communication tool such as MS Team to open a video channel, staying in constant video and voice interaction during the duration of the pair programming
+Online, we suggest using a communication tool such as MS Team to open a video channel, staying in constant video and voice interaction during the duration of the pair programming.
 
 
-### 🔗 Version Control with Git and GitHub
+## 🔗 Version Control with Git and GitHub
 
 Version control is another critical mechanism for any project that takes more than a day to develop. Here is a relevant extract from the IOB22 course about version control.
 
@@ -93,3 +93,6 @@ We suggest:
 * creating a branch at the beginning of each step and merging it in the Master at the end.
 
 ![GitHub create branch and commit - Replit]({{site.baseurl}}/assets/images/git_commit_push.gif)
+
+
+[Next: Review]({{site.baseurl}}/computational-thinking/05-covid-dashboard/step1-review){: .btn .btn-purple }

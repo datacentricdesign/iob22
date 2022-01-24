@@ -18,11 +18,11 @@ grand_parent: Computational Thinking
 
 ---
 
-We walked through the full cycle of setting up a visualisation, downloading data to inject it into the visualisation and render this visualisation as part of an HTML/CSS/JavaScript dashboard. In this step, we repeat these steps to add two additional charts.
+We walked through the complete cycle of setting up a visualisation, downloading data to inject it into the visualisation and rendering this visualisation as part of an HTML/CSS/JavaScript dashboard. In this step, we repeat these steps to add two additional charts.
 
 # Task 5.1 Display Netherlands History
 
-This time we want an area chart mapping the case history in the Netherlands. First, we have the template, which includes the same elements as the previous chart. This time we look for an area chart. We can copy and paste this template in `templates/history.json`.
+This time we want an area chart mapping the case history in the Netherlands. First, we have the template, which includes the same elements as the previous chart. We look for an area chart. We can copy and paste this template in `templates/history.json`.
 
 ```json
 {
@@ -71,7 +71,7 @@ In `static/index.html`, we can add the call to `vegaEmbed` at the bottom, next t
 vegaEmbed('#netherlands', '/netherlands');
 ```
 
-Let's fix a layout styling detail. As the chart is wide, it would fit better on the full length of the page. We could add an `id` property to the second section to apply some _CSS_ on that specific element. Another strategy is to add the class property. While an `id` must be unique, we can use a class in many elements. As we might want to create several charts for other countries to compare, the class seems an appropriate choice. Add property `class="country"` to the second section. Then, in the _CSS_, add the following to increase the grid's size for this particular section. Note the dot `.` in contrast with the hashtag `#` to target the name of a `class` instead of an `id`.
+Let's fix a layout styling detail. As the chart is wide, it would fit better on the full length of the page. We could add an `id` property to the second section to apply some _CSS_ on that specific element. Another strategy is to add the class property. While an `id` must be unique, we can use a class in many elements. As we might want to create several charts for other countries to compare, the class seems an appropriate choice. Add the property `class="country"` to the second section. Then, add the following in the _CSS_to increase the grid's size for this particular section. Note the dot `.` in contrast with the hashtag `#` to target the name of a `class` instead of an `id`.
 
 ```css
 .country {
@@ -115,7 +115,9 @@ For the new COVID cases, we use a similar Vega template. This time, we use the t
 }
 ```
 
-The data regarding the new COVID cases, together with each country's details, is part of the `/summary` API. The new COVID cases are located at the key `Global`. It is an opportunity to see how to loop through a Python dictionary. In the following example, we see the construction `for key in json_data["Global"]`. It means we loop through all the keys as part of the nested Python dictionary 'Global'. It gives us the ability to filter keys that start with 'New', including 'NewConfirmed', 'NewDeaths' and 'NewRecovered'.
+The data regarding the new COVID cases, together with each country's details, is part of the `/summary` API. The new COVID cases are located at the key `Global`. It is an opportunity to see how to loop through a Python dictionary.
+
+We see the construction `for key in json_data["Global"]` in the following example. It means we loop through all the keys as part of the nested Python dictionary 'Global'. It allows us to filter keys that start with 'New', including 'NewConfirmed', 'NewDeaths' and 'NewRecovered'.
 
 The function `serve_summary_new()` looks as follows:
 
@@ -152,4 +154,4 @@ vegaEmbed('#new', '/new');
 
 [Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step5-2)
 
-[Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/05-covid-dashboard/step6){: .btn .btn-purple }
+[Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/05-covid-dashboard/step6-recap){: .btn .btn-purple }

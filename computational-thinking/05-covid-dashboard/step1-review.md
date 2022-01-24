@@ -18,23 +18,25 @@ grand_parent: Computational Thinking
 
 ---
 
-In the previous assignment, we used _Flask_ to serve the result of our generative art. It was a big step forward, moving from the local Terminal output to exposing results to the web. The web serves information. This makes it a convenient prototyping tool to shape all types of digital user interactions. That is what we will explore further with the COVID dashboard. How do we collect data from a `web service`? How do we filter and shape data in the way we need it for our design? How do we generate charts and put them together in a structured dashboard? Well, this is what we practice in this programming assignment.
+In the previous assignment, we used _Flask_ to serve the result of our generative art. It was a big step forward, moving from the local Terminal output to exposing results to the web. The web serves information. It makes it a convenient prototyping tool to shape digital user interactions. That is what we will explore further with the COVID dashboard. How do we collect data from a `web service`? How do we filter and shape data the way we need it for our design? How do we generate charts and put them together in a structured dashboard? Well, this is what we practice in this programming assignment.
 
-The result of the fifth step looks as follows, but as you already know, this is just a starting point. Your role as designers is to take these starting components to the next level. We'll provide you with some hints in Step 6.
+The result of the fifth step looks as follows, but as you already know, this is just a starting point. Your role as a designer is to take these starting components to the next level. Next, we'll provide you with some hints in Step 6.
 
 ![Assignment 5 - End Result]({{site.baseurl}}/assets/images/assignment5-end-result.png)
 
 # Task 1.1 Set Up a Web Server
 
-Let's start with what we already know from the previous assignment. Go to _Replit_ and create a new project for this Python programming assignment. Go to the package manager and install _Flask_, the Python package we use to make a web server. Have a look at Task 3.1 of the previous assignment if you are struggling to find your way with this.
+Let's start with what we already know from the previous assignment. First, go to _Replit_, in the project you connected to GitHub.
+
+Then, Go to the package manager and install _Flask_, the Python package we use to make a web server. Have a look at Task 3.1 of the previous assignment if you struggle to find your way with this.
 
 As we can see from the screenshot above, we aim to generate three different charts:
 
-- the 'New Cases' in the world in the last 24hrs ring chart;
-- the 'Total cases per Country' horizontal bar chart;
-- the distribution of 'Confirmed Cases' in a given country over time area chart.
+- Ring chart: the 'New Cases' in the world in the last 24hrs;
+- Horizontal bar chart: the 'Total cases per Country';
+- Area chart: the distribution of 'Confirmed Cases' in a given country over time.
 
-Thus, we can structure our code with three HTTP routes with there respective Python function to serve each chart. In addition, we will need a fourth one to serve the dashboard itself.
+Thus, we can structure our code with three HTTP routes with associated Python functions to serve each chart. In addition, we will need a fourth one to serve the dashboard itself.
 
 #### COVID Dashboard HTTP Routes
 
@@ -64,9 +66,9 @@ Start the webserver
 
 [Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step1)
 
-Copy and paste this English description in the file `main.py` of your _Replit_ project as comments. Then, for each comment, convert it to its Python implementation. Note that for now, our HTTP routes are returning a string. Here we are just putting in place the general structure of our web server.
+Copy and paste this English description in the file `main.py` of your _Replit_ project as comments. Then, convert each line into its Python implementation. Note that for now, our HTTP routes are returning a string. It is because we are just putting in place the general structure of our web server.
 
-**Don't remember the syntax?** You might want to look at the previous assignment, Step 3 (Serve web page Python Syntax) for a reminder on the syntax.
+**Don't remember the syntax?** You might want to look at the previous assignment, Step 3 (Serve web page Python Syntax), for a reminder on the syntax.
 {: .fs-5 .ls-10 .code-example .bg-yellow-000}
 
 Execute the code and visit the four HTTP routes `/`, `/summary`, `/new` and `/netherlands` to check that you receive the four sentences as expected.
@@ -75,11 +77,11 @@ Execute the code and visit the four HTTP routes `/`, `/summary`, `/new` and `/ne
 
 # Task 1.2 Explore the COVID-19 API
 
-Now there is only so much we can do for a COVID dashboard without actual data. Let's look at a `web service` that can provide us with the latest data. For this assignment, we rely on the API [covid19api.com](http://covid19api.com). Have a look around and see for yourself what this service is promising.
+There is only so much we can do for a COVID dashboard without actual data. So let's look at a `web service` that can provide us with the latest data. We rely on the API [covid19api.com](http://covid19api.com). Have a look around and see for yourself what this service is promising.
 
-Why this choice? It is a free, registration free and easy to use API which enables our dashboard to show the latest COVID data. It would not work for a product because there are limitations to the free service, such as how many times we can request the data within one day. However, it fits perfectly for our prototyping needs.
+Why this choice? A registration-free and easy-to-use API enables our dashboard to show the latest COVID data. It would not work for a product because there are limitations to the free service, such as how many times we can request the data within one day. However, it fits our prototyping needs ideally.
 
-How to get started? On the front page towards the bottom, there is a [documentation](https://documenter.getpostman.com/view/10808728/SzS8rjbc) link. It looks like an excellent place to start. We land on a page of `Postman`, a tool for developing and documenting APIs.
+How to get started? There is a [documentation](https://documenter.getpostman.com/view/10808728/SzS8rjbc) link on the front page towards the bottom. It looks like an excellent place to start. Next, we land on a page of `Postman`, a tool for developing and documenting APIs.
 
 This assignment focuses on two APIs: the `/summary` and the `/countries`. From the `/summary` API, we can extract the total number of cases per country up to now (the bar chart of our dashboard on the right) and the total of new cases in the last 24 hours (the doughnut chart on the left).
 
@@ -91,11 +93,12 @@ From the `/countries` API, we can extract the historical data for a specific cou
 
 # Task 1.3 Trigger API from a web browser
 
-To see how the data looks like, copy and paste the URL of each API in your favourite web browser. Once loaded, you should obtain something like this:
+To see what the data looks like, copy and paste the URL of each API in your favourite web browser. Once loaded, you should obtain something like this:
 
 ![Assignment 5 - API Countries Result]({{site.baseurl}}/assets/images/assignment5-step1-json.png)
 
-Note: depending on the web browser, the result is shown on multiple lines or kept "as raw".
+**Note:** depending on the web browser, the result is shown on multiple lines or kept "as raw".
+{: .fs-5 .ls-10 .code-example .bg-yellow-000}
 
 The data is structured in the JavaScript Object Notation  (JSON, pronounced 'Jason') format. It is a typical data structure for sharing or storing data on the web. It starts and ends with curly brackets `{}`, and it is composed of key/value pairs separated by a colon and a comma between each pair. The value can be of the following types:
 
@@ -109,4 +112,4 @@ We can see in this example that we have first the key `Global`, leading to a sub
 
 In the next step, we will see how to get this COVID data directly in our Python code.
 
-[Next: Step 2 - HTTP Request]({{site.baseurl}}/assignments/05-covid-dashboard/step2){: .btn .btn-purple }
+[Next: Step 2 - HTTP Request]({{site.baseurl}}/assignments/05-covid-dashboard/step2-http-request){: .btn .btn-purple }
