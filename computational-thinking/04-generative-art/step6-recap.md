@@ -19,7 +19,7 @@ grand_parent: "Computational Thinking"
 
 # Extra Task 6.1 Try Different Books or Text
 
-The algorithm of Step 5 is completely driven by data. A different book or text would generate a different result. Go ahead and try different text to see how it looks like.
+The algorithm of Step 5 is completely driven by data. A different book or text would generate a different result. Go ahead and try other texts and see what it looks like.
 
 # Extra Task 6.2 Randomise the Colour
 

@@ -26,15 +26,15 @@ grand_parent: "Computational Thinking"
 
 In the previous step, we introduced `modules`. These are files with Python code that we can import and use in our code. While `modules` are files, `packages` are folders hierarchically structuring modules. You can install packages from other developers so that your code can rely on their code. `Packages` opens up whole new horizons: you are not coding everything by yourselves but reusing functions made available by others. We say that your code has 'dependencies', i.e. it depends on packages from other developers.
 
-Installing a package means downloading a folder with subfolders and files (e.g. packages and modules) which contain functions that you can use in your code in the same way you use your modules. As each package can rely on its own set of dependencies, the installation becomes quickly complicated. No worries. `Package managers` are here to handle this process for us.
+'Installing a package' means downloading a folder with files containing functions (e.g. packages and modules). Once installed, you can use these functions in your code the same way you use your modules. Each package can rely on its dependencies, so the installation becomes quickly complicated. No worries. `Package managers` are here to handle this process for us.
 
 ## What is a Web Server?
 
-In this assignment, we want to move beyond the Terminal inputs and outputs. From this step, the output of the code will appear on a `web page`.
+We want to move beyond the Terminal inputs and outputs in this assignment. The code's result will appear on a `web page` from this step.
 
-When you use your web browser to open a web page, you are requesting content from a network of computers. These computers are listening for requests and respond with the requested content. They _serve_ content on to _clients_ such as a web browser. We describe here the role of a `webserver`.
+When you use your web browser to open a web page, you request content from computers on the network. These computers `listen` for requests and respond with the requested content. We say that 'they _serve_ content on to _clients_' such as a web browser. We describe here the role of a `webserver`.
 
-Serving the output of our code on a webpage has many advantages for designers. Software is increasingly accessible as web applications, and many devices can display web pages. These make web page an appropriate medium for prototyping, even though the final product or service might rely on different technologies.
+Serving the output of our code on a webpage has many advantages for designers. Software is increasingly accessible as web applications, and many devices can display web pages. These make web pages an appropriate medium for prototyping, even though the final product or service might rely on different technologies.
 
 ## What is an HTTP route?
 
@@ -53,7 +53,7 @@ Call [function];
 Return [response] to the client
 ```
 
-Note the 'when', indicating that the webserver continuously listen and call the function for each new request. In Python, this algorithm involves complicated tasks such as listening on the network, managing requests from web clients and sending back a response on the network. However, we can install a `package` that take care of all these tasks for us. In this assignment, we use the package [Flask](https://flask.palletsprojects.com/en/1.1.x/).
+Note the 'when', indicating that the webserver continuously `listen` and call the function for each new request. In Python, this algorithm involves complicated tasks such as listening on the network, managing requests from web clients and sending back a response on the network. However, we can install a `package` that takes care of all these tasks. In this assignment, we use the package [Flask](https://flask.palletsprojects.com/en/1.1.x/) for this purpose.
 
 #### Serve web page Python Syntax (Flask)
 
@@ -70,9 +70,9 @@ def welcome_to_io()
 server.run('0.0.0.0')
 ```
 
-Note the at sign `@` in front of 'server'. This is a `decorator`. There is no need to understand this mechanism at this stage. Only remember that it allows to _connect_ the HTTP route to the following function definition. Thus, both definitions (route and function) must be written next to each other, without any line of code in between.
+Note the at sign `@` in front of 'server'. It is a `decorator`. There is no need to understand this mechanism at this stage. However, remember that it allows _connecting_ the HTTP route to the following function definition. Thus, both definitions (route and function) must be next to each other, without any line of code in between.
 
-The web server starts with the argument `0.0.0.0`. It allows the webserver to be accessed from the network.
+The web server starts with the argument `0.0.0.0`. It allows the webserver to be accessible from the network.
 
 # Task 3.1 Serve the Radial Lines Drawing
 
@@ -80,7 +80,7 @@ We have all the elements to serve our radial lines drawing on a web page. Howeve
 
 On the left panel of _Replit_, click on the third icon (box icon). Type in `Flack` in the search bar, select the first result and click the plus sign `+` to install `Flask` in your project. You notice outputs in the Terminal. They reflect the process of downloading all necessary dependencies for `Flask`.
 
-On the left panel, click on the first icon (file icon). It brings you back to the list of files in your project. The package manager created two new files (`poetry.lock` and `pyproject.toml`) which keep track of the dependencies.
+Click on the first icon (file icon) on the left panel. It brings you back to the list of files in your project. The package manager created two new files (`poetry.lock` and `pyproject.toml`), which keep track of the dependencies.
 
 Let's define the algorithm that serves the radial lines drawing.
 
@@ -116,7 +116,7 @@ The Terminal shows a couple of information about the webserver, telling us that 
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-1.gif)
 
-Ah! The page is not found! Indeed, by default the requested http route is '/' and the Python code only defines the route '/radial'.
+Ah! The page is not found! Indeed, by default, the requested HTTP route is '/', and the Python code only defines the route '/radial'.
 Click on the 'extend' icon on the top-right corner of the web page to open the page in a new tab.
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-3.gif)
@@ -129,7 +129,7 @@ You can now edit the URL to add '/radial'
 
 # Task 3.2 Serve Drawing with Parameters
 
-The next step is to make the HTTP route reusable for a larger set of requests. We want to map information from the URL into argumments for the function make_drawing_radial_lines(). Flask has a convenient way to do mapping. We can specify the parameters in the URL, wrapped between lower than `<` and greater than `>` signs. Then, we add these parameters to the connected function.
+The next step is to make the HTTP route reusable for more requests. We want to map information from the URL into arguments for the function make_drawing_radial_lines(). Flask has a convenient way to do the mapping. We can specify the parameters in the URL, wrapped between lower than `<` and greater than `>` signs. Then, we add these parameters to the connected function.
 
 #### Serving Custom Radial Lines Algorithm
 
@@ -140,7 +140,7 @@ Convert parameters width and height into integers
 Make drawing radial lines with width and height, and return the result
 ```
 
-The 'Custom Radial Lines' algorithm receives the request, for example, on the route `/radial/200/100`. `200` and `100` are are the arguments for the parameters `width` and `height`. Flask atomatically map them to the function `serve_custom_radial_lines(width, height)`.
+The 'Custom Radial Lines' algorithm receives the request, for example, on the route `/radial/200/100`. In this case, `200` and `100` are the arguments for the parameters `width` and `height`. Flask automatically map them to the function `serve_custom_radial_lines(width, height)`.
 
 Write the code for the route `/radial/<width>/<height>` connected to `serve_custom_radial_lines()`.
 
@@ -150,7 +150,7 @@ Execute the code and load the web page with the route, for example, `/radial/100
 
 Oh, white page, nothing happens, no error!
 
-Let's investigate. To make the radial lines drawing, we call the function `make_drawing_radial_lines(width, height)`, using the argument received from URL. However, if we look into the file `drawing.py`, we defined this function as follows:
+Let's investigate. We call the function `make_drawing_radial_lines(width, height)`, using the argument received from the URL to make the radial lines drawing. However, if we look into the file `drawing.py`, we defined this function as follows:
 
 ```python
 def make_drawing_radial_lines(colour="black",
@@ -159,37 +159,38 @@ def make_drawing_radial_lines(colour="black",
                               granularity=5):
 ```
 
-It starts with the parameter `colour`, and then the `width` and `height`. Thus, we currently call this function providing the argumment `width` to the parameter `colour` and the argument `height` to the parameter `width`. Python does not raise an error because all parameters have default values. However, the colour of value `100` does not represent any colour: nothing appears on the screen.
+It starts with the parameter `colour`, and then the `width` and `height`. Thus, we currently call this function providing the argument `width` to the parameter `colour` and the argument `height` to the parameter `width`. Python does not raise an error because all parameters have default values. However, the colour of value `100` does not represent any colour: nothing appears on the screen.
 
-To solve this issue, there are three options:
+There are three optionsto solve this issue:
 
 - add the colour parameter in the URL so that we can provide this argument, i.e. `/radial/<colour>/<width>/<height>`
 - add a default colour when we call the function, i.e. `make_drawing_radial_lines("red", width, height)`
 - specify arguments with keywords
 
-Keywords arguments? Indeed, we can explicitly specify the parameter to which each arguments refer. This approach remmove the need for a strict position of each argument. The call would look as follows:
+Keywords arguments? Indeed, we can explicitly specify the parameter to which each argument refer. This approach removes the need for a strict position of each argument. The call would look as follows:
 
 ```python
 make_drawing_radial_lines(width=width, height=height)
 ```
 
-Note the parameter is on the left (as specified in the function definition) and the argument is on the right (as received from the URL).
+Note: the parameter is on the left (as specified in the function definition), and the argument is on the right (as received from the URL).
+{: .fs-5 .ls-10 .code-example .bg-yellow-000}
 
-Update the code and execute the code. When refreshing the web page, you should see the radial lines drawing with the specified width and height.
+Update the code and execute the code. You should see the radial lines drawing with the specified width and height when refreshing the web page.
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step3-2)
 
 # Task 3.3 Serve Drawing with Optional Parameters
 
-We avoided to specify the colour for each HTTP request. However, it would be convenient to change the colour of the drawing. To provide optional argument in the URL, we can use the following structure:
+We avoided specifying the colour for each HTTP request. However, it would be convenient to change the colour of the drawing. Therefore, to provide an optional argument in the URL, we can use the following structure:
 
 ```
 /radial/<width>/<height>?colour=yellow&granularity=10
 ```
 
-The optional arguments start with a question mark `?`, then additional arguments are separated with an ampersand `&`. Each argument is provided with its `name` and its `value` connected by an equal sign `=`.
+The optional arguments start with a question mark `?`. Then, we separate additional arguments with an ampersand `&`. Finally, we provide each argument with its `name` and its `value` connected by an equal sign `=`.
 
-In Python, Flask enables to extract these optional arguments with the request module. Let's import request fromm flask at the top of `main.py`.
+Flask enables extracting these optional arguments with the `request` module in Python. So let's import `request` from Flask at the top of `main.py`.
 
 ```python
 # Import the object Flask and request from flask module
@@ -205,12 +206,12 @@ colour = request.args.get('colour', default = "black", type = str)
 
 Write the code to extract the colour and granularity arguments from the URL and pass them to the function `make_drawing_radial_lines()`.
 
-Execute the code and refresh, add request the web page with the optional arguments.
+Execute the code and refresh, then request the web page with the optional arguments.
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/task-4-3-4.gif)
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step3-3)
 
-At this stage, we moved from the Terminal to a web page. It allows rich, graphical interactions and avoid saving results into files to visualise them.
+At this stage, we moved from the Terminal to a web page. It allows rich, graphical interactions and avoids saving results into files to visualise them.
 
-[Next: Step 4 - Random]({{site.baseurl}}/computational-thinking/04-generative-art/step4){: .btn .btn-purple }
+[Next: Step 4 - Random]({{site.baseurl}}/computational-thinking/04-generative-art/step4-random){: .btn .btn-purple }

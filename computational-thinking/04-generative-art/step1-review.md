@@ -24,9 +24,9 @@ grand_parent: "Computational Thinking"
 
 ## What is SVG?
 
-In this initial step, we will only use Python syntax we already encountered in the previous assignments. We will particularly reuse `functions`, `loops` and `files`. However, we need to introduce what we will play with: Scalable Vector Graphics (SVG). You might use tools such as Illustrator or Inkscape to draw on your computer. These tools are keeping track of what we draw as a list of objects. SVG is a data format to save all the information related to these objects: colour, size, position, etc.
+In this initial step, we only use Python syntax we already encountered in the previous assignments. We particularly reuse `functions`, `loops` and `files`. First, however, we need to introduce what we will play with: Scalable Vector Graphics (SVG). You might use Illustrator or Inkscape to draw on your computer. These tools keep track of what we draw as a list of objects. SVG is a data format to save all the information related to these objects: colour, size, position, etc.
 
-In this step, we will explore a basic drawing element: the line. The following SVG draws two blue lines, forming a cross as follows:
+In this step, we explore a basic drawing element: the line. The following SVG draws two blue lines, forming a cross as follows:
 
 <div style="text-align: center">
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="max-width: 200px;">
@@ -35,7 +35,7 @@ In this step, we will explore a basic drawing element: the line. The following S
     </svg>
 </div>
 
-The following text is the SVG representation of this drawing. The data is structured with tags delimited by `<` and `>`. This is an `XML` data structure. In this example, we can see an `svg` tag which shows the start `<svg>` and the end `</svg>` of our drawing. The two lines are specified with the tag `<line>`.
+The following text is the SVG representation of this drawing. SVG structures data with tags delimited by `<` and `>`. It is an `XML` data structure. In this example, we can see an `svg` tag which shows the start `<svg>` and the end `</svg>` of our drawing. The two lines are specified with the tag `<line>`.
 
 ```xml
 <svg viewBox="0 0 100 100" width="100" height="100"  xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +44,7 @@ The following text is the SVG representation of this drawing. The data is struct
 </svg>
 ```
 
-Each tag can have properties, specified in the form `key=value`. With this in mind, we can interpret that both lines are blue (colour of their `stroke`), one starts in the position `10,10` and ends in the position `90,90` (making a diagonal) while the other starts in the position 10,90 and ends in the position `90,10` (making the inverted diagonal).
+Each tag can have properties specified in the form `key=value`. Thus, we can interpret that both lines are blue (colour of their `stroke`). The first starts in the position `10,10`: 10 pixels from the canvas' left side and 10 pixels from the canvas' top side. It ends in `90,90`, making a diagonal. The second starts in `10,90` and ends in `90,10`, making the inverted diagonal.
 
 # Task 1.1 Draw a Line
 
@@ -52,7 +52,7 @@ We learned above how to represent a line in SVG.
 
 Go to _Replit_ and create a new project for this Python programming assignment.
 
-Create a file `main.py` and write a function `draw_line()` with the following parameters.
+Create a file `main.py` and write the function `draw_line()` with the following parameters.
 
 #### draw_line() Docstring
 
@@ -67,9 +67,9 @@ colour -- hexadecimal or colour name
 """
 ```
 
-This function can be written in a single line. We recommend using the f-string as introduced in the previous assignment.
+A single line of Python is enough for this function. We recommend using the f-string as introduced in the previous assignment.
 
-Call this function with the arguments of your choice and show its results to the user. Execute the code. The program should display one line of SVG describing the line.
+Call this function with the arguments of your choice (values for x, y, x2 and y2) and show its results to the user. Execute the code. The program should display one line of SVG describing the line.
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step1-1.gif)
 
@@ -107,11 +107,11 @@ Close the drawing with the SVG tag
 Return the drawing
 ```
 
-Create the function `make_drawing_cross()` and call this function with the colour of your choice. We recommend to create a constant COLOUR at the top of the file to use as argument when calling the function. Show its results to the user.
+Create the function `make_drawing_cross()` and call this function with the colour of your choice. We recommend creating a constant `COLOUR` at the top of the file to use as an argument when calling the function. Finally, Show its results to the user.
 
-Execute the code. The program should display four line of SVG describing the cross. At this stage it becomes difficult to check if the function draws the cross properly.
+Execute the code. The program should display four lines of SVG describing the cross. However, it becomes difficult to check if the function draws the cross correctly at this stage. It would be more convenient to see a visual representation instead of the SVG data structure. _Replit_ can visualise an SVG file. Let's save the SVG into a file, as we wrote into files in the previous assignments.
 
-Create a function `save_in_file()` which will write the SVG structure into a file. This will enable us to visualise the SVG.
+Create a function `save_in_file()` to write the SVG structure into a file. It will enable us to visualise the SVG.
 
 #### save_in_file() Docstring
 
@@ -123,7 +123,7 @@ svg_structure -- String representing the drawing
 """
 ```
 
-We are familiar with file operation, the algorithm looks as follows:
+We are familiar with file operation; the algorithm looks as follows:
 
 #### save_in_file() Algorithm
 
@@ -133,9 +133,9 @@ Write content in file
 Close the file path
 ```
 
-Instead of showing the result of the function `make_drawing_cross()` to the user, we can use this result as an argument of the function `save_in_file()`. We recommend to create a constant PATH at the top of the file, containing the path of the SVG file such as `draw.svg`. Then, we can use this constant as argument when calling the function `save_in_file()`.
+Instead of showing the result of `make_drawing_cross()` in the terminal, we can use its result as an argument of `save_in_file()`. We recommend creating a constant `PATH` at the top of the file, containing the path of the SVG file, such as `draw.svg`. Then, we can use this constant as an argument when calling the function `save_in_file()`.
 
-Execute the code. This time, the program should not display anything as it now write the result the file `draw.svg`. In the left panel, you should see this new file appearing. Click on it to show your drawing.
+Execute the code. This time, the program should not display anything as it now writes the result into the file `draw.svg`. In the left panel, you should see this new file appearing. Click on it to show your drawing.
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step1-2.gif)
 
@@ -188,7 +188,7 @@ How to move from a cross to radial lines like the following drawing?
 </svg>
 </div>
 
-We can reuse the loop construct that we learned in the previous assignment. If we start from a top-left/bottom-right diagonal, we can increase `y` and decrease `y` till we reach the bottom. This would draw half the lines we need.
+We can reuse the loop construct that we learned in the previous assignment. If we start from a top-left/bottom-right diagonal, we can increase `y` and decrease `y2` until we reach the bottom. It would draw half the lines we need.
 
 <div style="text-align: center">
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="max-width: 200px;">
@@ -245,8 +245,8 @@ Return the drawing
 
 Execute the code and click on the `draw.svg` file to check the result.
 
-While exploring SVG, we reviewed the important concepts from the previous assignments: loops and functions. In the next step, we take a step back to improve the reusability of the code.
+While exploring SVG, we reviewed the critical concepts from the previous assignments: loops and functions. In the next step, we take a step back to improve the reusability of the code.
 
 [Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step1-3)
 
-[Next: Step 2 - Refactoring]({{site.baseurl}}/computational-thinking/04-generative-art/step2){: .btn .btn-purple }
+[Next: Step 2 - Refactoring]({{site.baseurl}}/computational-thinking/04-generative-art/step2-refactoring){: .btn .btn-purple }

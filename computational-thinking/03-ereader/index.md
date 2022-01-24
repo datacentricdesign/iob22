@@ -49,21 +49,11 @@ Assertion
 
 Let's start with a brief refresher of the topics we covered in previous assignments that might be useful to remember.
 
-## What is a Flow Chart?
+* **Flow Chart** -- A flow chart is particularly suitable as it represents a sequence of steps and decisions. When thinking or communicating about your algorithm, you might find it easier to start with such a flow chart. We read a flow chart from _start_ to _end_ in oval/rounded shapes. Each shape connects to another via an arrow, and rectangles representd a process (i.e. an action to perform).
 
-Along with plain English, it is often helpful to make a graphical representation of our algorithm. A flow chart is particularly suitable as it represents a sequence of steps and decisions. When thinking or communicating about your algorithm, you might find it easier to start with such a flow chart.
-
-We saw how the _Calculator Algorithm_ could look like:
-
-![Flow Chart Calculator Algorithm]({{site.baseurl}}/assets/flow_chart_calculator.svg)
-
-We read a flow chart from _start_ to _end_ in oval/rounded shapes. Each shape connects to another via an arrow, and rectangles representd a process (i.e. an action to perform).
-
-## What is a File?
-
-A file is a common way to structure long-term memory. You certainly use files to store pictures and other documents. A file is characterised by a path (where to find it), a type of content (e.g. text, picture, video) and a size.
+* **File** -- A file is a common way to structure long-term memory. You certainly use files to store pictures and other documents. A file is characterised by a path (where to find it), a type of content (e.g. text, picture, video) and a size.
 
 ## ⏰  Time Management and Expectations
 
 
-[Next: Review]({{site.baseurl}}/computational-thinking/03-ereader/review){: .btn .btn-purple }
+[Next: Review]({{site.baseurl}}/computational-thinking/03-ereader/step1-review){: .btn .btn-purple }
