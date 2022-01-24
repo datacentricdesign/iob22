@@ -55,5 +55,6 @@ Let's start with a brief refresher of the topics we covered in previous assignme
 
 ## ⏰  Time Management and Expectations
 
+Many Python syntax appear in this assignment with the loops and functions. This is the important part. For this assignment you might need more than 4 hours.
 
 [Next: Review]({{site.baseurl}}/computational-thinking/03-ereader/step1-review){: .btn .btn-purple }

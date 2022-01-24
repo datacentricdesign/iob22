@@ -64,10 +64,10 @@ Let's start with a brief refresher of the topics we covered in previous assignme
   * `char` can keep a single character in memory, values such as `'A'`, `'b'`, `'1'` or `'!'`
   * `string` can keep a sequence of characters in memory, values such as `"python"` or `"My name is Bob."` 
 
-* **Debugging** -- Sometimes, the code we write might lead to unexpected behaviour. Debugging is the iterative process of investigating and adjusting this behaviour to the one we want. It is critical to formulating our goal and the undesired behaviour in plain English to conduct this investigation effectively.
+* **Debugging** -- Sometimes, the code we write might lead to unexpected behaviour. Debugging is the iterative process of investigating and adjusting this behaviour to the one we want. It is critical to formulate our goal and the undesired behaviour in plain English to conduct this investigation effectively.
 
 ## ⏰  Time Management and Expectations
 
-
+This assignment involves a range of new concepts which takes time to explore. Steps 2 and 5 are critical. Take your time to practice, to make it your code by developing beyond the examples.
 
 [Next: Step 1 - Review]({{site.baseurl}}/computational-thinking/02-vending-machine/step1-review/){: .btn .btn-purple }

@@ -49,6 +49,6 @@ Debug
 
 ## ⏰  Time Management and Expectations
 
-With this assignment we aim at a smooth introduction. Take your time and do not hesitate to go off-road and explore further on your own.
+With this assignment, we aim at a smooth introduction. So take your time and do not hesitate to go off-road and explore further on your own.
 
 [Next: Step 1 - Algorithm]({{site.baseurl}}/computational-thinking/01-calculator/step1-algo/){: .btn .btn-purple }

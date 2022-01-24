@@ -81,6 +81,6 @@ def name(parameter1, parameter2):
 
 ## ⏰  Time Management and Expectations
 
-
+There is a lot to explore with this assignment. Make sure you understand Step 3 and the Lists in Step 5.
 
 [Next: Review]({{site.baseurl}}/computational-thinking/04-generative-art/step1-review){: .btn .btn-purple }
