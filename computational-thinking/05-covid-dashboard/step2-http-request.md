@@ -224,6 +224,6 @@ Rerun the code, and trigger the route `/netherlands` to see what happens. The we
 
 We now have our web server in place, which fetches data about the most current COVID situation and forwards that to the web browser. Still, this is not a compelling way of presenting this data. That is the goal of Step 3 - Data Visualization.
 
-[Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step2)
+[Check the code on Replit](https://replit.com/@dcdlab/covid-dashboard-step2)
 
 [Next: Step 3 - Chart]({{site.baseurl}}/assignments/05-covid-dashboard/step3-chart){: .btn .btn-purple }

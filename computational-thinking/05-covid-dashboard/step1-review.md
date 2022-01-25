@@ -64,7 +64,7 @@ Return the string "An area chart of COVID cases over time in the Netherlands."
 Start the webserver
 ```
 
-[Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step1)
+[Check the code on Replit](https://replit.com/@dcdlab/covid-dashboard-step1)
 
 Copy and paste this English description in the file `main.py` of your _Replit_ project as comments. Then, convert each line into its Python implementation. Note that for now, our HTTP routes are returning a string. It is because we are just putting in place the general structure of our web server.
 
