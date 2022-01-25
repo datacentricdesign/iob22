@@ -60,7 +60,7 @@ Save radial lines into a file
 ```
 Execute the code. The behaviour should remain the same as we only reorganised the code.
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step2-1)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step2-1)
 
 ## What is Refactoring?
 
@@ -110,7 +110,7 @@ def make_drawing_radial_lines(colour="black", width=100, height=100, granularity
 
 Execute the code. The behaviour should remain the same as we only reorganised the code.
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step2-2)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step2-2)
 
 Now that we reorganised the code, we are ready to bring in code from others and move from the Terminal to the Web.
 

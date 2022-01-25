@@ -58,7 +58,7 @@ Execute the code, and check the web page on `/sentences` to see the result.
 
 ![Animation Result Assignment 5 - Step 1]({{site.baseurl}}/assets/images/task-4-5-1.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step5-1)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step5-1)
 
 # Task 5.2 Draw Abstract Sentences
 
@@ -135,7 +135,7 @@ Execute the code and refresh the web page `/sentences` to check the results.
 
 ![Animation Result Assignment 5 - Step 2]({{site.baseurl}}/assets/images/task-4-5-2.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step5-2)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step5-2)
 
 
 [Next: Step 6 - Recap and More]({{site.baseurl}}/computational-thinking/04-generative-art/step6-recap){: .btn .btn-purple }

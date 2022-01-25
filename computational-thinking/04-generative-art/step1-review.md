@@ -73,7 +73,7 @@ Call this function with the arguments of your choice (values for x, y, x2 and y2
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step1-1.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step1-1)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step1-1)
 
 # Task 1.2 Make the Drawing of a Cross
 
@@ -139,7 +139,7 @@ Execute the code. This time, the program should not display anything as it now w
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step1-2.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step1-2)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step1-2)
 
 # Task 1.3 Draw the Drawing of Radial Lines
 
@@ -247,6 +247,6 @@ Execute the code and click on the `draw.svg` file to check the result.
 
 While exploring SVG, we reviewed the critical concepts from the previous assignments: loops and functions. In the next step, we take a step back to improve the reusability of the code.
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step1-3)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step1-3)
 
 [Next: Step 2 - Refactoring]({{site.baseurl}}/computational-thinking/04-generative-art/step2-refactoring){: .btn .btn-purple }
