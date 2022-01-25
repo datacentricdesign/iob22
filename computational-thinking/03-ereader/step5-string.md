@@ -40,7 +40,7 @@ In Python, `strings` have a method `startswith()` that takes one parameter: the 
 
 In _Replit_, change the code to show each chapter title in title capitalisation. Then, execute the program to see if it works as expected.
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step5-1)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step5-1)
 
 # Task 5.2 Add a Line Number
 
@@ -48,7 +48,7 @@ After applying capitalisation, it would be an excellent place to add the line nu
 
 Add the new line and execute the code. The line numbers should appear on the left side of each line, from 1 to 15.
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step5-2)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step5-2)
 
 # Task 5.3 Add a Page Header with Title and Page Number
 
@@ -90,7 +90,7 @@ Finally, we need to update the call to `read_book()`.
 
 Execute the code to check the page's header with the book title and the page number.
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step5-3)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step5-3)
 
 # Task 5.4 Add Some Color
 
@@ -125,6 +125,6 @@ Note the `{W}` at the end, switching back the colour to white. Otherwise, it wil
 
 Change the colour of the header and footer to orange. Then, change the colour of the line number to blue. Finally, execute the code to check the colour of the header, footer and line numbers.
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step5-4)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step5-4)
 
 [Next: Step 6 - Recap and More]({{site.baseurl}}/computational-thinking/03-ereader/step6-recap){: .btn .btn-purple }

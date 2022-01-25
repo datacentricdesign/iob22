@@ -35,4 +35,4 @@ At the top of the screen, the eReader indicate the page number. How could we ind
 
 In this code the line numbers are in the incorrect order for some reason. Find out why this is happening. Don't forget that you can use the logger or the assert statement as debugging tools.
 
-[Check the code on Replit](https://replit.com/@cvdvalk/WingedConfusedCore)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step6-4)
