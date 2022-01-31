@@ -67,7 +67,7 @@ Run the code and check what the page looks like.
 
 We obtain a page with headings of default styles. The chart shows up in the first section. The header appears at the top because we placed it first in our page's body (not because it is called 'header'). The tags' names do not influence their position. We have now a structured page (behind the scenes), but not much is translating on the web page. It is where the styling of the page comes into play with `CSS`.
 
-[Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step4-1)
+[Check the code on Replit](https://replit.com/@dcdlab/covid-dashboard-step4-1)
 
 # Task 4.2 Style the Dashboard
 
@@ -143,6 +143,6 @@ This step gave a brief introduction to HTML structure and CSS styling. Make sure
 
 ![Assignment 5 - Step 1]({{site.baseurl}}/assets/images/task 5-4-2.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/05-covid-dashboard-step4-2)
+[Check the code on Replit](https://replit.com/@dcdlab/covid-dashboard-step4-2)
 
 [Next: Step 5 - Dictionary]({{site.baseurl}}/assignments/05-covid-dashboard/step5-dictionary){: .btn .btn-purple }

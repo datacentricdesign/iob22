@@ -52,7 +52,7 @@ Execute the code to see if it works as expected.
 
 ![Animation Result Assignment 3 - Step 1]({{site.baseurl}}/assets/images/assignment3-step1-2.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step1-2)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step1-2)
 
 # Task 1.3 Go to the Second Page
 
@@ -73,7 +73,7 @@ Execute the code to see if it works as expected.
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment3-step1-3.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step1-3)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step1-3)
 
 # Task 1.4 Clean the Screen between Pages
 
@@ -98,7 +98,7 @@ Add this line of code twice in the program: 1) before showing the first page and
 
 Execute the code to see if it works as expected.
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step1-4)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step1-4)
 
 We have now a program that reads the two first pages of a book. It is limited, but it would not make sense to repeat our code for each of the thousand pages of this book. So instead, Steps 2 and 3 introduce the concept of **loops** to repeat an action as many times as needed. Then, Step 4 highlights how to define **functions** to reuse blocks of code.
 

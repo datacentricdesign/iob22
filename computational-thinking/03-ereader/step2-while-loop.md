@@ -73,7 +73,7 @@ Make the two changes to the Python code and execute the program to see if it wor
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment3-step2.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step2-1)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step2-1)
 
 While-loops are well suited **when we do not know when to stop**. This case is a good example, as we cannot know when the user will decide to continue or stop reading. In the next step we explore the For-Loop, another form of loops with a more structured condition.
 

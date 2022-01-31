@@ -95,7 +95,7 @@ Close the file book.txt
 
 Make the two changes to the Python code and execute the program to see if it works as expected. The amount of text on each page should be more consistent with a constant number of lines.
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step3-1)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step3-1)
 
 At this stage, we achieved the objective to read all book pages with consistency. Identifying patterns helped us repeat blocks of code instead of duplicating them indefinitely. However, when looking at the code closely, a group of five lines is still duplicated. Can you see it? In the next step, we introduce the concept of `Function` to avoid this issue.
 

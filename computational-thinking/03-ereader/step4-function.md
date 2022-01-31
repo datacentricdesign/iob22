@@ -87,7 +87,7 @@ Once we defined the function `show_book_page()`, we can call it twice in place o
 
 Execute the program to see if it works as expected. Make sure to store the return value of the function in the variable `action`. The behaviour should remain the same as before.
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step4-1)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step4-1)
 
 # Task 4.2 Read a Book
 
@@ -99,7 +99,7 @@ Move the necessary code into the function definition and add a Docstring to desc
 
 Execute the program to see if it works as expected. The behaviour should remain the same as before.
 
-[Check the code on Replit](https://repl.it/@IO1075/03-ereader-step4-2)
+[Check the code on Replit](https://replit.com/@dcdlab/ereader-step4-2)
 
 
 [Next: Step 5 - String Methods]({{site.baseurl}}/computational-thinking/03-ereader/step5-string){: .btn .btn-purple }

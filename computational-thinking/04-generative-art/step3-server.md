@@ -125,7 +125,7 @@ You can now edit the URL to add '/radial'
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/assignment4-step3-1-4.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step3-1)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step3-1)
 
 # Task 3.2 Serve Drawing with Parameters
 
@@ -178,7 +178,7 @@ Note: the parameter is on the left (as specified in the function definition), an
 
 Update the code and execute the code. You should see the radial lines drawing with the specified width and height when refreshing the web page.
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step3-2)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step3-2)
 
 # Task 3.3 Serve Drawing with Optional Parameters
 
@@ -210,7 +210,7 @@ Execute the code and refresh, then request the web page with the optional argume
 
 ![Animation Result Assignment 3 - Step 3]({{site.baseurl}}/assets/images/task-4-3-4.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step3-3)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step3-3)
 
 At this stage, we moved from the Terminal to a web page. It allows rich, graphical interactions and avoids saving results into files to visualise them.
 

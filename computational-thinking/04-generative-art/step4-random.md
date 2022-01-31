@@ -47,7 +47,7 @@ Execute the code and go to the HTTP route `/random` to check the result.
 
 ![Animation Result Assignment 4 - Step 4]({{site.baseurl}}/assets/images/task-4-4-1.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step4-1)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step4-1)
 
 # Task 4.2 Random Length and Position
 
@@ -63,7 +63,7 @@ Import `randrange()` at the top of `drawing.py` and write the code to generate t
 
 Execute the code and go to the HTTP route `/random` to check the result. If you are already on the web page you will need to refresh.
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step4-2)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step4-2)
 
 # Task 4.3 Random Colour
 
@@ -103,7 +103,7 @@ Execute the code and go to the HTTP route `/random` to check the result.
 
 ![Animation Result Assignment 4 - Step 4]({{site.baseurl}}/assets/images/task-4-4-random-colour.gif)
 
-[Check the code on Replit](https://repl.it/@IO1075/04-generative-art-step4-3)
+[Check the code on Replit](https://replit.com/@dcdlab/generative-art-step4-3)
 
 As we mentioned at the beginning of this step, randomness is not an easy task for computers, and to some extent, for humans. Therefore, we rely on data instead of randomness in the next step.
 
