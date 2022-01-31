@@ -217,4 +217,4 @@ CSS
 
 Enough practicalities and theory, the next step is to get familiar with the development environment. For this, you will only need your favourite web browser, so let's jump in!
 
-[Next Step: Software Development Environment]({{site.baseurl}}/environment){: .btn .btn-purple }
+[Next Step: Software Development Environment]({{site.baseurl}}/computational-thinking/environment/){: .btn .btn-purple }
