@@ -125,6 +125,6 @@ Tell user sum
 
 Translate each line in Python. Then, ask the computer to execute your instruction by clicking on the green arrow at the top of the page.
 
-[Check the code on Replit](https://replit.com/@dcdlab/calculator-step5-2)
+[Check the code on Replit](https://replit.com/@dcdlab/calculator-step5-3)
 
 [Next: Step 6 - Recap and More]({{site.baseurl}}/computational-thinking/01-calculator/step6-recap){: .btn .btn-purple }
