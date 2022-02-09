@@ -51,7 +51,7 @@ Go ahead and share your Vending Machine algorithm on Discourse! Make sure to pro
 
 The following code does not always serve the right beverage. This vending machine is supposed to serve coffee, tea, hot chocolate, cappuccino, and decaf coffee. But for some reason, it only serves coffee.
 
-Look through the code to locate the origin of this unexpected. Use the logging module to help debug this code.
+Look through the code to locate the origin of this unexpected behaviour. Use the logging module to help debug this code.
 
 ```python
 # Import and configure the logger
