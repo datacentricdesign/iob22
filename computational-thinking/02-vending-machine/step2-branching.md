@@ -149,7 +149,7 @@ We could extend the algorithm with the following lines:
 
 ```
 Ask the user "Sugar (0-5): " and store the answer in sugar
-Ask the user "Milk (y/n): " and store the answer in sugar
+Ask the user "Milk (y/n): " and store the answer in milk
 
 ...
 
