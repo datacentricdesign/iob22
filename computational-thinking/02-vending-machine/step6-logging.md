@@ -83,7 +83,8 @@ Finally, we show a debug message to the user with `logging.debug()`.
 
 It is a lot of new Python syntax. So let's create a new _Replit_ project, paste the above lines of Python and see what happens.
 
-[TODO GIF of the output]
+<!-- [TODO GIF of the output] -->
+![embed code in discourse]({{site.baseurl}}/assets/images/logging_example_1.gif)
 
 The result shows the message 'Some debugging information.'. Note that it starts with 'DEBUG:root:', meaning that it is a log of type 'DEBUG' from the root file of our programme (indeed, we only have one file in our programme).
 
@@ -100,13 +101,15 @@ logging.basicConfig(level=logging.ERROR)
 
 Then, execute the code again.
 
-[TODO GIF of the output]
+<!-- [TODO GIF of the output] -->
+![embed code in discourse]({{site.baseurl}}/assets/images/logging_example_2.gif)
 
 Now, nothing happens anymore. With this setting, we tell the computer to only show logs of type ERROR or CRITICAL: the computer ignores the log of type DEBUG.
 
 Use `info()` and `error()`  to Add logs of type `INFO` and `ERROR` in the same way we wrote the `debug()` log, then execute your code again.
 
-[TODO GIF of the output]
+<!-- [TODO GIF of the output] -->
+![embed code in discourse]({{site.baseurl}}/assets/images/logging_example_3.gif)
 
 This time, we can see the error message but not the two others.
 
@@ -131,7 +134,9 @@ We can see the extra parameter `filename` to which we assign the value 'vending_
 
 Execute your programme again with this change. You will notice that nothing appear anymore in the Terminal (apart from `input()` statements). However, a file 'vending_machine.log' appeared in the left panel. This file should contain your logs.
 
-[TODO GIF running code and opening file]
+<!-- [TODO GIF running code and opening file] -->
+
+![embed code in discourse]({{site.baseurl}}/assets/images/logging_example_4.gif)
 
 <!-- [TODO Replit example] -->
 [Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step6-3)
