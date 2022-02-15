@@ -103,7 +103,8 @@ Execute the code to check that it behaves the way you expect.
 
 So far, any choice that is not a coffee would lead to serving tea. Thus, we need to check the option twice for coffee and tea. Chained conditionals allow checking for multiple conditions, leading to a different action. If the first condition is `False`, the computer evaluates the following until a condition is `True`. If none are true, it uses the default action (else).
 
-[TODO Flow chart]
+<!-- [TODO Flow chart] -->
+![Branching Flow Chart]({{site.baseurl}}/assets/flow_chart_branching-2.svg)
 
 In Python, the keyword `elif` is used for chaining additional conditions with their associated actions.
 
