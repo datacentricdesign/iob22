@@ -75,8 +75,8 @@ except:
     logging.warning("There was no cup file")
     number_remaining_cups = 10
 
-# Tell the user "Welcome to IDE Hot Beverage service!"
-print("Welcome to IDE Hot Beverage service!")
+# Tell the user "Welcome to our Hot Beverage service!"
+print("Welcome to our Hot Beverage service!")
 
 if number_remaining_cups == 0:
     # Tell the user "There is no cup left."

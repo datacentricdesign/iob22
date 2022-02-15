@@ -26,7 +26,7 @@ Let's take the latest version of our program in _Replit_ (from the previous step
 
 Our program fails with the following:
 
-![Assignment 2 Step 4 - Value Error]({{site.baseurl}}/assets/images/assignment2-step4.png)
+![Assignment 2 Step 4 - Value Error]({{site.baseurl}}/assets/images/assignment2-step4-v2.png)
 
 Indeed, there is a `ValueError`: the computer failed to convert the user input into an integer. Indeed, we entered a value that does not represent a number. This event makes the program fail, but the code is nothing wrong.
 
