@@ -226,4 +226,4 @@ We now have our web server in place, which fetches data about the most current C
 
 [Check the code on Replit](https://replit.com/@dcdlab/covid-dashboard-step2)
 
-[Next: Step 3 - Chart]({{site.baseurl}}/assignments/05-covid-dashboard/step3-chart){: .btn .btn-purple }
+[Next: Step 3 - Chart]({{site.baseurl}}/computational-thinking/05-covid-dashboard/step3-chart/){: .btn .btn-purple }

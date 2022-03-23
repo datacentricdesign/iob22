@@ -112,4 +112,4 @@ We can see in this example that we have first the key `Global`, leading to a sub
 
 In the next step, we will see how to get this COVID data directly in our Python code.
 
-[Next: Step 2 - HTTP Request]({{site.baseurl}}/assignments/05-covid-dashboard/step2-http-request){: .btn .btn-purple }
+[Next: Step 2 - HTTP Request]({{site.baseurl}}/computational-thinking/05-covid-dashboard/step2-http-request/){: .btn .btn-purple }

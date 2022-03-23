@@ -202,4 +202,4 @@ Run the code and trigger the route `/` to see the chart with the data.
 
 Two small tips to quickly improve this chart. First, in the Vega template, we can add the key `tooltip` with the value `true` in `mark` to make the chart reactive to the mouse cursor. We can also add the key `sort` with the value `"-x"` in `y` to sort the countries from most to least impacted. There are many options that you can explore from the Vega documentation.
 
-[Next: Step 4 - HTML / CSS]({{site.baseurl}}/assignments/05-covid-dashboard/step4-html-css){: .btn .btn-purple }
+[Next: Step 4 - HTML / CSS]({{site.baseurl}}/computational-thinking/05-covid-dashboard/step4-html-css/){: .btn .btn-purple }

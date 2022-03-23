@@ -154,4 +154,4 @@ vegaEmbed('#new', '/new');
 
 [Check the code on Replit](https://replit.com/@dcdlab/covid-dashboard-step5-2)
 
-[Next: Step 6 - Recap and More]({{site.baseurl}}/assignments/05-covid-dashboard/step6-recap){: .btn .btn-purple }
+[Next: Step 6 - Recap and More]({{site.baseurl}}/computational-thinking/05-covid-dashboard/step6-recap/){: .btn .btn-purple }

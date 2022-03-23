@@ -145,4 +145,4 @@ This step gave a brief introduction to HTML structure and CSS styling. Make sure
 
 [Check the code on Replit](https://replit.com/@dcdlab/covid-dashboard-step4-2)
 
-[Next: Step 5 - Dictionary]({{site.baseurl}}/assignments/05-covid-dashboard/step5-dictionary){: .btn .btn-purple }
+[Next: Step 5 - Dictionary]({{site.baseurl}}/computational-thinking/05-covid-dashboard/step5-dictionary/){: .btn .btn-purple }
