@@ -17,3 +17,8 @@ On this website you will find some resources to develop digital prototypes.
 * [Prototyping]({{site.baseurl}}/prototyping/) is a set of resources for Internet of Things prototyping, with a mix of Microcontroller and Python examples. It contains many links to the [folder of code examples](https://github.com/datacentricdesign/code/tree/main/examples).
 
 All these resources are open-source. We encourage contribution (e.g. improvements, new tutorials) via the [GitHub repository](https://github.com/datacentricdesign/code).
+
+## Other Resources
+
+* [Connected Interaction Kit](https://id-studiolab.github.io/Connected-Interaction-Kit/)
+* [Digital Interfaces](https://id-studiolab.github.io/Digital-Interfaces/)
