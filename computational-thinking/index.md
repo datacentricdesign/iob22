@@ -2,7 +2,7 @@
 layout: default
 title: Computational Thinking
 has_children: true
-nav_order: 1
+nav_order: 9
 ---
 
 # From Design to Computational Thinking with Python
