@@ -159,4 +159,4 @@ Everything could fit on one single line, including the format and level paramete
 
 [Check the code on Replit](https://replit.com/@dcdlab/vending-machine-step6-4)
 
-[Next: Step 7 - Recap and More]({{site.baseurl}}/computational-thinking/02-vending-machine/step7){: .btn .btn-purple }
+[Next: Step 7 - Recap and More]({{site.baseurl}}/computational-thinking/02-vending-machine/step7-recap){: .btn .btn-purple }
