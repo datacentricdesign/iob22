@@ -1,9 +1,9 @@
 remote_theme: pmarsceill/just-the-docs
 #theme: just-the-docs
 
-title: Code @ IDE
-description: From Design to Computational Thinking with Python
-baseurl: "/code"
+title: IOB22
+description: The complete course material of IOB2-2 Digital Product Development -  BSc course for Industrial Design Engineering
+baseurl: "/iob22"
 url: "https://datacentricdesign.github.io"
 
 permalink: pretty
@@ -15,14 +15,10 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
+
 compress_html:
   ignore:
     envs: all
-
-includes_dir: _cards
-
-collections:
-  - cards
 
 kramdown:
   toc_levels: 1..2
