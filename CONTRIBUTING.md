@@ -1,4 +1,4 @@
-# Welcome to the DCD Lab code's contributing guide
+# Welcome to the IOB22 contributing guide
 
 Thank you for investing your time in contributing to our project!
 
