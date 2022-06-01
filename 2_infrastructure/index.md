@@ -18,7 +18,7 @@ nav_order: 2
 
 # Book Chapter
 
-Module 2: Chapter 10 of&nbsp;<a href="https://tudelft.on.worldcat.org/search?queryString=designing+connected+products#/oclc/909772560">Designing Connected Products: UX for consumer Internet of Things'</a>&nbsp;by Claire Rowland et al.
+Chapter 10 of&nbsp;<a href="https://tudelft.on.worldcat.org/search?queryString=designing+connected+products#/oclc/909772560">Designing Connected Products: UX for consumer Internet of Things'</a>&nbsp;by Claire Rowland et al.
 
 # Videos
 
