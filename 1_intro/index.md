@@ -16,6 +16,9 @@ nav_order: 1
 
 ---
 
+# Videos
+
+Slides: <a href="{{site.baseurl}}/assets/slides/intro.pdf" target="_blank" rel="noopener">intro.pdf</a>
 
 # Book chapter
 

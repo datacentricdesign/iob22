@@ -22,7 +22,7 @@ Chapter 10 of&nbsp;<a href="https://tudelft.on.worldcat.org/search?queryString=d
 
 # Videos
 
-Slides: <a href="/content/enforced/411557-IOB2-2+2021+3/iob22-module2.pdf" target="_blank" rel="noopener">/content/enforced/411557-IOB2-2+2021+3/iob22-module2.pdf</a>
+Slides: <a href="{{site.baseurl}}/assets/slides/iob22-module2.pdf" target="_blank" rel="noopener">iob22-module2.pdf</a>
 
 ## Demo: The Connected Lightbulb
 
