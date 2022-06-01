@@ -16,7 +16,8 @@ nav_order: 8
 
 ---
 
+# Book Chapter
 
-
+Chapter 11 of <a href="https://tudelft.on.worldcat.org/search?queryString=designing+connected+products#/oclc/909772560">Designing Connected Products: UX for consumer Internet of Things'</a>&nbsp;by Claire Rowland et al.
 
 # Group Exercise

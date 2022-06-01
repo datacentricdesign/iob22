@@ -16,6 +16,9 @@ nav_order: 7
 
 ---
 
+# Book Chapter
+
+Osterwalder, A., &amp; Pigneur, Y. (2010). <a href="https://tudelft.openresearch.net/image/2015/10/28/business_model_generation.pdf" target="_blank" rel="noopener"><i>Business model generation: a handbook for visionaries, game changers, and challengers</i>.</a>&nbsp;John Wiley &amp; Sons. Page 14-57
 
 
 # Group Exercise
