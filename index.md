@@ -32,3 +32,12 @@ The course is organized into an introductory week and 4 modules, consisting of w
 
 
 All these resources are open-source. We encourage contribution (e.g., improvements, new tutorials) via the [GitHub repository](https://github.com/datacentricdesign/iob22).
+
+
+## Related Courses
+
+* [Machine Learning for Design](https://ml4design.com)
+* [Digital Interfaces](https://id-studiolab.github.io/Digital-Interfaces/)
+* [Connected Interaction Kit](https://id-studiolab.github.io/Connected-Interaction-Kit/)
+* [Prototyping Connected Products](https://id5415.datacentricdesign.org/)
+* [Artificial Intelligence and Society](https://karsalfrink.github.io/ai-and-society/)
